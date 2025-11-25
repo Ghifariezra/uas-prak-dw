@@ -8,11 +8,12 @@
 
 ## 👨‍💻 Anggota
 
-* **Nama 1** – NIM
-* **Nama 2** – NIM
-* **Nama 3** – NIM
-* **Nama 4** – NIM
-  *(tambahkan jika ada)*
+* **Az-Zahra Putri** – 4524210018
+* **Dheka Airlangga** – 4524210027
+* **Fatimah - 4524210052** – 4524210052
+* **Maghfiroh Lisabiliana** – 4524210040
+* **Ghifari Ezra Ramadhan** – 4524210041
+* **Jihan Hanifah** – 4524210047
 
 ---
 

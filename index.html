@@ -1,26 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <title>BeritaKita</title>
+    <link rel="ico" type="image/x-icon" href="./assets/icons/newspaper.ico">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
 
-  <body class="min-h-screen bg-gray-100">
+<body class="min-h-screen bg-gray-100">
     <header class="flex justify-between items-center p-4 bg-white">
-      <h1 class="text-2xl font-bold">Logo</h1>
-      <nav>
-        <ul class="flex items-center space-x-4">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">Home</a></li>
-        </ul>
-        <p>hai</p>
-        <p>ghifar</p>
-        <p>LISA</p>
-        <p>zahra</p>
-      </nav>
+        <!-- Hamburger Mobile -->
+        <div class="block sm:hidden">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14" />
+            </svg>
+        </div>
+
+        <h1 class="text-2xl font-bold">BeritaKita</h1>
+
+        <!-- Search Mobile -->
+        <div class="block sm:hidden">
+            <a href="index.html">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                        d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+                </svg>
+            </a>
+        </div>
+
+        <!-- Navigation Desktop -->
+        <nav class="hidden sm:block">
+            <ul class="flex items-center space-x-4">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="index.html">Kategori</a></li>
+                <li><a href="index.html">Tentang Kami</a></li>
+                <li><a href="index.html">Kontak</a></li>
+                <li>
+                    <a href="index.html">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-  </body>
+</body>
+
 </html>

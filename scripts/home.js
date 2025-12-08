@@ -1,4 +1,5 @@
 import pages from "./pages.js";
+import renderCards from "./components/cards/category.js"
 
 // Cache DOM
 const btn = document.getElementById("hamburger-btn");
@@ -24,6 +25,10 @@ function loadPage(page) {
     setTimeout(() => {
         content.innerHTML = pages[page];
         content.style.opacity = 1;
+
+        if (page === "kategori") {
+            renderCards();
+        }
     }, 200);
 
     location.hash = `/${page}`;

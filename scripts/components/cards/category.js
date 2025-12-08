@@ -1,4 +1,4 @@
-import categories from "../../data.js"
+import { categories } from "../../data/category.js"
 
 export default function renderCards() {
     const container = document.getElementById("cards-category");
@@ -16,7 +16,14 @@ export default function renderCards() {
 
                 <!-- Content -->
                 <div class="p-4 flex flex-col gap-2 flex-grow">
-                    <h1 class="text-lg font-semibold text-gray-800">${cat.title}</h1>
+                    <div class="flex justify-between items-start">
+                        <h1 class="text-lg font-semibold text-gray-800 leading-tight">
+                            ${cat.title}
+                        </h1>
+                        <span class="text-xs text-gray-500 whitespace-nowrap">
+                            ${cat.published}
+                        </span>
+                    </div>
                     <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">${cat.desc}</p>
                 </div>
 

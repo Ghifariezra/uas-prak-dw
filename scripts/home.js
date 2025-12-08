@@ -1,5 +1,6 @@
 import pages from "./pages.js";
 import renderCards from "./components/cards/category.js"
+import renderMenuTypeCategory from "./components/menus/typeCategory.js"; "./components/menus/typeCategory.js"
 
 // Cache DOM
 const btn = document.getElementById("hamburger-btn");
@@ -27,6 +28,7 @@ function loadPage(page) {
         content.style.opacity = 1;
 
         if (page === "kategori") {
+            renderMenuTypeCategory();
             renderCards();
         }
     }, 200);
@@ -46,6 +48,9 @@ document.body.addEventListener("click", function (e) {
         e.preventDefault();
 
         const page = e.target.dataset.page;
+        
+        // console.log(page);
+
         loadPage(page);
 
         mobileNav.classList.add("hidden", "scale-y-0");

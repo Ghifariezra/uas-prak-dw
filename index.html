@@ -12,8 +12,7 @@
 </head>
 
 <body class="min-h-screen bg-gray-100">
-
-    <header class="flex justify-between items-center p-4 bg-white shadow-md relative z-20">
+    <header class="flex justify-between items-center p-8 bg-white shadow-md relative z-20">
 
         <!-- Hamburger Mobile -->
         <button id="hamburger-btn" class="block sm:hidden cursor-pointer" aria-label="Open Menu" role="button">
@@ -69,13 +68,14 @@
     </nav>
 
     <!-- Content -->
-    <section id="content" class="p-4 transition-opacity duration-300 opacity-100 min-h-screen" />
+    <section id="content" class="p-8 transition-opacity duration-300 opacity-100 min-h-screen" />
 
     <!-- Module -->
     <script defer type="module" src="scripts/home.js"></script>
     <script defer type="module" src="scripts/pages.js"></script>
-    <script defer type="module" src="scripts/data.js"></script>
+    <script defer type="module" src="scripts/data/category.js"></script>
     <script defer type="module" src="scripts/components/cards/category.js"></script>
+    <script defer type="module" src="scripts/components/menus/typeCategory.js"></script>
 </body>
 
 </html>

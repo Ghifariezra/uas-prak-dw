@@ -14,8 +14,8 @@ const pages = {
             </div>
             <div class="flex flex-col gap-4">
                 <div class="flex flex-col gap-0">
-                    <h2 class="text-xl font-bold mb-2">Berita Terbaru</h2>
-                    <p>Kumpulan berita terbaru dari berbagai kategori.</p>
+                    <h2 id="new-news" class="text-xl font-bold mb-2">Berita Terbaru</h2>
+                    <p id="news-desc">Kumpulan berita terbaru dari berbagai kategori.</p>
                 </div>
                 <div id="cards-category" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
             </div>

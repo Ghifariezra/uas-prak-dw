@@ -560,27 +560,32 @@ const typeCategory = [
     {
         title: "Politik",
         image: "./assets/images/politician.png",
-        alt: "Politik"
+        alt: "Politik",
+        key: "politik"
     },
     {
         title: "Hiburan",
         image: "./assets/images/video.png",
-        alt: "Hiburan"
+        alt: "Hiburan",
+        key: "hiburan"
     },
     {
         title: "Edukasi",
         image: "./assets/images/education.png",
-        alt: "Edukasi"
+        alt: "Edukasi",
+        key: "edukasi"
     },
     {
         title: "Olahraga",
         image: "./assets/images/basketball.png",
-        alt: "Olahraga"
+        alt: "Olahraga",
+        key: "olahraga"
     },
     {
         title: "Lingkungan & Social",
         image: "./assets/images/planet-earth.png",
-        alt: "Lingkungan & Social"
+        alt: "Lingkungan & Social",
+        key: "lingkungan-social"
     }
 ]
 

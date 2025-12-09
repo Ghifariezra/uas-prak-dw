@@ -1,10 +1,52 @@
-import { categories } from "../../data/category.js"
+import { 
+    categories, 
+    politik,
+    hiburan,
+    edukasi,
+    olahraga,
+    lingkunganSocial 
+} from "../../data/category.js"
 
-export default function renderCards() {
+export default function renderCards(key) {
     const container = document.getElementById("cards-category");
+    const titleNews = document.getElementById("new-news");
+    const descNews = document.getElementById("news-desc");
     if (!container) return;
 
-    container.innerHTML = categories
+    // pilih data sesuai kategori
+    let data = [];
+
+    switch (key) {
+        case "politik":
+            titleNews.textContent = "Berita Politik";
+            descNews.classList.add("hidden");
+            data = politik;
+            break;
+        case "hiburan":
+            titleNews.textContent = "Berita Hiburan";
+            descNews.classList.add("hidden");
+            data = hiburan;
+            break;
+        case "edukasi":
+            titleNews.textContent = "Berita Edukasi";
+            descNews.classList.add("hidden");
+            data = edukasi;
+            break;
+        case "olahraga":
+            titleNews.textContent = "Berita Olahraga";
+            descNews.classList.add("hidden");
+            data = olahraga;
+            break;
+        case "lingkungan-social":
+            titleNews.textContent = "Berita Lingkungan & Social";
+            descNews.classList.add("hidden");
+            data = lingkunganSocial;
+            break;
+        default:
+            data = categories;
+    }
+
+    container.innerHTML = data
         .map(cat => `
             <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col">
                 <!-- Image -->

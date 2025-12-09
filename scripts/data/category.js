@@ -96,7 +96,8 @@ const politik = [
         title: "Pemilu Nasional 2024",
         desc: "Perkembangan terbaru jelang pemilu nasional.",
         published: "12 Januari 2024",
-        image: "https://images.unsplash.com/photo-1504714146340-959ca07b2a10?w=500"
+        image: "https://images.unsplash.com/photo-1504714146340-959ca07b2a10?w=500",
+        content: ``
     },
     {
         title: "Debat Publik Antar Kandidat",

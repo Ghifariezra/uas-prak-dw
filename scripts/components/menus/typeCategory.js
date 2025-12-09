@@ -1,3 +1,4 @@
+import renderCards from "../cards/category.js"
 import { typeCategory } from "../../data/category.js"
 
 export default function renderMenuTypeCategory() {
@@ -10,7 +11,7 @@ export default function renderMenuTypeCategory() {
     flex-[0_0_100%] sm:flex-[0_0_45%] lg:flex-[0_0_28%]
     p-4 bg-gray-50 rounded-xl border border-gray-200 shadow-sm 
     hover:shadow-md hover:bg-gray-100 hover:-translate-y-1
-    transition-all duration-300 cursor-pointer">
+    transition-all duration-300 cursor-pointer" data-category="${type.key}">
 
     <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-white shadow-inner">
         <img 
@@ -25,6 +26,12 @@ export default function renderMenuTypeCategory() {
     </span>
 </div>
 
-        `
-    )
+        `).join("");
+    
+    containerTypes.querySelectorAll("[data-category]").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const key = btn.dataset.category;
+            renderCards(key);
+        });
+    });
 }

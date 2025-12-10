@@ -93,6 +93,7 @@ const categories = [
 
 const politik = [
     {
+        id: 1,
         title: "Pemilu Nasional 2024",
         desc: "Perkembangan terbaru jelang pemilu nasional.",
         published: "12 Januari 2024",
@@ -100,84 +101,98 @@ const politik = [
         content: ``
     },
     {
+        id: 2,
         title: "Debat Publik Antar Kandidat",
         desc: "Debat terbuka yang menyoroti isu ekonomi dan sosial.",
         published: "20 Februari 2024",
         image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=500"
     },
     {
+        id: 3,
         title: "Kebijakan Baru Tentang Pajak",
         desc: "Pemerintah mengumumkan aturan pajak terbaru.",
         published: "3 Maret 2024",
         image: "https://images.unsplash.com/photo-1581091870623-e0b1a4e3d9a5?w=500"
     },
     {
+        id: 4,
         title: "Hubungan Diplomatik Meningkat",
         desc: "Indonesia menjalin kerjasama strategis baru.",
         published: "15 Maret 2024",
         image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500"
     },
     {
+        id: 5,
         title: "Revisi UU Ketenagakerjaan",
         desc: "Pemerintah mengajukan revisi aturan ketenagakerjaan.",
         published: "29 April 2024",
         image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500"
     },
     {
+        id: 6,
         title: "Isu Korupsi Pejabat",
         desc: "Kasus korupsi kembali mencuat di kalangan pejabat.",
         published: "8 Mei 2024",
         image: "https://images.unsplash.com/photo-1546074177-ffdda98d214f?w=500"
     },
     {
+        id: 7,
         title: "Kenaikan Anggaran Infrastruktur",
         desc: "Pemerintah meningkatkan anggaran pembangunan wilayah.",
         published: "16 Mei 2024",
         image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500"
     },
     {
+        id: 8,
         title: "Isu Pertahanan Negara",
         desc: "Meningkatnya perhatian pemerintah terhadap keamanan.",
         published: "25 Mei 2024",
         image: "https://images.unsplash.com/photo-1606788075760-3b8403b0b5c0?w=500"
     },
     {
+        id: 9,
         title: "Aksi Demo Mahasiswa",
         desc: "Ribuan mahasiswa turun ke jalan menolak rancangan UU.",
         published: "10 Juni 2024",
         image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=500"
     },
     {
+        id: 10,
         title: "Isu Kenaikan BBM",
         desc: "Pemerintah mempertimbangkan regulasi harga energi.",
         published: "24 Juni 2024",
         image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500"
     },
     {
+        id: 11,
         title: "Pertemuan Tingkat Tinggi",
         desc: "Delegasi Indonesia menghadiri pertemuan internasional.",
         published: "5 Juli 2024",
         image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500"
     },
     {
+        id: 12,
         title: "Kebijakan Pertanian Baru",
         desc: "Pemerintah menetapkan subsidi untuk sektor pertanian.",
         published: "22 Juli 2024",
         image: "https://images.unsplash.com/photo-1470509037663-253afd7f0f09?w=500"
     },
     {
+        id: 13,
         title: "Reformasi Sistem Pendidikan",
         desc: "Parlemen membahas kurikulum pendidikan nasional.",
         published: "9 Agustus 2024",
         image: "https://images.unsplash.com/photo-1588072432904-843af37f0c9f?w=500"
     },
-    {
+    {  
+        id: 14,
         title: "Rencana Pemindahan Ibu Kota",
         desc: "Tahap pembangunan ibu kota baru terus berjalan.",
         published: "19 September 2024",
         image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c9bb?w=500"
     },
     {
+        id: 15,
         title: "Isu Keamanan Siber",
         desc: "Pemerintah meningkatkan sistem keamanan digital nasional.",
         published: "30 September 2024",

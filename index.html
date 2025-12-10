@@ -70,6 +70,25 @@
     <!-- Content -->
     <section id="content" class="p-8 transition-opacity duration-300 opacity-100 min-h-screen" ></section>
 
+    <section id="detail-berita" class="hidden p-8 bg-white min-h-screen">
+        <div class="max-w-4xl mx-auto">
+            <button onclick="kembaliKeList()" class="mb-6 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg text-gray-700 font-medium transition flex items-center gap-2">
+                <span>&larr;</span> Kembali
+            </button>
+    
+            <div class="detail-content">
+                <h1 id="detail-title" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Judul Berita</h1>
+                <p id="detail-date" class="text-gray-500 mb-6">Tanggal</p>
+                
+                <img id="detail-img" src="" alt="Gambar Berita" class="w-full h-64 md:h-96 object-cover rounded-xl mb-8 shadow-md">
+                
+                <div id="detail-desc" class="prose prose-lg text-gray-700 leading-relaxed text-justify">
+                    Isi berita akan muncul di sini...
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="bg-blue-900 text-white mt-10 p-8 rounded-t-2xl shadow-[0_-6px_20px_rgba(0,0,0,0.15)]">
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
@@ -130,6 +149,11 @@
     <script defer type="module" src="scripts/data/category.js"></script>
     <script defer type="module" src="scripts/components/cards/category.js"></script>
     <script defer type="module" src="scripts/components/menus/typeCategory.js"></script>
+    <script defer type="module" src="scripts/components/menus/typeCategory.js"></script>
+    <script src="scripts/data/detailpolitik.js"></script>
+
+</body>
+</html>
 </body>
 
 </html>

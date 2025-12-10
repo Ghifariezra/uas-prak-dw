@@ -96,7 +96,8 @@ const politik = [
         title: "Pemilu Nasional 2024",
         desc: "Perkembangan terbaru jelang pemilu nasional.",
         published: "12 Januari 2024",
-        image: "https://images.unsplash.com/photo-1504714146340-959ca07b2a10?w=500"
+        image: "https://images.unsplash.com/photo-1504714146340-959ca07b2a10?w=500",
+        content: ``
     },
     {
         title: "Debat Publik Antar Kandidat",
@@ -186,94 +187,549 @@ const politik = [
 
 const hiburan = [
     {
-        title: "Film Box Office Terbaru",
-        desc: "Film terbaru mendominasi box office dunia.",
-        published: "4 Januari 2024",
-        image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=500"
+        title: "Single Baru Tiara Andini Ngeluwihi Dibuat oleh Produser Musik Justin Bieber, EXO, hingga NCT",
+        desc: "Lagu baru Tiara Andini berjudul Ngeluwihi menampilkan lirik berbahasa Jawa dan Inggris yang digarap produser musik internasional, Hyuk Shin.",
+        published: "5 Januari 2025",
+        image: "https://imgur.com/C8IR70B?w=500",
+        content: `
+        BeritaKita ~~ Penyanyi, Tiara Andini, kembali merilis single baru berjudul Ngeluwihi. 
+        Video musik untuk lagu baru itu tayang tepat tengah malam tadi pada Jumat, 5 Januari 2024. 
+        Tak main-main, dalam lagu ini, Tiara menghadirkan gebrakan baru yang makin menunjukkan eksistensinya sebagai bintang pop populer Indonesia.
+
+        Belum sampai sehari, musik video single baru Tiara Andini itu langsung menempati trending tiga besar di Youtube, tepatnya berada di posisi kedua hingga artikel ini ditulis. 
+        Para penggemarnya pun bangga dengan pencapaian Tiara dalam lagu barunya ini yang kembali keluar dari zona nyamannya. 
+        Pasalnya, Tiara Andini mengeksplor musiknya, yang berbeda dari lagu-lagu sebelumnya. 
+        Ditambah lagi, penampilannya mengenakan aksesori khas Jawa yang dimodifikasi dengan busana modern serta gunungan wayang yang jadi latar di video klipnya.    
+        
+        Lagu yang liriknya terdiri dari bahasa Inggris dan Jawa itu diproduseri oleh Hyuk Shin(153/Joombas). 
+        Dia merupakan produser rekaman internasional atau eksekutif musik ternama yang telah bekerja sama dengan superstar global, seperti Justin Bieber, 
+        NCT, Super Junior, TXT, EXO, Monsta X, Shinee, Girls' Generation (SNSD), dan masih banyak lagi.
+
+        Selain Hyuk Shin, musiknya juga disusun oleh Chris M Yong dari 153/Joombas Music Group. 
+        Sebagai informasi, 153/Joombas Music Group adalah perusahaan produksi dan penerbitan musik yang didirikan pada 2011 oleh produser Hyuk Shin yang saat ini berbasis di Hollywood, 
+        New York dan Seoul, Korea Selatan.
+
+        Lagu Ngeluwihi bercerita tentang seseorang yang rela melakukan apa saja demi orang yang dicintainya.
+        Kembali bekerja sama dengan produser musik global, Tiara mengangkat budaya tradisional Indonesia, yakni bahasa Jawa di lagu barunya ini. 
+        Yang menarik, Tiara Andini sendiri yang menciptakan lirik berbahasa Jawa untuk lagu Ngeluwihi.
+        
+        Sementara itu, lirik berbahasa Inggris dan pembuatan rap digarap oleh SYA. 
+        Dia merupakan rapper perempuan asal Malaysia dengan nama lengkap Nur Batrisya Mohammad Nazri. 
+        Namanya masuk dalam Forbes 30 Under 30 Asia kategori Entertainment & Sports pada 2022.
+
+        Meski sebelumnya sudah pernah bekerja sama dengan produser kondang asal Korea Selatan dalam lagu Flip It Up, para penggemar menyukai lagu baru Tiara Andini ini. 
+        Mereka tidak menyangka bila hasilnya melebihi ekspektasi. Sesuai dengan arti judul lagunya, yakni "Ngeluwihi" yang berarti "Melebihi."
+
+        Dukungan mengalir untuk penyanyi jebolan ajang pencarian bakat itu di unggahan Instagram soal lagu barunya. 
+        Teman seperjuangannya, penyanyi Ziva Magnolya, juga mengomentari lagu tersebut. 
+        Menurutnya, Tiara Andini selalu keren dalam menghadirkan lagu-lagu barunya. 
+
+        "Di luar ekspektasi! Tiara keren nuemen sak pol e," tulis @esadeg***. 
+
+        "Ngeluwihi ekspektasi ini mah, keren abis," tulis @diki_*****.
+
+        "Ga expect banget keren," tulis @rzks*****.
+
+        "Hah ini sih local pride, you got it Ti so proud of you," tulis @sari*****.
+
+        "Kamu tau ngga? Ini yg aku inginkan dari musisi" indonesia sejak dulu, new genreeee of indonesian artist that's crazyy," @afi*****.
+        `
+    },
+
+    {
+        title: "Rizky Febian dan Tiara Andini Siap Guncang Pontianak di Harmony Fest Xperience 2026",
+        desc: "Harmony Fest Xperience yang bakal digelar HFX Vibes pada Januari 2026 mendatang, Press Conference berlangsung di Goffee, Minggu, 30 November 2025.",
+        published: "30 November 2025",
+        image: "https://imgur.com/a/Snkur7q?w=500",
+        content: `
+        BeritaKita ~~ Penyanyi Rizky Febian hingga Tiara Andini bakal tampil di Harmony Fest Xperience yang digelar HFX Vibes di Halaman Grand Mahkota Hotel Pontianak pada 24 Januari 2026 mendatang. 
+        HFX Vibes bakal memberikan pengalaman berbeda kepada penonton pada konser kali ini, lewat berbagai kolaborasi apik.
+
+        Direktur HVX VIBES, Stefano Mendez, menyampaikan bahwa Harmony Fest Xperience akan menjadi konser musik yang berbeda dibandingkan dengan event-event lainnya.
+        Pada konser ini akan  menghadirkan sensasi pengalaman ngonser yang tidak biasa, salah satunya yaitu dengan menggandeng komunitas Corak Insan untuk turut berkain saat konser.
+
+        "Kami HFX Vibes adalah promotor baru untuk event ini yang tujuan utamanya kita itu untuk menghadirkan, memberikan pilihan bagi para penikmat musik di Kalimantan Barat, khususnya Pontianak, untuk merasakan experience yang berbeda di dalam suatu event konser," ujar Stefano saat Press Conference di Goffee, Minggu, 30 November 2025.
+        Penjualan tiket resmi dibuka mulai 1 Desember 2025 pada pukul 19.00 WIB yang dapat dibeli secara online melalui YesPlis dan di Goffee Pontianak untuk tempat pembelian tiket secara offline. 
+        Saat ini, hanya tersedia tiket presale 1 untuk kategori festival yang dibanderol senilai Rp 150 ribu dan tiket presale VIP seharga Rp 300 ribu.
+        "Kuota online dapat dibeli di website YesPlis, yang link-nya ada di bio Instagram. Dan kuota offline dapat dibeli di store Goffee Pontianak di Jalan S. Parman," ujarnya. 
+        `
     },
     {
-        title: "Konser Musik Akbar",
-        desc: "Konser internasional yang dinanti akhirnya digelar.",
-        published: "14 Februari 2024",
-        image: "https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?w=500"
+        title: "Mahalini, Axelo, Nuca, Shakirra Vier, dan 5 Musisi Lain Bakal Ramaikan Kota Bandung",
+        desc: "Star Media Nusantara mengungkapkan Mahalini, Axelo, Nuca, Peter Holly, Angie Carvalho, Novia Bachmid, Piche, Shakirra, dan Vanessa Zee akan hadir di Bandung.",
+        published: "08 Desember 2025",
+        image: "https://imgur.com/a/MRl0Io9?w=500",
+        content: `
+        BeritaKita ~~ Star Media Nusantara, talent management di bawah naungan MNC Group lewat akun Instagram @starmedianusantara mengungkapkan Mahalini bersama Axelo, Nuca, Peter Holly, Angie Carvalho, Novia Bachmid, Piche Kota, Shakirra Vier, dan Vanessa Zee akan mampir ke Bandung. 
+        Mereka hadir dalam acara Journey of Stars Volume 23, pada 8 - 12 Desember 2025. 
+
+        Masing-masing talent akan mempromosikan karya terbarunya. 
+        Mereka akan berkeliling beberapa radio di Bandung, seperti HITS Unikom, Ardan Radio, Oz Radio, Paramuda FM, dan masih banyak lagi.
+
+        Tak hanya berkeliling radio, Mahalini dan kawan-kawan juga akan tampil membawakan lagu-lagu terbarunya di Kopi Bajawa Flores Laswi, Bandung pada Rabu, 10 Desember 2025. 
+        Untuk informasi detail tentang Journey of Stars Volume 23, kamu bisa cek di Instagram @starmedianusantara.
+
+        Journey of Stars (JOS) adalah pertunjukan acara musik yang diadakan Star Media Nusantara sejak 2020. 
+        Event ini menampilkan musisi di bawah naungan talent management Star Media Nusantara di berbagai kota di Indonesia, seperti Bandung, Malang, Bali, Jogja, Serang, dan Semarang. 
+
+        JOS tak hanya sebagai media promosi dari para musisi, tapi juga momen para musisi bertemu langsung dengan para penggemarnya di berbagai kota.   
+        `
     },
     {
-        title: "Aktor Baru Mencuri Perhatian",
-        desc: "Bintang baru mulai menjadi sorotan publik.",
-        published: "1 Maret 2024",
-        image: "https://images.unsplash.com/photo-1598387993441-a364f854c3fb?w=500"
+        title: "Mahalini Comeback, Guncang Panggung Spotify Wrapped 2025.",
+        desc: "Mahalini tampil memukau di panggung Spotify Wrapped Live Indonesia 2025 pada Kamis (4/12/2025) di Studio RCTI+.",
+        published: "04 Desember 2025",
+        image: "https://imgur.com/zfzNnP5?w=500",
+        content: `
+        Mahalini kembali ke industri hiburan Tanah Air. 
+        Setelah setahun hiatus, Mahalini tampil memukau di panggung Spotify Wrapped Live Indonesia 2025 pada Kamis (4/12/2025) di Studio RCTI+. 
+
+        Munculnya Mahalini di panggung Spotify Wrapped 2025 disambut riuh penonton. 
+        Mereka merasa rindu menonton langsung penampilan Mahalini setelah setahun hiatus. 
+
+        "Mahalini!!" teriak para penonton.
+
+
+        Mengawali penampilannya, Mahalini membawakan lagu berjudul Rindu Ku Rindu dari album barunya, KOMA.
+        Penampilan epik Mahalini kemudian menyanyikan lagu barunya yang berjudul 'Untuk yang Bersamanya'. 
+
+        Mahalini sempat menangis terharu mendengar sorakan penonton yang meneriaki namanya seusai lagu keduanya. 
+        Mahalini tampil memukau mengenakan gaun menjuntai dengan puff di bahunya yang membuat tampilannya makin mewah.
+
+        Rambut panjang Mahalini dikepang panjang menjuntai, memberi kesan sleek namun elegan. 
+        Dalam acara ini, Mahalini juga sempat bernyanyi bersama dengan Rizky Febian dan Adrian Khalid membawakan lagu 'Alamak'. 
+
+        Sebagai informasi, Spotify, platform streaming berlangganan terpopuler di dunia, mengumumkan akan menggelar acara puncak tahunannya, Spotify Wrapped Live Indonesia 2025, disiarkan langsung dari Studio RCTI+, Kebon Jeruk, pada 4 Desember 2025. 
+        Acara ini merupakan tahun ketiga Spotify merayakan lanskap audio Indonesia melalui siaran televisi, yang kali ini dapat disaksikan secara serentak di RCTI, GTV, dan RCTI+. 
+
+        Wrapped merupakan kampanye global akhir tahun bagi lebih dari 713 juta pengguna. 
+        Pengalaman ini merangkum lagu, artis, album, podcast yang paling banyak didengarkan sepanjang tahun. 
+
+        Acara Spotify Wrapped Live Indonesia 2025 tidak hanya merayakan data global, tetapi secara spesifik menekankan keragaman dan antusiasme pendengar di Tanah Air. 
+        Kategori yang akan diumumkan berdasarkan pada streaming pengguna, sehingga memberikan gambaran terhadap preferensi dan tren budaya yang terjadi tahun ini.
+        `
     },
     {
-        title: "Drama Korea Trending",
-        desc: "Drama terbaru berhasil menarik perhatian global.",
-        published: "19 Maret 2024",
-        image: "https://images.unsplash.com/photo-1605697481325-d74eab259c33?w=500"
+        title: "Merangkai Kisah Indah, Mega Series Terbaru Persembahan Indosiar",
+        desc: "INDOSIAR kembali memperkuat posisinya sebagai penyedia drama berkualitas dengan menghadirkan serial terbaru berjudul Merangkai Kisah Indah.",
+        published: "11 Juli 2025",
+        image: "https://imgur.com/07kNwnn?w=500",
+        content: `
+        BeritaKita ~~ kembali memperkuat posisinya sebagai penyedia drama berkualitas dengan menghadirkan serial terbaru berjudul "Merangkai Kisah Indah". 
+        Drama ini menampilkan aktor dan aktris lintas generasi yang saat ini digemari, seperti Basmalah Gralind, Raden Rakha, dan Panji Saputra.
+
+        Mega series ini akan mulai tayang pada Senin, 14 Juli 2025, setiap hari pukul 17.00 WIB di layar kaca Indosiar.
+
+        "Merangkai Kisah Indah" adalah sebuah drama yang menyentuh hati, penuh dengan pengorbanan, pencarian diri, dan kekuatan cinta sejati. 
+        Cerita yang sarat emosi ini semakin hidup dengan alur yang penuh kejutan dan karakter-karakter yang terasa dekat dengan kehidupan sehari-hari. 
+        Indosiar memilih lagu Hanya Rindu dari Putri Ariani untuk menambah kedalaman emosional cerita ini.
+
+        “Kami optimis 'Merangkai Kisah Indah' akan menjadi tayangan favorit pemirsa berkat alur cerita yang diramu apik. 
+        Apalagi chemistry duo idola remaja saat ini, Basmalah Gralind dan Raden Rakha akan diuji melalui plot dan cerita yang jauh berbeda dari sinetron yang pernah mereka bintangi sebelumnya. 
+        Ini kombinasi yang akan menjadi kekuatan 'Merangkai Kisah Indah',” ujar Ibu Harsiwi Achmad selaku Direktur SCM.
+        
+        Kisah ini dimulai dengan Widuri Ambaruni (Gita Sinaga), yang tengah mengandung anak dari suaminya, Aditya Aditama (Panji Saputra). 
+        Namun, kebahagiaannya hancur ketika mengetahui perselingkuhan suaminya dengan Rianti Larasati (Tsania Marwah).
+
+        Dalam keadaan terpuruk, Widuri mengalami kecelakaan yang merenggut nyawa bayinya. 
+        Dalam keputusasaan, ia menukar bayinya yang telah tiada dengan bayi Rianti yang baru lahir. 
+        Tanpa menyadari pertukaran itu, Rianti mengklaim bayi yang ditinggalkan di rumah sakit sebagai anaknya bersama Aditya, yang diberi nama Kenzo.
+
+        Peristiwa ini mengubah nasib dua anak, Mutiara dan Kenzo, yang hidup dalam dunia yang bertolak belakang. 
+        Mutiara (Basmalah Gralind), sebenarnya anak kandung Aditya dan Rianti, tumbuh dalam kesederhanaan bersama Widuri di kampung nelayan.
+
+        Sementara Kenzo (Raden Rakha), yang bukan anak kandung Aditya, dibesarkan dalam kemewahan sebagai pewaris utama keluarga. 
+        Ketika dewasa, takdir mempertemukan mereka kembali dalam situasi penuh konflik dan intrik keluarga yang rumit. 
+        Dengan bumbu cinta segitiga, kisah mereka berkembang menjadi drama penuh emosi yang sulit ditebak akhirnya.
+
+        Jangan lewatkan penayangan perdana Merangkai Kisah Indah, mulai Senin, 14 Juli 2025, setiap hari pukul 17.00 WIB.  
+        `
     },
     {
-        title: "Festival Film Internasional",
-        desc: "Puluhan film terbaik dunia dipamerkan.",
-        published: "3 April 2024",
-        image: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=500"
+        title: "Indosiar Kontrak Jebolan Dangdut Academy 5 untuk Mainkan Sinetron Terbaru, Simak Ulasan Lengkapnya!",
+        desc: "Indosiar mengeluarkan Judul Sinetron terbaru yang akan diperankan oleh jebolan Dangdut Academy 5.",
+        published: "1 Febuari 2025",
+        image: "https://imgur.com/fxogN20?w=500",
+        content: `
+        BeritaKita ~~ Sukses dengan performa sinetron Panggilan yang selalu memperoleh 5 besar rating pertelevisian. 
+        Indosiar ditambah dengan tayangan sepak bola membuat Indosiar berhasil menjadi tv nomor 1 dan 2 bergantian dengan saudaranya, SCTV yang berada dalam naungan EMTEK Group.
+
+        Di tengah performa rating Indosiar yang tinggi diantara chanel lainnya. 
+        Namun, siapa sangka, semenjak Pemerintah bersama Kominfo memutuskan TV analog secara bergilir, Indosiar kini harus menerima kenyataan performanya yang semakin menurun.
+
+        Dilansir dari akun ratting @sobatvid terlihat perubahan rating yang signifikan sebelum dan sesudah diwajibkan tv digital. 
+        Tak hanya karena itu saja, Indosiar memang belum menyangkan sinetron pengganti terbaru.
+
+        Kian hari hanya mengandalkan tayangan Sepak Bola antar club dan tayangan Sinema rerun. 
+        Akhirnya Indosiar memberi gebrakan baru.
+
+        Dilansir dari akun Instagram @ikidalimunthe, "Gebrakan baru kembali hadir di dunia beradu akting, dimana rumah produksi Mega Kreasi Film telah mendaftarkan judul terbarunya, yakni Magic 5."
+
+        Melalui situs resmi perizinan Pusbang Film Kemendikbud, Mega Kreasi Film ajukan aktor dan aktris muda Basmalah Gralind, Raden Rakha serta ketiga juara di ajang Dangdut Academy 5 sebut saja Sri Devi, Afan, dan Eby.
+
+        Terlihat di snapgram Iki membuka pertanyaan dan dikomentarin netizen "Wow sudah terdaftar di Pusbang ya kak." 
+        Iki menanggapi "Yap, itu hanya untuk lock judul saja. Sebenarnya urusan para pemain nanti bakal di casting ulang apapun bisa berubah nantinya."
+
+        "Ini beneran kan bang! kalau beneran alhamdulilah kita tunggu kabar selanjutnya." kata netizen.
+
+        Iki menanggapi dan memperjelas dengan menampilkan schedule Magic 5 yang diperkirakan akan syuting pada 04 Februari 2023 dan akan segera tayang pada 1 April 2023.
+
+        Para fans pun antusias menanggapi, "Bismillah... semoga dimudahkan, lancar dan sukses... ini yang sangat ditunggu min." 
+        ucap @neizha_chield ditambah akun lain "Gass yok bismillah ramaikan tagar #magic5 ." ucap @noetikelana.  
+        `
     },
     {
-        title: "Idol K-Pop Comeback",
-        desc: "Grup ternama mengumumkan comeback terbaru.",
-        published: "12 April 2024",
-        image: "https://images.unsplash.com/photo-1520975918318-3a8a98a3a1b6?w=500"
+        title: "Wabup Sidoarjo: Jayandaru Sunrise Jazz Festival perkuat identitas lokal",
+        desc: "Wabup Sidoarjo Mimik Idayana saat membuka kegiatan Jayandaru Sunrise Jazz Festival di Sidoarjo, Minggu (7/12/2025).",
+        published: "7 Desember 2025",
+        image: "https://imgur.com/c6VghHo?w=500",
+        content: `
+        BeritaKIta ~~ Wakil Bupati (Wabup) Sidoarjo Mimik Idayana menyatakan bahwa penyelenggaraan Jayandaru Sunrise Jazz Festival merupakan bentuk nyata semangat Pemerintah Kabupaten (Pemkab) Sidoarjo dalam memperkuat identitas budaya sekaligus meningkatkan sektor pariwisata daerah.
+
+        "Acara Jayandaru Sunrise Festival 2025 merupakan wujud semangat kita dalam memperkuat identitas budaya dan menggairahkan pariwisata," kata Mimik dalam keterangannya di Sidoarjo, Jawa Timur, Senin.
+
+        Menurutnya, festival tersebut menghadirkan beragam pertunjukan, mulai dari peragaan busana, tari tradisional, penampilan musik jazz, angklung, hingga pameran UMKM yang menampilkan produk-produk kreatif khas Sidoarjo.
+
+        Ia menilai ragam kegiatan tersebut sukses menarik antusiasme warga dan menjadi ruang ekspresi bagi pelaku seni serta pelaku usaha lokal.
+
+        Acara yang digelar oleh Dinas Kepemudaan, Olahraga dan Pariwisata (Disporapar) Kabupaten Sidoarjo itu berlangsung meriah di halaman Monumen Jayandaru Sidoarjo tersebut, diharapkan mampu membuka ruang yang lebih luas bagi tumbuhnya ekonomi kreatif di Kabupaten Sidoarjo.
+
+        Menurutnya, keberlanjutan festival semacam sangat penting sebagai wadah menggali potensi dan kreativitas generasi muda.
+
+        "Saya berharap acara ini dapat terus berkelanjutan sebagai sarana menggali potensi anak-anak muda Sidoarjo dalam kesenian dan budaya daerah," kata Mimik.
+
+        Sementara itu, Kepala Disporapar Sidoarjo Yudhi Iriyanto menjelaskan bahwa festival ini merupakan hasil kolaborasi antara Pemkab Sidoarjo dengan sejumlah pelaku wisata lokal.
+
+        Dalam kegiatan tersebut ia juga mengumumkan peluncuran Tari Pesona Delta, tarian yang digagas sebagai ikon budaya baru Kabupaten Sidoarjo.
+
+        "Festival ini merupakan hasil kolaborasi antara pemerintah, pelaku wisata, dan komunitas ekonomi kreatif dalam upaya pengembangan pariwisata di Sidoarjo. 
+        Tarian Pesona Delta akan menjadi ikon baru untuk mengenalkan kebudayaan Sidoarjo lebih luas lagi," kata Yudhi.
+
+        Dengan berbagai penampilan seni, kolaborasi kreatif, serta peluncuran tarian baru, Jayandaru Sunrise Jazz Festival 2025 menjadi salah satu agenda budaya tahunan yang mempertegas komitmen Sidoarjo dalam memajukan sektor seni, ekonomi kreatif, dan pariwisata.
+        `
     },
     {
-        title: "Penghargaan Musik Tahunan",
-        desc: "Ajang penghargaan musik paling bergengsi digelar.",
-        published: "1 Mei 2024",
-        image: "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=500"
+        title: "Horor Komedi Penjara Joko Anwar Siap Mengguncang Bioskop",
+        desc: "Official Poster Film Ghost in the Cell .",
+        published: "09 Desember 2025",
+        image: "https://imgur.com/ndIBIkD?w=500",
+        content : `
+        BeritaKita ~~ Joko Anwar kembali hadir dengan karya terbaru yang siap mengguncang dunia perfilman Indonesia lewat film berjudul Ghost in The Cell. 
+        Film ini menjadi sorotan sejak awal diumumkan, terutama karena menghadirkan Abimana Aryasatya sebagai pemeran utama. 
+
+        Kehadiran Abimana menjadi momen penting, mengingat ini adalah comeback-nya ke layar lebar setelah enam tahun vakum sejak membintangi Gundala pada 2019. 
+        Ghost in The Cell menampilkan deretan aktor laki-laki lintas generasi yang selama ini dikenal sebagai pemain reguler dalam film-film Joko Anwar. 
+
+        Nama-nama besar seperti Bront Palarae, Danang Suryonegoro, Endy Arfian, Lukman Sardi, Mike Lucock, Yoga Pratama, Morgan Oey, Aming, Kiki Narendra, Rio Dewanto, hingga Tora Sudiro turut memperkuat jajaran pemeran. 
+        Film ini juga memperkenalkan sosok pendatang baru Magistus Miftah yang langsung mencuri perhatian.
+
+        Cerita berpusat pada dua geng yang saling bermusuhan di dalam penjara Jakarta yang penuh sesak. 
+        Konflik mereka memanas, namun keadaan berubah drastis ketika satu per satu narapidana tewas secara misterius. 
+
+        Ternyata penyebabnya bukan pertarungan antar geng, melainkan teror dari sesosok hantu ganas yang gentayangan di balik tembok penjara. 
+        Kedua geng pun terpaksa bekerja sama demi bertahan hidup, meski rasa benci masih membara di antara mereka.
+
+        Film ini memadukan ketegangan horor dengan unsur komedi yang segar. 
+        Bayangkan para napi yang terkenal garang justru dibuat ketakutan oleh kehadiran hantu yang jauh lebih mengerikan. 
+
+        Atmosfer ruang sempit penjara semakin memperkuat rasa claustrophobic yang akan membuat penonton ikut gelisah sepanjang film. 
+        Ghost in The Cell merupakan karya ke-12 Joko Anwar dan menampilkan daftar pemain yang sangat solid. 
+
+        Deretan aktor seperti Abimana Aryasatya, Morgan Oey, Rio Dewanto, Aming, Bront Palarae, hingga bintang muda seperti Almanzo Konoralma dan Dewa Dayana menjadi kekuatan besar dalam membangun dunia cerita. 
+        Dukungan dari banyak aktor pendukung lainnya juga menambah dimensi komedi dan horor yang seimbang.
+
+        Film ini dijadwalkan tayang di bioskop Indonesia pada tahun 2026 dan diprediksi menjadi salah satu rilisan yang paling dinantikan berkat kombinasi genre yang unik, jajaran pemeran berbakat, serta sentuhan khas Joko Anwar yang selalu mencuri perhatian. 
+        Ghost in The Cell siap memberikan pengalaman menonton yang berbeda dan menghibur bagi para pecinta film horor komedi.        
+        `
     },
     {
-        title: "Komedi Stand-Up Viral",
-        desc: "Komika lokal menjadi tren di media sosial.",
-        published: "23 Mei 2024",
-        image: "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?w=500"
+        title: "Diguyur Hujan Tak Goyah, Fortuna Fest 2025 Jadi Pengalaman Festival Musik Unik dan Berkesan di Jember",
+        desc: "Penonton Fortuna Fest 2025 terus berjingkrak di bawah guyuran hujan.",
+        published: "8 Desember 2025",
+        image: "https://imgur.com/2Kbg5os?w=500",
+        content: `
+        BeritaKita ~~ Fortuna Fest 2025, festival musik perdana yang digagas dan diselenggarakan oleh Hotel FortunaGrande JEMBER, resmi berakhir dengan sukses besar pada Sabtu malam 6 Desember 2025. 
+        Acara ini bukan hanya menjadi konser musik besar pertama yang diinisiasi oleh sebuah hotel di JEMBER, tetapi juga sukses menarik ribuan penonton yang memadati area Stadion Universitas JEMBER sejak sore hingga penutupan.
+
+        Meskipun sempat diguyur hujan deras pada sore hari, antusiasme pengunjung sama sekali tidak mereda. 
+        Ribuan penonton dengan sigap mengenakan jas hujan, tetap bertahan di area konser, dan melanjutkan sing along menikmati penampilan musisi.
+
+        "Suasana justru berubah menjadi pengalaman festival yang unik, hangat, dan penuh kebersamaan. 
+        Solidaritas penonton Jember sangat luar biasa," demikian keterangan yang didapat di lokasi.
+
+        Rangkaian penampilan Fortuna Fest 2025 menyuguhkan kombinasi talenta lokal dan nasional yang memikat. 
+        Panggung dibuka dengan apik oleh musisi lokal Jember, Shelby dan Sisikitaa, yang berhasil memanaskan suasana.
+
+        Kemudian, Coldiac tampil membawakan set bernuansa pop-alternative dengan energi khas mereka. 
+        Menjelang malam, Juicy Luicy sukses membuat area festival bergema oleh nyanyian massal penonton dengan lagu-lagu populer mereka. 
+        Sebagai puncak dan penutup yang dinanti, Vierratale tampil sebagai headliner utama, membawakan lagu-lagu ikonik yang menutup gelaran malam itu dengan meriah.
+
+        Apriyanto, selaku penyelenggara Fortuna Fest 2025, menyampaikan apresiasi atas suksesnya acara ini.
+
+        "Fortuna Fest tahun ini menghadirkan energi yang sangat berbeda. 
+        Meskipun hujan sempat turun, penonton tetap solid dan menikmati seluruh rangkaian acara. 
+        Ini menunjukkan besarnya dukungan dan semangat mereka. 
+        Kami berterima kasih kepada seluruh pengunjung, talent, tim produksi, serta sponsor seperti Gajah Baru yang telah berkolaborasi bersama kami,” ujar Apri panggilan akrabnya, Senin 8 Desember 2025.
+
+        Penjualan tiket Fortuna Fest 2025, yang hadir dalam kategori Tribun hingga VVIP, tercatat sangat baik, memperkuat posisi festival ini sebagai salah satu agenda musik yang semakin ditunggu oleh masyarakat Jember dan sekitarnya.
+
+        Hotel FortunaGrande Jember berkomitmen untuk menghadirkan gelaran Fortuna Fest berikutnya dengan skala yang lebih besar, lineup yang lebih variatif, dan pengalaman festival yang semakin berkualitas.
+        `
     },
     {
-        title: "Game Baru Dirilis",
-        desc: "Game AAA terbaru menarik perhatian gamer dunia.",
-        published: "3 Juni 2024",
-        image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500"
+        title: "Review Film Agak Laen: Menyala Pantiku! Standar Baru Film Komedi Indonesia?",
+        desc: "Poster Film Agak Laen Menyala Pantiku().",
+        published: "27 November 2025",
+        image: "https://imgur.com/phTvpkS?w=500",
+        content: `
+        BeritaKita ~~ Film Agak Laen, Menyala Pantiku! siap menyapa para pecinta film, khususnya komedi di jaringan bioskop-bioskop Tanah Air hari ini, Kamis (27/11/2025). 
+
+        Film produksi Imajinari ini memang sudah dinanti kedatangannya setelah film pertamanya mendapat antusias yang luar biasa dengan capaian 9 juta penonton. 
+
+        Masih ditulis dan disutradarai oleh Muhadkly Acho, Agak Laen Menyala Pantiku mengusung genre komedi investigasi. 
+
+        Menceritakan tentang Bene, Jegel, Boris dan Oki yang mendapat kesempatan terakhir untuk memperjuangkan karier mereka sebagai detektif, dalam sebuah misi penyamaran di panti jompo.
+
+        Kalau pada film yang pertama kuarted ini harus menutupi kematian pejabat di rumah hantu, kini, Boris dkk harus menemukan pelaku pembunuhan anak Wali Kota sebuah wilayah bernama Yamakarta.
+
+        Sejak awal, Acho dan para produser Ernest Prakasa-Dipa Andika memang sudah menekankan bahwa Agak Laen akan menyuguhkan cerita baru pada setiap penggarapannya, seperti Warkop DKI. 
+
+        Namun tak disangka, langkah itu justru menjadi strategi yang bagus untuk membuat film keduanya terasa lebih lucu dengan cerita yang fresh.  
+
+        Acho berhasil menyajikan komedi ringan yang dibangun dari situasi menegangkan, kemudian memberikan sebuah tembakan punchline pada adegan-adegan dalam film, yang hampir tak pernah gagal mengundang gelak tawa penonton.
+
+        Terlebih, dua adegan yang sensasional dan emosional itu. 
+        Bisa dijamin, kalimat "kau akan terpingkal sampai lompat dari kursi bioskop" tak akan terdengar berlebihan bila penonton dapat menyimak dengan baik alur cerita hingga sampai di adegan itu. 
+
+        Walaupun pada adegan-adegan emosional, penyelesaiannya seperti agak terburu-buru sehingga terasa patah. 
+        'Baru mau sedih, eh udah lucu lagi' Begitulah kira-kira ungkapan yang tepat.  
+
+        Dalam film ini, Boris didapuk memainkan konflik drama yang lebih intens. 
+        Perannya sebagai seorang ayah anak satu, yang tengah menghadapi proses perceraian dengan sang istri membuat cerita ini sedikit lebih sentimentil.   
+
+        Bumbu isu personal pada film ini bisa menjadi daya tarik tersendiri (khususnya yang tertarik mengikuti perjalanan pernikahan Boris), mengingat "status duda" kerap jadi bahan roasting Oki, Bene dan Jegel terhadap Boris, setidaknya pada dua preskon filmnya.
+
+        Meski Boris yang dapat tugas pegang beban drama, yang mengherankan adalah peningkatan kualitas akting Bene Dion yang nampak lebih luwes. 
+        Kalau di Agak Laen pertama kan angktinya.. ah sudahlah.. (Tolong anggap ini pujian lho ya bang.. he he). 
+
+        Selain cerita yang lebih lucu, unsur budaya Batak juga terasa lebih tebal di film kedua ini.  
+
+        Memilih angle ikatan marga menjadi alasan Bene dkk bisa menyusup ke panti jompo, membuat film ini terasa lebih "batak" dari sebelumnya. 
+        Para pasukan bermarga pasti setuju dalam hal ini. 
+
+        Agak Laen: Menyala Pantiku! meninggalkan aftereffect perasaan haru sekaligus harapan baru akan masa depan film komedi Indonesia.  
+
+        Akankah film Agak Laen menjadi standar baru film komedi kita? temukan jawabannya di bioskop mulai 27 November 2025.        
+        `
     },
     {
-        title: "Album Artis Global Rilis",
-        desc: "Album terbaru artis kelas dunia menduduki chart.",
-        published: "18 Juni 2024",
-        image: "https://images.unsplash.com/photo-1520443132540-359b4b52f30d?w=500"
+        title: "Gamer Indonesia Juara Kontes Minecraft MrBeast",
+        desc: "Tim Indonesia memenangkan kontes membangun kota atau negara dunia Minecraft yang digelar Youtuber Mr. Beast. Tim ini membangun miniatur Indonesia lengkap dengan detail bangunan ikonik hingga tokoh penting di Tanah Air. (Youtube Mr. Beast)",
+        published: "22 November 2025",
+        image: "https://imgur.com/76A2y94?w=500",
+        content: `
+        BeritaKita ~~ Gamer atau kreator Minecraft Indonesia mencatat prestasi. 
+        Kali ini, para pencinta game Minecraft itu menjadi juara kontes yang digelar oleh Youtuber kenamaan, MrBeast.  
+
+        Kontes ini diikuti oleh sembilan negara, termasuk Brasil, Jerman, Thailand, hingga Indonesia. 
+        Dalam kontes ini, peserta diberi waktu selama dua minggu untuk membangun kota atau negara tempat mereka berasal.  
+
+        Tim Indonesia tampil menonjol lewat karya dengan tema budaya dan nasional. 
+        Tim Indonesia yang beranggotakan 26 kreator membuat beragam bangunan, flora, fauna, termasuk simbol negara menggunakan elemen-elemen dari game Minecraft. 
+
+        Tim Indonesia membuat "Indonesia mini" yang terdiri dari kepualauan dari Sabang hingga Merauke, termasuk objek-objek yang mewakili daerah-daerah tersebut di dalamnya.
+
+        Saat pertama kali melihat karya tim Indonesia, Youtuber Mr Beast langsung disuguhi kemegahan Candi Borobudur yang dibuat dalam versi Minecraft. 
+
+        Selain itu ada pula miniatur komodo, burung Garuda dan Pancasila, hingga 8 tokoh indonesia. 
+        Semua juri yang melihat, termasuk MrBeast, terkesima dengan karya tersebut.  
+
+        "Ini kelihatan gila. Saya terkesan dengan karya buatanmu, bahkan ada pulau-pulau kecil ini. Indonesia ini bukan satu pulau besar, tapi terkumpul dari ribuan pulau, sangat hebat," kata Youtuber MrBeast. 
+
+        Juri lainnya mengatakan bahwa karya tersebut tersusun dengan baik. 
+        Tampilannya juga dinilai sangat mirip dengan peta sungguhan dan sangat kreatif. 
+
+        "Banyak cinta dan semangat dituangkan dalam karya ini," kata MrBeast.
+
+        "Ini seperti sebuah karya seni," kata juri lainnya.  
+
+        Karya tim Indonesia ini juga dinilai memiliki kekuatan visual dan konsistensi tema yang lebih unggul dari peserta lain. 
+
+        Para juri juga menilai hasil karya tersebut menunjukkan kedalaman eksplorasi budaya yang jarang terlihat dalam kompetisi Minecraft bertaraf internasional.
+
+        Menurut Alvin, salah satu kreator Minecraft Indonesia yang ikut serta dalam kontes ini, miniatur Indonesia ini dibangun oleh total 26 kreator yang terlibat.  
+
+        Alvin mengatakan, pemenang kontes ini akan mendapatkan patung atau statue sebagai hadiah dari Mr. Beast. 
+        Di statue ini akan tercantum nama kreator yang turut membangun kota atau negara tersebut.  
+
+        "Patung itu nantinya akan diletakkan di tempat public/umum di sekitar Jakarta. Tapi saat ini masih dicari tempat yang memungkinkan untuk diletakkan secara permanen," kata Alvin yang memiliki nama pengguna Azrealon ini saat dihubungi KompasTekno.
+
+        Adapun deretan builder yang ikut berperan untuk memenangkan kompetisi ini adalah sebagai berikut: 
+        1. Azrealon 
+        2. Mey3 
+        3. Arheyn 
+        4. Baconpancakze 
+        5. Barart 
+        6. Cgartz_ 
+        7. Chapielyous 
+        8. Chloriz 
+        9. Chokyc_ 
+        10. Eyaanlie 
+        11. Highlens 
+        12. Kord__ 
+        13. Luxorith 
+        14. Memokgg 
+        15. Mikakunyt 
+        16. Mindrafauza 
+        17. Morgennn 
+        18. Mrranzler 
+        19. Nagaapi 
+        20. Nyapyeey 
+        21. Reyylyne_ 
+        22. Rynqu 
+        23. Silmarey 
+        24. Ulstick 
+        25. Yonascy 
+        26. Zlaine
+        `
     },
     {
-        title: "Aktor Indonesia Go International",
-        desc: "Aktor tanah air berperan dalam film Hollywood.",
-        published: "25 Juni 2024",
-        image: "https://images.unsplash.com/photo-1505682634904-d7c8d95cdc5b?w=500"
+        title: "Marketplace Gaming Indonesia Ekspansi ke Pasar Internasional",
+        desc: "Platform marketplace Itemku.",
+        published: "27 November 2025",
+        image: "https://imgur.com/IC4zNSO?w=500",
+        content:`
+        BeritaKita ~~ Itemku, platform e-commerce yang melayani transaksi jual beli item, gold, voucher game, top-up, dan akun game untuk berbagai judul game, mengumumkan langkah strategis untuk memperluas jangkauan bisnis ke pasar internasional.
+
+        Ekspansi internasional menjadi bagian dari strategi jangka panjang perusahaan untuk membangun kehadiran di lebih banyak negara, menyatukan gamer global dalam satu platform pertukaran yang andal, aman, dan kompetitif secara harga.
+
+        “Misi kami adalah memastikan para gamer di seluruh dunia dapat membeli kebutuhan digital mereka dengan cepat, dengan harga terbaik, dan dengan perlindungan maksimal terhadap risiko transaksi. 
+        Kami ingin mendemokratisasi akses terhadap ekonomi gaming global,” kata CEO Itemku Prasetya Setiawan dalam keterangan persnya, Kamis (27/11/2025).
+
+        Seiring dengan itu, perusahaan juga mengonfirmasi bahwa ekspansi ini akan tetap berjalan beriringan dengan komitmen utama itemku di pasar Indonesia. 
+        Layanan lokal akan terus diperkuat melalui penambahan pilihan pembayaran domestik, peningkatan layanan pelanggan, dan perluasan kategori produk gaming.
+
+        “Selama bertahun-tahun, kami melihat bagaimana industri gaming terus berkembang dan menciptakan peluang ekonomi yang besar bagi gamer, kreator, dan seller. 
+        Di Indonesia, itemku tumbuh sebagai marketplace gaming terbesar dengan ekosistem yang sehat, transparan, dan aman. Sekarang, kami siap membawa nilai yang sama ke pasar internasional,” ungkap Prasetya.
+
+        Adapun sejak didirikan pada tahun 2014, itemku telah tumbuh pesat berkat komunitas gamer yang semakin berkembang. 
+        Model marketplace-nya yang menyediakan transaksi aman antara penjual dan pembeli-ditambah ekosistem pembayaran, proteksi konsumen, dan pengiriman digital instan-membuat itemku menjadi pilihan utama para gamers di Indonesia.
+
+        “Penjual aktif menawarkan berbagai kebutuhan gaming mulai dari Mobile Legends, Roblox, Free Fire, PUBG Mobile, Genshin Impact, Fortnite, Steam, PlayStation Network, Xbox, hingga Nintendo eShop,” tutur Prasetya.
+        `
     },
     {
-        title: "Serial Anime Populer",
-        desc: "Season baru anime paling ditunggu akhirnya tayang.",
-        published: "3 Juli 2024",
-        image: "https://images.unsplash.com/photo-1526481280695-3c720685208b?w=500"
+        title: "Alasan Golden Theater Kediri Masih Bertahan dan Tetap Ada di Hati Masyarakat Kediri",
+        desc: "Saat ini Golden Theater Kediri Masih Bertahan dan Tetap Ada di Hati Masyarakat Kediri.",
+        published: " 8 Desember 2025",
+        image: "https://imgur.com/hahptKO?w=500",
+        content: `
+        BeritaKita ~~ Golden Theater Kediri tetap bertahan dan jadi idola meski saingan bermunculan.
+
+        Mau nonton film di Kediri bukan hal yang repot karena sudah ada 4 bioskop yang hadir di kota yang katanya digadang-gadang jadi ibu kota Jawa bagian selatan ini. 
+        Kediri nggak sebesar beberapa kota di Jawa Timur lainnya seperti Surabaya. Tetapi soal fasilitas publik, masih cukup memadai dan modern.
+
+        Sebelumnya di Terminal Mojok saya juga sudah menulis artikel tentang 4 bioskop di Kediri. 
+        Dari semuanya, Golden Theater Kediri adalah bioskop paling tua dan legendaris. 
+        Saya kira dengan kehadiran CGV dan XXI yang saat itu mulai menjadi kompetitor, Golden Theater akan redup pamornya karena orang lebih memilih nonton di CGV dan XXI yang lebih modern dan hits.
+
+        Nyatanya nggak juga. 
+        Karena sampai sekarang Golden Theater Kediri masih cukup berjaya dan terus update menayangkan film. 
+        Bahkan meski bertambah satu saingan lagi, yaitu Sam's Studio, tak membuat masyarakat Kediri berpaling dari Golden.
+
+        1. Golden Theater Kediri, satu-satunya bioskop yang memperbolehkan pengunjung membawa makanan dari luar
+        Biasanya kita suka mengeluh kan, pengin ngemil sambil nonton tapi makanan di bioskop harganya mahal. 
+        Nah, di Golden Theater, kamu nggak perlu jajan di kantin bioskop karena kamu boleh membawa makanan dari luar. 
+        Teman saya bahkan pernah mengatakan kalau dia membawa pentol saat nonton film di Golden. 
+        Saya juga pernah melihat pengunjung bioskop yang membawa sosis goreng gerobakan kaki lima saat nonton film di sana.
+
+        Mungkin ini menjadi alasan utama kenapa Golden Theater masih jadi bioskop paling nyaman di hati warga Kediri. 
+        Dari dulu memang tak ada larangan membawa makanan dari luar. 
+        Rasanya sudah kayak nonton di rumah sendiri, ya. Bebas bawa makanan apa pun.
+
+        2. Harga tiket sedikit lebih murah dari bioskop lain
+        Saya kadang memang nggak terlalu ngeh sama harga tiket bioskop. 
+        Tapi kalau kita banding-bandingkan tiket bioskop termahal itu CGV. 
+        Dan memang tiket bioskop di Golden Theater Kediri lebih murah. 
+        Seingat saya waktu itu weekend, harga tiket di CGV dan XXI sudah Rp40 ribu, di Golden cuma Rp35 ribu. 
+        Sam's Studio Kediri malah cuma Rp30 ribu, tapi sayangnya cuma menayangkan film lokal.
+
+        Lantaran harga tiket yang murah itulah banyak warga yang kemudian memilih nonton di Golden. 
+        Meski harga tiket terpaut Rp5 ribu, tapi lumayan, kan. 
+        Bisa buat bayar parkir atau dialihkan beli pentol, lho. 
+        Kalau di Golden malah pentolnya bisa dibawa masuk juga ke dalam bioskop buat ngemil. 
+        Hitungannya jadi lebih hemat kalau nonton di Golden.
+
+        3. Filmnya masih up to date dan lebih banyak yang tayang
+        Meski cuma tersedia 5 studio di Golden Theater Kediri, film yang tayang di bioskop ini banyak. 
+        Sepertinya diatur bisa masuk di jam tertentu saja, tapi setidaknya bisa mengobati orang yang lagi pengin nonton film tersebut dan tidak tayang di bioskop lain.
+
+        Saya pernah mau nonton film Korea. 
+        Waktu itu saya kira film tersebut bakal tayang di CGV, tapi ternyata nggak, di XXI apa lagi. 
+        Siapa sangka kalau Golden malah menayangkan film tersebut meski jadwal tayangnya cuma pagi dan malam, dan bukan di jam strategis. 
+        Yah, setidaknya saya bisa menonton tanpa repot-repot ke luar kota.
+
+        Kalau saya lihat memang film di Golden Theater Kediri lebih banyak. 
+        Up to date juga untuk terus menayangkan film-film terbaru. 
+        Jadi nggak salah kalau Golden masih ramai dikunjungi warga, tak punah termakan usia meski bersaing dengan bioskop ternama lainnya.
+
+        Golden memang sudah tua, sejak saya SMP bioskop ini sudah eksis dan jadi satu-satunya di Kediri. 
+        Makanya saya cukup salut karena bioskop ini masih bertahan sampai sekarang dan banyak dikunjungi.
+        `
     },
     {
-        title: "Trailer Film Horor Viral",
-        desc: "Trailer film horor membuat heboh internet.",
-        published: "19 Juli 2024",
-        image: "https://images.unsplash.com/photo-1516571137133-1be29e1b0b43?w=500"
+        title: "GTV Siap Gelar Indonesian Inspiring Celebrity Awards 2025, Malam Penghargaan Bergengsi Bagi Selebriti Inspiratif",
+        desc: "nspiring Celebrity Awards 2025.",
+        published: "25 Februari 2025",
+        image: "https://imgur.com/qp7Ubvs?w=500",
+        content: `
+        BeritaKita ~~ GTV sebagai home of entertainment, telah berhasil memberikan banyak penghargaan bergengsi seperti Indonesian Comedy Awards sebuah penghargaan bagi komedian Indonesia, Indonesian Trending Awards yang merupakan penghargaan bagi insan kreatif digital, dan banyak pengharaggan lainnya.
+
+        Kini GTV siap menggelar malam puncak Indonesian Inspiring Celebrity Awards 2025, acara penghargaan bergengsi bagi selebriti Indonesia ter-inspiring. 
+        Event tahunan ini pertama kali digelar dan akan disiarkan langsung pada Selasa, 25 Februari 2025, pukul 19.30 WIB, eksklusif di GTV.
+
+        5 trofi bergengsi siap diperebutkan, mulai dari Best Celebrity Couple untuk pasangan selebriti yang harmonis dan menginspirasi, Inspiring Teens Celebrity bagi anak selebriti berprestasi, serta Celebrity Family Goals untuk keluarga selebriti yang kompak dan penuh kehangatan. 
+        Ada juga Rising Star Celebrity bagi selebriti yang semakin bersinar sejak 2024, serta Most Wanted Celebrity untuk figur publik yang paling dicari dan diperbincangkan sepanjang tahun.
+
+        Selain 5 kategori ini, Indonesian Inspiring Celebrity Awards 2025 juga akan memberikan satu trofi spesial Inspiring Celebrity Of The Year yang hanya akan diberikan kepada selebriti yang menjadi inspirasi banyak orang sepanjang setahun terakhir. 
+        Kira-kira siapa ya selebriti yang akan bawa pulang trofi-trofi bergensi ini?
+
+        Dengan menghadirkan deretan bintang ternama, malam penghargaan ini akan dipandu oleh, Indra Herlambang dan Astrid Tiar. 
+        Penampilan spesial dari Bunga Citra Lestari (BCL), Rony Parulian, Happy Asmara, Nabila Taqiyyah dan Via Amelia siap memberikan penampilan terbaik dengan membawakan top hits mereka.
+
+        Bukan hanya penyanyi ternama, Indonesian Inspiring Celebrity Awards 2025 juga dimeriahkan oleh kehadiran komedian dan selebriti yang namanya bersinar seperti, Imam Darto, Amel Carla, Dul Jaelani, Ate, Musdalifah, Arif Brata, dan Claudia Andhara. 
+        Tak cukup sampai di situ, sederet artis ternama lainnya juga akan hadir loh, di malam puncak Indonesian Inspiring Celebrity Awards 2025.
+
+        Jangan lewatkan Indonesian Inspiring Celebrity Awards 2025 pada Selasa, 25 Februari 2025, pukul 19.30 WIB, hanya di GTV.
+        `
     },
     {
-        title: "Kolaborasi Musik Mengejutkan",
-        desc: "Dua artis terkenal mengumumkan kolaborasi besar.",
-        published: "8 Agustus 2024",
-        image: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=500"
-    },
-    {
-        title: "Artis Terkemuka Menikah",
-        desc: "Kabar bahagia datang dari artis papan atas.",
-        published: "23 Agustus 2024",
-        image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=500"
+        title: "Bertabur Bintang dan Keluarga Selebriti di Amazing Kids Favorit Awards GTV Bertema Ice World Pertama di TV Indonesia!",
+        desc: "Amazing Kids Favorit Awards GTV.",
+        published: "13 Agustus 2025",
+        image: "https://imgur.com/OabIXCe?w=500",
+        content: `
+        BeritaKita ~~ Setelah sukses selama dua tahun berturut-turut, Amazing Kids Favorit Awards kembali menyapa dengan konsep yang makin keren, Ice World! 
+        Ajang ini bukan cuma hanya penghargaan, tapi juga ajang inspiratif untuk mengapresiasi kreativitas dan semangat anak-anak Indonesia dalam berkarya. 
+        Wajar saja kalau event ini selalu dinantikan banyak keluarga.
+
+        Tahun ini, puncak malam penghargaan akan tayang pada Jumat, 15 Agustus pukul 18.30 WIB, dari studio RCTI+, yang dikenal sebagai studio tercanggih di Asia!
+        Dengan set panggung yang megah dan penuh warna, malam istimewa ini akan dipandu oleh duet host seru: Irfan Hakim dan Vega Darwanti.
+
+        Makin seru dengan penampilan dari deretan bintang yang luar biasa. 
+        Siap-siap terhibur oleh aksi panggung dari JKT48, Lyodra, dan Quinn Salman. 
+        Lebih spesial lagi, ada kolaborasi dari empat keluarga selebriti yang bakal bikin kamu tersentuh dan tertawa:
+        • Irfan Hakim bersama tiga buah hatinya: Aisha Keem, Djalu Hakim, dan Dzaky Hakim
+        • Vega Darwanti dan Razqa
+        • Gisel dan Gempi
+        • Sarwendah bersama Thalia Putri Onsu
+
+        Setiap pengumuman pemenang di kategori Amazing Kids Favorit Awards 2025 juga dikemas dengan cara seru lewat sketsa lucu dari Mazaya Amania, dibantu oleh komika seperti Hifdzi Khoir dan Ebel Cobra. 
+        Pastinya bikin malam kamu makin pecah!
+
+        Jangan sampai kelewatan, Jumat, 15 Agustus pukul 18.30 WIB di GTV. 
+        Yuk, seru-seruan bareng di malam penghargaan anak paling kece ini!
+        `
     }
 ]
 

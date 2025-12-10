@@ -81,36 +81,35 @@ const pages = {
         </div>
     </section>
 
-    <section class="max-w-10xl mx-auto px-0 mt-5">
+    <section id ="kategori" class="max-w-10xl mx-auto px-0 mt-5">
         <h2 class="text-2xl font-bold mb-6">KATEGORI</h2>
 
         <div class="grid grid-cols-5 gap-6">
 
-            <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori/politik" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
                 <span class="text-3xl">🏛</span>
                 <p class="font-medium">Politik</p>
-            </div>
+            </a>
 
-            <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
                 <span class="text-3xl">💻</span>
                 <p class="font-medium">Teknologi</p>
-            </div>
+            </a>
 
-            <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
                 <span class="text-3xl">⚽</span>
                 <p class="font-medium">Olahraga</p>
-            </div>
+            </a>
 
-            <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
                 <span class="text-3xl">🎬</span>
                 <p class="font-medium">Hiburan</p>
-            </div>
+            </a>
 
-            <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
                 <span class="text-3xl">⋯</span>
                 <p class="font-medium">Lainnya</p>
-            </div>
-
+            </a>
         </div>
     </section>
     `,

@@ -1,115 +1,108 @@
 const pages = {
     beranda: `
-    <!-- HERO -->
-    <section class="max-w-15xl mx-auto px-0 mt-0">
-        <div class="bg-white shadow-sm rounded-2xl overflow-hidden transition transform duration-300 hover:scale-[1.02] active:scale-[0.95] cursor-pointer">
-            <img src="https://i.imgur.com/VZbj9h9.jpeg" class="w-full h-72 object-cover" />
+    <section class="max-w-15xl mx-auto px-0 mt-5">
+        <div class="bg-white shadow-sm rounded-2xl overflow-hidden transition transform duration-300 hover:scale-[1.02] cursor-pointer">
+            <img src="https://i.imgur.com/VZbj9h9.jpeg" class="w-full h-52 sm:h-64 md:h-72 object-cover" />
 
-            <div class="p-8">
-                <h1 class="text-3xl font-bold mb-2">Berita Utama: Perkembangan AI Terbaru</h1>
-                <p class="text-gray-600 w-3/4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+            <div class="p-6 sm:p-8">
+                <h1 class="text-2xl sm:text-3xl font-bold mb-2">Berita Utama: Perkembangan AI Terbaru</h1>
+                <p class="text-gray-600 md:w-3/4">
+                    Baca berita terkini hanya disini.
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="max-w-10xl mx-auto px-0 mt-5">
-        <h2 class="text-2xl font-bold mb-4">Berita Terbaru</h2>
-        <div class="grid grid-cols-3 gap-10">
+    <section class="max-w-10xl mx-auto px-0 mt-8">
+        <h2 class="text-xl sm:text-2xl font-bold mb-4">Berita Terbaru</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
 
-            <div class="bg-white rounded-xl shadow-sm overflow-hidden transform duration-300 hover:scale-[1.02] active:scale-[0.95] cursor-pointer">
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden transform duration-300 hover:scale-[1.02] cursor-pointer">
                 <img src="https://i.imgur.com/7Z6P1Gk.jpeg" class="w-full h-40 object-cover"/>
                 <div class="p-4">
                     <h3 class="font-semibold">Berita Utama: Perkembangan AI Terbaru</h3>
-                    <p class="text-gray-600 text-sm mt-1">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                    </p>
+                    <p class="text-gray-600 text-sm mt-1">Lorem ipsum dolor sit amet...</p>
                 </div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-md overflow-hidden transform duration-300 hover:scale-[1.02] active:scale-[0.95] cursor-pointer">
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden transform duration-300 hover:scale-[1.02] cursor-pointer">
                 <img src="https://i.imgur.com/khvXTiX.jpeg" class="w-full h-40 object-cover"/>
                 <div class="p-4">
                     <h3 class="font-semibold">Berita Utama: Perkembangan AI</h3>
-                    <p class="text-gray-600 text-sm mt-1">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                    </p>
+                    <p class="text-gray-600 text-sm mt-1">Lorem ipsum dolor sit amet...</p>
                 </div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-md overflow-hidden transform duration-300 hover:scale-[1.02] active:scale-[0.95] cursor-pointer">
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden transform duration-300 hover:scale-[1.02] cursor-pointer">
                 <img src="https://i.imgur.com/2hCIHqW.jpeg" class="w-full h-40 object-cover"/>
                 <div class="p-4">
                     <h3 class="font-semibold">Berita Soft: Contoh Olahraga</h3>
-                    <p class="text-gray-600 text-sm mt-1">
-                        Sensai lorem ipsum dolor sit amet...
-                    </p>
+                    <p class="text-gray-600 text-sm mt-1">Sensai lorem ipsum...</p>
                 </div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-md overflow-hidden transform duration-300 hover:scale-[1.02] active:scale-[0.95] cursor-pointer">
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden transition transform duration-300 hover:scale-[1.02] cursor-pointer">
                 <img src="https://i.imgur.com/2hCIHqW.jpeg" class="w-full h-40 object-cover"/>
                 <div class="p-4">
                     <h3 class="font-semibold">Berita Soft: Contoh Olahraga</h3>
-                    <p class="text-gray-600 text-sm mt-1">
-                        Sensai lorem ipsum dolor sit amet...
-                    </p>
-                </div>
-            </div>
-            
-            <div class="bg-white rounded-xl shadow-md overflow-hidden transform duration-300 hover:scale-[1.02] active:scale-[0.95] cursor-pointer">
-                <img src="https://i.imgur.com/2hCIHqW.jpeg" class="w-full h-40 object-cover"/>
-                <div class="p-4">
-                    <h3 class="font-semibold">Berita Soft: Contoh Olahraga</h3>
-                    <p class="text-gray-600 text-sm mt-1">
-                        Sensai lorem ipsum dolor sit amet...
-                    </p>
+                    <p class="text-gray-600 text-sm mt-1">Sensai lorem ipsum...</p>
                 </div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-md overflow-hidden transform duration-300 hover:scale-[1.02] active:scale-[0.95] cursor-pointer">
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden transition transform duration-300 hover:scale-[1.02] cursor-pointer">
                 <img src="https://i.imgur.com/2hCIHqW.jpeg" class="w-full h-40 object-cover"/>
                 <div class="p-4">
                     <h3 class="font-semibold">Berita Soft: Contoh Olahraga</h3>
-                    <p class="text-gray-600 text-sm mt-1">
-                        Sensai lorem ipsum dolor sit amet...
-                    </p>
+                    <p class="text-gray-600 text-sm mt-1">Sensai lorem ipsum...</p>
                 </div>
             </div>
+
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden transition transform duration-300 hover:scale-[1.02] cursor-pointer">
+                <img src="https://i.imgur.com/2hCIHqW.jpeg" class="w-full h-40 object-cover"/>
+                <div class="p-4">
+                    <h3 class="font-semibold">Berita Soft: Contoh Olahraga</h3>
+                    <p class="text-gray-600 text-sm mt-1">Sensai lorem ipsum...</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <section id ="kategori" class="max-w-10xl mx-auto px-0 mt-5">
+    <section id="kategori" class="max-w-10xl mx-auto px-0 mt-5">
         <h2 class="text-2xl font-bold mb-6">KATEGORI</h2>
 
-        <div class="grid grid-cols-5 gap-6">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
 
-            <a href="/#/kategori/politik" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori" 
+            class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2 transition transform duration-300 hover:scale-[1.02] cursor-pointer">       
                 <span class="text-3xl">🏛</span>
                 <p class="font-medium">Politik</p>
             </a>
 
-            <a href="/#/kategori" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori" 
+            class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2 transition transform duration-300 hover:scale-[1.02] cursor-pointer">
                 <span class="text-3xl">💻</span>
-                <p class="font-medium">Teknologi</p>
+                <p class="font-medium">Edukasi</p>
             </a>
 
-            <a href="/#/kategori" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori" 
+            class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2 transition transform duration-300 hover:scale-[1.02] cursor-pointer">
                 <span class="text-3xl">⚽</span>
                 <p class="font-medium">Olahraga</p>
             </a>
 
-            <a href="/#/kategori" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori" 
+            class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2 transition transform duration-300 hover:scale-[1.02] cursor-pointer">
                 <span class="text-3xl">🎬</span>
                 <p class="font-medium">Hiburan</p>
             </a>
 
-            <a href="/#/kategori" class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2">
+            <a href="/#/kategori" 
+            class="bg-white p-6 rounded-xl shadow-sm flex flex-col justify-center items-center gap-2 transition transform duration-300 hover:scale-[1.02] cursor-pointer">
                 <span class="text-3xl">⋯</span>
                 <p class="font-medium">Lainnya</p>
             </a>
+
         </div>
     </section>
     `,

@@ -1,89 +1,104 @@
 const categories = [
     {
+        id: 1,
         title: "Teknologi Modern",
         desc: "Berita terbaru tentang teknologi masa kini.",
         published: "29 Oktober 2024",
         image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500"
     },
     {
+        id: 2,
         title: "Politik",
         desc: "Update politik nasional dan internasional.",
         published: "11 Januari 2024",
         image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9saXRpY3N8ZW58MHx8MHx8fDA%3D"
     },
     {
+        id: 3,
         title: "Olahraga",
         desc: "Berita seputar liga dunia dan olahraga nasional.",
         published: "20 Juni 2024",
         image: "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?w=500"
     },
     {
+        id: 4,
         title: "Ekonomi",
         desc: "Analisis perkembangan ekonomi global dan nasional.",
         published: "5 Februari 2024",
         image: "https://images.unsplash.com/photo-1618044733300-9472054094ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWNvbm9teXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
+        id: 5,
         title: "Kesehatan",
         desc: "Informasi kesehatan terbaru untuk menjaga hidup sehat.",
         published: "14 Maret 2024",
         image: "https://images.unsplash.com/photo-1467453678174-768ec283a940?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGVhbHRoeXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
+        id: 6,
         title: "Pendidikan",
         desc: "Tren pendidikan modern dan dunia akademis.",
         published: "8 April 2024",
         image: "https://plus.unsplash.com/premium_photo-1661767552224-ef72bb6b671f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN0dWR5fGVufDB8fDB8fHww"
     },
     {
+        id: 7,
         title: "Sains",
         desc: "Penemuan ilmiah terbaru dari seluruh dunia.",
         published: "19 Desember 2024",
         image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=500"
     },
     {
+        id: 8,
         title: "Hiburan",
         desc: "Info terbaru dunia film, musik, dan selebriti.",
         published: "7 Mei 2024",
         image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500"
     },
     {
+        id: 9,
         title: "Otomotif",
         desc: "Berita otomotif, mobil, dan motor terbaru.",
         published: "22 Juli 2024",
         image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500"
     },
     {
+        id: 10,
         title: "Kuliner",
         desc: "Rekomendasi kuliner dan tren makanan terbaru.",
         published: "1 Juni 2024",
         image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500"
     },
     {
+        id: 11,
         title: "Travel",
         desc: "Panduan dan rekomendasi tempat wisata menarik.",
         published: "12 Agustus 2024",
         image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500"
     },
     {
+        id: 12,
         title: "Bisnis",
         desc: "Insight dunia bisnis dan perkembangan startup.",
         published: "30 September 2024",
         image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500"
     },
     {
+        id: 13,
         title: "Gaya Hidup",
         desc: "Tren lifestyle dan tips hidup modern.",
         published: "16 November 2024",
         image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500"
     },
     {
+        id: 14,
         title: "Lingkungan",
         desc: "Berita lingkungan dan dampak perubahan iklim.",
         published: "2 Oktober 2024",
         image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=500"
     },
     {
+        id: 15,
         title: "Sejarah",
         desc: "Ulasan peristiwa sejarah dunia dan Indonesia.",
         published: "9 September 2024",
@@ -98,7 +113,6 @@ const politik = [
         desc: "Perkembangan terbaru jelang pemilu nasional.",
         published: "12 Januari 2024",
         image: "https://images.unsplash.com/photo-1504714146340-959ca07b2a10?w=500",
-        content: ``
     },
     {
         id: 2,

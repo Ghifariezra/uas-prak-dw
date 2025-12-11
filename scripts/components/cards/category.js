@@ -1,16 +1,15 @@
-import { 
-    categories, 
+import {
+    categories,
     politik,
     hiburan,
     edukasi,
     olahraga,
-    lingkunganSocial 
-} from "../../data/category.js"
+    lingkunganSocial
+} from "../../data/category.js";
 
 export default function renderCards(key) {
     const container = document.getElementById("cards-category");
     const titleNews = document.getElementById("new-news");
-    const descNews = document.getElementById("news-desc");
     if (!container) return;
 
     // pilih data sesuai kategori
@@ -19,27 +18,22 @@ export default function renderCards(key) {
     switch (key) {
         case "politik":
             titleNews.textContent = "Berita Politik";
-            if (descNews) descNews.classList.add("hidden");
             data = politik;
             break;
         case "hiburan":
             titleNews.textContent = "Berita Hiburan";
-            if (descNews) descNews.classList.add("hidden");
             data = hiburan;
             break;
         case "edukasi":
             titleNews.textContent = "Berita Edukasi";
-            if (descNews) descNews.classList.add("hidden");
             data = edukasi;
             break;
         case "olahraga":
             titleNews.textContent = "Berita Olahraga";
-            if (descNews) descNews.classList.add("hidden");
             data = olahraga;
             break;
         case "lingkungan-social":
             titleNews.textContent = "Berita Lingkungan & Social";
-            if (descNews) descNews.classList.add("hidden");
             data = lingkunganSocial;
             break;
         default:
@@ -47,7 +41,8 @@ export default function renderCards(key) {
     }
 
     container.innerHTML = data
-        .map(cat => `
+        .map(cat => {
+            return `
             <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col">
                 <div class="w-full aspect-[4/3] overflow-hidden">
                     <img class="w-full h-full object-cover" src="${cat.image}" alt="${cat.title}" />
@@ -65,6 +60,7 @@ export default function renderCards(key) {
                     </button>
                 </div>
             </div>
-        `)
+        `
+        })
         .join("");
 }

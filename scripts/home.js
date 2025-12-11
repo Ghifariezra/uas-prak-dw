@@ -1,6 +1,12 @@
 import pages from "./pages.js";
 import renderCards from "./components/cards/category.js"
 import renderMenuTypeCategory from "./components/menus/typeCategory.js"; "./components/menus/typeCategory.js"
+import renderDetail from "./components/detail/detail.js";
+
+// AGAR TOMBOL DETAIL BEKERJA (GLOBAL)
+window.bukaDetail = function (id) {
+    location.hash = `/detail/${id}`;
+};
 
 // Cache DOM
 const btn = document.getElementById("hamburger-btn");
@@ -38,9 +44,20 @@ function loadPage(page) {
 
 // Routing Based on Hash (#/beranda …)
 function handleRoute() {
-    const page = location.hash.replace("#/", "") || "beranda";
+    const hash = location.hash.replace("#/", "");
+
+    if (hash.startsWith("detail/")) {
+        const id = parseInt(hash.split("/")[1]);
+        content.innerHTML = pages.detail;
+        renderDetail(id);
+        return;
+    }
+
+    // route normal
+    const page = hash || "beranda";
     loadPage(page);
 }
+
 
 // Delegasi Event untuk Semua Link SPA
 document.body.addEventListener("click", function (e) {

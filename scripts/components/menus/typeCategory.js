@@ -27,7 +27,7 @@ export default function renderMenuTypeCategory() {
 </div>
 
         `).join("");
-    
+
     containerTypes.querySelectorAll("[data-category]").forEach(btn => {
         btn.addEventListener("click", () => {
             const key = btn.dataset.category;

@@ -125,10 +125,16 @@ const pages = {
             </div>
         </div>
     `,
+
+    detail:`
+        <div id="detail-container"></div>
+    `,
+
     tentang: `
         <h2 class="text-xl font-bold mb-2">Tentang Kami</h2>
         <p>BeritaKita adalah portal berita sederhana.</p>
     `,
+
     kontak: `
         <h2 class="text-xl font-bold mb-2">Kontak</h2>
         <p>Hubungi kami melalui email: support@beritakita.com</p>

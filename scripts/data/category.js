@@ -3,7 +3,12 @@ const categories = [
         title: "Teknologi Modern",
         desc: "Berita terbaru tentang teknologi masa kini.",
         published: "29 Oktober 2024",
-        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500"
+        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500",
+        content: `
+            Cara buat content, tinggal tambahain kaya gini aja yaaaa....
+
+            edit - edit nya di category.js ini yakkkkkkk
+        `
     },
     {
         title: "Politik",

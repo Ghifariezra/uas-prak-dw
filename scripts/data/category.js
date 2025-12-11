@@ -1,104 +1,89 @@
 const categories = [
     {
-        id: 1,
         title: "Teknologi Modern",
         desc: "Berita terbaru tentang teknologi masa kini.",
         published: "29 Oktober 2024",
         image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500"
     },
     {
-        id: 2,
         title: "Politik",
         desc: "Update politik nasional dan internasional.",
         published: "11 Januari 2024",
         image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9saXRpY3N8ZW58MHx8MHx8fDA%3D"
     },
     {
-        id: 3,
         title: "Olahraga",
         desc: "Berita seputar liga dunia dan olahraga nasional.",
         published: "20 Juni 2024",
         image: "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?w=500"
     },
     {
-        id: 4,
         title: "Ekonomi",
         desc: "Analisis perkembangan ekonomi global dan nasional.",
         published: "5 Februari 2024",
         image: "https://images.unsplash.com/photo-1618044733300-9472054094ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWNvbm9teXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
-        id: 5,
         title: "Kesehatan",
         desc: "Informasi kesehatan terbaru untuk menjaga hidup sehat.",
         published: "14 Maret 2024",
         image: "https://images.unsplash.com/photo-1467453678174-768ec283a940?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGVhbHRoeXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
-        id: 6,
         title: "Pendidikan",
         desc: "Tren pendidikan modern dan dunia akademis.",
         published: "8 April 2024",
         image: "https://plus.unsplash.com/premium_photo-1661767552224-ef72bb6b671f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN0dWR5fGVufDB8fDB8fHww"
     },
     {
-        id: 7,
         title: "Sains",
         desc: "Penemuan ilmiah terbaru dari seluruh dunia.",
         published: "19 Desember 2024",
         image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=500"
     },
     {
-        id: 8,
         title: "Hiburan",
         desc: "Info terbaru dunia film, musik, dan selebriti.",
         published: "7 Mei 2024",
         image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500"
     },
     {
-        id: 9,
         title: "Otomotif",
         desc: "Berita otomotif, mobil, dan motor terbaru.",
         published: "22 Juli 2024",
         image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500"
     },
     {
-        id: 10,
         title: "Kuliner",
         desc: "Rekomendasi kuliner dan tren makanan terbaru.",
         published: "1 Juni 2024",
         image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500"
     },
     {
-        id: 11,
         title: "Travel",
         desc: "Panduan dan rekomendasi tempat wisata menarik.",
         published: "12 Agustus 2024",
         image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500"
     },
     {
-        id: 12,
         title: "Bisnis",
         desc: "Insight dunia bisnis dan perkembangan startup.",
         published: "30 September 2024",
         image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500"
     },
     {
-        id: 13,
         title: "Gaya Hidup",
         desc: "Tren lifestyle dan tips hidup modern.",
         published: "16 November 2024",
         image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500"
     },
     {
-        id: 14,
         title: "Lingkungan",
         desc: "Berita lingkungan dan dampak perubahan iklim.",
         published: "2 Oktober 2024",
         image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=500"
     },
     {
-        id: 15,
         title: "Sejarah",
         desc: "Ulasan peristiwa sejarah dunia dan Indonesia.",
         published: "9 September 2024",
@@ -108,105 +93,90 @@ const categories = [
 
 const politik = [
     {
-        id: 1,
         title: "Pemilu Nasional 2024",
         desc: "Perkembangan terbaru jelang pemilu nasional.",
         published: "12 Januari 2024",
         image: "https://images.unsplash.com/photo-1504714146340-959ca07b2a10?w=500",
     },
     {
-        id: 2,
         title: "Debat Publik Antar Kandidat",
         desc: "Debat terbuka yang menyoroti isu ekonomi dan sosial.",
         published: "20 Februari 2024",
         image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=500"
     },
     {
-        id: 3,
         title: "Kebijakan Baru Tentang Pajak",
         desc: "Pemerintah mengumumkan aturan pajak terbaru.",
         published: "3 Maret 2024",
         image: "https://images.unsplash.com/photo-1581091870623-e0b1a4e3d9a5?w=500"
     },
     {
-        id: 4,
         title: "Hubungan Diplomatik Meningkat",
         desc: "Indonesia menjalin kerjasama strategis baru.",
         published: "15 Maret 2024",
         image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500"
     },
     {
-        id: 5,
         title: "Revisi UU Ketenagakerjaan",
         desc: "Pemerintah mengajukan revisi aturan ketenagakerjaan.",
         published: "29 April 2024",
         image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500"
     },
     {
-        id: 6,
         title: "Isu Korupsi Pejabat",
         desc: "Kasus korupsi kembali mencuat di kalangan pejabat.",
         published: "8 Mei 2024",
         image: "https://images.unsplash.com/photo-1546074177-ffdda98d214f?w=500"
     },
     {
-        id: 7,
         title: "Kenaikan Anggaran Infrastruktur",
         desc: "Pemerintah meningkatkan anggaran pembangunan wilayah.",
         published: "16 Mei 2024",
         image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500"
     },
     {
-        id: 8,
         title: "Isu Pertahanan Negara",
         desc: "Meningkatnya perhatian pemerintah terhadap keamanan.",
         published: "25 Mei 2024",
         image: "https://images.unsplash.com/photo-1606788075760-3b8403b0b5c0?w=500"
     },
     {
-        id: 9,
         title: "Aksi Demo Mahasiswa",
         desc: "Ribuan mahasiswa turun ke jalan menolak rancangan UU.",
         published: "10 Juni 2024",
         image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=500"
     },
     {
-        id: 10,
         title: "Isu Kenaikan BBM",
         desc: "Pemerintah mempertimbangkan regulasi harga energi.",
         published: "24 Juni 2024",
         image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500"
     },
     {
-        id: 11,
         title: "Pertemuan Tingkat Tinggi",
         desc: "Delegasi Indonesia menghadiri pertemuan internasional.",
         published: "5 Juli 2024",
         image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500"
     },
     {
-        id: 12,
         title: "Kebijakan Pertanian Baru",
         desc: "Pemerintah menetapkan subsidi untuk sektor pertanian.",
         published: "22 Juli 2024",
         image: "https://images.unsplash.com/photo-1470509037663-253afd7f0f09?w=500"
     },
     {
-        id: 13,
         title: "Reformasi Sistem Pendidikan",
         desc: "Parlemen membahas kurikulum pendidikan nasional.",
         published: "9 Agustus 2024",
         image: "https://images.unsplash.com/photo-1588072432904-843af37f0c9f?w=500"
     },
-    {  
-        id: 14,
+    {
         title: "Rencana Pemindahan Ibu Kota",
         desc: "Tahap pembangunan ibu kota baru terus berjalan.",
         published: "19 September 2024",
         image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c9bb?w=500"
     },
     {
-        id: 15,
         title: "Isu Keamanan Siber",
         desc: "Pemerintah meningkatkan sistem keamanan digital nasional.",
         published: "30 September 2024",
@@ -442,7 +412,7 @@ const hiburan = [
         desc: "Official Poster Film Ghost in the Cell .",
         published: "09 Desember 2025",
         image: "https://imgur.com/ndIBIkD?w=500",
-        content : `
+        content: `
         BeritaKita ~~ Joko Anwar kembali hadir dengan karya terbaru yang siap mengguncang dunia perfilman Indonesia lewat film berjudul Ghost in The Cell. 
         Film ini menjadi sorotan sejak awal diumumkan, terutama karena menghadirkan Abimana Aryasatya sebagai pemeran utama. 
 
@@ -627,7 +597,7 @@ const hiburan = [
         desc: "Platform marketplace Itemku.",
         published: "27 November 2025",
         image: "https://imgur.com/IC4zNSO?w=500",
-        content:`
+        content: `
         BeritaKita ~~ Itemku, platform e-commerce yang melayani transaksi jual beli item, gold, voucher game, top-up, dan akun game untuk berbagai judul game, mengumumkan langkah strategis untuk memperluas jangkauan bisnis ke pasar internasional.
 
         Ekspansi internasional menjadi bagian dari strategi jangka panjang perusahaan untuk membangun kehadiran di lebih banyak negara, menyatukan gamer global dalam satu platform pertukaran yang andal, aman, dan kompetitif secara harga.

@@ -4,8 +4,8 @@ import renderMenuTypeCategory from "./components/menus/typeCategory.js"; "./comp
 import renderDetail from "./components/detail/detail.js";
 
 // AGAR TOMBOL DETAIL BEKERJA (GLOBAL)
-window.bukaDetail = function (id) {
-    location.hash = `/detail/${id}`;
+window.bukaDetail = function (title) {
+    location.hash = `/detail/${encodeURIComponent(title)}`;
 };
 
 // Cache DOM
@@ -47,9 +47,11 @@ function handleRoute() {
     const hash = location.hash.replace("#/", "");
 
     if (hash.startsWith("detail/")) {
-        const id = parseInt(hash.split("/")[1]);
+        const title = decodeURIComponent(hash.split("/")[1]);
+        console.log(title)
+
         content.innerHTML = pages.detail;
-        renderDetail(id);
+        renderDetail(title);
         return;
     }
 
@@ -65,7 +67,7 @@ document.body.addEventListener("click", function (e) {
         e.preventDefault();
 
         const page = e.target.dataset.page;
-        
+
         // console.log(page);
 
         loadPage(page);

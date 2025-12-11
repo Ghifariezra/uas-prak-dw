@@ -38,6 +38,7 @@ export default function renderCards(key) {
             break;
         default:
             data = categories;
+            break;
     }
 
     container.innerHTML = data
@@ -55,7 +56,7 @@ export default function renderCards(key) {
                     <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">${cat.desc}</p>
                 </div>
                 <div class="p-4 pt-0 self-end">
-                    <button onclick="bukaDetail(${cat.id})" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-md transition-colors cursor-pointer">
+                    <button onclick="bukaDetail('${cat.title}')" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-md transition-colors cursor-pointer">
                         Baca Selengkapnya...
                     </button>
                 </div>

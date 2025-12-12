@@ -6,7 +6,6 @@ const searchState = {
     lastQuery: ""
 };
 
-// ========== INIT SEARCH TOGGLE ==========
 export function initSearchToggle() {
     const searchIconDesktop = document.getElementById("search-icon-desktop");
     const searchIconMobile = document.getElementById("search-icon-mobile");

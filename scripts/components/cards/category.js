@@ -37,6 +37,7 @@ export default function renderCards(key) {
             data = lingkunganSocial;
             break;
         default:
+            titleNews.textContent = "Berita Terbaru";
             data = categories;
             break;
     }

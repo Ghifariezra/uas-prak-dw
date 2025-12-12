@@ -1016,6 +1016,12 @@ const lingkunganSocial = [
 
 const typeCategory = [
     {
+        title: "All",
+        image: "./assets/images/shuffle.png",
+        alt: "Semua Kategori",
+        key: "all"
+    },
+    {
         title: "Politik",
         image: "./assets/images/politician.png",
         alt: "Politik",

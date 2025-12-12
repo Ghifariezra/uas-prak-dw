@@ -30,7 +30,8 @@ export default function renderMenuTypeCategory() {
     containerTypes.querySelectorAll("[data-category]").forEach(btn => {
         btn.addEventListener("click", () => {
             const key = btn.dataset.category;
-            renderCards(key);
+            
+            renderCards(key, "kategori");
         });
     });
 }

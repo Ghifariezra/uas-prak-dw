@@ -5,32 +5,49 @@ export default function renderMenuTypeCategory() {
     const containerTypes = document.getElementById("types-category")
     if (!containerTypes) return;
 
-    containerTypes.innerHTML = typeCategory.map(
-        type => `
-            <div class="flex flex-col items-center gap-3 
-                flex-[0_0_100%] sm:flex-[0_0_45%] lg:flex-[0_0_28%]
-                p-4 bg-gray-50 rounded-xl border border-gray-200 shadow-sm 
-                hover:shadow-md hover:bg-gray-100 hover:-translate-y-1
-                transition-all duration-300 cursor-pointer" data-category="${type.key}">
+    containerTypes.innerHTML = typeCategory.map(type => `
+        <div 
+            class="
+                group flex flex-col items-center justify-center
+                p-6 rounded-2xl border border-gray-200 bg-white 
+                shadow-sm hover:shadow-lg 
+                hover:border-blue-400 hover:bg-blue-50/40
+                transition-all duration-300 cursor-pointer
 
-                <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-white shadow-inner">
-                    <img 
-                        class="w-10 h-10 object-contain"
-                        src="${type.image}" 
-                        alt="${type.alt}"
-                    >
-                </div>
+                flex-[0_0_100%] sm:flex-[0_0_48%] lg:flex-[0_0_30%]
+            "
+            data-category="${type.key}"
+        >
 
-                <span class="text-gray-800 font-medium text-sm sm:text-base tracking-wide">
-                    ${type.title}
-                </span>
+            <!-- ICON WRAPPER -->
+            <div class="
+                w-16 h-16 flex items-center justify-center 
+                rounded-xl bg-white shadow 
+                group-hover:shadow-md group-hover:scale-110
+                transition-all duration-300
+            ">
+                <img 
+                    src="${type.image}" 
+                    alt="${type.alt}" 
+                    class="w-12 h-12 object-contain"
+                >
             </div>
-        `).join("");
+
+            <!-- TITLE -->
+            <span class="
+                mt-3 text-gray-800 font-semibold 
+                text-base sm:text-lg tracking-wide
+                group-hover:text-blue-600 transition
+            ">
+                ${type.title}
+            </span>
+        </div>
+    `).join("");
 
     containerTypes.querySelectorAll("[data-category]").forEach(btn => {
         btn.addEventListener("click", () => {
             const key = btn.dataset.category;
-            
+
             renderCards(key, "kategori");
         });
     });

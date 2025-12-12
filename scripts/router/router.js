@@ -40,7 +40,6 @@ export function loadPage(page) {
     location.hash = `/${page}`;
 }
 
-
 export function handleRoute() {
     const hash = location.hash.replace("#/", "");
 

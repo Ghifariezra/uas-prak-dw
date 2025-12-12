@@ -27,13 +27,13 @@ export default function renderDetail(title) {
     }
 
     container.innerHTML = `
-        <div class="w-full mx-auto bg-white p-6 rounded-xl shadow-md mt-5">
+        <div class="w-full mx-auto bg-white p-6 rounded-xl shadow-md">
             <img src="${item.image}" class="w-full rounded-xl mb-4" />
 
             <h1 class="text-3xl font-bold mb-2">${item.title}</h1>
             <p class="text-gray-500 text-sm">${item.published}</p>
 
-            <p class="text-gray-700 leading-relaxed whitespace-pre-line">
+            <p id="detail-content" class="text-gray-700 text-justify leading-relaxed whitespace-pre-line">
                 ${item.content}
             </p>
 

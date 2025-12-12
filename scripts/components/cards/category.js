@@ -56,7 +56,9 @@ export default function renderCards(key = "all", page = "beranda") {
                     <div class="p-4 flex flex-col gap-2 flex-grow">
                         <div class="flex justify-between items-start">
                             <h1 class="text-lg font-semibold text-gray-800 leading-tight">${cat.title}</h1>
-                            <span class="text-xs text-gray-500 whitespace-nowrap">${cat.published}</span>
+                            <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded-md">
+                                ${cat.published}
+                            </span>
                         </div>
 
                         ${tooltipDesc(cat.content, tooltipId)}
@@ -74,4 +76,5 @@ export default function renderCards(key = "all", page = "beranda") {
         .join("");
 
     window.initTooltips();
+    window.initBad
 }

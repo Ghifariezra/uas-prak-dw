@@ -12,7 +12,6 @@ export function initEvents() {
         mobileNav.classList.toggle("scale-y-0");
     });
 
-
     // === Search Close ===
     document.querySelectorAll("[data-page]").forEach((item) => {
         item.addEventListener("click", (e) => {
@@ -27,7 +26,6 @@ export function initEvents() {
             closeIcon.classList.add("hidden");
         });
     });
-
 
     // === HASH ROUTER ===
     window.addEventListener("hashchange", handleRoute);

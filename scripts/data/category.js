@@ -4,8 +4,7 @@ const categories = [
         desc: "Berita terbaru tentang teknologi masa kini.",
         published: "29 Oktober 2024",
         image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500",
-        content: `
-            Cara buat content, tinggal tambahain kaya gini aja yaaaa....
+        content: `Cara buat content, tinggal tambahain kaya gini aja yaaaa....
 
             edit - edit nya di category.js ini yakkkkkkk
         `
@@ -195,8 +194,7 @@ const hiburan = [
         desc: "Lagu baru Tiara Andini berjudul Ngeluwihi menampilkan lirik berbahasa Jawa dan Inggris yang digarap produser musik internasional, Hyuk Shin.",
         published: "5 Januari 2025",
         image: "https://imgur.com/C8IR70B?w=500",
-        content: `
-        BeritaKita ~~ Penyanyi, Tiara Andini, kembali merilis single baru berjudul Ngeluwihi. 
+        content: `BeritaKita ~~ Penyanyi, Tiara Andini, kembali merilis single baru berjudul Ngeluwihi. 
         Video musik untuk lagu baru itu tayang tepat tengah malam tadi pada Jumat, 5 Januari 2024. 
         Tak main-main, dalam lagu ini, Tiara menghadirkan gebrakan baru yang makin menunjukkan eksistensinya sebagai bintang pop populer Indonesia.
 

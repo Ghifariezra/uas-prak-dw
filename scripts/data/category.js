@@ -98,94 +98,274 @@ const categories = [
 
 const politik = [
     {
-        title: "Pemilu Nasional 2024",
-        desc: "Perkembangan terbaru jelang pemilu nasional.",
-        published: "12 Januari 2024",
+        title: "Konsolidasi Dini untuk Pemilu 2029",
+        desc: "Bahlil Lahadalia mengusulkan pembentukan koalisi permanen. Usulan itu bakal berdampak buruk terhadap demokrasi.",
+        published: "11 Desember 2025",
         image: "https://images.unsplash.com/photo-1504714146340-959ca07b2a10?w=500",
+        content:`
+        KOALISI partai politik di Indonesia kerap berubah-ubah dalam setiap pemilihan presiden. Partai politik tidak pernah betul-betul membentuk koalisi dalam jangka panjang atau koalisi permanen. 
+        Partai politik membentuk koalisi untuk memenuhi syarat ambang batas pencalonan presiden dan wakil presiden dalam setiap pemilihan umum. Tapi keanggotaan kaolisi itu akan buyar setelah pemilihan presiden. 
+        Hanya koalisi yang memenangi pemilihan presiden yang tetap bertahan. Bahkan anggota koalisi itu bakal bertambah gemuk. 
+        
+        Contoh teranyar, keanggotaan Koalisi Indonesia Maju (KIM) yang mengusung Prabowo Subianto-Gibran Rakabuming Raka sebagai calon presiden-wakil presiden dalam Pemilu 2024. Awalnya koalisi itu terdiri atas sembilan partai politik, yaitu Partai Gerindra, 
+        Partai Golkar, Partai Amanat Nasional, Partai Demokrat, Partai Solidaritas Indonesia, Partai Bulan Bintang, Partai Gelombang Rakyat Indonesia (Gelora), Partai Garuda, dan Partai Rakyat Adil Makmur (Prima).Setelah pemilihan presiden 2024 usai, Prabowo-Gibran 
+        yang memenangi pemilihan merangkul semua partai politik di luar KIM. Saat ini hanya tersisa Partai Demokrasi Indonesia Perjuangan yang tidak bergabung dalam koalisi pendukung pemerintahan Prabowo. Namun PDIP tidak juga menjadi oposisi. 
+        Partai berlambang banteng moncong putih itu tetap berkomitmen mendukung program pemerintah lewat jalur Dewan Perwakilan Rakyat. Satu tahun lebih pemerintahan Prabowo, Ketua Umum Partai Golkar Bahlil Lahadalia mengusulkan pembentukan koalisi permanen. 
+        Tujuannya untuk menciptakan stabilitas pemerintahan dan konsolidasi dalam menghadapi Pemilu 2029. Banyak faktor yang akan membuat usulan koalisi permanen itu sulit terealisasi. Keberadaan koalisi permanen juga memicu dampak buruk terhadap demokrasi. 
+        Berbagai dugaan motif terselubung dari usulan pembentukan koalisi permanen hingga dampak buruk yang bakal ditimbulkannya diulas secara lengkap dalam artikel berjudul “Mengapa Koalisi Permanen Sulit Terbentuk”, edisi Kamis, 11 Desember 2025.
+        `
     },
     {
-        title: "Debat Publik Antar Kandidat",
-        desc: "Debat terbuka yang menyoroti isu ekonomi dan sosial.",
-        published: "20 Februari 2024",
-        image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=500"
+        title: "75 Pemuda Sorong Diasah Parpol, Belajar Politik Santun dan Ekonomi Kreatif",
+        desc: "PELATIHAN POLITIK EKONOMI - Sebanyak 75 generasi muda di Kota Sorong, Papua Barat Daya dapat pelatihan dasar sosial politik dan ekonomi kreatif.",
+        published: "10 Desember 2025",
+        image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=500",
+        content: `
+        Sebanyak 75 generasi muda di Kota Sorong, Papua Barat Daya dapat pelatihan dasar sosial politik dan ekonomi kreatif dari DPC Partai Grerindra di Waigo Hotel, Kota Sorong, Papua Barat Daya, Rabu (10/12/2025). Pelatihan mengusung tema ‘Membangun Budaya Politik 
+        Santun dan Berintegritas dalam Mengakselerasi Kemandirian Ekonomi Generasi Kekinian. Dewan Penasihat DPD Gerindra Papua Barat Daya Syamsudin Djohan mengatakan, pelatihan ini merupakan bentuk komitmen partai dalam memberikan edukasi sosial politik, sekaligus dorongan 
+        untuk meningkatkan kemandirian ekonomi di kalangan pemuda.
+        
+        “Partai ini mengambil bagian untuk memberikan pendidikan sosial politik bahkan sampai kepada ekonomi kemandirian,” katanya. Pelatihan ini diarahkan untuk menjawab tantangan peran pemuda yang dikenal sebagai Generasi Z. 
+        Melihat peran pemuda hari ini, tongkat estafet itu ada di tangan mereka. Pelatihan ini menjadi tanggung jawab semua partai, sebagai kewajiban memberikan edukasi kepada masyarakat, terutama generasi muda. “Kegiatan ini menghadirkan narasumber utama Dr. Agus Sukritusman, seorang 
+        dosen dan coach kemandirian ekonomi,” katanya. “Ini bersifat umum agar pembekalan ini bermanfaat lebih luas.” 
+        
+        Partai mendorong generasi muda memahami dinamika politik dengan santun dan berintegritas, sekaligus kreatif dalam membaca peluang ekonomi di era digital. Peserta dibekali materi tentang literasi politik dan etika komunikasi publik, bagaimana membangun jejaring sosial politik yang sehat, 
+        konsep dasar kemandirian ekonom dan kreativitas dan inovasi dalam ekonomi kekinian. Pelatihan Dasar Sosial Politik dan Ekonomi Kreatif ini menjadi komitmen nyata Gerindra dalam membina generasi muda agar mampu tumbuh sebagai pemimpin masa depan yang berintegritas, santun dalam politik, 
+        dan mandiri secara ekonomi. 
+        `
     },
     {
-        title: "Kebijakan Baru Tentang Pajak",
-        desc: "Pemerintah mengumumkan aturan pajak terbaru.",
-        published: "3 Maret 2024",
-        image: "https://images.unsplash.com/photo-1581091870623-e0b1a4e3d9a5?w=500"
+        title: "Jimly Jelaskan Ide Kapolri Dipilih Presiden: Agar Tak Terpengaruh Politik",
+        desc: "Ketua Komisi Percepatan Reformasi Polri Jimly Asshiddiqie saat ditemui di Gedung Kementerian Sekretariat Negara, Jakarta Pusat, Rabu (10/12/2025).",
+        published: "10 Desember 2025",
+        image: "https://images.unsplash.com/photo-1581091870623-e0b1a4e3d9a5?w=500",
+        content:`
+        Ketua Komisi Percepatan Reformasi Polri, Jimly Asshiddiqie, menyatakan ada kemungkinan Presiden bisa memilih langsung Kapolri tanpa melalui proses politik di DPR agar Kapolri tidak sibuk membalas jasa ke DPR. "Saya rasa salah satu yang saudara tanya itu kemungkinan, walaupun belum kami buat 
+        keputusan resmi, tapi kira-kira ada kemungkinan ke arah itu (Presiden pilih langsung Kapolri)," ujar Jimly di Gedung Kemensetneg, Jakarta Pusat, Rabu (10/12/2025). Apalagi, usulan agar Kapolri ditunjuk Presiden sudah banyak bergulir dalam rapat Komisi Percepatan Reformasi Polri bersama unsur eksternal, 
+        termasuk oleh para mantan Kapolri. Jimly menyampaikan bahwa usulan Presiden bisa langsung menunjuk Kapolri memang mendapat perhatian dari semua kalangan. Dengan demikian, dia menekankan, Komisi Percepatan Reformasi Polri akan mengusulkan agar aturan baru tersebut diatur. "Tadi kami terperanjat, saya sendiri terperanjat. 
+        Karena apa? Karena ini mantan-mantan polisi yang senior-senior, pikirannya kok sama gitu lho, masukan-masukan yang diberikan dari kalangan masyarakat," jelasnya. "Termasuk isu polisi jangan sampai ke depan itu banyak dipengaruhi oleh kepentingan politik dan juga kepentingan ekonomi. Supaya dia betul-betul menjadi aparatur untuk 
+        kepentingan rakyat. Jadi antara negara dengan masyarakat, bisnis, politik, betul-betul polisi itu garda terdepan untuk hidup damai, aman, damai, dan adil. Jadi dia keamanan, dia juga pintu untuk penegak keadilan," imbuh Jimly. 
+        
+        Usulan "Kapolri dipilih Presiden" disampaikan Da'i Bachtiar Sebelumnya, mantan 
+        Kapolri Jenderal (Purn) Da'i Bachtiar mengusulkan agar Presiden bisa langsung memilih Kapolri sendiri tanpa melalui proses politik di DPR. Da'i menyebut, Pusat Purnawirawan (PP) Polri telah membahas perubahan aturan tersebut dengan Komisi Percepatan Reformasi Polri. Hal tersebut Da'i sampaikan usai PP Polri bertemu dengan Komisi 
+        Percepatan Reformasi Polri di Gedung Kementerian Sekretariat Negara (Kemensetneg), Jakarta Pusat, Rabu (10/12/2025). "Yang tadi disinggung adalah bahwa pemilihan Kapolri itu kan Presiden toh, hak prerogatifnya Presiden. Tetapi, Presiden harus mengirimkan ke DPR untuk minta persetujuan. Nah, ini juga jadi pertanyaan. 
+        Apakah masih perlu aturan itu?" ujar Da'i. "Tidakkah sepenuhnya kewenangan prerogatif dari seorang Presiden memilih calon Kapolri dari persyaratan yang dipenuhi dari Polri itu sendiri? Tidak perlu membawa kepada forum politik gitu, melalui DPR," sambungnya. Da'i khawatir, jika dipilih melalui DPR, Kapolri yang terpilih bakal 
+        memikul beban balas jasa. Sebab, selama ini, calon Kapolri yang dipilih Presiden harus melalui fit and proper test di DPR dulu. Jika disetujui, barulah nama calon Kapolri dikembalikan ke Presiden. "Sebab apa? Ini dikhawatirkan ada beban-beban yang dihadapi oleh si Kapolri ini setelah milih, karena mungkin ada balas jasa dan sebagainya 
+        di forum persetujuan itu. Walaupun tujuannya baik ya, kontrol kepada kekuasaan prerogatif dari Presiden," jelas Da'i. 
+        `
     },
     {
-        title: "Hubungan Diplomatik Meningkat",
-        desc: "Indonesia menjalin kerjasama strategis baru.",
-        published: "15 Maret 2024",
-        image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500"
+        title: "Diplomasi Politik di Balik Pertemuan Surya Paloh & Sjafrie Sjamsoeddin",
+        desc: "Ketua Umum Partai NasDem Surya Paloh menggelar pertemuan dengan Menteri Pertahanan Sjafrie Sjamsoeddin di Kantor Kementerian Pertahanan, Rabu (15/10).",
+        published: "16 Oktober 2025",
+        image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500",
+        content: `
+        Dalam pertemuan yang berlangsung sekitar satu jam tersebut, Sjafrie mengklaim mendapat masukan dari Surya Paloh dalam tugasnya sebagai penentu kebijakan nasional di bidang stabilitas keamanan. "Pak Surya Paloh memberi masukan informal tetapi penuh dengan komitmen nasionalisme dan patriotisme yang beliau sampaikan kepada saya," 
+        kata Sjafrie kepada awak media. Sjafrie mengatakan NasDem menjadi partai pertama di luar Koalisi Indonesia Maju yang menemui dirinya. Dalam beberapa hari ke depan, terang dia, ada jadwal pertemuan dengan PKS. "Saya kemarin sore juga mendengar laporan bahwa PKS juga akan berkunjung dan ini adalah kantornya rakyat, kantornya rakyat yang 
+        berdaulat, tetapi di bidang stabilitas," imbuhnya. Sementara itu, Surya Paloh mengklaim tidak ada pembahasan NasDem bergabung dengan kabinet Prabowo dalam pertemuan dimaksud. Dia hanya menyampaikan harapan agar pemerintahan Prabowo berhasil ke depan. "Akhirnya, tidak semuanya pembicaraan kita itu mengarah kepada apakah memang sekarang 
+        yang NasDem di luar kabinet nanti ada pembicaraan ke arah kabinet, enggak ada," ungkap Paloh.
+
+        Pengaruh Sjafrie di Prabowo semakin kuat
+        Direktur Eksekutif Indonesia Political Opinion (IPO) Dedi Kurnia Syah mengatakan dari posisi ketokohan di lingkar Presiden, Sjafrie dapat dikatakan sebagai tangan kiri Presiden, sementara tangan kanan adalah Sufmi Dasco Ahmad. "Sebagai tokoh yang tepat berada di samping Presiden, pengaruh Sjafrie juga cukup kuat, sehingga memungkinkan 
+        Sjafrie dijadikan jalur komunikasi bagi elite politik menuju Presiden Prabowo," ujar Dedi kepada CNNIndonesia.com, Rabu (15/10). "Untuk itu, pertemuan Surya Paloh dengan Sjafrie sangat mungkin bernuansa diplomasi politik, utamanya posisi Nasdem saat ini, utamanya lagi pasca ditinggalkan tokoh elite Nasdem ke PSI," sambungnya.
+
+        Melihat peluang Prabowo mulai menjauhi Jokowi
+        Dedi memandang bagaimanapun Surya Paloh memahami eksistensi kekuasaan partai politik tetap harus dekat dengan kekuasaan, meskipun tidak secara vulgar harus menjadi bagian dari pemerintah. Kata dia, menjalin relasi dianggap sebagai hal yang utama. Apalagi kata dia, Prabowo dinilai sudah semakin menjauhi pengaruh Presiden RI ke-7 Joko Widodo.
+        "Sisi lain, Presiden Prabowo juga sudah mulai terlihat menjauh dari pengaruh Jokowi, dalih ini bisa dijadikan alasan bagi NasDem untuk mulai memikirkan masuk kembali ke kabinet bersama Prabowo, dan Sjafrie adalah tokoh 'non politis' yang memungkinkan punya akses kuat ke Presiden Prabowo," ungkap Dedi. Dia menuturkan sejumlah keuntungan bisa 
+        diperoleh NasDem dari sikap politiknya saat ini. "NasDem sedang menjalankan keseimbangan politik, satu sisi ia mempertahankan loyalis di tingkat pemilih dengan tidak bertentangan dengan Pemerintah, sisi lain NasDem juga tidak akan terimbas jika pemerintah lakukan kekeliruan," tutur Dedi. "Dari sisi praktisnya, NasDem terkesan mengendalikan 
+        diplomasi, mereka bisa tentukan kapan masuk ke kabinet dan kapan tidak," lanjutnya lagi.
+
+        Bahas manuver PSI bajak NasDem
+        Sementara itu, Direktur Trias Politika Strategis Agung Baskoro melihat dua hal besar di balik pertemuan kedua tokoh tersebut. Pertama, secara normatif, Agung mengatakan Surya Paloh ingin membuka ruang komunikasi, koordinasi, dan kerja sama dengan Kementerian Pertahanan berkaitan dengan program bela negara. Namun, Agung lebih condong ke kemungkinan 
+        kedua yakni Surya Paloh yang ingin membuka ruang komunikasi politik ke Prabowo melalui jalur Sjafrie. Hal itu dilakukan untuk merespons manuver PSI yang 'membajak' elite NasDem. Mantan Wakil Ketua Umum NasDem yakni Ahmad Ali kini sudah berlabuh ke PSI dan ditunjuk menjadi ketua harian di bawah kepemimpinan putra Jokowi, Kaesang Pangarep. Agung menduga 
+        manuver eks kader ke PSI yang disebut akan menempatkan Jokowi sebagai Ketua Dewan Pembina PSI cukup membuat tekanan politik ke partainya. "Memang harus diakui pak Sjafrie ini punya dalam tanda petik pasukan ya karena dia Kementerian Pertahanan dan pak Surya sedikit banyak ingin memastikan political security itu mereka dapatkan," ungkap Agung.
+        "Apalagi memang dalam beberapa waktu terakhir NasDem, pak Surya, terhimpit dengan manuver PSI karena beberapa kadernya pindah bendera ke partai besutan Mas Kaesang, tentu ini memberikan semacam tekanan-tekanan politik yang perlu direspons dengan manuver ataupun pola kerja sama politik lainnya untuk memperkuat posisi tawar NasDem," pungkas Agung. Sebelumnya, 
+        dua kader Partai NasDem yakni Ahmad Ali dan Bestari Barus masuk dalam kepengurusan Partai Solidaritas Indonesia (PSI). 
+        `
     },
     {
-        title: "Revisi UU Ketenagakerjaan",
-        desc: "Pemerintah mengajukan revisi aturan ketenagakerjaan.",
-        published: "29 April 2024",
-        image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500"
+        title: "Basuki Datangi Istana, Lapor Kesiapan IKN Jadi Ibu Kota Politik",
+        desc: "Kepala Otorita IKN Basuki Hadimuljono melaporkan progres pembangunan IKN ke dua Wakil Menteri Sekretaris Negara, Juri Ardiantoro dan Bambang Eko Suharyanto. (CNN Indonesia/Sakti Darma Abhiyoso).",
+        published: "3 Oktober 2025",
+        image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500",
+        content: `
+        Kepala Otorita Ibu Kota Nusantara (IKN) Basuki Hadimuljono mendatangi Istana Kepresidenan Jakarta untuk melaporkan progres pembangunan IKN. Ia mengatakan laporan terkait status dan perkembangan pembangunan itu disampaikan melalui dua Wakil Menteri Sekretaris Negara, yakni Juri Ardiantoro dan Bambang Eko Suharyanto. "Saya melaporkan status dan progres pembangunan 
+        Ibu Kota Nusantara pasca terbitnya Perpres 79/2025," kata Basuki saat ditemui di Istana Kepresidenan Jakarta pada Jumat (3/10) hari ini. Dalam kesempatan itu, Basuki juga memaparkan rencana pembangunan tahun 2026-2028 yang akan difokuskan pada penyelesaian kawasan legislatif dan yudikatif sesuai arahan Presiden Prabowo Subianto. Basuki optimistis IKN bisa menjadi 
+        ibu kota politik pada 2028. Menurutnya, hal ini sesuai amanat dalam Peraturan Presiden Nomor 79 Tahun 2025. "Kami optimis Nusantara dapat dipersiapkan sebagai Ibu Kota Politik Indonesia yang modern, inklusif dan siap menjalankan sistem pemerintahan yang lengkap pada 2028," ucapnya. Basuki juga menyambangi Menteri Keuangan Purbaya Yudhi Sadewa, Rabu (1/10). 
+        
+        Mereka membahas anggaran untuk kelanjutan pembangunan IKN. "Menkeu Purbaya turut memberikan dukungan atas 3 skema pembiayaan untuk kelanjutan pembangunan IKN," tulis keterangan di akun Instagram @menkeuri. Pertama, Purbaya berjanji mengucurkan APBN untuk pembangunan IKN. Namun, ia tak menyebutkan anggaran yang dibahas dalam pertemuan itu. Kedua, pendanaan melalui 
+        kerja sama pemerintah dan badan usaha (KPBU). Ketiga, foreign direct investment (FDI) alias investasi asing. Sebelumnya, Prabowo memutuskan melanjutkan pembangunan IKN. Ia menekankan pembangunan IKN diarahkan ke ibu kota politik. Prabowo meminta Otorita IKN mengebut pembangunan kompleks kantor legisatif dan yudikatif. Ia ingin IKN menjadi ibu kota politik per 2028.
+        Pemerintah juga mulai memindahkan ASN ke IKN secara bertahap. Targetnya, 9.500 orang ASN berkantor di IKN per 2029.
+        `
     },
     {
-        title: "Isu Korupsi Pejabat",
-        desc: "Kasus korupsi kembali mencuat di kalangan pejabat.",
-        published: "8 Mei 2024",
-        image: "https://images.unsplash.com/photo-1546074177-ffdda98d214f?w=500"
+        title: "Golkar Nilai Koalisi Permanen Masuk RUU Pemilu Akan Batasi Komunikasi Politik",
+        desc: "Waketum Partai Golkar sekaligus Anggota Komisi II DPR, Ahamd Doli Kurnia, menanggapi usulan koalisi permanen untuk masuk dalam revisi undang-undang (RUU) Pemilu.",
+        published: "11 Desember 2025",
+        image: "https://images.unsplash.com/photo-1546074177-ffdda98d214f?w=500",
+        content: `
+        Waketum Partai Golkar sekaligus Anggota Komisi II DPR, Ahamd Doli Kurnia, menanggapi usulan koalisi permanen untuk masuk dalam revisi undang-undang (RUU) Pemilu. Doli menilai melegalisasi koalisi permanen dalam UU Pemilu akan membatasi kelelusaan partai dalam mengembangkan visi dan misi. "Jadi selama ini koalisi itu terbentuk secara alamiah saja. Jadi menurut saya kita 
+        harus hati-hati kemudian memasukkan itu secara formal," kata Doli kepada wartawan, Kamis (11/12/2025). "Karena nanti itu tidak, akan membuat tidak adanya fleksibilitas dalam membangun komunikasi politik yang berdasarkan visi dan misi periode itu," sambung dia. Menurutnya, koalisi dibutuhkan untuk menjaga stabilitas politik, khususnya dalam langkah menjalankan program pemerintahan. 
+        Maka, jika dimasukkan dalam RUU Pemilu akan mengurangi fleksibilitas. "Kalau sudah dikunci dari awal, itu nanti bisa mengarah kepada terjadi kekakuan politik, tidak adanya kelenturan di dalam kita menyusun visi dan program bersama itu," ujarnya. Wakil Ketua Baleg ini mengakui di Indonesia belum pernah terjadi koalisi permanen. Selama ini, kata dia, koalisi hanya bersifat temporer 
+        lantaran dinamika politik yang terus berkembang. Sebab itu, dia mengatakan perlu kajian mendalam jika ingin memasukkan koalisi permanen dalam RUU Pemilu. "Jadi karena ketidakadanya keleluasaan, ketidakleluasaan itu mengakibatkan partai politik tidak bisa mengembangkan secara terbuka, apa yang menjadi gagasannya, apa yang menjadi visinya, apa yang menjadi idenya," tuturnya. 
+        
+        "Jadi menurut saya biarkan saja partai politik ini, sebebas-bebasnya mengelaborasi, apa tentang konsep membangun negara dan bangsa. Nah titik temunya di mana, di situ terjadi koalisi," imbuh dia. Sebelumnya, PAN turut merespons usulan Ketum Golkar Bahlil Lahadalia terkait koalisi permanen. PAN sepakat dengan usulan tersebut, tapi perlu dimasukkan dalam UU Pemilu. 
+        "Pernyataan Ketua Umum Golkar, Mas Bahlil Lahadalia, patut diapresiasi dalam meletakkan fondasi membangun sistem presidensial Indonesia ke depan dengan multipartai. Jika koalisi permanen menjadi keputusan politik seluruh partai, maka harus masuk di pasal di UU Pemilu. Jika itu terjadi, PAN satu pemikiran dengan Golkar," kata Waketum PAN Viva Yoga Mauladi, Sabtu (6/12). "Kita tunggu 
+        jadwal revisi UU Pemilu (kodifikasi dari tiga UU, yakni UU Pilpres; UU Penyelenggara Pemilu; UU Pemilihan Anggota DPR, DPD; DPRD Provinsi, Kabupaten/ Kota)," lanjutnya.
+        `
     },
     {
-        title: "Kenaikan Anggaran Infrastruktur",
-        desc: "Pemerintah meningkatkan anggaran pembangunan wilayah.",
-        published: "16 Mei 2024",
-        image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500"
+        title: "Wujudkan Cita-Cita Bangsa melalui Instrumen Politik",
+        desc: "SLEMAN (10 Desember): Pembukaan UUD 1945 pada alenia empat, memuat cita-cita bangsa, yakni mewujudkan negara yang melindungi segenap bangsa, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, serta ikut melaksanakan ketertiban dunia berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial. ",
+        published: "10 Desember 2025",
+        image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500",
+        content: `
+        Pembukaan UUD 1945 pada alenia empat, memuat cita-cita bangsa, yakni mewujudkan negara yang melindungi segenap bangsa, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, serta ikut melaksanakan ketertiban dunia berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial. Anggota MPR RI dari Fraksi Partai NasDem, Subardi, menjelaskan makna cita-cita itu dapat dilihat dari 
+        dua perspektif, yakni cita-cita internal dan cita-cita eksternal. Cita-cita internal mencakup political nationalism, mencakup keamanan negara, kemakmuran rakyat, dan kemandirian bangsa. Rumusan cita-cita internal adalah ideologi yang menekankan persatuan dan kepentingan bangsa untuk memperkuat eksistensi negara. Sedangkan cita-cita eksternal menyangkut usaha yang berhubungan dengan 
+        institusi luar negeri untuk mencapai tujuan nasional. Kalimat 'ikut serta melaksanakan ketertiban dunia' menegaskan sikap Indonesia yang bebas aktif. Subardi mengatakan, pendiri bangsa merumuskan proyeksi kebangsaan tidak untuk sendiri, tetapi juga untuk bangsa-bangsa lain di dunia. "Saat para pendiri bangsa merancang NKRI, ada cita-cita yang bersifat domestik untuk masa depan rakyat, 
+        dan cita-cita global untuk kepentingan dunia. Artinya, para pendiri bangsa telah menyiapkan Indonesia menjadi bangsa yang besar dengan mendorong keterlibatan dalam misi kemanusiaan dunia," kata Subardi dalam sosialisasi Empat Pilar Kebangsaan, tahap VII, di Gunungkidul, DIY, Selasa (9/12/2025). Subardi menyampaikan Empat Pilar Kebangsaan (Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika) 
+        merupakan ajaran yang harus dibumikan untuk mencapai tujuan bangsa. Salah satu caranya melalui jalur politik. Politik, lanjutnya, merupakan instrumen pengambilan keputusan yang berdampak langsung pada kehidupan masyarakat, sehingga aktor-aktor politik mesti menempatkan national interest sebagai pilihan utama dalam perjuangan politik. “Dalam perspektif pemerintahan, proyeksi kebangsaan butuh 
+        dukungan politik. Politik yang bagaimana? Tentu politik kebangsaan. Ini membutuhkan kerja kolektif semua elemen bangsa,” pungkasnya. (NK/Yudis/*)
+        `
     },
     {
-        title: "Isu Pertahanan Negara",
-        desc: "Meningkatnya perhatian pemerintah terhadap keamanan.",
-        published: "25 Mei 2024",
-        image: "https://images.unsplash.com/photo-1606788075760-3b8403b0b5c0?w=500"
+        title: "Peran Mahasiswa Dalam Membangun Literasi Politik Masyarakat di Era Digital",
+        desc: "Mahasiswa memiliki peran yang sangat strategis dalam membangun literasi politik masyarakat di era demokrasi maju.",
+        published: "9 Agustus 2025",
+        image: "https://images.unsplash.com/photo-1606788075760-3b8403b0b5c0?w=500",
+        content: `
+        Mahasiswa memiliki peran yang sangat strategis dalam membangun literasi politik masyarakat di era demokrasi maju. Berbagai penelitian menegaskan bahwa kemampuan literasi digital menjadi fondasi penting bagi mahasiswa untuk memahami isu-isu politik secara lebih kritis dan objektif. Dengan literasi digital yang baik, mahasiswa dapat menyaring informasi, membedakan fakta dari hoaks, 
+        serta menilai kredibilitas sumber yang tersebar di media sosial. Pendidikan politik yang terintegrasi dengan literasi digital juga terbukti meningkatkan efikasi politik mahasiswa. Mereka menjadi lebih percaya diri dalam berpartisipasi, baik melalui diskusi politik, pemilu, maupun advokasi isu-isu publik. Generasi Z, termasuk mahasiswa, memanfaatkan teknologi digital sebagai ruang belajar 
+        politik yang dinamis, sehingga keterlibatan mereka dalam proses politik menjadi lebih aktif dan bermakna. Selain itu, media sosial berperan besar dalam membentuk ruang pendidikan politik baru. Melalui platform digital, mahasiswa dapat menyebarkan informasi politik yang edukatif, melakukan kampanye sosial, dan menggerakkan opini publik secara lebih cepat dan luas. 
+        Aktivisme mahasiswa pun semakin efektif karena digitalisasi memperluas jangkauan masyarakat yang dapat dijangkau. Meskipun memiliki potensi besar, mahasiswa tetap menghadapi berbagai tantangan, seperti maraknya hoaks politik, polarisasi opini, serta bias informasi yang dapat memengaruhi persepsi publik. Oleh karena itu, kemampuan berpikir kritis, verifikasi informasi, dan 
+        etika bermedia menjadi sangat penting. Secara keseluruhan, peningkatan literasi digital mahasiswa berkontribusi langsung terhadap penguatan demokrasi dan peningkatan kualitas pemahaman politik masyarakat di era digital saat ini.
+        `
     },
     {
-        title: "Aksi Demo Mahasiswa",
-        desc: "Ribuan mahasiswa turun ke jalan menolak rancangan UU.",
-        published: "10 Juni 2024",
-        image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=500"
+        title: "Baru Sembilan Bulan Menjabat, Tiga Kepala Daerah Hasil Pilkada 2024 Ditangkap KPK",
+        desc: "Sebanyak tiga kepala daerah hasil Pilkada 2024 telah terjaring operasi tangkap tangan Komisi Pemberantasan Korupsi dalam tiga bulan terakhir.",
+        published: "10 November 2025",
+        image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=500",
+        content: `
+        Sebanyak tiga kepala daerah hasil Pilkada 2024 telah terjaring operasi tangkap tangan Komisi Pemberantasan Korupsi dalam tiga bulan terakhir. Penangkapan beruntun itu mengindikasikan masih kuatnya politik berbiaya tinggi Pilkada 2024 yang mendorong praktik korupsi di tingkat daerah. Ketiga kepala daerah yang ditangkap KPK ialah Bupati Kolaka Timur Abdul Azis, Gubernur Riau Abdul Wahid, 
+        dan Bupati Ponorogo Sugiri Sancoko. Mereka dilantik serentak pada 20 Februari 2025. Namun, baru beberapa bulan menjabat mereka sudah ditangkap antara Agustus dan November 2025 atas dugaan suap, pemerasan, hingga jual beli jabatan. Abdul Azis terjaring OTT KPK pada 7 Agustus 2025 atau kurang dari enam bulan setelah menjabat. Abdul Azis disangkakan menerima suap terkait proyek pembangunan rumah 
+        sakit tipe C dengan total anggaran Rp 126,3 miliar. Melalui bawahannya, ia diduga meminta commitment fee sebesar 8 persen atau sekitar Rp 9 miliar dari rekanan proyek. Sementara itu, Gubernur Riau Abdul Wahid ditetapkan sebagai tersangka pemerasan terhadap Dinas Pekerjaan Umum, Penataan Ruang, Perumahan, dan Kawasan Permukiman dan Pertanahan (PUPR PKPP), Rabu (5/11/2025). Ia diduga meminta 
+        imbalan dari penambahan anggaran tahun 2025 yang naik dari Rp 71,6 miliar menjadi Rp 177,4 miliar, dengan fee sebesar 5 persen atau sekitar Rp 7 miliar dari para kepala UPT wilayah jalan dan jembatan. Terkini, Bupati Ponorogo Sugiri Sancoko juga terjaring OTT KPK pada Jumat (7/11/2025). Penangkapan Sugiri diduga terkait dengan mutasi dan promosi jabatan. Hingga berita ini diturunkan pukul 15.30, 
+        KPK masih memeriksa Sugiri beserta enam orang lain. ”Pihak-pihak yang diamankan dalam kegiatan tangkap tangan tersebut akan dilakukan pemeriksaan lanjutan secara intensif. Selain mengamankan sejumlah 13 orang dalam giat tangkap tangan di Ponorogo, tim juga mengamankan sejumlah uang tunai dalam bentuk mata uang rupiah,” ujar Juru Bicara KPK Budi Prasetyo, melalui keterangan tertulis, Sabtu (8/11/2025).
+
+        Peneliti Pusat Kajian Antikorupsi (Pukat) UGM, Zaenur Rohman, menilai, rentetan penangkapan kepala daerah menegaskan bahwa sistem politik daerah masih dikuasai politik berbiaya tinggi. Kondisi ini juga menegaskan bahwa politik berbiaya tinggi masih terjadi dalam kontestasi Pilkada 2024. Menurut dia, politik berbiaya tinggi mendorong calon kepala daerah mencari dana besar untuk kampanye. Setelah terpilih,
+        mereka berusaha mengembalikan modal politik dengan berbagai cara, antara lain melalui proyek pengadaan, perizinan, atau jual beli jabatan. Pola ini menimbulkan rantai korupsi yang terus berulang di pemerintahan daerah. ”Ketika sistem politik tidak berubah, problemnya juga tidak akan hilang,” ujarnya saat dihubungi dari Jakarta, Sabtu. Zaenur melanjutkan, dua sumber utama tingginya biaya politik adalah 
+        pembelian suara (vote buying) dan pembelian dukungan partai politik (candidacy buying). Praktik tersebut sering kali membuat kepala daerah terjerat untuk melakukan tindakan koruptif. ”Tanpa penegakan hukum yang tegas, praktik tersebut akan terus terjadi di setiap pilkada dan melahirkan pejabat yang terjebak pada politik balas budi,” ucapnya. Sejak 2004 hingga kini, KPK telah menjerat lebih dari 201 kepala 
+        daerah karena kasus korupsi. Penangkapan tiga kepala daerah hasil Pilkada 2024 dalam waktu kurang dari setahun menunjukkan reformasi politik lokal belum menyentuh akar persoalan. Zaenur menilai, pemberantasan korupsi kepala daerah tidak cukup lewat penindakan. Reformasi sistem pendanaan politik, transparansi dana kampanye, dan penguatan lembaga pengawas harus menjadi prioritas. Kasus-kasus ini pun seharusnya 
+        menjadi pengingat dan pelajaran bagi kepala daerah lain. ”Kalau biaya politik tetap mahal dan pengawasan tumpul, pergantian kepala daerah hanya akan mengganti pelaku, bukan memperbaiki sistem,” ujar Zaenur.
+
+        Celah korupsi
+        Sebelumnya, hal senada disampaikan Direktur Eksekutif Komite Pemantauan Pelaksanaan Otonomi Daerah (KPPOD) Herman N Supratman. Ia menyinyalir, masih adanya pimpinan daerah yang ditangkap karena korupsi menunjukkan bahwa problem biaya politik tinggi saat pilkada belum terjawab. Bahkan, di Pilkada 2024, biaya politik itu bisa jadi lebih tinggi sehingga tren pimpinan daerah yang korupsi setelah terpilih di 
+        pilkada dan menjabat terus berlanjut (Kompas.id, 8/8/2025). Mengutip riset Kementerian Dalam Negeri (Kemendagri), lanjut Herman, dalam sekali pencalonan kepala daerah dibutuhkan biaya yang dipersiapkan sebesar Rp 25 miliar-Rp 30 miliar. Selama ini, akibat tingginya biaya politik itu, kepala daerah coba memulihkannya dengan korupsi di periode awal menjabat. ”Kalau kita lihat gaji dasarnya itu misal Rp 2 juta-Rp 3 juta, 
+        biaya operasional kepala daerahnya itu per bulan bisa mulai Rp 150 juta. Akan tetapi, kan, itu belum bisa menutupi biaya politik yang sudah dikeluarkan,” ungkap Herman. Ia menjelaskan, korupsi pengadaan barang dan jasa, jual beli jabatan dan perizinan, kolusi, serta nepotisme marak terjadi di daerah. Apalagi, kepala daerah memiliki kekuasaan yang sangat besar, termasuk dalam pengelolaan Anggaran Pendapatan dan Belanja 
+        Daerah (APBD). Faktor-faktor itu yang menjadi celah melakukan tindak pidana korupsi. Untuk mencegah korupsi berulang, diperlukan peran pengawasan internal dan eksternal pemerintah daerah yang mesti diperkuat. Ia juga mendorong agar ada penguatan kolaborasi lembaga-lembaga pengawas dengan publik. ”Misalnya, dengan melibatkan pengawas-pengawas internal dan eksternal itu sejak proses perencanaan pengadaan barang dan jasa. 
+        Kita juga berharap agar pengawasan eksternal dari komponen masyarakat sipil yang mesti diperkuat,” tutur Herman. Lemahnya pengawasan di daerah juga disebut Zaenur memperbesar risiko korupsi. Inspektorat daerah kerap tidak berdaya menghadapi kepala daerah yang merupakan pejabat pembina kepegawaian. Sementara Dewan Perwakilan Rakyat Daerah (DPRD) yang seharusnya menjadi pengawas justru sering terlibat dalam praktik bagi-bagi 
+        proyek dan anggaran. Oleh karena itu, Pukat UGM menilai perlu ada reformasi kelembagaan agar fungsi pengawasan berjalan efektif. Inspektorat daerah perlu diberi posisi yang lebih independen. Sementara DPRD harus memiliki mekanisme transparansi yang kuat untuk mencegah konflik kepentingan.
+        `
     },
     {
-        title: "Isu Kenaikan BBM",
-        desc: "Pemerintah mempertimbangkan regulasi harga energi.",
-        published: "24 Juni 2024",
-        image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500"
+        title: "Uji UU Pemilu, Pemohon Ingin Mencalonkan Anggota DPR Non Parpol Politik",
+        desc: "Pemohon saat Sidang Pemeriksaan Pendahuluan Perkara Nomor 233/PUU-XXIII/2025 Pengujian Materiil Undang-Undang Nomor 7 Tahun 2017 tentang Pemilihan Umum, Kamis (4/12/2025).",
+        published: "4 Desember 2025",
+        image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500",
+        content:`
+        JAKARTA, HUMAS MKRI — Koordinator Nasional Presidium Fraksi Rakyat sekaligus Ketua Yayasan JAKI Kemanusiaan Inisiatif Yudi Syamhudi Suyuti mempersoalkan konstitusionalitas Pasal 240 ayat (1) huruf n Undang-Undang Nomor 7 Tahun 2017 tentang Pemilihan Umum (UU Pemilu) ke Mahkamah Konstitusi (MK). Sidang Pendahuluan Permohonan Nomor 233/PUU-XXIII/2025 ini dipimpin oleh Wakil Ketua MK Saldi Isra pada Kamis (4/12/2025).
+        Pasal 240 ayat (1) huruf n UU Pemilu menyatakan, “Bakal calon anggota DPR, DPRD provinsi, dan DPRD kabupaten/kota adalah Warga Negara Indonesia dan harus memenuhi persyaratan: n. menjadi anggota Partai Politik Peserta Pemilu". Pada permohonannya, Yudi menceritakan berniat untuk mencalonkan diri sebagai Anggota DPR RI pada Pemilu 2029 sebagai perwakilan dari organisasi masyarakast sipil atau lembaga swadaya masyarakat (LSM). 
+        “Yang mendasari maju menjadi calon anggota legislatif nonpartai politik, karena didasari persoalan fundamental, yaitu agar terbentuknya saluran rakyat warga langsung dengan perwakilannya di DPR untuk terlibat dalam pengambilan keputusan. Dalam hal pembuatan undang-undang, pengesahan anggaran, dan praktik pengawasan yang bukan bersifat usulan-usulan,” terang Yudi. Menurut pengamatan Yudi, sistem ketatanegaraan Indonesia belum 
+        cukup terwakili fraksi rakyat yang terdiri dari perwakilan kelompok lintas agama, kelompok lintas etnis, kelompok profesi, organisasi masyarakat sipil, dan organisasi kemasyarakatan. Selain itu, aspirasi dan partisipasinya pun masih belum banyak dapat terserap dengan baik oleh DPR dan fraksi partai-partai politik. Keterbatasan tersebut sangat wajar, karena fraksi-fraksi partai politik tidak sepenuhnya mewakili kelompok dan 
+        golongan warga Indonesia. Sehingga, masih banyak aspirasi dan suara rakyat yang tertinggal dalam penyelenggaran negara, melalui proses legislasi, penyelenggaraan kuasa anggaran, dan pengawasan. Yudi berpendapat keberadaan pasal yang dimohonkan pengujian tersebut yang mensyaratkan calon harus menjadi anggota partai politik merupakan suatu bentuk Inkonstitusional dan tidak dapat menjamin stabilitas, kemajuan, keadilan, dan 
+        berkelanjutannya negara menyangkut politik, ekonomi, sosial, budaya, keamanan, dan pertahanan secara demokratis dan inklusif. Oleh karena itu, dalam Pasal 240 Ayat (1) huruf n seharusnya secara konstitusional dalam persyaratan calon anggota dewan yang mensyaratkan adalah anggota partai politik atau perwakilan dari kelompok-kelompok masyarakat, komunitas, golongan rakyat hingga individu yang dipilih partai politik peserta pemilu 
+        dan perorangan dari perwakilan partai politik yang tidak memenuhi ambang batas. Di luar perwakilan partai politik yang lolos ambang batas, maka perwakilan kelompok, golongan rakyat dan perwakilan perorangan ditempatkan di dalam fraksi rakyat di lembaga DPR, sehingga seluruh rakyat Indonesia memiliki saluran politiknya tidak ada satupun suara rakyat yang tertinggal. Dalam petitum, Yudi memohon agar Mahkamah menngubah Pasal 240, 
+        Ayat (1) huruf n UU Pemilu tersebut menjadi, anggota partai politik peserta pemilu dan bukan anggota partai politik yang merupakan perwakilan lintas agama, kelompok masyarakat sipil, LSM, ormas, golongan rakyat, individu perorangan yang dicalonkan partai politik sebagai perwakilan kelompok, komunitas, golongannya untuk mengisi fraksi rakyat selain dari fraksi partai politik”. Berikutnya Pemohon juga memohon agar Mahkamah 
+        memerintahkan kepada DPR dan Pemerintah untuk memasukkan norma dalam putusan ini menjadi Undang-Undang untuk digunakan di Pemilu 2029.
+
+        Nasihat Hakim Panel
+        Dalam nasihat Sidang Panel, Hakim Konstitusi Ridwan Mansyur mengatakan perlu bagi Pemohon mencantumkan kewenangan Mahkamah dalam menguji permohonan ini. “Kemudian terkait permohonan ini harus lebih banyak menguraikan dengan berlakunya pasal ini Saudara mengalami kerugian, faktual atau potensial. Lalu uraikan pasal ini kenapa bertentangan dengan UUD NRI 1945, maka harus dikontestasikan dengan pasal yang menjadi batu uji,” nasihat Ridwan.
+        Selanjutnya Hakim Konstitusi Arsul Sani meminta Pemohon untuk melihat putusan MK yang mengabulkan permohonan Pemohon guna mempelajari syarat formil yang telah terpenuhi dari sebuah permohonan uji undang-undang. “Bagaimana merumuskan alasan permohonan, supaya punya ide serta bagaimana petitum dalam permohonan yang dirumuskan. Ini penting dan baca pula PMK 7/2025,” jelas Arsul. Sementara Wakil Ketua MK Saldi Isra memberikan nasihat tentang 
+        perlunya Pemohon untuk memperhatikan kedudukan hukum sebagai warga negara dengan identitas sebagai pemilih, pembayar pajak, atau sebagai ketua dari asosiasi. “Jika sebagai bagian dari organisasi ini, maka harus ada AD/ART yang menjadi landasan. Lalu mengapa mengalami kerugian dari berlakunya norma ini, jika tidak bisa dijelaskan maka permohonan ini dapat dinyatakan NO (Niet Ontvankelijke Verklaard) atau tidak dapat diterima,” jelas Saldi.
+        Pada akhir persidangan, Wakil Ketua MK Saldi Isra menyebutkan Pemohon diberikan waktu selama 14 hari untuk menyempurnakan permohonannya. Naskah perbaikan dapat diserahkan selambat-lambatnya pada Rabu, 17 Desember 2025 pukul 12.00 WIB ke Kepaniteraan MK. Selanjutnya Mahkamah akan menjadwalkan sidang kedua dengan agenda mendengarkan pokok-pokok perbaikan permohonan.
+        `
     },
     {
-        title: "Pertemuan Tingkat Tinggi",
-        desc: "Delegasi Indonesia menghadiri pertemuan internasional.",
-        published: "5 Juli 2024",
-        image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500"
+        title: "Enny Nurbaningsih: MK Menjaga Keseimbangan Antara Hukum, Politik, dan Keadilan",
+        desc: "Hakim Konstitusi Enny Nurbaningsih menjadi narasumber kegiatan Kuliah Umum di Fakultas Hukum Universitas Udayana Bali, Jumat (03/10).",
+        published: "3 Oktober 2025",
+        image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500",
+        content: `
+        BALI, HUMAS MKRI – Hakim Konstitusi Enny Nurbaningsih menjadi pembicara dalam kuliah umum bertajuk “MK dalam Sistem Ketatanegaraan Indonesia: Antara Hukum, Politik, dan Keadilan” yang diselenggarakan Mahkamah Konstitusi (MK) bekerja sama dengan Fakultas Hukum Universitas Udayana (Unud), Jumat (3/10/2025), di Aula FH Unud. Acara tersebut dipandu oleh Putu Gede Arya Sumerta Yasa Dekan Fakultas Hukum Universitas Udayana. Enny dalam paparannya 
+        menekankan pentingnya peran MK sebagai pilar utama demokrasi, terutama sejak era Reformasi 1998 yang menjadi titik krusial perubahan sistem ketatanegaraan Indonesia. Menurutnya, MK bukan hanya pengawal konstitusi, tetapi juga lembaga yang menjaga keseimbangan antara hukum, politik, dan keadilan. “Reformasi 1998 adalah momen penentu bagaimana arah demokrasi Indonesia dibangun. Dari situlah lahir berbagai lembaga negara, termasuk Mahkamah Konstitusi, 
+        yang bertugas memastikan konstitusi tetap tegak,” ujar Enny. Lebih lanjut, Enny menegaskan bahwa sebelum lahirnya MK, Indonesia menghadapi berbagai persoalan ketatanegaraan. Dulu banyak undang-undang bermasalah tanpa adanya mekanisme judicial review, pemakzulan presiden terjadi hanya karena alasan politik, serta konflik antar lembaga negara yang sering kali diselesaikan di bawah kewibawaan Presiden melalui mekanisme administratif. Selain itu, belum 
+        tersedia forum penyelesaian sengketa hasil pemilu yang jelas. Pembubaran partai politik dilakukan melalui Mahkamah Agung dengan prosedur yang tidak transparan. Setelah kehadiran MK, berbagai masalah tersebut kini memiliki mekanisme konstitusional yang lebih pasti. Enny menambahkan, MK sering kali tidak bisa dilepaskan dari dinamika politik. Fenomena ini dikenal sebagai judicialization of politics – yaitu ketika isu-isu politik masuk ke ranah pengadilan 
+        konstitusi untuk diputuskan. Namun secara konseptual, fenomena ini harus dibedakan dengan “politisasi peradilan” (politicization of the judiciary). Meskipun sebagai Putusan Pengadilan, semua Putusan MK memiliki dimensi hukumnya masing-masing. Yang dimaksud di sini adalah Putusan MK yang berorientasi utama menjaga kepastian hukum sehingga Putusan MK sebagai sumber hukum (baru) serta Putusan yang menekankan penafsiran konstitusi pada upaya pemajuan dan 
+        perlindungan HAM.
+        `
     },
     {
-        title: "Kebijakan Pertanian Baru",
-        desc: "Pemerintah menetapkan subsidi untuk sektor pertanian.",
-        published: "22 Juli 2024",
-        image: "https://images.unsplash.com/photo-1470509037663-253afd7f0f09?w=500"
+        title: "Melalui Pertemuan ke-30 APSC, Kemenko Polkam Tegaskan Peran Indonesia di Pilar Politik dan Keamanan ASEAN",
+        desc: "PPolkam, Kuala Lumpur – (Kemenko Polkam) menegaskan perannya sebagai koordinator Pilar Politik dan Keamanan nasional dalam Pertemuan ke-30 ASEAN Political-Security Community (APSC), Sabtu (25/10/2025).",
+        published: "26 Oktober 2025",
+        image: "https://images.unsplash.com/photo-1470509037663-253afd7f0f09?w=500",
+        content: `
+        Kementerian Koordinator Bidang Politik dan Keamanan (Kemenko Polkam) menegaskan perannya sebagai koordinator Pilar Politik dan Keamanan nasional dalam Pertemuan ke-30 ASEAN Political-Security Community (APSC) yang digelar di Kuala Lumpur Convention Centre (KLCC), Malaysia, Sabtu (25/10/2025). Pertemuan ini merupakan salah satu agenda utama dalam rangkaian Konferensi Tingkat Tinggi (KTT) ke-47 ASEAN dan KTT Terkait Lainnya yang berlangsung pada 24–29 Oktober 2025. 
+        Melalui forum APSC, negara-negara anggota ASEAN membahas upaya memperkuat kerja sama politik dan keamanan kawasan di tengah dinamika global yang terus berkembang. Delegasi Indonesia pada pertemuan tersebut dipimpin oleh Menteri Luar Negeri Sugiono dan diikuti antara lain oleh Deputi Bidang Koordinasi Politik Luar Negeri Kemenko Polkam, Duta Besar Mohammad K. Koba. Usai pertemuan, Koba menyampaikan bahwa Indonesia, melalui Pilar Politik dan Keamanan ASEAN, terus 
+        konsisten mendorong penguatan sentralitas dan kesatuan kawasan di tengah dinamika geopolitik dan ekonomi yang tidak menentu serta meningkatnya ancaman kejahatan transnasional. “Indonesia juga aktif mengusulkan berbagai inisiatif kerja sama, termasuk mendorong disepakatinya Malaka Declaration Against Online Scam and Cybercrime pada Pertemuan ke-19 ASEAN Ministers Meeting on Transnational Crimes (AMMTC) di Malaka,” ujar Koba. Ia menambahkan, pada pertemuan kali ini 
+        Indonesia turut mendorong penguatan kapasitas ASEAN dalam penanganan isu-isu lintas pilar (cross-pillar issues) melalui koordinasi yang lebih erat antar-badan sektoral dan lintas pilar ASEAN, termasuk implementasi Strategic Plan APSC 2045. Lebih lanjut, Koba menjelaskan bahwa Kemenko Polkam berperan sebagai koordinator Pilar Politik dan Keamanan ASEAN yang beranggotakan sembilan badan sektoral dan satu organ ASEAN. Kerja sama pilar ini dijalankan melalui implementasi 
+        Cetak Biru Pilar Polkam ASEAN yang diterjemahkan di tingkat nasional melalui Rencana Aksi Nasional 2025. “Kemenko Polkam terus mendorong sinkronisasi kebijakan politik luar negeri Indonesia di ASEAN, antara lain dalam isu perundingan Code of Conduct on the South China Sea, kerja sama pertahanan dan keamanan, penanggulangan kejahatan transnasional, serta hak asasi manusia,” imbuhnya. Partisipasi aktif Kemenko Polkam dalam forum APSC menegaskan komitmen Indonesia untuk 
+        terus menjadi penggerak utama dalam menjaga stabilitas kawasan dan memperkuat solidaritas ASEAN. Indonesia mendorong pendekatan yang inklusif, dialogis, dan berbasis kepercayaan antarnegara dalam menghadapi tantangan regional yang semakin kompleks. Hasil pembahasan APSC ke-30 akan menjadi salah satu masukan penting bagi sidang puncak KTT ke-47 ASEAN yang dihadiri para Kepala Negara dan Pemerintahan ASEAN.
+        `
     },
     {
-        title: "Reformasi Sistem Pendidikan",
-        desc: "Parlemen membahas kurikulum pendidikan nasional.",
-        published: "9 Agustus 2024",
-        image: "https://images.unsplash.com/photo-1588072432904-843af37f0c9f?w=500"
+        title: "Fauzan Dorong Integrasi Pendidikan Politik dalam Kurikulum Sekolah",
+        desc: "PRAYA (29 Oktober): Anggota Komisi II DPR RI, Fauzan Khalid, menekankan pentingnya pendidikan politik dimulai sejak dini.",
+        published: "29 Oktober 2025",
+        image: "https://images.unsplash.com/photo-1588072432904-843af37f0c9f?w=500",
+        content: `
+        Anggota Komisi II DPR RI, Fauzan Khalid, menekankan pentingnya pendidikan politik dimulai sejak dini. Ia mendorong kerja sama pemerintah dan lembaga pendidikan untuk mengintegrasikan pendidikan politik dalam kurikulum sekolah. “Pendidikan politik sejak dini dapat membantu generasi muda memahami pentingnya partisipasi politik dalam kehidupan berbangsa dan bernegara," kata Fauzan saat menyampaikan keynote speech pada sosialisasi pendidikan pemilih (sosdiklih) bersama KPU, 
+        di Praya, Lombok Tengah, NTB, Senin (27/10/2025). Fauzan berharap pendidikan politik berkelanjutan akan dapat menciptakan masyarakat yang sadar politik dan aktif membangun demokrasi. Menurut Fauzan, sekolah merupakan tempat strategis untuk melakukan sosialisasi. Kurikulum yang mencakup pendidikan kewarganegaraan dan politik dapat membantu siswa memahami peran mereka sebagai pemilih di masa depan. Fauzan yang terpilih dari daerah pemilihan (dapil) NTB II itu menjelaskan, 
+        selain melalui pendidikan formal di sekolah, sosialisasi juga dapat dilakukan melalui kegiatan nonformal di masyarakat. Misalnya, dengan melakukan kegiatanseperti diskusi publik, seminar, maupun lokakarya. Berbagai media massa, termasuk media sosial juga memiliki peran pentingdalam sosialisasi pendidikan politik. Melalui berita, artikel, program televisi, dan informasi yang disampaikan melalui mediasosial, diharapkan dapat memberikan informasi yang diperlukanoleh masyarakat 
+        terkait isu-isu politik terkini. “Karena itu, penting bagi media untuk menyajikan informasiakurat dan mendidik. Namun informasi yang diterima, terutamadi media sosial, hendaknya dicek dulu kebenarannya. Baca dulu keseluruhan isi beritanya, cek sumbernya, dan cek juga referensi dari sumber lain yang terpercaya,” ujarnya. Fauzan menambahkan, dalam implementasinya, metodes osialisasi pendidikan politik harus disesuaikan dengankebutuhan masyarakat. Pendekatan yang bersifat lokal 
+        dan melibatkan partisipasi aktif masyarakat akan lebih efektifdibandingkan dengan pendekatan yang bersifat top-down. “Sosialisasi pendidikan politik harus menjadi prioritas bagisemua pihak, termasuk KPU. Hanya dengan komitmen dan kerja sama yang kuat, kita dapat mencapai tujuan bersama menciptakan masyarakat sadar politik dan aktif berpartisipasi dalam kehidupan berbangsa dan bernegara,” tegas Fauzan. 
+        `
     },
     {
-        title: "Rencana Pemindahan Ibu Kota",
-        desc: "Tahap pembangunan ibu kota baru terus berjalan.",
-        published: "19 September 2024",
-        image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c9bb?w=500"
+        title: "Putusan MK Pertegas Pengakuan terhadap Peran Perempuan dalam Politik",
+        desc: "JAKARTA (4 November): Anggota Komisi XIII DPR RI, M Shadiq Pasadigoe, menyambut baik putusan Mahkamah Konstitusi (MK) yang mewajibkan keterwakilan perempuan minimal 30% di pimpinan alat kelengkapan dewan (AKD) DPR RI.",
+        published: "4 November 2025",
+        image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c9bb?w=500",
+        content: `
+        Anggota Komisi XIII DPR RI, M Shadiq Pasadigoe, menyambut baik putusan Mahkamah Konstitusi (MK) yang mewajibkan keterwakilan perempuan minimal 30% di pimpinan alat kelengkapan dewan (AKD) DPR RI. Menurut Shadiq, putusan tersebut merupakan langkah maju dan bukti nyata bahwa demokrasi Indonesia semakin inklusif, serta menghargai peran perempuan dalam politik dan kepemimpinan. “Saya sangat mengapresiasi putusan MK ini. Ini bukan sekadar regulasi, tapi pengakuan terhadap peran penting 
+        perempuan dalam membangun bangsa. Indonesia semakin matang secara konstitusional dan moral,” ujar Shadiq di Jakarta, Sabtu (1/11/2025). Ia menegaskan, putusan MK tersebut sejalan dengan semangat budaya Minangkabau yang telah lama menempatkan perempuan sebagai figur utama dalam kehidupan sosial. “Di Minangkabau, perempuan itu adalah limpapeh rumah nan gadang — tiang utama yang menjaga marwah keluarga dan masyarakat. Jadi, ketika MK menegaskan 30 persen keterwakilan perempuan, sesungguhnya 
+        itu menghidupkan kembali nilai luhur yang sudah mendarah daging di tanah Minang,” ungkapnya. Legislator Partai NasDem itu juga menyebut, langkah MK ini bukan hanya soal kesetaraan, tetapi juga tentang efektivitas dan kualitas kepemimpinan di parlemen. “Kita butuh keseimbangan dalam mengambil keputusan strategis. Kehadiran perempuan akan memperkaya perspektif dan memperkuat etika politik di tubuh DPR. Ini momentum bersejarah yang harus kita sambut dengan kerja nyata,” tambahnya. 
+        MK sebelumnya mengabulkan uji materi terhadap UU No.17/2014 tentang MPR, DPR, DPD, dan DPRD (UU MD3). Dalam putusan No 169/PUU-XXII/2024, MK menegaskan kewajiban DPR memenuhi keterwakilan perempuan minimal 30 % dalam pimpinan AKD. Shadiq menekankan pentingnya langkah cepat DPR dalam menyesuaikan tata tertibnya agar putusan tersebut segera terimplementasi. “NasDem akan terus mendorong agar amanat ini tidak berhenti di atas kertas. Saya percaya, ketika perempuan diberi ruang, bangsa ini akan 
+        tumbuh lebih beradab, lebih manusiawi, dan lebih kuat. Dari perempuan Minang kita belajar, bahwa kepemimpinan sejati lahir dari keseimbangan akal dan hati,” pungkasnya. (Tim Media Shadiq/Yudis/*)
+        `
     },
     {
-        title: "Isu Keamanan Siber",
-        desc: "Pemerintah meningkatkan sistem keamanan digital nasional.",
-        published: "30 September 2024",
-        image: "https://images.unsplash.com/photo-1556155092-8707de31f9c4?w=500"
+        title: "Mantan Caleg Cabut Permohonan Uji Ketentuan Pendirian Partai Politik",
+        desc: "Kuasa Pemohon saat Sidang Pengucapan Ketetapan Perkara Nomor 122/PUU-XXIII/2025 Pengujian Materiil Undang-Undang Nomor 2 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 2 Tahun 2008 tentang Partai Politik, Kamis (14/8/2025).",
+        published: "14 Agustus 2025",
+        image: "https://images.unsplash.com/photo-1556155092-8707de31f9c4?w=500",
+        content:`
+        AKARTA, HUMAS MKRI – Mahkamah Konstitusi (MK) menjatuhkan ketetapan penarikan permohonan Nomor 122/PUU-XXIII/2025 mengenai pengujian materiil Undang-Undang Nomor 2 Tahun 2011 tentang Partai Politik (UU Parpol). Pemohon melakukan pencabutan permohonan dengan alasan norma yang diuji pernah diputus Mahkamah. “Mengabulkan penarikan kembali permohonan Pemohon,” ujar Suhartoyo dalam sidang pengucapan putusan/ketetapan pada Kamis (14/8/2025) di Ruang Sidang Pleno MK, Jakarta. Suhartoyo menuturkan, 
+        rencana penarikan telah dikatakan Pemohon pada sidang pemeriksaan pendahuluan. Kemudian pada Senin, 4 Agustus 2025, Mahkamah menerima surat dari Pemohon melalui surat elektronik perihal pencabutan permohonan dimaksud. 
+        
+        Mantan Caleg Ingin Dirikan Partai Politik Terhalang Ketentuan Undang-Undang 
+        Sebagai informasi, Pemohon perkara ini ialah Adv. Mochamad Tommy Adrianto yang pernah menjadi calon anggota legislatif (caleg) DPRD Kabupaten Kudus pada Pemilihan Umum (Pemilu) 2014 dari Partai Hati Nurani Rakyat (Hanura) serta caleg DPRD Provinsi Jawa Tengah pada Pemilu 2024 dari Partai Solidaritas Indonesia (PSI). Pemohon berencana mendirikan partai politik baru karena beberapa kali mengikuti kontestasi pemilu tidak berhasil menjadi anggota legislatif karena terhalang ketentuan norma 
+        Pasal 2 ayat (1), (1a), dan Pasal 3 ayat (2) huruf c UU Parpol. “Spiritnya untuk melakukan pengujian ini ialah berniat berusaha secara serius untuk membentuk dan mendirikan partai politik baru sebagai bentuk ekspresi,” ujar kuasa hukum Pemohon Glen Carson Paulus dalam sidang pemeriksaan pendahuluan Perkara Nomor 122/PUU-XXIII/2025 pada Jumat (1/8/2025) lalu di Ruang Sidang MK, Jakarta. Menurut Pemohon, sistem politik di Indonesia masih sangat jauh dari idealisme demokrasi konstitusional, terlebih 
+        dalam hak keberpihakan kepada rakyat dan keseriusan partai politik dalam memperjuangkan agenda publik yang krusial. Niat Pemohon untuk membentuk parpol baru yang dilandasi idealisme membangun bangsa terhalang regulasi yang diskriminatif dan tidak adil sebagaimana diatur dalam pasal-pasal yang dimohonkan untuk diuji. Pasal 2 ayat (1) UU Parpol berbunyi, “Partai Politik didirikan dan dibentuk oleh paling sedikit 30 (tiga puluh) orang warga negara Indonesia yang telah berusia 21 (dua puluh satu) tahun 
+        atau sudah menikah dari setiap provinsi.” Kemudian Pasal 2 ayat (1a) UU Parpol menyebutkan, "Partai Politik sebagaimana dimaksud pada ayat (1) didaftarkan oleh paling sedikit 50 (lima puluh) orang pendiri yang mewakili seluruh pendiri Partai Politik dengan akta notaris." Lalu Pasal 3 ayat (2) huruf c UU Parpol berbunyi, "Untuk menjadi badan hukum sebagaimana dimaksud pada ayat (1), Partai Politik harus mempunyai: c. kepengurusan pada setiap provinsi dan paling sedikit 75% (tujuh puluh lima perseratus) 
+        dari jumlah kabupaten/kota pada provinsi yang bersangkutan dan paling sedikit 50% (lima puluh perseratus) dari jumlah kecamatan pada kabupaten/kota yang bersangkutan.”Menurut Pemohon, persyaratan tersebut pada praktiknya telah membatasi hak konstitusional warga negara untuk membentuk parpol sebagaimana dijamin Undang-Undang Dasar (UUD) 1945. Pemohon menjadikan Pasal 27 ayat (1), Pasal 28D ayat (1), Pasal 28E ayat (3), dan Pasal 281 ayat (2) UUD Negara Republik Indonesia Tahun 1945 sebagai batu uji 
+        atau dasar pengujian permohonan ini. Pemohon mengaku kesulitan untuk mendirikan parpol yang berpartisipasi di tingkat nasional tetapi yang berangkat dari kebutuhan dan aspirasi masyarakat lokal. Sedangkan, keistimewaan diberikan kepada Provinsi Aceh yang secara sah dan legal memiliki partai politik lokal. “Jadi memang karena Pemohon ini berkali-kali mencalonkan diri menjadi anggota legislatif dan memang Pemohon ini punya aspirasi-aspirasi tertentu yang ingin disampaikan. Namun karena Pemohon belum 
+        terpilih dan akhirnya Pemohon juga punya satu inisiatif untuk mendirikan partai politik dan oleh peraturan perundang-undangan yang diujikan, Pemohon merasa bahwa kesulitan untuk menyampaikan aspirasinya dalam dunia politik untuk mendirikan partai politik, ya, untuk mendirikan partai politik,” tutur Glen. Dengan demikian, dalam petitumnya Pemohon memohon kepada Mahkamah untuk menyatakan Pasal Pasal 2 ayat (1), Pasal 2 ayat (1a), dan Pasal 3 ayat (2) huruf c UU Partai Politik bertentangan dengan UUD NRI 
+        1945 dan tidak mempunyai kekuatan hukum mengikat; menyatakan untuk mengusulkan dan menyarankan isi dan bunyi dari ketentuan Pasal 2 ayat (1), Pasal 2 ayat (1a), dan Pasal 3 ayat (2) huruf c UU Partai Politik diubah menjadi: Pasal 2 ayat (1) berbunyi, "Partai Politik didirikan dan dibentuk oleh paling sedikit 15 (lima belas) orang warga negara Indonesia yang telah berusia 21 (dua puluh satu) tahun atau sudah menikah dari paling sedikit 1 (satu) provinsi." Pasal 2 ayat (1a) berbunyi, "Partai Politik sebagaimana 
+        dimaksud pada ayat (1) didaftarkan oleh paling sedikit 3 (tiga) orang pendiri yang mewakili seluruh pendiri Partai Politik dengan akta notaris." Pasal 3 ayat (2) huruf c berbunyi, "Untuk menjadi badan hukum sebagaimana dimaksud pada ayat (1), Partai Politik harus mempunyai: c. Kepengurusan paling sedikit 1 (satu) provinsi dan paling sedikit 50% (lima puluh perseratus) dari jumlah kabupaten/kota pada provinsi yang bersangkutan dan paling sedikit 25% (dua puluh lima perseratus) dari jumlah kecamatan pada 
+        kabupaten/kota yang bersangkutan."
+        `
     }
 ]
 

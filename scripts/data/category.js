@@ -4,96 +4,232 @@ const categories = [
         desc: "Berita terbaru tentang teknologi masa kini.",
         published: "29 Oktober 2024",
         image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500",
-        content: `Cara buat content, tinggal tambahain kaya gini aja yaaaa....
-
-            edit - edit nya di category.js ini yakkkkkkk
+        content: `
+        Perkembangan teknologi modern telah mengubah cara hidup manusia secara fundamental dalam beberapa dekade terakhir. Dari revolusi digital hingga era artificial intelligence, setiap inovasi membawa dampak signifikan terhadap berbagai aspek kehidupan.
+        
+        Kecerdasan buatan (AI) kini bukan lagi konsep futuristik, melainkan sudah menjadi bagian dari kehidupan sehari-hari. Mulai dari asisten virtual di smartphone hingga sistem rekomendasi di platform streaming, AI membantu mempermudah aktivitas manusia. Di sektor kesehatan, AI digunakan untuk mendiagnosis penyakit dengan akurasi tinggi, sementara di industri otomotif, teknologi self-driving car terus dikembangkan.
+        
+        Internet of Things (IoT) juga menghadirkan konsep smart home dan smart city yang membuat hidup lebih efisien. Perangkat-perangkat terhubung memungkinkan pengguna mengontrol berbagai aspek rumah dari jarak jauh, mulai dari pencahayaan, suhu ruangan, hingga keamanan.
+        
+        Cloud computing telah merevolusi cara perusahaan menyimpan dan mengelola data. Dengan teknologi cloud, akses data menjadi lebih fleksibel dan kolaborasi tim bisa dilakukan dari mana saja. Teknologi blockchain juga mulai diaplikasikan tidak hanya untuk cryptocurrency, tetapi juga untuk sistem supply chain dan verifikasi data.
+        
+        Di sisi lain, munculnya teknologi 5G membuka peluang baru untuk konektivitas yang lebih cepat dan stabil. Ini menjadi fondasi penting untuk pengembangan teknologi masa depan seperti augmented reality (AR) dan virtual reality (VR) yang akan mengubah cara kita bekerja, belajar, dan berhibur.
+        
+        Namun, kemajuan teknologi juga membawa tantangan baru seperti isu privasi data, keamanan siber, dan kesenjangan digital. Oleh karena itu, penting untuk mengembangkan teknologi secara bertanggung jawab dengan mempertimbangkan aspek etika dan dampak sosial.
         `
     },
     {
         title: "Politik",
         desc: "Update politik nasional dan internasional.",
         published: "11 Januari 2024",
-        image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9saXRpY3N8ZW58MHx8MHx8fDA%3D"
+        image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9saXRpY3N8ZW58MHx8MHx8fDA%3D",
+        content: `
+        Dinamika politik Indonesia terus berkembang seiring dengan perjalanan demokrasi yang semakin matang. Sebagai negara dengan sistem demokrasi terbesar ketiga di dunia, Indonesia menghadapi berbagai tantangan dan peluang dalam memperkuat tata kelola pemerintahan.
+        
+        Sistem multi-partai di Indonesia telah melahirkan landscape politik yang kompleks. Koalisi antarpartai menjadi keniscayaan untuk memenuhi threshold pencalonan presiden dan menjaga stabilitas pemerintahan. Namun, dinamika koalisi yang sering berubah juga menimbulkan pertanyaan tentang konsistensi ideologi dan platform politik.
+        
+        Peran parlemen sebagai representasi rakyat terus diuji efektivitasnya. Fungsi legislasi, budgeting, dan pengawasan harus dijalankan dengan optimal untuk menjawab kebutuhan masyarakat. Transparansi dan akuntabilitas menjadi tuntutan utama publik terhadap wakil rakyat di berbagai tingkatan.
+        
+        Di tingkat daerah, pelaksanaan otonomi daerah membawa warna tersendiri dalam politik lokal. Pemilihan kepala daerah langsung memberikan kesempatan kepada masyarakat untuk memilih pemimpinnya sendiri, meskipun juga menghadirkan tantangan seperti politik uang dan polarisasi sosial.
+        
+        Politik luar negeri Indonesia menganut prinsip bebas aktif, aktif menjaga perdamaian dunia dan tidak memihak pada blok kekuatan tertentu. Indonesia aktif dalam berbagai forum internasional seperti ASEAN, G20, dan PBB, memperjuangkan kepentingan nasional sekaligus berkontribusi pada stabilitas regional dan global.
+        
+        Tantangan ke depan adalah bagaimana memperkuat pendidikan politik masyarakat, mendorong partisipasi politik yang berkualitas, dan membangun sistem politik yang tidak hanya stabil tetapi juga responsif terhadap kebutuhan rakyat. Reformasi politik berkelanjutan diperlukan untuk memperkuat fondasi demokrasi Indonesia.
+        `
     },
     {
         title: "Olahraga",
         desc: "Berita seputar liga dunia dan olahraga nasional.",
         published: "20 Juni 2024",
-        image: "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?w=500"
+        image: "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?w=500",
+        content: `
+        Dunia olahraga terus menghadirkan momen-momen spektakuler yang menginspirasi jutaan orang di seluruh dunia. Dari pertandingan sepak bola yang dramatis hingga prestasi gemilang atlet di berbagai cabang olahraga, setiap kompetisi membawa cerita dan emosi tersendiri.
+        
+        Sepak bola tetap menjadi olahraga paling populer di dunia. Liga-liga top Eropa seperti Premier League, La Liga, Serie A, dan Bundesliga terus menghadirkan pertandingan berkualitas tinggi dengan persaingan ketat. Tim-tim besar berinvestasi besar dalam transfer pemain untuk meraih gelar juara dan dominasi di kompetisi domestik maupun Eropa.
+        
+        Di Indonesia, perkembangan sepak bola nasional menunjukkan tren positif. Liga 1 semakin kompetitif dengan infrastruktur yang terus diperbaiki. Timnas Indonesia juga mulai menunjukkan performa lebih baik dengan masuknya pemain-pemain keturunan yang berkualitas, memberikan harapan baru bagi sepak bola Indonesia di kancah regional dan Asia.
+        
+        Cabang olahraga lain seperti bulu tangkis, atletik, dan angkat besi juga menjadi kebanggaan Indonesia. Para atlet Indonesia terus berprestasi di tingkat internasional, membawa nama harum bangsa di berbagai kejuaraan dunia dan multi-event seperti Olimpiade, Asian Games, dan SEA Games.
+        
+        Olahraga elektronik atau eSports juga berkembang pesat menjadi industri yang menjanjikan. Turnamen-turnamen besar dengan hadiah fantastis menarik perhatian generasi muda. Indonesia memiliki potensi besar di bidang ini dengan banyaknya gamer berbakat yang mampu bersaing di level internasional.
+        
+        Ke depan, investasi dalam infrastruktur olahraga, pembinaan atlet sejak dini, dan dukungan dari berbagai pihak menjadi kunci untuk meningkatkan prestasi olahraga nasional. Olahraga bukan hanya soal kompetisi, tetapi juga tentang membangun karakter, kesehatan, dan persatuan bangsa.
+        `
     },
     {
         title: "Ekonomi",
         desc: "Analisis perkembangan ekonomi global dan nasional.",
         published: "5 Februari 2024",
-        image: "https://images.unsplash.com/photo-1618044733300-9472054094ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWNvbm9teXxlbnwwfHwwfHx8MA%3D%3D"
+        image: "https://images.unsplash.com/photo-1618044733300-9472054094ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWNvbm9teXxlbnwwfHwwfHx8MA%3D%3D",
+        content: `
+        Ekonomi global terus mengalami dinamika yang kompleks dengan berbagai faktor yang saling mempengaruhi. Pemulihan pasca pandemi, ketegangan geopolitik, perubahan kebijakan moneter, dan transformasi digital menjadi beberapa faktor kunci yang membentuk lanskap ekonomi saat ini.
+        
+        Indonesia sebagai ekonomi terbesar di Asia Tenggara menunjukkan resiliensi yang cukup baik. Pertumbuhan ekonomi yang stabil didukung oleh konsumsi domestik yang kuat, investasi infrastruktur, dan sektor digital yang berkembang pesat. Pemerintah terus berupaya menarik investasi asing dan mendorong hilirisasi industri untuk meningkatkan nilai tambah produk dalam negeri.
+        
+        Sektor UMKM menjadi tulang punggung ekonomi Indonesia dengan kontribusi signifikan terhadap PDB dan penyerapan tenaga kerja. Digitalisasi UMKM melalui platform e-commerce membuka peluang baru bagi pelaku usaha kecil untuk menjangkau pasar yang lebih luas. Program-program pemerintah untuk mempermudah akses permodalan dan pelatihan kewirausahaan terus digalakkan.
+        
+        Di tingkat global, ketegangan perdagangan antara negara-negara besar mempengaruhi rantai pasok global. Banyak negara mulai menerapkan strategi friend-shoring dan diversifikasi rantai pasok untuk mengurangi ketergantungan pada satu negara. Indonesia memiliki peluang untuk menjadi bagian dari rantai pasok global baru ini.
+        
+        Transformasi ekonomi digital menjadi tren yang tidak bisa dihindari. Fintech, e-commerce, dan ekonomi berbagi (sharing economy) tumbuh pesat mengubah perilaku konsumen dan model bisnis tradisional. Bank-bank digital dan dompet digital semakin memudahkan transaksi keuangan dan meningkatkan inklusi keuangan.
+        
+        Tantangan ke depan termasuk mengendalikan inflasi, menciptakan lapangan kerja berkualitas, mengurangi kesenjangan ekonomi, dan mencapai target pertumbuhan ekonomi yang berkelanjutan. Kebijakan fiskal dan moneter yang tepat, reformasi struktural, dan investasi dalam SDM menjadi kunci untuk mewujudkan ekonomi yang inklusif dan berdaya saing.
+        `
     },
     {
         title: "Kesehatan",
         desc: "Informasi kesehatan terbaru untuk menjaga hidup sehat.",
         published: "14 Maret 2024",
-        image: "https://images.unsplash.com/photo-1467453678174-768ec283a940?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGVhbHRoeXxlbnwwfHwwfHx8MA%3D%3D"
+        image: "https://images.unsplash.com/photo-1467453678174-768ec283a940?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGVhbHRoeXxlbnwwfHwwfHx8MA%3D%3D",
+        content: `
+        Kesehatan adalah investasi paling berharga dalam hidup. Memahami pentingnya gaya hidup sehat dan pencegahan penyakit menjadi kunci untuk meningkatkan kualitas hidup dan produktivitas. Perkembangan ilmu kedokteran dan teknologi kesehatan terus memberikan harapan baru dalam penanganan berbagai penyakit.
+        
+        Pola makan seimbang menjadi fondasi kesehatan yang baik. Konsumsi makanan bergizi dengan komposisi karbohidrat, protein, lemak sehat, vitamin, dan mineral yang tepat sangat penting. Mengurangi konsumsi gula, garam, dan lemak jenuh dapat mencegah berbagai penyakit tidak menular seperti diabetes, hipertensi, dan penyakit jantung.
+        
+        Aktivitas fisik teratur memberikan manfaat luar biasa bagi kesehatan fisik dan mental. Olahraga minimal 30 menit setiap hari dapat meningkatkan kebugaran kardiovaskular, menjaga berat badan ideal, memperkuat tulang dan otot, serta mengurangi stres. Tidak perlu olahraga berat, aktivitas sederhana seperti berjalan kaki, bersepeda, atau yoga sudah sangat bermanfaat.
+        
+        Kesehatan mental sama pentingnya dengan kesehatan fisik. Di era modern yang penuh tekanan, menjaga kesehatan mental menjadi tantangan tersendiri. Manajemen stres, tidur cukup, menjaga hubungan sosial yang positif, dan tidak ragu untuk berkonsultasi dengan profesional kesehatan mental adalah langkah-langkah penting yang perlu dilakukan.
+        
+        Kemajuan teknologi kesehatan seperti telemedicine memudahkan akses layanan kesehatan. Konsultasi online dengan dokter, pemantauan kesehatan melalui aplikasi dan wearable devices, serta rekam medis elektronik meningkatkan efisiensi dan kualitas pelayanan kesehatan.
+        
+        Pencegahan tetap lebih baik daripada pengobatan. Pemeriksaan kesehatan rutin, imunisasi lengkap, deteksi dini penyakit, dan menerapkan protokol kesehatan adalah investasi jangka panjang untuk kehidupan yang lebih sehat dan produktif. Kesadaran masyarakat tentang pentingnya hidup sehat perlu terus ditingkatkan melalui edukasi yang komprehensif.
+        `
     },
     {
         title: "Pendidikan",
         desc: "Tren pendidikan modern dan dunia akademis.",
         published: "8 April 2024",
-        image: "https://plus.unsplash.com/premium_photo-1661767552224-ef72bb6b671f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN0dWR5fGVufDB8fDB8fHww"
+        image: "https://plus.unsplash.com/premium_photo-1661767552224-ef72bb6b671f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN0dWR5fGVufDB8fDB8fHww",
+        content: `
+        Pendidikan merupakan kunci pembangunan sumber daya manusia yang berkualitas. Transformasi pendidikan di era digital membawa perubahan fundamental dalam metode pembelajaran, akses pendidikan, dan peran pendidik dalam membentuk generasi masa depan.
+        
+        Digitalisasi pendidikan semakin masif dengan adopsi teknologi dalam proses belajar mengajar. Platform pembelajaran online, kelas virtual, dan konten edukatif digital memberikan fleksibilitas dan memperluas akses pendidikan ke daerah-daerah terpencil. Pandemi mempercepat transformasi ini dan membuktikan bahwa pembelajaran jarak jauh bisa efektif jika didukung infrastruktur yang memadai.
+        
+        Kurikulum merdeka memberikan keleluasaan kepada sekolah dan guru untuk mengembangkan metode pembelajaran yang sesuai dengan karakteristik dan kebutuhan siswa. Pendekatan yang lebih fleksibel dan berpusat pada siswa diharapkan dapat mengembangkan keterampilan abad 21 seperti critical thinking, creativity, collaboration, dan communication.
+        
+        Pendidikan karakter menjadi fokus penting selain akademis. Membentuk generasi yang tidak hanya cerdas secara intelektual tetapi juga memiliki integritas, empati, dan tanggung jawab sosial adalah tujuan pendidikan yang holistik. Nilai-nilai Pancasila dan budaya lokal perlu diintegrasikan dalam pembelajaran.
+        
+        Pendidikan vokasi dan link and match dengan industri semakin diprioritaskan untuk mengurangi kesenjangan antara kebutuhan pasar kerja dan kompetensi lulusan. Kerjasama antara institusi pendidikan dengan industri dalam pengembangan kurikulum dan program magang menjadi penting.
+        
+        Tantangan ke depan termasuk meningkatkan kualitas guru, mengurangi kesenjangan kualitas pendidikan antar daerah, memastikan akses pendidikan yang merata, dan mengintegrasikan teknologi secara efektif dalam pembelajaran. Investasi dalam pendidikan adalah investasi untuk masa depan bangsa yang lebih cerah.
+        `
     },
     {
         title: "Sains",
         desc: "Penemuan ilmiah terbaru dari seluruh dunia.",
         published: "19 Desember 2024",
-        image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=500"
+        image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=500",
+        content: `
+        Perkembangan sains dan penelitian ilmiah terus membuka pemahaman baru tentang alam semesta dan memberikan solusi untuk berbagai tantangan yang dihadapi manusia. Dari eksplorasi luar angkasa hingga penelitian di level molekuler, setiap penemuan membawa kita lebih dekat pada masa depan yang lebih baik.
+        
+        Penelitian di bidang biomedis menghasilkan terobosan penting dalam pengobatan penyakit. Teknologi CRISPR untuk gene editing membuka peluang revolusioner dalam terapi genetik. Pengembangan vaksin mRNA telah terbukti efektif dan membuka paradigma baru dalam pencegahan penyakit. Penelitian sel punca dan regenerative medicine memberikan harapan untuk penyembuhan penyakit degeneratif.
+        
+        Eksplorasi antariksa mencapai milestone baru dengan misi ke Mars, pengembangan teleskop canggih untuk mempelajari alam semesta, dan rencana eksplorasi bulan. Perusahaan swasta juga mulai aktif dalam industri antariksa, membuka era baru space tourism dan eksplorasi komersial.
+        
+        Fisika kuantum membawa revolusi dalam teknologi komputasi. Komputer kuantum yang dikembangkan memiliki potensi untuk memecahkan masalah kompleks yang tidak mungkin diselesaikan komputer konvensional. Ini akan berdampak besar pada kriptografi, simulasi molekuler, dan artificial intelligence.
+        
+        Penelitian perubahan iklim dan energi terbarukan menjadi fokus utama ilmuwan di seluruh dunia. Pengembangan teknologi panel surya yang lebih efisien, baterai dengan kapasitas lebih besar, dan metode carbon capture menjadi kunci untuk mencapai target net zero emission.
+        
+        Kolaborasi internasional dalam penelitian semakin penting untuk mengatasi tantangan global. Berbagi data, publikasi open access, dan joint research mempercepat kemajuan sains. Indonesia perlu terus meningkatkan investasi dalam riset dan pengembangan untuk tidak tertinggal dalam kompetisi global.
+        `
     },
     {
         title: "Hiburan",
         desc: "Info terbaru dunia film, musik, dan selebriti.",
         published: "7 Mei 2024",
-        image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500"
+        image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500",
+        content: `
+        Industri hiburan terus berkembang dan menghadirkan konten-konten berkualitas yang menghibur sekaligus menginspirasi. Dari film blockbuster hingga musik viral, dunia entertainment menjadi bagian tak terpisahkan dari kehidupan modern dan membentuk budaya pop global.
+        
+        Industri perfilman global terus menghasilkan karya-karya spektakuler. Hollywood masih mendominasi dengan franchise superhero, film animasi, dan drama berkualitas tinggi. Platform streaming seperti Netflix, Disney+, dan Amazon Prime mengubah cara konsumsi konten film dan serial TV, memberikan kebebasan untuk menonton kapan saja dan di mana saja.
+        
+        Perfilman Indonesia menunjukkan perkembangan positif dengan produksi film yang semakin beragam dan berkualitas. Film-film lokal tidak hanya sukses di pasar domestik tetapi juga mulai diakui di festival film internasional. Genre yang beragam dari horror, drama, komedi, hingga action menunjukkan kreativitas sineas Indonesia.
+        
+        Industri musik mengalami transformasi besar dengan dominasi platform digital. Spotify, Apple Music, dan YouTube menjadi media utama konsumsi musik. Musik K-Pop mendominasi chart global, sementara musik Indonesia juga menunjukkan eksistensinya dengan berbagai genre dari pop, dangdut, indie, hingga hip-hop yang semakin diapresiasi.
+        
+        Konten kreator di media sosial menjadi fenomena baru dalam industri hiburan. YouTuber, TikToker, dan influencer menciptakan konten yang menghibur dan relevan dengan audience mereka. Beberapa bahkan memiliki pengaruh yang setara dengan selebriti tradisional.
+        
+        Festival musik dan konser menjadi pengalaman entertainment yang dinantikan. Event-event besar menghadirkan artis internasional dan lokal, memberikan kesempatan fans untuk menikmati musik secara langsung. Industri hiburan Indonesia memiliki potensi besar dengan pasar yang besar dan talenta yang terus bermunculan.
+        `
     },
     {
         title: "Otomotif",
         desc: "Berita otomotif, mobil, dan motor terbaru.",
         published: "22 Juli 2024",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500"
+        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500",
+        content: `
+        Industri otomotif tengah mengalami transformasi revolusioner menuju era elektrifikasi dan mobilitas cerdas. Perubahan ini tidak hanya tentang sumber tenaga kendaraan, tetapi juga bagaimana kita memandang konsep transportasi di masa depan.
+        
+        Kendaraan listrik (EV) menjadi tren utama industri otomotif global. Produsen mobil besar berlomba mengembangkan EV dengan jangkauan lebih jauh, charging time lebih cepat, dan harga lebih terjangkau. Tesla menjadi pioneer yang mendorong produsen lain untuk mempercepat transisi ke elektrifikasi.
+        
+        Di Indonesia, pemerintah mendorong adopsi kendaraan listrik melalui berbagai insentif dan pembangunan infrastruktur charging station. Beberapa produsen sudah meluncurkan model EV di pasar Indonesia, meskipun masih menghadapi tantangan seperti harga yang relatif tinggi dan keterbatasan infrastruktur pengisian daya.
+        
+        Teknologi autonomous driving atau self-driving car terus dikembangkan. Meskipun masih dalam tahap pengujian, teknologi ini berpotensi mengubah paradigma transportasi dengan meningkatkan keselamatan, efisiensi, dan kenyamanan berkendara. Berbagai level autonomous dari level 1 hingga level 5 (fully autonomous) sedang dikembangkan oleh berbagai perusahaan teknologi dan otomotif.
+        
+        Connected car dengan teknologi Internet of Things memungkinkan kendaraan terhubung dengan infrastruktur jalan dan kendaraan lain. Ini membuka peluang untuk sistem transportasi yang lebih efisien, mengurangi kemacetan, dan meningkatkan keselamatan berkendara.
+        
+        Motor listrik juga mulai populer sebagai alternatif kendaraan ramah lingkungan untuk mobilitas urban. Dengan biaya operasional yang lebih rendah dan perawatan lebih mudah, motor listrik menjadi pilihan menarik khususnya untuk penggunaan sehari-hari di perkotaan. Masa depan otomotif adalah elektrifikasi, konektivitas, dan automasi yang akan mengubah cara kita bermobilitas.
+        `
     },
     {
         title: "Kuliner",
         desc: "Rekomendasi kuliner dan tren makanan terbaru.",
         published: "1 Juni 2024",
-        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500"
+        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500",
+        content: `
+        Kuliner Indonesia memiliki kekayaan yang luar biasa dengan ribuan jenis makanan dan minuman dari berbagai daerah. Keragaman ini mencerminkan kekayaan budaya dan tradisi yang diwariskan turun temurun, menjadikan Indonesia surga bagi para pecinta kuliner.
+        
+        Makanan tradisional Indonesia semakin mendapat apresiasi tidak hanya di dalam negeri tetapi juga di mancanegara. Rendang, sate, nasi goreng, dan gado-gado menjadi icon kuliner Indonesia yang dikenal dunia. Upaya pelestarian dan promosi kuliner tradisional terus dilakukan untuk memperkenalkan kekayaan gastronomi Indonesia.
+        
+        Tren kuliner fusion menggabungkan cita rasa tradisional dengan teknik modern menghasilkan kreasi baru yang unik. Chef-chef muda Indonesia berani bereksperimen menghadirkan interpretasi baru terhadap hidangan klasik, menciptakan pengalaman kuliner yang menarik bagi generasi modern.
+        
+        Industri F&B Indonesia tumbuh pesat dengan bermunculannya restoran, kafe, dan food truck yang menawarkan konsep unik. Cloud kitchen dan delivery service juga berkembang pesat, mengubah perilaku konsumsi makanan masyarakat. Platform food delivery memudahkan akses ke berbagai pilihan kuliner.
+        
+        Tren healthy eating semakin populer dengan meningkatnya kesadaran akan pentingnya pola makan sehat. Menu plant-based, organic food, dan low-sugar options semakin banyak tersedia. Konsumen lebih selektif memilih makanan yang tidak hanya lezat tetapi juga nutritious.
+        
+        Media sosial memainkan peran besar dalam tren kuliner. Instagram dan TikTok menjadi platform untuk berbagi rekomendasi makanan, review restoran, dan tutorial masak. Food blogger dan food vlogger memiliki pengaruh besar dalam membentuk tren kuliner. Eksplorasi kuliner bukan hanya soal rasa, tetapi juga tentang pengalaman dan cerita di balik setiap hidangan.
+        `
     },
     {
         title: "Travel",
         desc: "Panduan dan rekomendasi tempat wisata menarik.",
         published: "12 Agustus 2024",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500"
+        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500",
+        content: `
+        Indonesia adalah negara kepulauan dengan potensi pariwisata yang luar biasa. Dari pantai eksotis, gunung yang menawan, hingga kekayaan budaya yang beragam, setiap daerah menawarkan pengalaman wisata yang unik dan tak terlupakan.
+        
+        Bali tetap menjadi destinasi favorit wisatawan domestik dan mancanegara. Kombinasi pantai indah, budaya yang kaya, kehidupan malam yang vibrant, dan hospitality yang ramah membuat Bali selalu menarik untuk dikunjungi. Pemerintah terus mengembangkan infrastruktur untuk meningkatkan pengalaman wisatawan sambil menjaga kelestarian lingkungan dan budaya.
+        
+        Destinasi wisata alternatif seperti Labuan Bajo, Raja Ampat, Lombok, dan Belitung semakin populer. Keindahan alam yang masih pristine menawarkan pengalaman petualangan yang berbeda. Pemerintah fokus mengembangkan 10 destinasi prioritas untuk mendistribusikan wisatawan dan memberikan dampak ekonomi yang lebih merata.
+        
+        Wisata budaya menjadi daya tarik tersendiri dengan keragaman suku, bahasa, dan tradisi di Indonesia. Mengunjungi desa adat, mengikuti upacara tradisional, atau belajar kerajinan lokal memberikan pengalaman cultural immersion yang otentik dan edukatif.
+        
+        Sustainable tourism menjadi fokus dalam pengembangan pariwisata. Konsep ekowisata yang menjaga kelestarian alam dan memberdayakan masyarakat lokal semakin diapresiasi. Wisatawan juga semakin sadar untuk traveling secara bertanggung jawab dengan mengurangi jejak karbon dan menghormati budaya lokal.
+        
+        Digital technology mengubah cara kita merencanakan dan mengalami perjalanan. Booking online, digital guide, dan social media mempermudah akses informasi dan transaksi. Virtual tour juga menjadi alternatif untuk explore destinasi sebelum berkunjung langsung. Industri pariwisata Indonesia memiliki potensi besar untuk menjadi salah satu pilar ekonomi utama dengan pengelolaan yang berkelanjutan.
+        `
     },
     {
         title: "Bisnis",
         desc: "Insight dunia bisnis dan perkembangan startup.",
         published: "30 September 2024",
-        image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500"
-    },
-    {
-        title: "Gaya Hidup",
-        desc: "Tren lifestyle dan tips hidup modern.",
-        published: "16 November 2024",
-        image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500"
-    },
-    {
-        title: "Lingkungan",
-        desc: "Berita lingkungan dan dampak perubahan iklim.",
-        published: "2 Oktober 2024",
-        image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=500"
-    },
-    {
-        title: "Sejarah",
-        desc: "Ulasan peristiwa sejarah dunia dan Indonesia.",
-        published: "9 September 2024",
-        image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500"
+        image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500",
+        content: `
+        Lanskap bisnis global dan Indonesia mengalami transformasi signifikan dengan digitalisasi, perubahan perilaku konsumen, dan model bisnis yang terus berinovasi. Entrepreneurship menjadi pilihan karir yang semakin menarik bagi generasi muda.
+
+        Ekosistem startup Indonesia berkembang pesat menjadi salah satu yang terbesar di Asia Tenggara. Beberapa unicorn dan decacorn lahir dari Indonesia, membuktikan potensi besar market dan talenta lokal. Investor venture capital baik lokal maupun global semakin tertarik berinvestasi di startup Indonesia.
+
+        E-commerce mengubah landscape retail tradisional. Platform marketplace memberikan akses pasar yang luas bagi UMKM untuk menjual produk mereka. Integrasi dengan payment gateway dan logistic partner memudahkan transaksi online. Live commerce menjadi tren baru yang menggabungkan entertainment dan shopping experience.
+
+        Fintech merevolusi sektor keuangan dengan memberikan akses layanan keuangan yang lebih inklusif. Dari digital banking, peer-to-peer lending, hingga digital payment, inovasi fintech mempermudah transaksi keuangan dan meningkatkan literasi keuangan masyarakat.
+
+        Sustainability dan ESG (Environmental, Social, Governance) semakin menjadi perhatian utama bagi pelaku bisnis. Konsumen modern semakin peduli terhadap produk yang ramah lingkungan, proses produksi yang etis, serta transparansi perusahaan. Banyak perusahaan mulai menerapkan green business strategy dan melaporkan kinerja ESG mereka.
+
+        Transformasi digital menjadi pilar penting untuk meningkatkan produktivitas dan efisiensi bisnis. Implementasi AI, automation, dan data analytics membantu perusahaan mengambil keputusan lebih cepat dan akurat. Cloud computing juga memungkinkan kolaborasi tim lintas lokasi serta pengelolaan infrastruktur yang lebih fleksibel dan hemat biaya.
+
+        Tantangan bisnis ke depan termasuk ketidakpastian ekonomi global, persaingan yang semakin ketat, dan kecepatan perubahan teknologi. Pelaku bisnis perlu adaptif, inovatif, dan fokus pada customer-centric strategy untuk tetap relevan. Investasi pada kualitas SDM, pengembangan teknologi, dan kemitraan strategis menjadi kunci untuk menjaga keberlanjutan bisnis di era modern.
+    `
     }
-];
+]
 
 const politik = [
     {
@@ -101,7 +237,7 @@ const politik = [
         desc: "Bahlil Lahadalia mengusulkan pembentukan koalisi permanen. Usulan itu bakal berdampak buruk terhadap demokrasi.",
         published: "11 Desember 2025",
         image: "https://images.unsplash.com/photo-1504714146340-959ca07b2a10?w=500",
-        content:`
+        content: `
         KOALISI partai politik di Indonesia kerap berubah-ubah dalam setiap pemilihan presiden. Partai politik tidak pernah betul-betul membentuk koalisi dalam jangka panjang atau koalisi permanen. 
         Partai politik membentuk koalisi untuk memenuhi syarat ambang batas pencalonan presiden dan wakil presiden dalam setiap pemilihan umum. Tapi keanggotaan kaolisi itu akan buyar setelah pemilihan presiden. 
         Hanya koalisi yang memenangi pemilihan presiden yang tetap bertahan. Bahkan anggota koalisi itu bakal bertambah gemuk. 
@@ -138,7 +274,7 @@ const politik = [
         desc: "Ketua Komisi Percepatan Reformasi Polri Jimly Asshiddiqie saat ditemui di Gedung Kementerian Sekretariat Negara, Jakarta Pusat, Rabu (10/12/2025).",
         published: "10 Desember 2025",
         image: "https://images.unsplash.com/photo-1581091870623-e0b1a4e3d9a5?w=500",
-        content:`
+        content: `
         Ketua Komisi Percepatan Reformasi Polri, Jimly Asshiddiqie, menyatakan ada kemungkinan Presiden bisa memilih langsung Kapolri tanpa melalui proses politik di DPR agar Kapolri tidak sibuk membalas jasa ke DPR. "Saya rasa salah satu yang saudara tanya itu kemungkinan, walaupun belum kami buat 
         keputusan resmi, tapi kira-kira ada kemungkinan ke arah itu (Presiden pilih langsung Kapolri)," ujar Jimly di Gedung Kemensetneg, Jakarta Pusat, Rabu (10/12/2025). Apalagi, usulan agar Kapolri ditunjuk Presiden sudah banyak bergulir dalam rapat Komisi Percepatan Reformasi Polri bersama unsur eksternal, 
         termasuk oleh para mantan Kapolri. Jimly menyampaikan bahwa usulan Presiden bisa langsung menunjuk Kapolri memang mendapat perhatian dari semua kalangan. Dengan demikian, dia menekankan, Komisi Percepatan Reformasi Polri akan mengusulkan agar aturan baru tersebut diatur. "Tadi kami terperanjat, saya sendiri terperanjat. 
@@ -272,7 +408,7 @@ const politik = [
         desc: "Pemohon saat Sidang Pemeriksaan Pendahuluan Perkara Nomor 233/PUU-XXIII/2025 Pengujian Materiil Undang-Undang Nomor 7 Tahun 2017 tentang Pemilihan Umum, Kamis (4/12/2025).",
         published: "4 Desember 2025",
         image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500",
-        content:`
+        content: `
         JAKARTA, HUMAS MKRI — Koordinator Nasional Presidium Fraksi Rakyat sekaligus Ketua Yayasan JAKI Kemanusiaan Inisiatif Yudi Syamhudi Suyuti mempersoalkan konstitusionalitas Pasal 240 ayat (1) huruf n Undang-Undang Nomor 7 Tahun 2017 tentang Pemilihan Umum (UU Pemilu) ke Mahkamah Konstitusi (MK). Sidang Pendahuluan Permohonan Nomor 233/PUU-XXIII/2025 ini dipimpin oleh Wakil Ketua MK Saldi Isra pada Kamis (4/12/2025).
         Pasal 240 ayat (1) huruf n UU Pemilu menyatakan, “Bakal calon anggota DPR, DPRD provinsi, dan DPRD kabupaten/kota adalah Warga Negara Indonesia dan harus memenuhi persyaratan: n. menjadi anggota Partai Politik Peserta Pemilu". Pada permohonannya, Yudi menceritakan berniat untuk mencalonkan diri sebagai Anggota DPR RI pada Pemilu 2029 sebagai perwakilan dari organisasi masyarakast sipil atau lembaga swadaya masyarakat (LSM). 
         “Yang mendasari maju menjadi calon anggota legislatif nonpartai politik, karena didasari persoalan fundamental, yaitu agar terbentuknya saluran rakyat warga langsung dengan perwakilannya di DPR untuk terlibat dalam pengambilan keputusan. Dalam hal pembuatan undang-undang, pengesahan anggaran, dan praktik pengawasan yang bukan bersifat usulan-usulan,” terang Yudi. Menurut pengamatan Yudi, sistem ketatanegaraan Indonesia belum 
@@ -349,7 +485,7 @@ const politik = [
         desc: "Kuasa Pemohon saat Sidang Pengucapan Ketetapan Perkara Nomor 122/PUU-XXIII/2025 Pengujian Materiil Undang-Undang Nomor 2 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 2 Tahun 2008 tentang Partai Politik, Kamis (14/8/2025).",
         published: "14 Agustus 2025",
         image: "https://images.unsplash.com/photo-1556155092-8707de31f9c4?w=500",
-        content:`
+        content: `
         AKARTA, HUMAS MKRI – Mahkamah Konstitusi (MK) menjatuhkan ketetapan penarikan permohonan Nomor 122/PUU-XXIII/2025 mengenai pengujian materiil Undang-Undang Nomor 2 Tahun 2011 tentang Partai Politik (UU Parpol). Pemohon melakukan pencabutan permohonan dengan alasan norma yang diuji pernah diputus Mahkamah. “Mengabulkan penarikan kembali permohonan Pemohon,” ujar Suhartoyo dalam sidang pengucapan putusan/ketetapan pada Kamis (14/8/2025) di Ruang Sidang Pleno MK, Jakarta. Suhartoyo menuturkan, 
         rencana penarikan telah dikatakan Pemohon pada sidang pemeriksaan pendahuluan. Kemudian pada Senin, 4 Agustus 2025, Mahkamah menerima surat dari Pemohon melalui surat elektronik perihal pencabutan permohonan dimaksud. 
         

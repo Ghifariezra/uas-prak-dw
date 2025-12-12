@@ -38,7 +38,7 @@ export default function renderDetail(title) {
             </p>
 
             <button onclick="history.back()" 
-                class="mt-6 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
+                class="mt-6 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition cursor-pointer">
                 Kembali
             </button>
         </div>

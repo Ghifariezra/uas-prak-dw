@@ -3,6 +3,8 @@ import renderCards from "../components/cards/category.js";
 import renderMenuTypeCategory from "../components/menus/typeCategory.js";
 import renderDetail from "../components/detail/detail.js";
 import { content } from "../core/dom.js";
+import renderCardsBeranda from "../components/cards/beranda.js";
+import bannerBeranda from "../components/banner/bannerBeranda.js";
 
 export function bukaDetail(title) {
     location.hash = `/detail/${encodeURIComponent(title)}`;
@@ -18,9 +20,15 @@ export function loadPage(page) {
         content.innerHTML = pages[page];
         content.style.opacity = 1;
 
-        if (page === "kategori") {
-            renderMenuTypeCategory();
-            renderCards();
+        switch (page) {
+            case 'beranda':
+                bannerBeranda();
+                renderCardsBeranda();
+                break;
+            case 'kategori':
+                renderMenuTypeCategory();
+                renderCards();
+                break;
         }
     }, 150);
 

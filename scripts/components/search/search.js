@@ -1,9 +1,8 @@
 import { categories } from "../../data/category.js";
 
-// buat nyimpen pencarian terakhir ketua
+// Menyimpan hasil pencarian terakhir
 let lastSearchResults = [];
 let lastQuery = "";
-
 
 export function initSearchToggle() {
     const searchIconDesktop = document.getElementById("search-icon-desktop");
@@ -68,6 +67,7 @@ export function bukaDetail(title) {
     footer.classList.remove("hidden");
 }
 
+// Render hasil pencarian
 function renderSearchResults(query, resultsArray) {
     const results = document.getElementById("search-results");
     const content = document.getElementById("content");
@@ -126,9 +126,9 @@ export function initSearchInput() {
 
     input.addEventListener("input", () => {
         const query = input.value.trim().toLowerCase();
+
         const filtered = categories.filter(cat =>
-            cat.title.toLowerCase().includes(query) ||
-            cat.desc.toLowerCase().includes(query)
+            cat.title.toLowerCase().startsWith(query)
         );
 
         lastQuery = query;
@@ -138,6 +138,7 @@ export function initSearchInput() {
     });
 }
 
+// Tutup search view
 export function closeSearchView() {
     const searchView = document.getElementById("search-view");
     const content = document.getElementById("content");

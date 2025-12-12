@@ -13,8 +13,8 @@ export default function bannerBeranda() {
 
         <div class="p-6 sm:p-8">
             <h1 class="text-2xl sm:text-3xl font-bold mb-2">${randomCategory.title}</h1>
-            <p class="text-gray-600 md:w-3/4">
-                ${randomCategory.desc}
+            <p class="text-gray-600 w-full line-clamp-2">
+                ${randomCategory.content}
             </p>
         </div>
     `;

@@ -5,6 +5,7 @@ import renderDetail from "../components/detail/detail.js";
 import { content } from "../core/dom.js";
 import renderCardsBeranda from "../components/cards/beranda.js";
 import bannerBeranda from "../components/banner/bannerBeranda.js";
+import initContactForm from "../components/form/contactForm.js";
 
 export function bukaDetail(title) {
     location.hash = `/detail/${encodeURIComponent(title)}`;
@@ -28,6 +29,9 @@ export function loadPage(page) {
             case 'kategori':
                 renderMenuTypeCategory();
                 renderCards();
+                break;
+            case 'kontak':
+                initContactForm();
                 break;
         }
     }, 150);

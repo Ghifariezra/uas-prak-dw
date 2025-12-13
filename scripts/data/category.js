@@ -236,7 +236,7 @@ const politik = [
         title: "Konsolidasi Dini untuk Pemilu 2029",
         desc: "Bahlil Lahadalia mengusulkan pembentukan koalisi permanen. Usulan itu bakal berdampak buruk terhadap demokrasi.",
         published: "11 Desember 2025",
-        image: "https://images.unsplash.com/photo-1504714146340-959ca07b2a10?w=500",
+        image: "./assets/images/Konsolidasi.jpg",
         content: `
         KOALISI partai politik di Indonesia kerap berubah-ubah dalam setiap pemilihan presiden. Partai politik tidak pernah betul-betul membentuk koalisi dalam jangka panjang atau koalisi permanen. 
         Partai politik membentuk koalisi untuk memenuhi syarat ambang batas pencalonan presiden dan wakil presiden dalam setiap pemilihan umum. Tapi keanggotaan kaolisi itu akan buyar setelah pemilihan presiden. 
@@ -254,7 +254,7 @@ const politik = [
         title: "75 Pemuda Sorong Diasah Parpol, Belajar Politik Santun dan Ekonomi Kreatif",
         desc: "PELATIHAN POLITIK EKONOMI - Sebanyak 75 generasi muda di Kota Sorong, Papua Barat Daya dapat pelatihan dasar sosial politik dan ekonomi kreatif.",
         published: "10 Desember 2025",
-        image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=500",
+        image: "./assets/images/75 Pemuda.png",
         content: `
         Sebanyak 75 generasi muda di Kota Sorong, Papua Barat Daya dapat pelatihan dasar sosial politik dan ekonomi kreatif dari DPC Partai Grerindra di Waigo Hotel, Kota Sorong, Papua Barat Daya, Rabu (10/12/2025). Pelatihan mengusung tema ‘Membangun Budaya Politik 
         Santun dan Berintegritas dalam Mengakselerasi Kemandirian Ekonomi Generasi Kekinian. Dewan Penasihat DPD Gerindra Papua Barat Daya Syamsudin Djohan mengatakan, pelatihan ini merupakan bentuk komitmen partai dalam memberikan edukasi sosial politik, sekaligus dorongan 
@@ -273,7 +273,7 @@ const politik = [
         title: "Jimly Jelaskan Ide Kapolri Dipilih Presiden: Agar Tak Terpengaruh Politik",
         desc: "Ketua Komisi Percepatan Reformasi Polri Jimly Asshiddiqie saat ditemui di Gedung Kementerian Sekretariat Negara, Jakarta Pusat, Rabu (10/12/2025).",
         published: "10 Desember 2025",
-        image: "https://images.unsplash.com/photo-1581091870623-e0b1a4e3d9a5?w=500",
+        image: "./assets/images/Jimly.jpg",
         content: `
         Ketua Komisi Percepatan Reformasi Polri, Jimly Asshiddiqie, menyatakan ada kemungkinan Presiden bisa memilih langsung Kapolri tanpa melalui proses politik di DPR agar Kapolri tidak sibuk membalas jasa ke DPR. "Saya rasa salah satu yang saudara tanya itu kemungkinan, walaupun belum kami buat 
         keputusan resmi, tapi kira-kira ada kemungkinan ke arah itu (Presiden pilih langsung Kapolri)," ujar Jimly di Gedung Kemensetneg, Jakarta Pusat, Rabu (10/12/2025). Apalagi, usulan agar Kapolri ditunjuk Presiden sudah banyak bergulir dalam rapat Komisi Percepatan Reformasi Polri bersama unsur eksternal, 
@@ -293,7 +293,7 @@ const politik = [
         title: "Diplomasi Politik di Balik Pertemuan Surya Paloh & Sjafrie Sjamsoeddin",
         desc: "Ketua Umum Partai NasDem Surya Paloh menggelar pertemuan dengan Menteri Pertahanan Sjafrie Sjamsoeddin di Kantor Kementerian Pertahanan, Rabu (15/10).",
         published: "16 Oktober 2025",
-        image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500",
+        image: "./assets/images/Diplomasi.jpeg",
         content: `
         Dalam pertemuan yang berlangsung sekitar satu jam tersebut, Sjafrie mengklaim mendapat masukan dari Surya Paloh dalam tugasnya sebagai penentu kebijakan nasional di bidang stabilitas keamanan. "Pak Surya Paloh memberi masukan informal tetapi penuh dengan komitmen nasionalisme dan patriotisme yang beliau sampaikan kepada saya," 
         kata Sjafrie kepada awak media. Sjafrie mengatakan NasDem menjadi partai pertama di luar Koalisi Indonesia Maju yang menemui dirinya. Dalam beberapa hari ke depan, terang dia, ada jadwal pertemuan dengan PKS. "Saya kemarin sore juga mendengar laporan bahwa PKS juga akan berkunjung dan ini adalah kantornya rakyat, kantornya rakyat yang 
@@ -322,7 +322,7 @@ const politik = [
         title: "Basuki Datangi Istana, Lapor Kesiapan IKN Jadi Ibu Kota Politik",
         desc: "Kepala Otorita IKN Basuki Hadimuljono melaporkan progres pembangunan IKN ke dua Wakil Menteri Sekretaris Negara, Juri Ardiantoro dan Bambang Eko Suharyanto. (CNN Indonesia/Sakti Darma Abhiyoso).",
         published: "3 Oktober 2025",
-        image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500",
+        image: "./assets/images/Basuki.jpeg",
         content: `
         Kepala Otorita Ibu Kota Nusantara (IKN) Basuki Hadimuljono mendatangi Istana Kepresidenan Jakarta untuk melaporkan progres pembangunan IKN. Ia mengatakan laporan terkait status dan perkembangan pembangunan itu disampaikan melalui dua Wakil Menteri Sekretaris Negara, yakni Juri Ardiantoro dan Bambang Eko Suharyanto. "Saya melaporkan status dan progres pembangunan 
         Ibu Kota Nusantara pasca terbitnya Perpres 79/2025," kata Basuki saat ditemui di Istana Kepresidenan Jakarta pada Jumat (3/10) hari ini. Dalam kesempatan itu, Basuki juga memaparkan rencana pembangunan tahun 2026-2028 yang akan difokuskan pada penyelesaian kawasan legislatif dan yudikatif sesuai arahan Presiden Prabowo Subianto. Basuki optimistis IKN bisa menjadi 
@@ -337,7 +337,7 @@ const politik = [
         title: "Golkar Nilai Koalisi Permanen Masuk RUU Pemilu Akan Batasi Komunikasi Politik",
         desc: "Waketum Partai Golkar sekaligus Anggota Komisi II DPR, Ahamd Doli Kurnia, menanggapi usulan koalisi permanen untuk masuk dalam revisi undang-undang (RUU) Pemilu.",
         published: "11 Desember 2025",
-        image: "https://images.unsplash.com/photo-1546074177-ffdda98d214f?w=500",
+        image: "./assets/images/Golkar.jpeg",
         content: `
         Waketum Partai Golkar sekaligus Anggota Komisi II DPR, Ahamd Doli Kurnia, menanggapi usulan koalisi permanen untuk masuk dalam revisi undang-undang (RUU) Pemilu. Doli menilai melegalisasi koalisi permanen dalam UU Pemilu akan membatasi kelelusaan partai dalam mengembangkan visi dan misi. "Jadi selama ini koalisi itu terbentuk secara alamiah saja. Jadi menurut saya kita 
         harus hati-hati kemudian memasukkan itu secara formal," kata Doli kepada wartawan, Kamis (11/12/2025). "Karena nanti itu tidak, akan membuat tidak adanya fleksibilitas dalam membangun komunikasi politik yang berdasarkan visi dan misi periode itu," sambung dia. Menurutnya, koalisi dibutuhkan untuk menjaga stabilitas politik, khususnya dalam langkah menjalankan program pemerintahan. 
@@ -353,7 +353,7 @@ const politik = [
         title: "Wujudkan Cita-Cita Bangsa melalui Instrumen Politik",
         desc: "SLEMAN (10 Desember): Pembukaan UUD 1945 pada alenia empat, memuat cita-cita bangsa, yakni mewujudkan negara yang melindungi segenap bangsa, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, serta ikut melaksanakan ketertiban dunia berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial. ",
         published: "10 Desember 2025",
-        image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500",
+        image: "./assets/images/Wujudkan.jpg",
         content: `
         Pembukaan UUD 1945 pada alenia empat, memuat cita-cita bangsa, yakni mewujudkan negara yang melindungi segenap bangsa, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, serta ikut melaksanakan ketertiban dunia berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial. Anggota MPR RI dari Fraksi Partai NasDem, Subardi, menjelaskan makna cita-cita itu dapat dilihat dari 
         dua perspektif, yakni cita-cita internal dan cita-cita eksternal. Cita-cita internal mencakup political nationalism, mencakup keamanan negara, kemakmuran rakyat, dan kemandirian bangsa. Rumusan cita-cita internal adalah ideologi yang menekankan persatuan dan kepentingan bangsa untuk memperkuat eksistensi negara. Sedangkan cita-cita eksternal menyangkut usaha yang berhubungan dengan 
@@ -367,7 +367,7 @@ const politik = [
         title: "Peran Mahasiswa Dalam Membangun Literasi Politik Masyarakat di Era Digital",
         desc: "Mahasiswa memiliki peran yang sangat strategis dalam membangun literasi politik masyarakat di era demokrasi maju.",
         published: "9 Agustus 2025",
-        image: "https://images.unsplash.com/photo-1606788075760-3b8403b0b5c0?w=500",
+        image: "./assets/images/Peran Mahasiswa.jpg",
         content: `
         Mahasiswa memiliki peran yang sangat strategis dalam membangun literasi politik masyarakat di era demokrasi maju. Berbagai penelitian menegaskan bahwa kemampuan literasi digital menjadi fondasi penting bagi mahasiswa untuk memahami isu-isu politik secara lebih kritis dan objektif. Dengan literasi digital yang baik, mahasiswa dapat menyaring informasi, membedakan fakta dari hoaks, 
         serta menilai kredibilitas sumber yang tersebar di media sosial. Pendidikan politik yang terintegrasi dengan literasi digital juga terbukti meningkatkan efikasi politik mahasiswa. Mereka menjadi lebih percaya diri dalam berpartisipasi, baik melalui diskusi politik, pemilu, maupun advokasi isu-isu publik. Generasi Z, termasuk mahasiswa, memanfaatkan teknologi digital sebagai ruang belajar 
@@ -380,7 +380,7 @@ const politik = [
         title: "Baru Sembilan Bulan Menjabat, Tiga Kepala Daerah Hasil Pilkada 2024 Ditangkap KPK",
         desc: "Sebanyak tiga kepala daerah hasil Pilkada 2024 telah terjaring operasi tangkap tangan Komisi Pemberantasan Korupsi dalam tiga bulan terakhir.",
         published: "10 November 2025",
-        image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=500",
+        image: "./assets/images/Baru Sembilan.jpg",
         content: `
         Sebanyak tiga kepala daerah hasil Pilkada 2024 telah terjaring operasi tangkap tangan Komisi Pemberantasan Korupsi dalam tiga bulan terakhir. Penangkapan beruntun itu mengindikasikan masih kuatnya politik berbiaya tinggi Pilkada 2024 yang mendorong praktik korupsi di tingkat daerah. Ketiga kepala daerah yang ditangkap KPK ialah Bupati Kolaka Timur Abdul Azis, Gubernur Riau Abdul Wahid, 
         dan Bupati Ponorogo Sugiri Sancoko. Mereka dilantik serentak pada 20 Februari 2025. Namun, baru beberapa bulan menjabat mereka sudah ditangkap antara Agustus dan November 2025 atas dugaan suap, pemerasan, hingga jual beli jabatan. Abdul Azis terjaring OTT KPK pada 7 Agustus 2025 atau kurang dari enam bulan setelah menjabat. Abdul Azis disangkakan menerima suap terkait proyek pembangunan rumah 
@@ -407,7 +407,7 @@ const politik = [
         title: "Uji UU Pemilu, Pemohon Ingin Mencalonkan Anggota DPR Non Parpol Politik",
         desc: "Pemohon saat Sidang Pemeriksaan Pendahuluan Perkara Nomor 233/PUU-XXIII/2025 Pengujian Materiil Undang-Undang Nomor 7 Tahun 2017 tentang Pemilihan Umum, Kamis (4/12/2025).",
         published: "4 Desember 2025",
-        image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500",
+        image: "./assets/images/Uji UU.jpg",
         content: `
         JAKARTA, HUMAS MKRI — Koordinator Nasional Presidium Fraksi Rakyat sekaligus Ketua Yayasan JAKI Kemanusiaan Inisiatif Yudi Syamhudi Suyuti mempersoalkan konstitusionalitas Pasal 240 ayat (1) huruf n Undang-Undang Nomor 7 Tahun 2017 tentang Pemilihan Umum (UU Pemilu) ke Mahkamah Konstitusi (MK). Sidang Pendahuluan Permohonan Nomor 233/PUU-XXIII/2025 ini dipimpin oleh Wakil Ketua MK Saldi Isra pada Kamis (4/12/2025).
         Pasal 240 ayat (1) huruf n UU Pemilu menyatakan, “Bakal calon anggota DPR, DPRD provinsi, dan DPRD kabupaten/kota adalah Warga Negara Indonesia dan harus memenuhi persyaratan: n. menjadi anggota Partai Politik Peserta Pemilu". Pada permohonannya, Yudi menceritakan berniat untuk mencalonkan diri sebagai Anggota DPR RI pada Pemilu 2029 sebagai perwakilan dari organisasi masyarakast sipil atau lembaga swadaya masyarakat (LSM). 
@@ -430,7 +430,7 @@ const politik = [
         title: "Enny Nurbaningsih: MK Menjaga Keseimbangan Antara Hukum, Politik, dan Keadilan",
         desc: "Hakim Konstitusi Enny Nurbaningsih menjadi narasumber kegiatan Kuliah Umum di Fakultas Hukum Universitas Udayana Bali, Jumat (03/10).",
         published: "3 Oktober 2025",
-        image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500",
+        image: "./assets/images/Enny Nurbaningsih.png",
         content: `
         BALI, HUMAS MKRI – Hakim Konstitusi Enny Nurbaningsih menjadi pembicara dalam kuliah umum bertajuk “MK dalam Sistem Ketatanegaraan Indonesia: Antara Hukum, Politik, dan Keadilan” yang diselenggarakan Mahkamah Konstitusi (MK) bekerja sama dengan Fakultas Hukum Universitas Udayana (Unud), Jumat (3/10/2025), di Aula FH Unud. Acara tersebut dipandu oleh Putu Gede Arya Sumerta Yasa Dekan Fakultas Hukum Universitas Udayana. Enny dalam paparannya 
         menekankan pentingnya peran MK sebagai pilar utama demokrasi, terutama sejak era Reformasi 1998 yang menjadi titik krusial perubahan sistem ketatanegaraan Indonesia. Menurutnya, MK bukan hanya pengawal konstitusi, tetapi juga lembaga yang menjaga keseimbangan antara hukum, politik, dan keadilan. “Reformasi 1998 adalah momen penentu bagaimana arah demokrasi Indonesia dibangun. Dari situlah lahir berbagai lembaga negara, termasuk Mahkamah Konstitusi, 
@@ -444,7 +444,7 @@ const politik = [
         title: "Melalui Pertemuan ke-30 APSC, Kemenko Polkam Tegaskan Peran Indonesia di Pilar Politik dan Keamanan ASEAN",
         desc: "PPolkam, Kuala Lumpur – (Kemenko Polkam) menegaskan perannya sebagai koordinator Pilar Politik dan Keamanan nasional dalam Pertemuan ke-30 ASEAN Political-Security Community (APSC), Sabtu (25/10/2025).",
         published: "26 Oktober 2025",
-        image: "https://images.unsplash.com/photo-1470509037663-253afd7f0f09?w=500",
+        image: "./assets/images/Pertemuan APSC.webp",
         content: `
         Kementerian Koordinator Bidang Politik dan Keamanan (Kemenko Polkam) menegaskan perannya sebagai koordinator Pilar Politik dan Keamanan nasional dalam Pertemuan ke-30 ASEAN Political-Security Community (APSC) yang digelar di Kuala Lumpur Convention Centre (KLCC), Malaysia, Sabtu (25/10/2025). Pertemuan ini merupakan salah satu agenda utama dalam rangkaian Konferensi Tingkat Tinggi (KTT) ke-47 ASEAN dan KTT Terkait Lainnya yang berlangsung pada 24–29 Oktober 2025. 
         Melalui forum APSC, negara-negara anggota ASEAN membahas upaya memperkuat kerja sama politik dan keamanan kawasan di tengah dinamika global yang terus berkembang. Delegasi Indonesia pada pertemuan tersebut dipimpin oleh Menteri Luar Negeri Sugiono dan diikuti antara lain oleh Deputi Bidang Koordinasi Politik Luar Negeri Kemenko Polkam, Duta Besar Mohammad K. Koba. Usai pertemuan, Koba menyampaikan bahwa Indonesia, melalui Pilar Politik dan Keamanan ASEAN, terus 
@@ -458,7 +458,7 @@ const politik = [
         title: "Fauzan Dorong Integrasi Pendidikan Politik dalam Kurikulum Sekolah",
         desc: "PRAYA (29 Oktober): Anggota Komisi II DPR RI, Fauzan Khalid, menekankan pentingnya pendidikan politik dimulai sejak dini.",
         published: "29 Oktober 2025",
-        image: "https://images.unsplash.com/photo-1588072432904-843af37f0c9f?w=500",
+        image: "./assets/images/fauzan.jpg",
         content: `
         Anggota Komisi II DPR RI, Fauzan Khalid, menekankan pentingnya pendidikan politik dimulai sejak dini. Ia mendorong kerja sama pemerintah dan lembaga pendidikan untuk mengintegrasikan pendidikan politik dalam kurikulum sekolah. “Pendidikan politik sejak dini dapat membantu generasi muda memahami pentingnya partisipasi politik dalam kehidupan berbangsa dan bernegara," kata Fauzan saat menyampaikan keynote speech pada sosialisasi pendidikan pemilih (sosdiklih) bersama KPU, 
         di Praya, Lombok Tengah, NTB, Senin (27/10/2025). Fauzan berharap pendidikan politik berkelanjutan akan dapat menciptakan masyarakat yang sadar politik dan aktif membangun demokrasi. Menurut Fauzan, sekolah merupakan tempat strategis untuk melakukan sosialisasi. Kurikulum yang mencakup pendidikan kewarganegaraan dan politik dapat membantu siswa memahami peran mereka sebagai pemilih di masa depan. Fauzan yang terpilih dari daerah pemilihan (dapil) NTB II itu menjelaskan, 
@@ -471,7 +471,7 @@ const politik = [
         title: "Putusan MK Pertegas Pengakuan terhadap Peran Perempuan dalam Politik",
         desc: "JAKARTA (4 November): Anggota Komisi XIII DPR RI, M Shadiq Pasadigoe, menyambut baik putusan Mahkamah Konstitusi (MK) yang mewajibkan keterwakilan perempuan minimal 30% di pimpinan alat kelengkapan dewan (AKD) DPR RI.",
         published: "4 November 2025",
-        image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c9bb?w=500",
+        image: "./assets/images/Putusan MK.jpg",
         content: `
         Anggota Komisi XIII DPR RI, M Shadiq Pasadigoe, menyambut baik putusan Mahkamah Konstitusi (MK) yang mewajibkan keterwakilan perempuan minimal 30% di pimpinan alat kelengkapan dewan (AKD) DPR RI. Menurut Shadiq, putusan tersebut merupakan langkah maju dan bukti nyata bahwa demokrasi Indonesia semakin inklusif, serta menghargai peran perempuan dalam politik dan kepemimpinan. “Saya sangat mengapresiasi putusan MK ini. Ini bukan sekadar regulasi, tapi pengakuan terhadap peran penting 
         perempuan dalam membangun bangsa. Indonesia semakin matang secara konstitusional dan moral,” ujar Shadiq di Jakarta, Sabtu (1/11/2025). Ia menegaskan, putusan MK tersebut sejalan dengan semangat budaya Minangkabau yang telah lama menempatkan perempuan sebagai figur utama dalam kehidupan sosial. “Di Minangkabau, perempuan itu adalah limpapeh rumah nan gadang — tiang utama yang menjaga marwah keluarga dan masyarakat. Jadi, ketika MK menegaskan 30 persen keterwakilan perempuan, sesungguhnya 
@@ -484,7 +484,7 @@ const politik = [
         title: "Mantan Caleg Cabut Permohonan Uji Ketentuan Pendirian Partai Politik",
         desc: "Kuasa Pemohon saat Sidang Pengucapan Ketetapan Perkara Nomor 122/PUU-XXIII/2025 Pengujian Materiil Undang-Undang Nomor 2 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 2 Tahun 2008 tentang Partai Politik, Kamis (14/8/2025).",
         published: "14 Agustus 2025",
-        image: "https://images.unsplash.com/photo-1556155092-8707de31f9c4?w=500",
+        image: "./assets/images/Mantan Caleg.jpg",
         content: `
         AKARTA, HUMAS MKRI – Mahkamah Konstitusi (MK) menjatuhkan ketetapan penarikan permohonan Nomor 122/PUU-XXIII/2025 mengenai pengujian materiil Undang-Undang Nomor 2 Tahun 2011 tentang Partai Politik (UU Parpol). Pemohon melakukan pencabutan permohonan dengan alasan norma yang diuji pernah diputus Mahkamah. “Mengabulkan penarikan kembali permohonan Pemohon,” ujar Suhartoyo dalam sidang pengucapan putusan/ketetapan pada Kamis (14/8/2025) di Ruang Sidang Pleno MK, Jakarta. Suhartoyo menuturkan, 
         rencana penarikan telah dikatakan Pemohon pada sidang pemeriksaan pendahuluan. Kemudian pada Senin, 4 Agustus 2025, Mahkamah menerima surat dari Pemohon melalui surat elektronik perihal pencabutan permohonan dimaksud. 

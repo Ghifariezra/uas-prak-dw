@@ -44,8 +44,35 @@ const pages = {
     `,
 
     tentang: `
-        <h2 class="text-xl font-bold mb-2">Tentang Kami</h2>
-        <p>BeritaKita adalah portal berita sederhana.</p>
+    <div class="max-w-7xl mx-auto px-4 py-12">
+        <div class="flex flex-col lg:flex-row gap-8 items-start">
+            <div class="flex-1 space-y-4">
+                <h1 class="text-4xl font-bold mb-6">Tentang Kami</h1>
+                
+                <p class="text-gray-700 leading-relaxed">
+                    BeritaKita adalah portal berita digital terkemuka yang berkomitmen untuk menyajikan
+                    informasi akurat, terpercaya, dan berimbang kepada masyarakat Indonesia. Didirikan pada tahun 2025,
+                    berkembang menjadi salah satu sumber berita terpercaya dengan jangkauan pembaca di seluruh nusantara.
+                </p>
+                
+                <p class="text-gray-700 leading-relaxed">
+                    Tim redaksi kami terdiri dari jurnalis profesional dan berpengalaman yang memiliki dedikasi tinggi 
+                    dalam menghadirkan berita berkualitas. Kami meliput berbagai topik mulai dari politik, ekonomi, 
+                    teknologi, olahraga, hingga gaya hidup dengan pendekatan jurnalisme yang etis dan bertanggung jawab.
+                </p>
+            </div>
+
+            <div class="flex-1">
+                <div class="bg-gray-300 rounded-lg overflow-hidden h-full">
+                    <img 
+                        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop" 
+                        alt="Team Photo" 
+                        class="w-full h-full object-cover"
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
     `,
 
     kontak: `

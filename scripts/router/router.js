@@ -5,12 +5,15 @@ import renderDetail from "../components/detail/detail.js";
 import { content } from "../core/dom.js";
 import bannerBeranda from "../components/banner/bannerBeranda.js";
 import initContactForm from "../components/form/contactForm.js";
+import renderNews from "../components/cards/rekomendasi.js";
 
+// ===== DETAIL ROUTE =====
 export function bukaDetail(title) {
     location.hash = `/detail/${encodeURIComponent(title)}`;
 }
 window.bukaDetail = bukaDetail;
 
+// ===== PAGE LOADER =====
 export function loadPage(page) {
     if (!pages[page]) return;
 
@@ -21,17 +24,18 @@ export function loadPage(page) {
         content.style.opacity = 1;
 
         switch (page) {
-            case 'beranda':
+            case "beranda":
                 bannerBeranda();
                 renderCards("all", "beranda");
+                renderNews();
                 break;
 
-            case 'kategori':
+            case "kategori":
                 renderMenuTypeCategory();
                 renderCards("all", "kategori");
                 break;
 
-            case 'kontak':
+            case "kontak":
                 initContactForm();
                 break;
         }
@@ -40,9 +44,11 @@ export function loadPage(page) {
     location.hash = `/${page}`;
 }
 
+// ===== ROUTER UTAMA =====
 export function handleRoute() {
     const hash = location.hash.replace("#/", "");
 
+    // DETAIL PAGE
     if (hash.startsWith("detail/")) {
         const title = decodeURIComponent(hash.split("/")[1]);
         content.innerHTML = pages.detail;
@@ -50,6 +56,13 @@ export function handleRoute() {
         return;
     }
 
+    // PAGE BIASA
     const page = hash || "beranda";
     loadPage(page);
 }
+
+// Event saat hash berubah
+window.addEventListener("hashchange", handleRoute);
+
+// Jalankan saat pertama kali buka halaman
+handleRoute();

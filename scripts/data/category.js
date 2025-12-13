@@ -509,7 +509,7 @@ const hiburan = [
         title: "Single Baru Tiara Andini Ngeluwihi Dibuat oleh Produser Musik Justin Bieber, EXO, hingga NCT",
         desc: "Lagu baru Tiara Andini berjudul Ngeluwihi menampilkan lirik berbahasa Jawa dan Inggris yang digarap produser musik internasional, Hyuk Shin.",
         published: "5 Januari 2025",
-        image: "https://imgur.com/C8IR70B?w=500",
+        image: "./assets/images/tiara-andini-ngeluwihi.png",
         content: `BeritaKita ~~ Penyanyi, Tiara Andini, kembali merilis single baru berjudul Ngeluwihi. 
         Video musik untuk lagu baru itu tayang tepat tengah malam tadi pada Jumat, 5 Januari 2024. 
         Tak main-main, dalam lagu ini, Tiara menghadirkan gebrakan baru yang makin menunjukkan eksistensinya sebagai bintang pop populer Indonesia.
@@ -558,7 +558,7 @@ const hiburan = [
         title: "Rizky Febian dan Tiara Andini Siap Guncang Pontianak di Harmony Fest Xperience 2026",
         desc: "Harmony Fest Xperience yang bakal digelar HFX Vibes pada Januari 2026 mendatang, Press Conference berlangsung di Goffee, Minggu, 30 November 2025.",
         published: "30 November 2025",
-        image: "https://imgur.com/a/Snkur7q?w=500",
+        image: "./assets/images/collab.jpg",
         content: `
         BeritaKita ~~ Penyanyi Rizky Febian hingga Tiara Andini bakal tampil di Harmony Fest Xperience yang digelar HFX Vibes di Halaman Grand Mahkota Hotel Pontianak pada 24 Januari 2026 mendatang. 
         HFX Vibes bakal memberikan pengalaman berbeda kepada penonton pada konser kali ini, lewat berbagai kolaborasi apik.
@@ -576,7 +576,7 @@ const hiburan = [
         title: "Mahalini, Axelo, Nuca, Shakirra Vier, dan 5 Musisi Lain Bakal Ramaikan Kota Bandung",
         desc: "Star Media Nusantara mengungkapkan Mahalini, Axelo, Nuca, Peter Holly, Angie Carvalho, Novia Bachmid, Piche, Shakirra, dan Vanessa Zee akan hadir di Bandung.",
         published: "08 Desember 2025",
-        image: "https://imgur.com/a/MRl0Io9?w=500",
+        image: "./assets/images/radio.jpg",
         content: `
         BeritaKita ~~ Star Media Nusantara, talent management di bawah naungan MNC Group lewat akun Instagram @starmedianusantara mengungkapkan Mahalini bersama Axelo, Nuca, Peter Holly, Angie Carvalho, Novia Bachmid, Piche Kota, Shakirra Vier, dan Vanessa Zee akan mampir ke Bandung. 
         Mereka hadir dalam acara Journey of Stars Volume 23, pada 8 - 12 Desember 2025. 
@@ -597,7 +597,7 @@ const hiburan = [
         title: "Mahalini Comeback, Guncang Panggung Spotify Wrapped 2025.",
         desc: "Mahalini tampil memukau di panggung Spotify Wrapped Live Indonesia 2025 pada Kamis (4/12/2025) di Studio RCTI+.",
         published: "04 Desember 2025",
-        image: "https://imgur.com/zfzNnP5?w=500",
+        image: "./assets/images/mahalini.png",
         content: `
         Mahalini kembali ke industri hiburan Tanah Air. 
         Setelah setahun hiatus, Mahalini tampil memukau di panggung Spotify Wrapped Live Indonesia 2025 pada Kamis (4/12/2025) di Studio RCTI+. 
@@ -631,7 +631,7 @@ const hiburan = [
         title: "Merangkai Kisah Indah, Mega Series Terbaru Persembahan Indosiar",
         desc: "INDOSIAR kembali memperkuat posisinya sebagai penyedia drama berkualitas dengan menghadirkan serial terbaru berjudul Merangkai Kisah Indah.",
         published: "11 Juli 2025",
-        image: "https://imgur.com/07kNwnn?w=500",
+        image: "./assets/images/merangkai.jpg",
         content: `
         BeritaKita ~~ kembali memperkuat posisinya sebagai penyedia drama berkualitas dengan menghadirkan serial terbaru berjudul "Merangkai Kisah Indah". 
         Drama ini menampilkan aktor dan aktris lintas generasi yang saat ini digemari, seperti Basmalah Gralind, Raden Rakha, dan Panji Saputra.
@@ -667,7 +667,7 @@ const hiburan = [
         title: "Indosiar Kontrak Jebolan Dangdut Academy 5 untuk Mainkan Sinetron Terbaru, Simak Ulasan Lengkapnya!",
         desc: "Indosiar mengeluarkan Judul Sinetron terbaru yang akan diperankan oleh jebolan Dangdut Academy 5.",
         published: "1 Febuari 2025",
-        image: "https://imgur.com/fxogN20?w=500",
+        image: "./assets/images/academy5.png",
         content: `
         BeritaKita ~~ Sukses dengan performa sinetron Panggilan yang selalu memperoleh 5 besar rating pertelevisian. 
         Indosiar ditambah dengan tayangan sepak bola membuat Indosiar berhasil menjadi tv nomor 1 dan 2 bergantian dengan saudaranya, SCTV yang berada dalam naungan EMTEK Group.
@@ -700,7 +700,7 @@ const hiburan = [
         title: "Wabup Sidoarjo: Jayandaru Sunrise Jazz Festival perkuat identitas lokal",
         desc: "Wabup Sidoarjo Mimik Idayana saat membuka kegiatan Jayandaru Sunrise Jazz Festival di Sidoarjo, Minggu (7/12/2025).",
         published: "7 Desember 2025",
-        image: "https://imgur.com/c6VghHo?w=500",
+        image: "./assets/images/jazz.png",
         content: `
         BeritaKIta ~~ Wakil Bupati (Wabup) Sidoarjo Mimik Idayana menyatakan bahwa penyelenggaraan Jayandaru Sunrise Jazz Festival merupakan bentuk nyata semangat Pemerintah Kabupaten (Pemkab) Sidoarjo dalam memperkuat identitas budaya sekaligus meningkatkan sektor pariwisata daerah.
 
@@ -730,7 +730,7 @@ const hiburan = [
         title: "Horor Komedi Penjara Joko Anwar Siap Mengguncang Bioskop",
         desc: "Official Poster Film Ghost in the Cell .",
         published: "09 Desember 2025",
-        image: "https://imgur.com/ndIBIkD?w=500",
+        image: "./assets/images/ghost.jpeg",
         content: `
         BeritaKita ~~ Joko Anwar kembali hadir dengan karya terbaru yang siap mengguncang dunia perfilman Indonesia lewat film berjudul Ghost in The Cell. 
         Film ini menjadi sorotan sejak awal diumumkan, terutama karena menghadirkan Abimana Aryasatya sebagai pemeran utama. 
@@ -764,7 +764,7 @@ const hiburan = [
         title: "Diguyur Hujan Tak Goyah, Fortuna Fest 2025 Jadi Pengalaman Festival Musik Unik dan Berkesan di Jember",
         desc: "Penonton Fortuna Fest 2025 terus berjingkrak di bawah guyuran hujan.",
         published: "8 Desember 2025",
-        image: "https://imgur.com/2Kbg5os?w=500",
+        image: "./assets/images/fortuna-fest.jpg",
         content: `
         BeritaKita ~~ Fortuna Fest 2025, festival musik perdana yang digagas dan diselenggarakan oleh Hotel FortunaGrande JEMBER, resmi berakhir dengan sukses besar pada Sabtu malam 6 Desember 2025. 
         Acara ini bukan hanya menjadi konser musik besar pertama yang diinisiasi oleh sebuah hotel di JEMBER, tetapi juga sukses menarik ribuan penonton yang memadati area Stadion Universitas JEMBER sejak sore hingga penutupan.
@@ -798,7 +798,7 @@ const hiburan = [
         title: "Review Film Agak Laen: Menyala Pantiku! Standar Baru Film Komedi Indonesia?",
         desc: "Poster Film Agak Laen Menyala Pantiku().",
         published: "27 November 2025",
-        image: "https://imgur.com/phTvpkS?w=500",
+        image: "./assets/images/agak-laen.png",
         content: `
         BeritaKita ~~ Film Agak Laen, Menyala Pantiku! siap menyapa para pecinta film, khususnya komedi di jaringan bioskop-bioskop Tanah Air hari ini, Kamis (27/11/2025). 
 
@@ -844,7 +844,7 @@ const hiburan = [
         title: "Gamer Indonesia Juara Kontes Minecraft MrBeast",
         desc: "Tim Indonesia memenangkan kontes membangun kota atau negara dunia Minecraft yang digelar Youtuber Mr. Beast. Tim ini membangun miniatur Indonesia lengkap dengan detail bangunan ikonik hingga tokoh penting di Tanah Air. (Youtube Mr. Beast)",
         published: "22 November 2025",
-        image: "https://imgur.com/76A2y94?w=500",
+        image: "./assets/images/mrbeast.jpg",
         content: `
         BeritaKita ~~ Gamer atau kreator Minecraft Indonesia mencatat prestasi. 
         Kali ini, para pencinta game Minecraft itu menjadi juara kontes yang digelar oleh Youtuber kenamaan, MrBeast.  
@@ -915,7 +915,7 @@ const hiburan = [
         title: "Marketplace Gaming Indonesia Ekspansi ke Pasar Internasional",
         desc: "Platform marketplace Itemku.",
         published: "27 November 2025",
-        image: "https://imgur.com/IC4zNSO?w=500",
+        image: "./assets/images/marketplace.png",
         content: `
         BeritaKita ~~ Itemku, platform e-commerce yang melayani transaksi jual beli item, gold, voucher game, top-up, dan akun game untuk berbagai judul game, mengumumkan langkah strategis untuk memperluas jangkauan bisnis ke pasar internasional.
 
@@ -940,7 +940,7 @@ const hiburan = [
         title: "Alasan Golden Theater Kediri Masih Bertahan dan Tetap Ada di Hati Masyarakat Kediri",
         desc: "Saat ini Golden Theater Kediri Masih Bertahan dan Tetap Ada di Hati Masyarakat Kediri.",
         published: " 8 Desember 2025",
-        image: "https://imgur.com/hahptKO?w=500",
+        image: "./assets/images/teater.g",
         content: `
         BeritaKita ~~ Golden Theater Kediri tetap bertahan dan jadi idola meski saingan bermunculan.
 
@@ -999,7 +999,7 @@ const hiburan = [
         title: "GTV Siap Gelar Indonesian Inspiring Celebrity Awards 2025, Malam Penghargaan Bergengsi Bagi Selebriti Inspiratif",
         desc: "nspiring Celebrity Awards 2025.",
         published: "25 Februari 2025",
-        image: "https://imgur.com/qp7Ubvs?w=500",
+        image: "./assets/images/celebrity.png",
         content: `
         BeritaKita ~~ GTV sebagai home of entertainment, telah berhasil memberikan banyak penghargaan bergengsi seperti Indonesian Comedy Awards sebuah penghargaan bagi komedian Indonesia, Indonesian Trending Awards yang merupakan penghargaan bagi insan kreatif digital, dan banyak pengharaggan lainnya.
 
@@ -1025,7 +1025,7 @@ const hiburan = [
         title: "Bertabur Bintang dan Keluarga Selebriti di Amazing Kids Favorit Awards GTV Bertema Ice World Pertama di TV Indonesia!",
         desc: "Amazing Kids Favorit Awards GTV.",
         published: "13 Agustus 2025",
-        image: "https://imgur.com/OabIXCe?w=500",
+        image: "./assets/images/kids-favorite.png",
         content: `
         BeritaKita ~~ Setelah sukses selama dua tahun berturut-turut, Amazing Kids Favorit Awards kembali menyapa dengan konsep yang makin keren, Ice World! 
         Ajang ini bukan cuma hanya penghargaan, tapi juga ajang inspiratif untuk mengapresiasi kreativitas dan semangat anak-anak Indonesia dalam berkarya. 

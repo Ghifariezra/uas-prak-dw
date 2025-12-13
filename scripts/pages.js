@@ -123,13 +123,10 @@ const pages = {
 
                     </div>
 
-                    <!-- Error -->
-                    <p id="message-error" class="text-red-500 text-sm"></p>
-
                     <!-- Tombol -->
                     <div class="mt-8 md:mt-12 flex justify-center">
                         <button 
-                            type="button"
+                            type="submit"
                             id="submit-btn"
                             class="w-full md:w-auto md:px-24 bg-[#2D4B73] hover:bg-[#1E3350] 
                                 text-white text-lg font-bold py-4 md:py-5 rounded-2xl shadow-lg 
@@ -140,7 +137,23 @@ const pages = {
                         </button>
                     </div>
                 </form>
+            </div>
 
+            <div
+                id="toast-default"
+                class="hidden fixed top-5 right-5 z-50 flex items-center w-full max-w-xs p-4 bg-white rounded-lg shadow"
+                role="alert"
+                data-flowbite-toast
+                >
+                <div id="toast-message" class="ms-3 text-sm text-white font-bold">Pesan berhasil dikirim</div>
+
+                <button
+                    type="button"
+                    class="ms-auto text-gray-400 hover:text-gray-900"
+                    data-dismiss-target="#toast-default"
+                >
+                    ✕
+                </button>
             </div>
         </section>
 `

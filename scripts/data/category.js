@@ -1053,94 +1053,660 @@ const hiburan = [
 
 const edukasi = [
     {
-        title: "Kurikulum Baru Diterapkan",
-        desc: "Pemerintah mulai menerapkan kurikulum modern.",
-        published: "8 Januari 2024",
-        image: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=500"
+        title: "DPR Usul Tunda TKA SD dan SMP akibat Bencana Sumatera, Pengamat Menanggapi",
+        desc: "Pengamat pendidikan menilai pelaksanaan TKA harus ditunda sampai sarana dan proses belajar pulih.",
+        published: "11 Desember 2025",
+        image: "./assets/images/tunda-tka.jpg",
+        content: `
+        BeritaKita ~~ Wakil Ketua Komisi X DPR RI, MY Esti Wijayanti mengusulkan agar Tes Kemampuan Akademik jenjang SMP dan SD ditunda akibat kejadian bencana alam di sejumlah daerah pada akhir tahun 2025 ini. 
+
+        Sebagaimana kita ketahui banjir bandang dan tanah longsor parah terjadi di Aceh, Sumatera Utara, dan Sumatera Barat yang mengakibatkan sekolah rusak dan murid belum bisa belajar.
+
+        Sejatinya TKA untuk SMP dan SD dijadwalkan berlangsung pada bulan Maret hingga April 2026. 
+        
+        "Kemudian bagaimana juga dengan TKA-nya? Kalau itu sebaiknya kita putuskan saja bahwa itu memang tidak perlu kita laksanakan pada saat ini," ucap Esti dalam rapat bersama Mendikdasmen di Gedung DPR pada Senin (8/12/2025), dikutip dari video YouTube Komisi X DPR RI Channel.
+
+        Menteri Pendidikan Dasar dan Menengah (Mendikdasmen) Abdul Mu'ti mengatakan bahwa akan ada kebijakan khusus untuk TKA. 
+        
+        "Selain memang TKA tidak wajib, kami juga melihat bahwa ada beberapa hal yang memang secara kebijakan akan kita buat relaksasi," jawab Mendikdasmen. 
+        
+        Adapun TKA jenjang SMA telah terlaksana pada November lalu dan cukup penting karena dipakai sebagai syarat mengikuti Seleksi Nasional Berbasis Prestasi (SNBP) untuk masuk ke perguruan tinggi negeri.
+
+        Dari testimoni sejumlah murid SMA mereka mengaku kesulitan mengerjakan soal ujian pada mapel matematika. Hasilnya, Mendikdasmen mengungkapkan bahwa nilai matematika dari TKA yang baru perdana digelar ini jeblok.
+
+        Kata Pengamat
+        Pengamat pendidikan Bukik Setiawan berpendapat TKA yang tersisa sebaiknya ditunda. 
+        
+        "Sebaiknya semua TKA tidak dilaksanakan pada semua daerah bencana karena situasi darurat dan hancurnya sarana prasarana penunjang pelaksanaan TKA," kata Bukik, Rabu (10/12/2025) melalui pesan singkat. 
+        
+        Melihat luluh lantaknya tempat tinggal dan sarana serta prasarana sekolah terutama di Sumatera, tentu membutuhkan waktu yang lama untuk pulih seperti sedia kala. 
+        
+        Pendiri Pusat Studi Pendidikan dan Kebijakan tersebut menuturkan untuk TKA tahun 2026 juga masih perlu pengkajian. 
+        
+        "Perlu evaluasi perbaikan sarana prasarana dulu. Hasil evaluasi yang digunakan untuk mengambil keputusan," ujarnya. 
+        
+        Sementara itu, pakar matematika dari FMIPA ITB, Prof. Hendra Gunawan, Ph.D. beropini bahwa secara logis pelaksanaan TKA sebagai sesuatu yang penting tentunya harus dalam kesiapan yang layak. 
+        
+        "Terkait kesulitan di mapel matematika, saya tidak kaget karena selama ini capaian siswa kita di tes PISA juga tidak pernah bagus dan tidak menunjukkan adanya perbaikan juga ya," kata Hendra melalui pesan singkat, Rabu. 
+        
+        Menurutnya tak ada solusi tunggal untuk meningkatkan kemampuan matematika pelajar Indonesia. 
+        
+        "Yang pasti faktor-faktor penentunya mesti diperbaiki yaitu kurikulum, buku, guru, kurikulum pendidikan guru, sistem pendidikan di universitas penghasil guru, dan seterusnya. Belum lagi faktor dana," tutur Hendra.
+
+        Selain itu, menurut Hendra ada juga hal yang penting untuk dipertimbangkan. 
+        
+        "Selama ini segalanya selalu dibuat seragam, dan terpusat. Sebagai contoh, kurikulum. Mengapa tidak dibuat beberapa opsi (sebutlah A, B, C). Lalu biarkan tiap provinsi, bahkan tiap sekolah, memilih kurikulum yang sesuai dengan kebutuhan dan kemampuannya. Tentu dengan menyadari implikasinya," jelas Hendra.
+        `
     },
     {
-        title: "Beasiswa Global Dibuka",
-        desc: "Kesempatan besar bagi pelajar untuk kuliah di luar negeri.",
-        published: "19 Januari 2024",
-        image: "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=500"
+        title: "Hari Lahir Pancasila, Gerakan Pramuka Tegaskan Komitmen Jadi Pengawal Pancasila",
+        desc: "Pramuka menegaskan komitmen menjaga dan mengawal nilai-nilai Pancasila.",
+        published: "1 Juni 2025",
+        image: "./assets/images/pancasila.jpg",
+        content: `
+        BeritaKita ~~ Memperingati Hari Lahir Pancasila, gerakan Pramuka menegaskan perannya sebagai organisasi kepanduan yang sejak lama konsisten membumikan nilai-nilai luhur Pancasila dalam setiap langkah pendidikan karakter generasi muda Indonesia. 
+        
+        Ketua Kwartir Nasional Gerakan Pramuka, Komjen Pol (Purn) Budi Waseso, menyatakan, “Gerakan Pramuka terus berkomitmen menjadi pengawal Pancasila sekaligus mitra strategis dalam mendukung Asta Cita." 
+        
+        "Kami percaya, nilai-nilai kepramukaan dapat menyatu dan menguatkan misi besar bangsa ini, membentuk karakter generasi muda yang beriman, berbudaya, dan berlandaskan Pancasila,” ujar Budi Waseso dalam Rapat Koordinasi Khusus (Rakorsus) yang dihadiri seluruh Ketua Kwartir Daerah (Kwarda) se-Indonesia (1/6/2025). 
+        
+        Rakorsus ini menjadi momentum penting untuk menyamakan langkah dan strategi guna memastikan Gerakan Pramuka semakin relevan dan efektif dalam mendidik karakter bangsa yang berlandaskan nilai-nilai Pancasila. 
+        
+        Rakorsus juga menjadi ajang konsolidasi memperkuat tekad Pramuka untuk terus hadir sebagai organisasi pendidikan karakter yang mampu menjawab tantangan zaman sekaligus menjaga semangat persatuan dan kesatuan bangsa. 
+        
+        Gerakan Pramuka mengajak seluruh elemen masyarakat untuk bersama-sama mendukung dan berpartisipasi dalam mewujudkan Indonesia Emas 2045 melalui peran aktif pemuda yang berjiwa Pancasila.
+
+        "Momentum Hari Lahir Pancasila ini menjadi pengingat kuat akan pentingnya menjaga nilai-nilai dasar bangsa dan terus menguatkan karakter generasi penerus agar Indonesia semakin maju, berkeadilan, dan berdaulat," tutup Budi Waseso.
+        `
     },
     {
-        title: "Sekolah Digital Semakin Populer",
-        desc: "Metode pembelajaran digital kian diminati.",
-        published: "4 Februari 2024",
-        image: "https://images.unsplash.com/photo-1586327678141-36c6a3a78796?w=500"
+        title: "Kebijakan Trump Picu Gangguan Mental dan Beri Tekanan bagi Mahasiswa Asing",
+        desc: "Kebijakan Trump dinilai membuat mahasiswa asing mengalami tekanan mental.",
+        published: "1 Juni 2025",
+        image: "./assets/images/kebijakan-trump.jpg",
+        content: `
+        BeritaKita ~~ Rencana pemerintahan Presiden Donald Trump untuk membatasi pendaftaran mahasiswa asing di Harvard University sempat memicu kekhawatiran mendalam di kalangan civitas akademikanya. 
+        
+        Kebijakan kontroversial ini tidak hanya berimplikasi pada aspek pendidikan, tetapi juga berdampak serius pada kesehatan mental mahasiswa internasional. 
+        
+        Meski pada akhirnya, Hakim Distrik AS Allison Burroughs, pada Kamis (30/05/25), memperpanjang temporary restraining order (perintah penahanan sementara) yang sebelumnya dikeluarkan pekan lalu. 
+        
+        Kini, Harvard tetap bisa menerima dan menampung mahasiswa asing selama proses hukum masih berlangsung.
+
+        Melansir The New York Times, Minggu (1/6/2025) dalam dokumen pengadilan yang diajukan Rabu (28/5/2025), Direktur Layanan Imigrasi Harvard, Maureen Martin, menyatakan bahwa keputusan tersebut telah menciptakan "ketakutan, kekhawatiran, dan kebingungan yang mendalam" di antara ribuan mahasiswa asing.
+
+        Banyak dari mereka kini mempertimbangkan untuk pindah ke universitas lain demi menjamin kelangsungan studi mereka. 
+        
+        “Banyak mahasiswa asing dan akademisi melaporkan tekanan emosional yang signifikan, memengaruhi kesehatan mental dan kemampuan mereka untuk fokus dalam belajar,” tulis Martin dalam pernyataan resminya seperti dikutip dari The New York Times. 
+        
+        Menurut data Harvard, sekitar 5.000 mahasiswa asing dan 2.000 lulusan baru yang sedang mengikuti program kerja opsional (Optional Practical Training) terancam terdampak oleh kebijakan ini. Bahkan, mahasiswa baru dari luar negeri pun berpotensi ditolak masuk ke AS, meski telah resmi diterima di kampus. 
+        
+        Tak hanya mahasiswa asing, sejumlah mahasiswa lokal pun mulai mempertanyakan apakah mereka ingin melanjutkan studi di institusi yang kehilangan keberagaman globalnya.
+
+        Beberapa mahasiswa juga mengaku mengalami perlakuan tidak menyenangkan saat melalui pemeriksaan imigrasi, hanya karena memiliki visa pelajar dari Harvard.
+
+        Sejumlah mahasiswa melaporkan telah mengalami pemeriksaan ketat dan berlebihan di bandara. 
+        
+        Pemeriksaan tersebut muncul sesaat setelah pemerintahan Trump mengeluarkan kebijakan yang melarang mahasiswa asing baru mendaftar di Harvard. 
+        
+        Upaya pemerintah AS ini bukanlah serangan pertama terhadap Harvard. Sebelumnya, Trump menuduh kampus berusia 388 tahun itu gagal menindak antisemitisme dan sempat membekukan sekitar 3 miliar dolar AS dana hibah dan kontrak riset. 
+        
+        Kementerian Keamanan Dalam Negeri AS juga meminta data rinci mengenai mahasiswa internasional Harvard, sebelum mengumumkan larangan resmi.
+
+        Dalam pernyataannya, lembaga itu menuding Harvard membiarkan mahasiswa sebagai provokator “anti-Amerika” dan “pro-teroris” dan menciptakan lingkungan kampus yang tidak aman, serta melakukan pelecehan terhadap mahasiswa Yahudi. 
+        
+        Situasi ini turut menimbulkan dilema pribadi bagi banyak mahasiswa asing. Beberapa membatalkan rencana pulang kampung karena khawatir tidak dapat kembali ke AS. Beberapa kedutaan besar negara asing di AS telah menghubungi Harvard untuk menanyakan konsekuensi kebijakan ini terhadap warga negara mereka.
+
+        Sementara itu, beberapa universitas luar negeri melihat peluang dari situasi ini. Martin menyebut Universitas Sains dan Teknologi Hong Kong (HKUST) menawarkan jalur penerimaan khusus dan dukungan akademik bagi mahasiswa Harvard yang terdampak kebijakan AS. 
+        
+        Meski begitu, proses pindah kampus bukan hal mudah. Batas waktu pendaftaran sudah lewat di banyak universitas, dan mahasiswa pascasarjana di bidang tertentu memiliki pilihan yang terbatas.
+        `
     },
     {
-        title: "Metode Belajar Hybrid",
-        desc: "Kolaborasi belajar online dan offline semakin diterapkan.",
-        published: "13 Februari 2024",
-        image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500"
+        title: "Commsult Buka Peluang Magang dan Penelitian di Jerman untuk Mahasiswa",
+        desc: "Commsult menyediakan kesempatan magang serta riset di Jerman untuk mahasiswa Indonesia.",
+        published: "15 Juni 2024",
+        image: "./assets/images/commsult.jpg",
+        content: `
+        BeritaKita ~~ Commsult, perusahaan layanan dan solusi teknologi asal Jerman, menjalin kerjasama dengan sejumlah universitas swasta di Indonesia seperti Universitas Multimedia Nusantara, Swiss German University, dan Universitas Atma Jaya. 
+        
+        Kerjasama bertujuan memberikan kesempatan kepada mahasiswa Indonesia untuk magang dan penelitian langsung di Kantor Pusat Commsult di Jerman. 
+        
+        Program ini tidak hanya berfokus pada kegiatan akademik, tetapi juga membuka peluang bagi mahasiswa untuk mendapatkan pengalaman bekerja di industri teknologi internasional. 
+
+        Hal ini sejalan dengan visi Merdeka Belajar Kampus Merdeka yang mendorong mahasiswa untuk mendapatkan pengalaman belajar di luar kelas.
+
+        Dalam program magang, mahasiswa yang sedang menempuh studi S1 dan S2 akan mendapatkan kesempatan untuk terbang langsung ke Jerman tanpa perlu melalui proses aplikasi ke perusahaan. 
+        
+        Hal ini mempermudah jalur mahasiswa untuk mendapatkan pengalaman kerja langsung di luar negeri, terutama di Jerman.
+
+        Dalam pelaksanaannya, commsult menjamin peserta magang dengan menyediakan fasilitas memadai seperti rumah yang siap ditempati serta transportasi yang berlaku di seluruh Jerman selama masa magang. 
+        
+        Semua fasilitas yang disediakan tentunya diluar uang saku yang sudah disiapkan. Hal ini diperhatikan sesuai undang-undang yang berlaku, agar mahasiswa dapat lebih fokus pada pembelajaran selama magang. 
+        
+        “commsult yakin bahwa kerjasama ini akan menciptakan mahasiswa yang unggul dan siap memasuki dunia profesional dengan pengalaman bekerja di Jerman," tegas Managing Director commsult Indonesia, Leonardo Kurnia (15/6/2024).
+
+        "Kami sepenuhnya mendukung kerja sama ini dengan tidak hanya memberikan kesempatan magang di kantor commsult Jerman, tetapi juga menyediakan fasilitas akomodasi, transportasi dan lainnya," jelasnya. 
+        
+        Proses seleksi dilakukan melalui workshop di mana tim commsult Jerman mengajar secara langsung selama lima hari ke mahasiswa sehingga dari penyaringan tersebut menghasilkan mahasiswa berpotensi yang dapat diterbangkan langsung ke Jerman untuk pengalaman magang.
+
+        Setelah menyelesaikan program magang, commsult juga memberikan kesempatan bagi mahasiswa terpilih untuk bergabung sebagai karyawan tetap di commsult setelah mereka lulus, dengan tujuan untuk mengembangkan karir mereka lebih lagi dalam skala internasional. 
+        
+        Melalui kerjasama strategis dan keterlibatan proaktif, commsult berkomitmen untuk mendorong perubahan positif dan membangun kolaborasi lintas negara, serta terus memberdayakan dan menginspirasi generasi profesional tingkat dunia berikutnya.
+        `
     },
     {
-        title: "Universitas Baru Dibuka",
-        desc: "Kampus teknologi modern mulai beroperasi.",
-        published: "26 Februari 2024",
-        image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500"
+        title: "Mencetak Talenta Siap Digital lewat Pendidikan Tinggi",
+        desc: "Pendidikan tinggi didorong menghasilkan talenta yang siap menghadapi era digital.",
+        published: "3 Januari 2025",
+        image: "./assets/images/talenta.jpg",
+        content: `
+        BeritaKita ~~ SEIRING dengan revolusi teknologi dan digitalisasi, industri kreatif digital telah mengalami pertumbuhan pesat dalam beberapa dekade terakhir. 
+        
+        Berdasarkan siaran pers Kementerian Pariwisata dan Ekonomi Kreatif (Kemenparekraf), Kamis (26/9/2024), ekonomi kreatif menyumbang sekitar 3 persen produk domestik bruto (PDB global), menghasilkan 2,3 triliun dollar AS, dan mempekerjakan sekitar 50 juta orang di seluruh dunia. 
+        
+        Diperkirakan, pada 2030, ekonomi kreatif akan memainkan peran yang lebih besar dengan potensi kontribusi hingga 40 persen PDB dunia. 
+        
+        Namun, di balik potensi besar tersebut, industri kreatif digital menghadapi tantangan signifikan. Salah satunya adalah kebutuhan industri akan tenaga kerja lulusan pendidikan tinggi yang terampil. 
+        
+        Oleh karena itu, pendidikan tinggi memiliki peran penting dalam menjembatani kesenjangan ini.
+
+        Perkembangan Industri Kreatif Digital
+        Industri kreatif digital terus berkembang dengan kecepatan luar biasa, baik di tingkat global maupun lokal. Dikutip dari kontan.co.id, Jumat (15/03/2024), pasar gim di Indonesia diproyeksikan mencapai pendapatan hingga sebesar 367 juta dollar AS pada tahun ini. 
+        
+        Menurut data yang dimuat dalam laman Statista, pendapatan ini diperkirakan akan tumbuh dengan tingkat pertumbuhan tahunan (CAGR 2024-2029) sebesar 8,45 persen serta menghasilkan proyeksi volume pasar sebesar 550 juta dollar AS pada 2029. 
+        
+        Dalam hal basis pengguna, pasar gim di Indonesia diperkirakan mencapai 102,4 juta pengguna pada 2029. Tingkat penetrasi pengguna diproyeksikan sebesar 30,8 persen pada 2024 dan meningkat menjadi 35,3 persen pada 2029. 
+        
+        Beberapa subsektor kreatif digital yang berkembang pesat meliputi game design, media sosial, film digital, dan desain grafis. 
+        
+        Desain gim menjadi salah satu subsektor paling menjanjikan. Hal ini dikarenakan pertumbuhan populasi gamer yang signifikan dalam beberapa terakhir. 
+        
+        Di subsektor media sosial pun demikian. Semakin banyak pengguna media sosial, kebutuhan akan konten visual dan storytelling digital bakal terus meningkat.
+
+        Kemudian, di subsektor film digital, produksi film berbasis teknologi, seperti CGI dan animasi, semakin diminati. 
+        
+        Lalu, subsektor desain grafis juga ikut berkembang. Hal ini disebabkan permintaan untuk desain grafis yang kreatif dan inovatif terus meningkat. 
+
+        Keempat subsektor tersebut membutuhkan talenta digital dengan kompetensi utama, seperti storytelling digital, desain perangkat lunak, penguasaan alat analitik media, serta keterampilan komunikasi visual. 
+        
+        Dalam lanskap industri yang terus berubah, kemampuan untuk beradaptasi menjadi kunci keberhasilan.
+
+        Kesenjangan antara pendidkan dan kebutuhan industri
+        Dengan tingginya kebutuhan akan talenta kreatif digital, pendidikan memainkan peran penting dalam memenuhi kebutuhan tersebut. 
+        
+        Kurikulum pendidikan tinggi tidak lagi cukup berfokus pada teori, tetapi juga harus mencakup keterampilan praktis, seperti manajemen proyek kreatif, kolaborasi antar-disiplin, dan adaptasi teknologi yang relevan dengan kebutuhan industri. 
+        
+        Laporan Future of Jobs Report (2020) dari World Economic Forum menunjukkan bahwa 59 persen dari semua pekerja perlu meningkatkan keterampilan mereka pada 2025 untuk memenuhi kebutuhan pekerjaan masa depan. 
+        
+        Pada tahun tersebut, otomatisasi dan pembagian tugas baru antara manusia dan mesin diperkirakan akan mengubah cara kerja hingga 85 juta pekerjaan di seluruh dunia. 
+        
+        Pemahaman teknologi, seperti kecerdasan virtual (AI), realitas virtual (VR), dan realitas berimbuh (AR) kini menjadi standar penting di berbagai bidang kreatif. Hal ini menegaskan perlunya transformasi dalam pendekatan pendidikan.
+
+        Peran pendidikan tinggi
+        Institusi pendidikan tinggi memiliki peran strategis dalam menjawab tantangan ini. Salah satu pendekatan yang efektif adalah pembelajaran berbasis proyek (project-based learning). 
+        
+        Dalam sistem pembelajaran tersebut, mahasiswa diajak menyelesaikan masalah nyata yang relevan dengan kebutuhan industri. 
+
+        Swiss German University (SGU) telah mengambil langkah konkret dengan mengintegrasikan teknologi, seperti AI, VR/AR, dan digital twin ke dalam kegiatan pembelajarannya. 
+        
+        Dengan kolaborasi erat bersama industri, SGU memastikan bahwa kurikulumnya selalu relevan dan terkini. Program magang yang diwajibkan juga memberikan mahasiswa pengalaman langsung di lapangan. 
+        
+        Kolaborasi antara institusi pendidikan dan industri menjadi kunci keberhasilan. Dengan melibatkan praktisi sebagai pengajar tamu atau mentor, mahasiswa tidak hanya memahami teori tetapi juga mendapatkan wawasan tentang praktik terbaik di dunia kerja.
+
+        Program Digital Communication and Media Arts di SGU
+        SGU sendiri telah meluncurkan konsentrasi baru, Digital Communication and Media Arts (DCMA), sebagai bagian dari program studi Global Strategic Communications (GSC). Langkah ini diambil untuk menjawab tantangan dari revolusi digital yang telah mengubah cara manusia berkomunikasi, mengonsumsi informasi, dan berinteraksi. 
+
+        Konsentrasi DCMA menawarkan tiga keunggulan utama. Pertama, program ini merupakan Double Degree Program dengan Ming Chuan University (MCU), universitas pertama di Asia yang terakreditasi AS. 
+        
+        Kedua, kurikulum DCMA mengintegrasikan elemen terkini, seperti Digital Content Creation, Media Psychology, Digital Marketing, dan Multimedia Production. 
+
+        Ketiga, mahasiswa mendapatkan pengalaman internasional melalui magang profesional di dua negara serta kesempatan menggunakan media lab canggih dengan perangkat modern yang mendukung pembelajaran berbasis praktik. 
+        
+        Lulusan DCMA memiliki prospek karier yang menjanjikan, mulai dari content creator, digital marketing strategist, hingga multimedia producer.
+
+        Dengan keterampilan teknis dan sertifikasi profesional yang diakui secara global, mereka siap bersaing dalam ekosistem industri kreatif digital. Penguasaan teknologi, seperti kecerdasan buatan dan big data, memberikan keunggulan kompetitif di pasar tenaga kerja global. 
+        
+        Program ini menunjukkan upaya SGU dalam mencetak tenaga kerja kreatif yang mampu mendukung transformasi digital di Indonesia. 
+        
+        Dengan kolaborasi sektor publik, swasta, dan akademik, SGU optimistis bahwa konsentrasi DCMA dapat menjadi pelopor dalam menghasilkan talenta digital berkualitas di era komunikasi modern.
+
+        Dampak jangka panjang pendidikan yang relevan
+        Lulusan yang dibekali keterampilan relevan tidak hanya mendorong inovasi di industri kreatif digital, tetapi juga memberikan dampak positif bagi perekonomian lokal dan global. 
+        
+        Dr Muhammad Rizqi Zati, SPd, MSi (2024) menyatakan bahwa perkembangan ilmu pengetahuan dan teknologi saat ini telah meningkatkan efisiensi, produktivitas, dan kualitas kerja dalam organisasi.
+
+        Kompetensi digital memungkinkan individu mengembangkan solusi kreatif dan inovatif dalam berbagai bidang. 
+        
+        Talenta siap digital juga berkontribusi pada perkembangan ekosistem kreatif yang berkelanjutan. Mereka tidak hanya menciptakan karya inovatif, tetapi juga membuka peluang kerja baru, yang pada akhirnya memperkuat daya saing industri kreatif Indonesia di tingkat global. 
+
+        Pendidikan berkelanjutan menjadi kunci untuk memastikan relevansi di tengah perkembangan teknologi yang begitu cepat. 
+        
+        Dalam era teknologi yang semakin maju, pendidikan tinggi memegang peran penting dalam mencetak talenta kreatif digital. Dengan pendekatan inovatif dan relevan, institusi seperti SGU dapat menjadi pelopor dalam menjembatani kesenjangan antara dunia pendidikan dan kebutuhan industri.
+
+        Dukungan dari pemerintah, industri, dan masyarakat diperlukan untuk menciptakan ekosistem pendidikan yang mendukung generasi kreatif digital masa depan. SGU melalui program unggulannya telah menunjukkan bahwa kolaborasi antara pendidikan dan industri dapat menghasilkan dampak nyata. 
+        
+        Kini, saatnya kita semua bersinergi untuk mendukung talenta muda Indonesia agar siap menghadapi masa depan yang penuh peluang.
+        `
     },
     {
-        title: "Kelas Coding Gratis",
-        desc: "Program pemerintah memberikan pelatihan coding gratis.",
-        published: "10 Maret 2024",
-        image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500"
+        title: "Ingin Jaga Ginjal? Terapkan 7 Gaya Hidup Sehat Ini",
+        desc: "Rekomendasi gaya hidup sehat untuk menjaga kesehatan ginjal.",
+        published: "3 November 2023",
+        image: "./assets/images/jaga-ginjal.jpg",
+        content: `
+        BeritaKita ~~ Salah satu organ tubuh yang vital ialah ginjal. Fungsi ginjal sangat vital karena tidak hanya membuang limbah dari tubuh, tetapi juga memproduksi hormon-hormon penting seperti eritropoietin dan renin. 
+        
+        Tentu, penyakit ginjal dapat berdampak serius pada kesehatan tubuh secara keseluruhan, termasuk organ-organ vital seperti jantung, paru-paru, dan otak. 
+        
+        Maka dari itu, penting bagi kita untuk menjaga kesehatan ginjal. Jadi, sejak dini ginjal harus dijaga dengan baik. 
+        
+        Terlebih bagi siswa juga harus paham cara menjaga kesehatan ginjal. Salah satunya dengan mengonsumsi makanan sehat.
+
+        Gaya hidup sehat untuk ginjal
+        1. Konsumsi makanan sehat 
+        Perbanyaklah mengonsumsi buah-buahan dan sayuran segar. Hindarilah makanan tinggi lemak dan makanan yang mengandung purin, seperti jeroan, yang dapat mengganggu fungsi ginjal. 
+        
+        2. Rutin olahraga 
+        Siswa bisa melakukan aktivitas fisik secara rutin, seperti berolahraga. Selain membantu mempertahankan berat badan yang sehat, olahraga juga dapat meningkatkan peredaran darah, dan meminimalkan risiko penyakit ginjal kronis. 
+        
+        3. Mengontrol tekanan darah 
+        Tips lainnya ialah mengontrol tekanan darah. Ini penting untuk memberikan perhatian serius terhadap tekanan darah, terutama bagi yang memiliki riwayat tekanan darah tinggi. Rutinlah memeriksakan atau mengontrol tekanan darah dengan bantuan dokter untuk mendapatkan penanganan yang tepat. Dengan melakukan pemeriksaan rutin, maka dapat memantau perubahan tekanan darah dan mencegah kerusakan pada sel-sel ginjal. 
+        
+        4. Batasi dalam mengonsumsi garam 
+        Berikutnya ialah membatasi asupan garam untuk mengendalikan tekanan darah. Jangan melebihi 2.300 mg per hari. Hindari makanan olahan yang mengandung garam berlebihan. 
+        
+        5. Kadar gula darah dipantau Jika memiliki diabetes, maka sangat penting untuk memantau kadar gula darah secara teratur. Diabetes yang tidak terkontrol dapat menyebabkan kerusakan pada ginjal. Untuk itu, pemeriksaan rutin akan membantu mendeteksi komplikasi dengan cepat.
+
+        6. Harus minum air putih yang cukup 
+        Air putih sangat penting untuk menjaga tubuh terhidrasi. Tak hanya itu saja, air putih juga dapat membantu ginjal dalam membuang limbah dan menjaga keseimbangan cairan tubuh. Adapun anjuran umum adalah minum 6-8 gelas air putih per hari. Jadi, siswa jangan lupa untuk selalu minum air putih. 
+        
+        7. Hindari merokok 
+        Ini penting dilakukan siapa saja. Sebab, zat-zat beracun dalam rokok dapat menyumbat pembuluh darah, meningkatkan tekanan darah, dan mengganggu fungsi ginjal.
+
+        Jadi itulah beberapa gaya hidup sehat untuk menjaga kesehatan ginjal. Hal ini penting dipahami oleh siswa yang masih sekolah.
+        `
     },
     {
-        title: "Pelatihan Guru Nasional",
-        desc: "Ribuan guru mengikuti pelatihan digital.",
-        published: "25 Maret 2024",
-        image: "https://images.unsplash.com/photo-1604881991720-f91add269bed?w=500"
+        title: "Tips Jadi Content Creator bagi Mahasiswa, Bisa Dimulai dari Hobi",
+        desc: "Cara mahasiswa mulai jadi content creator bermodalkan hobi.",
+        published: "15 November 2023",
+        image: "./assets/images/content-creator.jpg",
+        content: `
+        BeritaKita ~~ Ingin menjadi content creator? Namun, masih bingung bagaimana memulainya? Coba tips dari dua alumnus Universitas Muhammadiyah Malang (UMM) ini. 
+        
+        Mereka adalah Wawa Yasaruna dan Arul Dagul yang sudah lama dikenal sebagai content creator di media sosial. 
+        
+        Wawa Yasaruna dikenal sebagai content creator yang kerap membagikannya momen perjalanan wisata dalam dan luar negeri lewat Instagram @yasarunaa. 
+        
+        Sementara Arul Dagul adalah content creator akun YouTube dan Instagram yang sering menayangkan topik terkait gaming sepak bola.
+
+        Keduanya menyampaikan bahwa upaya menjadi influencer tidaklah sulit. Bagaimana caranya?
+
+        Wawa Yasaruna menceritakan konten bisa dibuat dari hal yang sederhana. Misalnya dari kebiasaan sehari-hari atau hobi yang disuka.  
+        
+        “Sedari kecil aku memang suka jalan-jalan. Sampai pada akhirnya aku mencoba mendokumentasikan semua perjalananku. Siapa sangka, sekarang aku malah menjadi seorang vlogger di bidang travelling,” kata Wawa bercerita, saat mengisi Rangkaian Komunikasi UMM Beraksi (Kommaksi) olen prodi Komunikasi dilansir dari rilis UMM. 
+        
+        Baginya, kesuksesan yang ia miliki hari ini tak lepas dari ketekunan yang harus dijalani. Kecintaannya pada travelling juga mampu membuka jalan karirnya. Bahkan kini ia sudah menjadi brand ambassador Traveloka. 
+        
+        Meksi begitu, popularitas yang ia miliki saat ini tak luput dari ejekan dan omongan miring.
+
+        "Aku bahkan tidak memfollow orang-orang di sekitarku. Rasanya dengan begitu aku bisa mengeksplor diri dan bisa menyalurkan ide kreatifku tanpa takut dicerca,” kata Wawa. 
+        
+        Hal senada disampaikan Arul. Ia yang kini memiliki 240 ribu subscriber Youtube dan 34 ribu follower Instagram.
+
+        Arul mengatakan, semua berawal dari hobi. Ia memang mencintai gim dan menurutnya menjadi gamers sangatlah mengasyikkan.
+
+        “Kalau boleh jujur, sebelum aku fokus bikin konten gim, aku sempat mendalami banyak hobi dan passion. Mulai dari jurnalistik, editor, bahkan stand up comedy. Intinya coba-coba aja sampai menemukan yang cocok sama diri kita,” kata Arul. 
+        
+        Ketua program studi Ikom Nasrullah, mengatakan kehadiran kedua alumnus UMM ini diharapkan bisa menjadi inspirasi mahasiswa UMM yang hadir di Kommaksi.
+
+        Event Kommaksi selalu diadakan untuk memberikan inspirasi dan peluang bagi mahasiswa terus berkembang.
+
+        Nasrullah mengatakan, tersebut sejalan dengan visi prodi Ilmu Komunikasi UMM yakni mencetak sumber daya manusia kreatif, komunikatif, dan kolaboratif. Terlebih lagi, Ikom Kampus Putih juga telah mengantongi akreditasi internasional FIBA-A. 
+        
+        Ia juga menjelaskan Kommaksi merupakan bentuk apresiasi kepada mahasiswa yang telah bekerja keras melaksanakan praktikum yang berat.
+
+        “Kommaksi sempat vakum karena pandemi Covid-19 kemarin. Hal itu tentu mendorong teman-teman untuk kembali melaksanakannya dengan konsep yang lebih meriah,” katanya. 
+        
+        Rangkaian acara yang menarik Kommaksi juga mendapatkan perhatian khusus dari para mahasiswa dan pengunjung.
+
+        Salah satunya Ayunda Pinkan yang senang dan menilai bahwa ajang ini sangat seru dan asyik. Ia bahkan sukses membawa pulang penghargaan bersama timnya pada kategori audio visual 2.
+
+        Mereka sukses membuat iklan layanan masyarakat terkait program membatik bekerjasama dengan dengan Batik Mojo yang terletak di Daerah Kepanjen Kabupaten Malang. 
+        
+        “Kami memilih batik sebagai bahan praktikum audio visual ini karena ternyata membatik canting dapat mencegah stress dan depresi. Kami mengajak masyarakat untuk membatik bersama selama kurang lebih tiga bulan dan mendapatkan respon yang positif,” katanya menjelaskan.
+        `
     },
     {
-        title: "Perpustakaan Digital Diluncurkan",
-        desc: "Ribuan buku digital tersedia gratis.",
-        published: "8 April 2024",
-        image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=500"
+        title: "4 Tips Produktif bagi Mahasiswa, Optimalkan MBKM hingga Teknologi",
+        desc: "Tips agar mahasiswa lebih produktif dengan bantuan MBKM dan teknologi.",
+        published: "15 September 2023",
+        image: "./assets/images/tips-produktif.jpg",
+        content: `
+        BeritaKita ~~ Masa kuliah adalah masanya kamu mengembangkan diri sebelum memasuki dunia kerja. 
+        
+        Tapi karakter mahasiswa berbeda-beda dalam menjalani masa kuliahnya. Ada yang berprestasi di bidang akademik, adapula yang cenderung di bidang non-akademik. 
+        
+        Kedua karakteristik mahasiswa tersebut biasa dilabeli dengan istilah mahasiswa kupu-kupu (kuliah pulang) di satu sisi dan ada pula mahasiswa kura-kura (kuliah rapat). 
+        
+        Menurut Dosen sekaligus konselor Universitas Negeri Surabaya (Unesa) Retno Tri Hariastuti ada berbagai tipe pengembangan diri mahasiswa dan itu memiliki kelebihannya masing-masing.
+
+        Mahasiswa Kupu-Kupu dan Mahasiswa Kura-Kura
+        Retno menerangkan, jika dilihat dari kategori yang dilakukan mahasiswa sekarang, mahasiswa "kupu-kupu" diartikan sebagai mahasiswa yang cenderung datang ke kelas, duduk dan pulang.
+
+        Sementara tipe "kura-kura" melekat kepada mahasiswa yang aktif berkegiatan di luar kelas, sampai jadwalnya padat alias kuliahnya rapat. 
+        
+        Bagi dosen BK tersebut, pembagian tipe mahasiswa tersebut sekarang sudah makin abu-abu alias mahasiswa sekarang rata-rata semua berkegiatan di luar prodi dan kampus lewat berbagai program Merdeka Belajar Kampus Merdeka (MBKM). 
+        
+        "Kalaupun masih ada yang menyebut mahasiswa kupu-kupulah, atau kura-kuralah, keduanya punya kelebihannya. Tidak boleh saling meremehkan," kata Retno seperti dikutip dari laman Unesa, Jumat (15/9/2023). 
+        
+        Dia menerangkan, istilah mahasiswa kura-kura lebih baik juga tidak benar. Semua tergantung pengembangan diri yang dilakukan mahasiswa tersebut. 
+        
+        Apapun tipe mahasiswa merupakan karakter cara belajar mereka. Hal itu menjadi warna tersendiri dalam dunia akademik dan non-akademik.
+
+        Tips agar jadi mahasiswa produktif
+        Dosen FIP tersebut membeberkan beberapa kiat pengembangan diri buat mahasiswa agar produktif dan punya bekal memasuki dunia kerja setelah kuliah. 
+
+        1. Manfaatkan belajar di dalam kelas 
+        Retno menekankan, mahasiswa bisa memanfaatkan belajar di dalam kelas. Sesi kuliah di kelas tidak boleh dianggap remeh. 
+        Sebab, kuliah di kelas menjadi dasar-dasar dan teori disiplin keilmuan dibahas dan didiskusikan. Teori sangat bermanfaat bagi pengembangan kompetensi mahasiswa. Teori dan materi menjadi acuan sekaligus modal penting untuk sebuah praktek. 
+        
+        2. Maksimalkan MBKM 
+        Bagi mahasiswa agar lebih produktif bisa memanfaatkan semua program yang tersedia di MBKM. Sekarang ada 9 program MBKM pusat (Kemendikbud Ristek) yang bisa diikuti mahasiswa.
+        
+        Selain itu, juga ada program MBKM mandiri yang dirancang masing-masing kampus. Program tersebut semuanya sudah mewadahi kebutuhan pengembangan minat dan bakat, mahasiswa tinggal memilih.
+        Sangat disayangkan jika program yang banyak itu hanya sekadar diikuti untuk memenuhi tuntutan SKS saja. 
+        "Harusnya itu bisa dimaksimalkan sebagai pintu masuk ke dunia usaha dan industri atau jalan menuju karier yang diharapkan," tandasnya. 
+        
+        3. Tidak cepat merasa puas 
+        Retno menambahkan, sebagai mahasiswa sebaiknya tidak cepat merasa puas. Biasanya, setelah kuliah ataupun praktik di luar kampus, mahasiswa cenderung merasa puas dengan apa yang sudah didapatkan. 
+        Idealnya, apa yang didapatkan dari kelas atau tempat magang misalnya, harus terus dikembangkan melampaui apa yang dipelajari di kampus. 
+
+        4. Manfaatkan teknologi 
+        Selain itu, mahasiswa bisa memanfaatkan kemajuan teknologi untuk pengembangan diri. Saat ini di bidang apapun, ada teknologi, ada aplikasinya. Untuk urusan belajar bahasa asing pun ada aplikasinya dan aksesnya juga sangat mudah.
+
+        Gadget mahasiswa sekarang rata-rata canggih dan itu sebaiknya tidak boleh hanya sekadar buat chatting atau scrolling saja. 
+        
+        "Tetapi bisa dimanfaatkan untuk kebutuhan pengembangan diri dan skill-skill yang dibutuhkan," tandasnya.
+        `
     },
     {
-        title: "Pendidikan Anak Usia Dini Meningkat",
-        desc: "Pemerintah fokus pada kualitas pendidikan dasar.",
-        published: "18 April 2024",
-        image: "https://images.unsplash.com/photo-1490337457138-40a5d09df6ce?w=500"
+        title: "Ganti Menteri Pendidikan, Ganti Kebijakan Anak Jadi Kelinci Percobaan",
+        desc: "Sorotan soal seringnya perubahan kebijakan pendidikan yang berdampak pada siswa.",
+        published: "15 April 2025",
+        image: "./assets/images/pendidikan.jpg",
+        content: `
+        BeritaKita ~~ Perubahan kebijakan pendidikan yang terkesan maju mundur di hampir tiap pergantian menteri pendidikan dinilai mengorbankan anak-anak di Indonesia. 
+        
+        Hal itu disampaikan oleh Koordinator Nasional Perhimpunan Pendidikan dan Guru (P2G), Satriwan Salim, merespons perubahan kebijakan penjurusan di tingkat SMA yang sebelumnya telah dihapuskan pada era Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi (Mendikbudristek) Nadiem Makarim. 
+        
+        Satriwan menyebutkan, kebijakan pendidikan yang diubah-ubah sesuai selera menteri setiap lima tahun sekali. Ia menambahkan, perubahan kebijakan yang seolah biner atau kontras ini justru akan menghambat upaya mencerdaskan kehidupan bangsa menuju Indonesia Emas 2045. 
+
+        "Karena tiap lima tahun mulai dari 0 lagi, tak ada keberlanjutan (discontinue). Lebih menyedihkannya, sekali lima tahun anak Indonesia akan selalu menjadi kelinci percobaan kebijakan pendidikan," ujar Satriwan dalam keterangan resminya, Senin (14/4/2025).
+
+        Satriwan menambahkan, kebijakan pendidikan di Indonesia belum menyentuh persoalan fundamental pendidikan nasional, seperti kompetensi literasi, numerasi, dan sains anak Indonesia yang konsisten rendah bahkan makin buruk.
+
+        Menurut PISA, kondisi pendidikan di Indonesia menunjukkan rendahnya rata-rata lama sekolah 8,77 tahun; 60 persen SD dalam keadaan rusak; 4 juta lebih anak tidak sekolah; upah guru honorer yang jauh di bawah UMR; biaya pendidikan yang masih mahal; dan lain sebagainya. 
+
+        "Diskontinu dalam kebijakan pendidikan dapat berakibat tidak baik, sebab acuannya bukan ke RPJPN dan Peta Jalan Pendidikan Indonesia 2025-2045. Menyebabkan kebingungan masyarakat, guru, siswa, dan orangtua," ungkap Satriwan. 
+        
+        P2G menyarankan Menteri Pendidikan Dasar Menengah (Mendikdasmen) Abdul Mu'ti untuk mengevaluasi Kurikulum Merdeka sebelum menerapkan kembali kebijakan penjurusan di SMA.
+
+        Satriwan menilai kebijakan yang dilontarkan oleh Mendikdasmen Abdul Mu'ti terkesan terburu-buru dan tanpa kajian evaluasi terhadap Implementasi Kurikulum Merdeka (IKM) yang baru seumur jagung. 
+        
+        "Format jurusan kan baru saja dihapus dalam Kurikulum Merdeka. Kita belum lihat dampak dan efektivitasnya termasuk evaluasi IKM secara komprehensif belum ada. Menghidupkan kembali jurusan IPA/IPS terkesan tanpa kajian matang," ungkap Satriwan. 
+        
+        Satriwan mengatakan, Kurikulum Merdeka baru berumur empat tahun secara de facto. Berdasarkan catatannya, lebih dari 95 persen sekolah mengimplementasikan Kurikulum Merdeka sampai tahun 2024.
+
+        "Kemdikdasmen jangan langsung begitu saja implementasi kebijakan yang mengubah struktur kurikulum yang tengah berjalan, sebelum diberi waktu untuk masa transisi dan evaluasi. Paling cepat butuh waktu enam tahun untuk menilai efektivitas implementasi kurikulum," tambah Satriwan. 
+        
+        Selain evaluasi, Kemendikdasmen juga disarankan untuk membuat kajian akademik terlebih dulu yang melibatkan semua stakeholder pendidikan dengan meaningfull participation sebelum membuat kebijakan strategis.
+
+        Dihapus dan Dikembalikan Lagi
+        Sebelumnya, pemerintah melalui Kemendikdasmen akan kembali mengadakan penjurusan IPA, IPS, dan Bahasa di sekolah menengah atas (SMA).
+
+        Padahal, penjurusan IPA, IPS, dan Bahasa sudah dihapuskan pada era Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi (Mendikbud Ristek) 2019-2024, Nadiem Makarim.
+
+        Kepala Badan Standar Nasional Kurikulum dan Asesmen Pendidikan (BSKAP) Kemendikbud Ristek kala itu, Anindito Aditomo, menjelaskan, penghapusan itu sengaja dilakukan. 
+        
+        Sebab, selama ini penjurusan seperti itu cenderung mencerminkan asal ketidakadilan karena rata-rata orangtua akan memilih memasukkan anaknya ke jurusan IPA. Selama ini, penjurusan seperti itu cenderung mencerminkan asal ketidakadilan karena rata-rata orangtua akan memilih memasukkan anaknya ke jurusan IPA. 
+
+        "Salah satunya itu (karena orangtua rata-rata memilihkan anaknya masuk IPA). Kalau kita jurusan IPA kita bisa memilih jurusan lain," kata Anindito ketika berbincang dengan Kompas.com, Senin (15/7/2024).
+
+        Menurut Anindito, orangtua bersikap seperti itu karena hanya mencoba berpikir rasional dengan meminta anaknya masuk IPA agar banyak pilihan program studi (prodi) yang bisa dipilih saat masuk perguruan tinggi.
+
+        Selain itu, karena banyak dari jurusan IPA yang mengambil prodi yang biasa didaftarkan siswa jurusan IPS dan bahasa, kuota siswa jurusan IPS dan bahasa semakin menipis.
+
+        Oleh sebab itu, kata Anindito, jurusan tersebut dihapuskan dan digantikan dengan sistem pemilihan pelajaran sesuai minat siswa.
+
+        Alasan Pengembalian Jurusan IPA, IPS, dan Bahasa
+        Pemerintahan Presiden Prabowo Subianto memiliki alasan tersendiri untuk kembali menghidupkan jurusan IPA, IPS, dan Bahasa di SMA. 
+        
+        Abdul Mu'ti mengatakan, alasan kembali diadakan jurusan IPA, IPS, dan Bahasa di SMA adalah untuk menunjang pelaksanaan Tes Kemampuan Akademik (TKA) sebagai pengganti Ujian Nasional (UN). 
+        
+        Pada TKA, nantinya yang akan diujikan adalah pelajaran yang biasanya dipelajari siswa. Oleh karena itu, diperlukan adanya pengembalian jurusan IPA, IPS, dan Bahasa sama seperti beberapa tahun lalu. 
+        
+        "TKA itu nanti berbasis mata pelajaran. Sehingga, itu akan membantu para pihak, terutama untuk murid yang melanjutkan ke perguruan tinggi itu terlihat kemampuannya seperti apa," kata Mu'ti di Kantor Kemendikdasmen, Jakarta, Jumat (11/4/2025). 
+
+        "Karena tesnya berbasis mata pelajaran. Sehingga di depan ini jurusan akan kita hidupkan lagi. Jadi nanti akan ada jurusan lagi. IPA, IPS dan Bahasa," lanjut Mu'ti.
+
+        Mu'ti menjelaskan, dalam TKA akan ada mata pelajaran wajib bagi siswa baik IPA, IPS, dan Bahasa ditambah mata pelajaran khusus jurusan. 
+        
+        Misalnya pada jurusan IPA seperti Biologi, Fisika, dan Kimia. Sementara IPS seperti Ekonomi, Geografi, Sejarah, dan ilmu lainnya terkait bidang sosial.
+
+        "Dalam TKA itu nanti mulai itu ada tes yang wajib yaitu Bahasa Indonesia dan Matematika itu wajib untuk mereka yang ngambil IPA itu nanti dia boleh memilih tambahannya antara Fisika, Kimia, atau Biologi," ujarnya. 
+        
+        "Untuk yang IPS juga begitu. Dia boleh ada tambahan apakah itu ekonomi apakah itu sejarah atau ilmu-ilmu lain yang ada dalam rumput ilmu-ilmu," jelas Mu'ti.
+        `
     },
     {
-        title: "Mahasiswa Indonesia Berprestasi",
-        desc: "Mahasiswa tampil di kompetisi internasional.",
-        published: "1 Mei 2024",
-        image: "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=500"
+        title: "Indonesia Batasi Medsos, Anak 13-16 Tahun Tak Bebas Akses Mulai 2026",
+        desc: "Melindungi anak dari konten berisiko di media sosial.",
+        published: "12 Desember 2025",
+        image: "./assets/images/medsos.jpg",
+        content: `
+        BeritaKita ~~ Pemerintah berencana membatasi penggunaan media sosial (Medsos) untuk anak usia 13 hingga 16 tahun tergantung dari risiko masing-masing platform. 
+        
+        Menteri Komunikasi dan Digital (Menkomdigi) Meutya Hafid mengatakan penerapan pembatasan itu ditargetkan terlaksana mulai Maret 2026. 
+
+        "Tahun depan bulan Maret sudah mulai bisa kita laksanakan melindungi anak-anak kita dengan melakukan penundaan akses akun pada anak-anak usia 13 dan 16 tahun, tergantung risiko masing-masing platform," kata Meutya dikutip dari akun YouTube Kemkomdigi, Kamis (11/12/2025).
+
+        Meutya menjelaskan, Indonesia sudah memiliki aturan terkait pembatasan akses akun medsos pada anak yang terbit pada Maret 2025 lalu.
+
+        Ia memahami dampak dari aturan tersebut mungkin belum dirasakan masyarakat secara signifikan karena saat ini masih proses transisi. 
+
+        "Kita sekarang sedang masa transisi, persiapan, dengan para platform besar untuk kemudian mudah-mudahan dalam waktu satu tahun di Maret 2026 bisa mulai kita lakukan," ujarnya.
+
+        Meutya melanjutkan, langkah Indonesia membatasi akun untuk anak di bawah umur telah diikuti oleh negara-negara lain seperti Malaysia dan Eropa yang saat ini sedang masuk tahap penyusunan aturan. 
+        
+        Oleh karena itu, Meutya berharap tahun depan bisa diterapkan pembatasan-pembatasan yang dilakukan pemerintah. 
+
+        Sementara bagi platform yang enggan patuh pada aturan juga ada sanksi yang akan dijatuhkan pemerintah, antara lain sanksi administrasi, denda, hingga pemutusan akses.
+
+        "Mengenai sanksi-sanksi ini, nanti kami akan keluarkan Permen. Semua sedang kita gondok. Saat ini prosesnya adalah kita lakukan uji petik di mana anak-anak di Jogja sedang kita lakukan survei mereka kita berikan waktu untuk masuk ke PSE besar, lalu mereka akan memberikan feedback," pungkas Meutya.
+
+        Sebelumnya, beberapa negara di dunia mulai melarang anak di bawah umur untuk memiliki medsos.
+
+        Mereka melarang dengan berbagai macam alasan salah satunya demi menjaga kesehatan mental anak-anak di negara tersebut dan lebih banyak berinteraksi secara langsung.
+        
+        Negara-negara tersebut ada yang sudah membuat aturan resmi pembatasan kepemilikan medsos pada anak di bawah umur.
+        `
     },
     {
-        title: "Pendidikan Jarak Jauh Berkembang",
-        desc: "Sekolah meningkatkan platform pembelajaran daring.",
-        published: "17 Mei 2024",
-        image: "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=500"
+        title: "Anggota DPR Ingatkan Pembebasan UKT Mahasiswa Korban Banjir Harus Tepat Sasaran",
+        desc: "Membantu mahasiswa yang keluarganya mengalami kerugian akibat bencana banjir agar tidak terbebani biaya kuliah.",
+        published: "11 Desember 2025",
+        image: "./assets/images/ukt.jpg",
+        content: `
+        BeritaKita ~~ Anggota Komisi X DPR RI, Muhammad Hilman Mufidi mengingatkan kebijakan pembebasan Uang Kuliah Tunggal (UKT) semester 1 dan 2 bagi mahasiswa yang terdampak banjir dan longsor di wilayah Sumatera harus tepat sasaran. 
+
+        Hilman mendukung penuh kebijakan dari Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemendikti saintek) tersebut. 
+        
+        “Pembebasan UKT ini harus benar-benar diberikan kepada mahasiswa yang terdampak bencana banjir. Jangan sampai ada yang tidak berhak justru mendapatkan fasilitas tersebut, sementara yang berhak malah terlewat,” kata Hilman, dikutip dari Antara, Kamis (11/10/2025).
+
+        Pastikan pendidikan para mahaiswa terdampak tetap berlanjut
+        Menurut Hilman, kebijakan ini adalah langkah cepat pemerintah untuk memastikan pendidikan para mahasiswa yang keluarganya terdampak tetap berlanjut.
+
+        Maka itu Hilman meminta Kemendikti saintek melakukan pendataan secara akurat, transparan, dan menyeluruh.
+
+        “Kami meminta Kemendikti saintek melakukan pendataan dengan benar dan tepat, sehingga kebijakan pembebasan UKT ini bisa benar-benar menyentuh mahasiswa yang terdampak musibah banjir,” ujarnya. 
+
+        Ia memastikan Komisi X DPR juga akan melakukan pengawasan ketat pada pelaksanaan kebijakan ini.
+
+        Manfaatkan optimal dirasakan masyarakat
+        Supaya, semua kebijakan pendidikan berjalan sesuai prosedur dan manfaatnya optimal dirasakan masyarakat. 
+        
+        Sebelumnya, Direktur Riset dan Pengembangan Kemendikti saintek, 
+        Fauzan Adziman dalam rapat kerja bersama Komisi X DPR di Senayan pada Senin lalu menyampaikan kebijakan pembebasan UKT ini. 
+        
+        Kebijakan yang termasuk dalam skema tahap pemulihan dari Kemendikti saintek ini rencananya mulai dijalankan pada Januari 2026 menggunakan anggaran di tahun berlangsung.
+        `
     },
     {
-        title: "Program Magang Industri",
-        desc: "Kerjasama kampus dan perusahaan semakin besar.",
-        published: "27 Mei 2024",
-        image: "https://images.unsplash.com/photo-1487528278747-ba99ed528ebc?w=500"
+        title: "Menteri Fadli Zon Dukung Kebaya Bisa Dipakai di Sekolah dan Kampus",
+        desc: "Kebaya didorong menjadi pilihan pakaian di sekolah dan kampus.",
+        published: "12 Februari 2025",
+        image: "./assets/images/fadli-zon.jpg",
+        content: `
+        BeritaKita ~~ Kementerian Kebudayaan mendukung penggunaan kebaya di lingkungan sekolah sampai perguruan tinggi. 
+        
+        Menteri Kebudayaan Fadli Zon mendukung upaya Komunitas Perempuan Berkebaya Indonesia (PBI) yang akan menggalakkan penggunaan kebaya di sekolah, kampus, dan perkantoran melalui program Kebaya Goes to School, Kebaya Goes to Campus, dan Kebaya Goes to Office. 
+        
+        “Kita dukung sebagai bagian dari upaya menggaungkan kebaya setelah ditetapkan UNESCO sebagai warisan budaya dunia,” katanya, saat melakukan pertemuan dengan lima orang pengurus PBI Pusat dan Ketua PBI Cabang Jakarta dan Bogor, dilansir dari rilis resminya, Rabu (12/2/2025).
+
+        Dalam kesempatan tersebut, Menteri Kebudayaan Fadli Zon menyatakan dukungannya terhadap berbagai kegiatan PBI yang akan melanjutkan hasil Keputusan UNESCO yang menjadikan kebaya sebagai warisan budaya dunia pada Desember 2024.
+
+        “Setelah keputusan UNESCO itu, kita memang harus menetapkan ke depannya apa yang harus dilakukan,” ujarnya.
+
+        Dia mencontohkan batik yang makin bergaung dan banyak dipakai dalam berbagai kegiatan setelah UNESCO menetapkan batik sebagai warisan budaya Indonesia pada tahun 2009. Dia berharap itu juga terjadi pada kebaya.
+
+        “Kebaya tidak hanya dipakai ketika menghadiri hajatan atau perayaan tertentu. Untuk itu sosialisasi dan diseminasi harus gencar dilakukan sehingga kebaya hidup dan ada dalam ekosistem seperti pernah terjadi pada batik," tambahnya.  
+
+        Fadli menambahkan, kebaya Indonesia mempunyai banyak varian yang tersebar di berbagai daerah. 
+        
+        “Ini yang harus kita tonjolkan, varian di daerah dengan local genius atau kearifan lokalnya," ujar Fadli Zon lagi. 
+
+        Ke depannya, dengan tren dunia yang bicara tentang keberlangsungan atau sustainability, maka sudah harus dipikirkan kebaya yang sustain atau responsible fashion, yang memperhatikan keterkaitan dengan keberlanjutan dan lingkungan hidup. 
+        
+        Ketua Umum PBI Pusat Rahmi Hidayati menyambut baik dukungan Kementerian Kebudayaan untuk mensosialisasikan kebaya sehingga bisa menjadi pakaian sehari-hari. 
+        
+        Untuk itu, ujarnya, PBI akan terus bergerak mengajak para perempuan Indonesia berkebaya di berbagai kesempatan.
+
+        "Yang tak kalah pentingnya adalah memerkenalkan kebaya ke generasi muda agar mereka paham mana yang namanya kebaya, bagaimana sejarah keberadaannya di Nusantara, tahu cara berkebaya dan berkain yang praktis, dan bersedia berkebaya di berbagai kesempatan. Ini hanya mungkin tercapai bila sudah tumbuh kecintaan pada busana warisan para leluhur bangsa,” kata Rahmi Hidayati.
+        `
     },
     {
-        title: "Festival Sains Pelajar",
-        desc: "Ajang kreativitas pelajar tingkat nasional.",
-        published: "12 Juni 2024",
-        image: "https://images.unsplash.com/photo-1509223197845-458d87318791?w=500"
+        title: "Coding dan Matematika Perlu Diterapkan Sejak Usia Dini, Tak Perlu Kaku",
+        desc: "Coding dan matematika disarankan diajarkan sejak dini dengan cara yang tidak kaku.",
+        published: "12 Februari 2025",
+        image: "./assets/images/usia-dini.jpg",
+        content: `
+        BeritaKita ~~ Wakil Menteri Pendidikan Dasar dan Menengah (Wamendikdasmen), Fajar Riza Ul Haq menyampaikan pentingnya mengenalkan konsep matematika melalui kegiatan yang menyenangkan dan penuh makna bagi anak-anak. 
+        
+        Hal itu disampaikan saat melakukan kunjungan kerja ke TK Al Muslim dan KB-TK Kristen Petra 12 di Kabupaten Sidoarjo, Jawa Timur pada Selasa (11/2/2025). 
+        
+        Melalui kunjungannya ini, Fajar mendorong penerapan pembelajaran coding dan matematika sejak usia dini. 
+        
+        “Pembelajaran matematika tidak harus kaku. Sejak usia dini, anak-anak dapat dikenalkan dengan konsep-konsep dasar melalui bermain yang menyenangkan,” ujar Fajar dalam siaran pers.
+
+        Dalam kunjungannya, Fajar juga menyempatkan bermain “hujan kartu” dengan para peserta didik, yaitu permainan pengenalan matematika dasar dengan metode mengurutkan angka.
+
+        Salah satu peserta didik TK Al Muslim, Arsyad, dengan semangat menjawab ketika ditanya urutan angka oleh Fajar. 
+        
+        “Setelah sebelas, dua belas,” tutur Arsyad. 
+        
+        Selain TK Al Muslim, Fajar juga mengunjungi KB-TK Kristen Petra 12. Ia mengapresiasi pembelajaran coding yang sudah diterapkan di sekolah tersebut. 
+        
+        “Saya senang sekali bisa hadir ke TK ini dan melihat pelajaran coding yang diajarkan dengan metode yang menarik dan menggembirakan,” tutur Fajar. 
+        
+        Lebih lanjut, Fajar mengungkapkan bahwa pelajaran coding sangat penting dalam meningkatkan kemampuan berpikir kritis (critical thinking) pada anak usia dini karena coding menuntut anak untuk memahami masalah dan mencari solusi. 
+        
+        Di usia PAUD, aktivitas coding tidak melibatkan bahasa pemrograman yang kompleks, tetapi lebih berupa kegiatan bermain yang berbasis algoritma sederhana dan eksplorasi. 
+        
+        Kepala Sekolah KB-TK Kristen Petra 12, Siecilianie, menyampaikan bahwa pembelajaran coding di sekolahnya sudah diterapkan sejak tahun pelajaran 2023/2024 dan dijadwalkan selama satu kali dalam satu minggu.
+
+        Ia juga menyampaikan bahwa dalam mengikuti pelajaran anak-anak merasa senang dan antusias. 
+        
+        “Siswa sangat antusias dan selalu menantikan jadwal kelas coding masing-masing,” ungkapnya.
+
+        Pengawas TK Korwil Waru, Anik Kartini, turut menyampaikan pentingnya STEAM (Science, Technology, Engineering, Arts, and Mathematics) untuk anak usia dini.
+
+        Menurutnya, teknologi ini dapat diterapkan dengan alat-alat sederhana tetapi efektif di lingkungan PAUD.
+
+        “Teknologi di tingkat PAUD bisa menggunakan alat sederhana yang ada di sekitar kita seperti gunting, tali, ataupun lem. Karena teknologi itu pada intinya adalah alat yang memudahkan kita,” ungkapnya. 
+        
+        Selanjutnya, Fajar berharap para pendidik di PAUD terus berinovasi dalam menghadirkan kegiatan pembelajaran yang inspiratif, menyenangkan, dan sesuai dengan tahap perkembangan anak. Karena pendidikan anak usia dini merupakan fondasi utama dalam mewujudkan generasi emas.
+        `
     },
     {
-        title: "Peluncuran Aplikasi Edukasi",
-        desc: "Aplikasi belajar online hadir dengan fitur baru.",
-        published: "24 Juni 2024",
-        image: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=500"
+        title: "Ijazah Bakal Jadi Digital dan Ada Fitur QR Code, Cegah Pemalsuan",
+        desc: "Mencegah praktik pemalsuan ijazah dan meningkatkan kepercayaan terhadap dokumen pendidikan.",
+        published: "19 September 2025",
+        image: "./assets/images/ijazah.jpg",
+        content: `
+        BeritaKita ~~ Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemendikti Saintek) bersama Peruri melakukan sosialisasi penerapan dokumen kelulusan digital di perguruan tinggi pada Kamis (18/9/2025). 
+        
+        Lewat aturan Permendikbud Ristek Nomor 50 Tahun 2024, ijazah kini dapat diterbitkan secara elektronik dengan tanda tangan digital tersertifikasi dan dilengkapi Penomoran Ijazah Nasional (PISN). 
+        
+        Sementara itu, Peruri yang berperan sebagai penyelenggara sertifikat elektronik menghadirkan teknologi tanda tangan dan stempel digital. Selain itu, ada pula fitur QR code terpersonalisasi dengan logo perguruan tinggi untuk mempermudah verifikasi.
+
+        Sistem ini membuat keaslian ijazah bisa dibuktikan secara daring sehingga lulusan tidak lagi diwajibkan melakukan legalisir.
+
+        Kebijakan ini sekaligus menekan potensi pemalsuan dokumen akademik yang selama ini marak terjadi.
+
+        Beralihnya ijazah ke bentuk digital memberikan sejumlah manfaat bagi berbagai pihak. Bagi mahasiswa, keaslian dokumen lebih terjamin dengan sistem keamanan yang disiapkan. 
+        
+        Proses administrasi juga menjadi lebih cepat karena tidak lagi memerlukan banyak legalisir. Hal ini membuat ijazah digital lebih mudah digunakan saat melamar pekerjaan. 
+        
+        Untuk perguruan tinggi, penerapan dokumen digital mempermudah proses penandatanganan yang umumnya memakan waktu panjang. Selain itu, digitalisasi membantu mencegah pemalsuan ijazah dan sekaligus mendorong transformasi layanan akademik agar lebih efisien.
+
+        Sementara bagi industri atau instansi, verifikasi keaslian ijazah dapat dilakukan dengan lebih cepat dan sederhana. Sistem ini juga menekan risiko penyalahgunaan dokumen akademik serta membuat pengarsipan berkas pelamar lebih efisien.
+
+        Dalam sosialisasi ini, sejumlah pimpinan kampus turut hadir untuk membagikan pengalaman mereka. Diantaranya Rektor Universitas Andalas Eva Yonedi, Direktur Politeknik Negeri Bali Nyoman Abdi, serta Direktur Pendidikan Institut Teknologi Bandung Saiful Akbar. 
+        
+        Rektor Universitas Andalas menuturkan bahwa transisi ke ijazah elektronik sempat menimbulkan perdebatan di internal kampus, terutama karena sebagian pihak masih menginginkan tanda tangan basah. 
+        
+        Untuk mengatasi hal tersebut, kampus melakukan sosialisasi terlebih dahulu sebelum resmi menerapkannya pada 2025. Meski membutuhkan waktu, langkah ini terbukti membuat proses penerbitan ribuan ijazah lebih efisien.
+
+        Politeknik Negeri Bali dan ITB juga menyampaikan bahwa penggunaan tanda tangan elektronik tersertifikasi mempercepat penerbitan dokumen sekaligus menekan risiko pemalsuan. Namun, mereka mencatat adanya kendala teknis seperti beban server yang berat, sistem yang belum stabil, hingga kebutuhan penyesuaian administrasi. 
+        
+        Tantangan ini diantisipasi dengan perbaikan sistem secara bertahap dan koordinasi antara perguruan tinggi dengan kementerian.
+        `
     },
     {
-        title: "Kampus Hijau Ramah Lingkungan",
-        desc: "Universitas menerapkan kebijakan ramah lingkungan.",
-        published: "7 Juli 2024",
-        image: "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=500"
+        title: "Kemditisaintek Bentuk Satgas untuk Dukung Program Transmigran Patriot",
+        desc: "Kemdiktisaintek membentuk satgas untuk mendukung program Transmigran Patriot.",
+        published: "4 Maret 2025",
+        image: "./assets/images/kemditisaintek.jpg",
+        content: `
+        BeritaKita ~~ Menteri Pendidikan Tinggi, Sains dan Teknologi (Mendiktisaintek) Brian Yuliarto memastikan Kemdiktisaintek mendukung sepenuhnya transformasi kawasan transmigrasi menuju kawasan industri melalui sektor pendidikan. 
+        
+        Sebagai bentuk dukungan, Brian akan mengajak kampus-kampus di sekitar kawasan transmigrasi untuk melajukan kajian atau asesmen jenis-jenis industri apa saja yang cocok untuk suatu kawasan transmigrasi. 
+        
+        Kesesuaian jenis industri dengan lokasi transmigrasi akan menjadi motor penggerak ekonomi di kawasan transmigrasi tersebut. 
+        
+        Hal tersebut disampaikan Menteri Brian Yuliarto ketika bertemu dengan Menteri Transmigrasi Iftitah Sulaiman, di Jakarta (3/3/2025).
+
+        Brian menyebutkan, transformasi kawasan transmigrasi menjadi kawasan industri menuju kawasan transpolitan seperti yang dipaparkan oleh Menteri Iftitah Sulaiman, seyogyanya mengikutsertakan dunia industri sebagai akselerator. 
+        Dengan demikian, geliat ekonomi di kawasan transmigrasi menjadi terukur dan maksimal. 
+        
+        “Kami akan ajak kampus untuk melakukan kajian. Berikutnya kami akan membuat tahapan pembangunan yang terukur. Sehingga dampak positif dari transformasi kawasan transmigrasi dinikmati oleh masyarakat transmigran dan masyarakat di sekitar kawasan transmigrasi,” kata Brian dalam keterangan resminya.
+
+        Sebagai langkah awal, Brian akan membentuk satuan tugas (Satgas) yang akan mengidentifikasi semua kebutuhan dan solusi di lapangan. Termasuk di dalamnya menyiapkan 100-200 orang pendamping untuk sekitar 2.000 calon transmigran patriot. 
+        
+        Transmigran patriot adalah transmigran yang terdiri dari mahasiswa strata 1 sampai strata 3 yang diberikan beasiswa dan akan tinggal di suatu kawasan transmigrasi sebagai proyek awal. 
+        
+        “Kita akan susun formulanya. Termasuk formula untuk beasiswanya. Saya sangat mendukung kawasan transmigrasi tumbuh dan berkembang melalui riset dan edukasi. Kita akan susun peta jalannya,” kata Brian. 
+        
+        Dalam penjelasannya, Iftitah Sulaiman menyatakan kementerian yang dipimpinnya bermaksud mendorong produktivitas di kawasan transmigrasi, untuk mendorong investasi dan daya beli masyarakat transmigran. Daya dorong tersebut akan dilakukan melalui edukasi, industrialisasi, hilirisasi, dan digitilisasi. 
+        
+        “Saat ini sisa lahan transmigrasi kurang lebih 525.000 hektare. Kita harus manfaatkan luas lahan ini melalui hilirisasi. Supaya nilai tambahnya berlipat ganda. Makanya kami diskusikan dengan Menteri Brian, terutama transmigran patriot,” kata Iftitah.
+
+        Pada bagian yang sama Brian menyitir program pengabdian masyarakat yang bisa diakomodir Kementerian Transmigrasi. Dengan program pengabdian masyarakat ini maka para dosen bisa melakukan terobosan di kawasan transmigrasi. 
+        
+        “Terobosan yang dilakukan para dosen bisa langsung digunakan oleh masyarakat transmigran. Kawasan transmigrasi tertentu bisa dijadikan locus, semacam proyek percontohan. Dari itu akan kita estafetkan ke kawasan transmigrasi lainnya. Sekolah Garuda juga ada di daerah, bisa dikoneksikan. Intinya kita dukung penuh transformasi kawasan transmigrasi menuju transpolitan,” tutur Brian.
+        `  
     }
 ]
 
@@ -1239,94 +1805,480 @@ const olahraga = [
 
 const lingkunganSocial = [
     {
-        title: "Gerakan Penghijauan Nasional",
-        desc: "Gerakan besar menanam pohon di seluruh Indonesia.",
-        published: "6 Januari 2024",
-        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500"
+        title: "Prabowo Perintahkan Jaga Alam dan Tidak Tebang Pohon Sembarangan",
+        desc: "Prabowo minta daerah jaga hutan dan stop tebang liar.",
+        published: "12 Desember 2025",
+        image: "./assets/images/prabowo.jpg",
+        content: `
+        Presiden Prabowo Subianto memerintahkan jajarannya, khususnya pemerintah daerah, untuk waspada dan menjaga alam menjadi lebih baik, termasuk memastikan tidak ada pohon yang ditebang sembarangan.
+
+        Perintah itu diberikan Presiden Prabowo di hadapan para pengungsi di Kabupaten Aceh Tamiang, Provinsi Aceh, Jumat.
+
+        Aceh Tamiang merupakan salah satu kabupaten di Aceh yang terdampak banjir bandang dan longsor pada 25 November 2025.
+
+        "Kita sekarang harus waspada, hati-hati. Kita harus jaga lingkungan kita. Alam kita harus kita jaga. Kita tidak boleh tebang pohon sembarangan," kata Presiden Prabowo.
+
+        "Saya minta pemerintah daerah lebih waspada, lebih awasi. Kita jaga alam kita dengan sebaik-baiknya," kata Presiden menambahkan.
+
+        Instruksi itu disampaikan Presiden kepada pemerintah daerah karena sejumlah ahli memperkirakan banjir bandang dan longsor yang terjadi di Aceh, Sumatera Utara, dan Sumatera Barat bukan hanya disebabkan oleh fenomena alam, melainkan juga diperparah kerusakan alam akibat alih fungsi hutan besar-besaran yang terjadi setidaknya dalam dua dekade terakhir.
+
+        Pemerintah, dalam hal ini Kementerian Lingkungan Hidup dan Kementerian Kehutanan, saat ini telah menyegel dan menghentikan sementara operasional sejumlah perusahaan sawit, tambang, serta menghentikan sementara aktivitas pengangkutan kayu bulat di Aceh, Sumatera Utara, dan Sumatera Barat.
+
+        Presiden Prabowo untuk ketiga kalinya mendatangi Aceh sejak bencana menerjang tiga provinsi di Pulau Sumatera pada akhir November lalu.
+
+        Di Aceh, Presiden meninjau penanganan dampak bencana di Kabupaten Aceh Tamiang, kemudian Kota Takengon, Kabupaten Aceh Tengah, dan dijadwalkan juga meninjau posko pengungsi di Kabupaten Bener Meriah.
+
+        Dalam rangkaian kunjungannya itu, Presiden Prabowo didampingi Gubernur Aceh Muzakir Manaf, Sekretaris Kabinet Teddy Indra Wijaya, Menteri Sekretaris Negara Prasetyo Hadi, Menteri Sosial Saifullah Yusuf, Menteri Pertahanan Sjafrie Sjamsoeddin, Menteri ESDM Bahlil Lahadalia, Kepala Badan Komunikasi Pemerintah Angga Raka Prabowo, Panglima TNI Jenderal TNI Agus Subiyanto, dan Kapolri Jenderal Polisi Listyo Sigit Prabowo.
+
+        Selepas merampungkan kegiatan di Kabupaten Bener Meriah, Presiden Prabowo dijadwalkan naik helikopter menuju Bandara Internasional Kualanamu di Kabupaten Deli Serdang, Sumatera Utara.
+
+        Dari Kualanamu, Presiden Prabowo dijadwalkan bertolak menuju Pangkalan Udara TNI AU (Lanud) Halim Perdanakusuma, Jakarta.
+        `
     },
     {
-        title: "Kampanye Kurangi Sampah Plastik",
-        desc: "Gerakan sosial untuk mengurangi sampah plastik sekali pakai.",
-        published: "14 Januari 2024",
-        image: "https://images.unsplash.com/photo-1453473552141-5eb0e5a9dd12?w=500"
+        title: "Akademisi ungkap Giat Tambang di Konawe Berdampak Negatif Bagi Warga",
+        desc: "Aktivitas tambang dinilai merugikan warga dan lingkungan.",
+        published: "11 Desember 2025",
+        image: "./assets/images/tambang.jpg",
+        content: `
+        Guru Besar Fakultas Pertanian Universitas Halu Oleo Kendari Yani Taufik bersama SETARA Institute mengungkapkan terdapat perubahan drastis pada fungsi sosial-ekonomi masyarakat lingkar tambang di wilayah Kabupaten Konawe dan Kabupaten Konawe Utara, Sulawesi Tenggara (Sultra).
+
+        Melalui keterangan di Jakarta, Kamis, Yani memaparkan komunitas nelayan mengalami sedimentasi dan pencemaran pesisir yang membuat ruang tangkap semakin jauh dan membutuhkan waktu melaut 2-3 hari.
+
+        "Di daratan, konversi lahan sawah menurunkan luas sawah produktif dari 5.000 hektare menjadi 1.500 hektare, menyebabkan petani kehilangan sumber penghidupan," katanya.
+
+        Yani menyebutkan terdapat pula peningkatan kasus Infeksi Saluran Pernapasan Akut (ISPA), iritasi kulit, dan paparan debu merah terjadi khususnya di wilayah sekolah-sekolah dekat izin usaha pertambangan IUP.
+
+        Ia juga mencatat hilangnya tradisi lokal seperti metanduale akibat perubahan struktur sosial yang dipicu aktivitas pertambangan.
+
+        "Penelitian menemukan keberadaan pekerja anak, lemahnya penerapan K3, serta ditemukannya kecelakaan kerja fatal yang tidak dilaporkan. Ketimpangan tenaga kerja lokal dan luar sangat nyata, dimana pekerja lokal umumnya hanya mengisi posisi buruh kasar," ujarnya.
+
+        Lebih lanjut Direktur Eksekutif SETARA Institute Halili Hasan mengungkapkan hampir seluruh lokasi mencatat pencemaran air dan laut, debu tambang yang ekstrem, sedimentasi yang tidak terkendali, serta peningkatan kasus kesehatan masyarakat.
+
+        Ia menyebut sistem pengelolaan limbah seperti sediment pond ditemukan tidak berfungsi, sementara reklamasi pascatambang tidak dilaksanakan secara nyata meskipun ada dalam dokumen perusahaan.
+
+        "Hilangnya vegetasi dan terjadinya peningkatan suhu mikro dilaporkan oleh Organisasi Perangkat Daerah (OPD) serta masyarakat. Dinas Lingkungan Hidup (DLH) Konawe juga menemukan cemaran berbahaya dalam sampel air di sekitar smelter," ungkapnya.
+
+        Karena itu Halili menyampaikan sejumlah rekomendasi. Untuk pemerintah pusat, disarankan penguatan koherensi kebijakan nasional melalui revisi ketentuan dalam UU Minerba yang berpotensi disalahgunakan, sinkronisasi regulasi antar-kementerian, peningkatan transparansi industri ekstraktif melalui pengungkapan informasi minimum, serta penerapan uji tuntas HAM sebagaimana mandat Perpres 60/2023 tentang Strategi Nasional Bisnis dan HAM, yang akan digantikan oleh Perpres Penilaian Kepatuhan HAM pada Pelaku Usaha sebagai basis mandatori Uji Tuntas HAM.
+
+        Untuk pemerintah daerah, riset merekomendasikan pemulihan peran pengawasan terpadu antara provinsi, kabupaten, dan masyarakat; peninjauan ulang RTRW dan akselerasi penetapan regulasi terkait Lahan Pertanian Pangan Berkelanjutan (LP2B); peninjauan izin terhadap pemegang IUP berdasarkan pada aspek responsible mining serta penguatan mekanisme keluhan publik melalui pembentukan kantor pengaduan lokal dan petugas penghubung desa.
+
+        "Kemudian, rekomendasi yang ditujukan kepada organisasi masyarakat sipil untuk memperluas pemantauan independen, advokasi dan dokumentasi kasus, dan pemberdayaan ekonomi berbasis komunitas; serta kepada perguruan tinggi untuk melakukan riset lanjutan terkait dampak sosial-lingkungan dan pengembangan pedoman ilmiah pengendalian sedimentasi, rehabilitasi pesisir, serta penyusunan program PPM (Pengembangan dan Pemberdayaan Masyarakat) yang partisipatif," tutur Halili Hasan.
+        `
     },
     {
-        title: "Bencana Alam dan Bantuan Sosial",
-        desc: "Ribuan relawan turun membantu korban bencana.",
-        published: "2 Februari 2024",
-        image: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=500"
+        title: "Polres Metro Jakpus Salurkan Bantuan Beras Kepada Warga",
+        desc: "Polisi bagikan beras untuk warga yang membutuhkan.",
+        published: "5 Desember 2025",
+        image: "./assets/images/polres.jpg",
+        content: `
+        Polres Metro Jakarta Pusat menyalurkan bantuan beras sebanyak 500 kilogram (kg) kepada 100 warga sebagai bentuk kepedulian sosial Polri kepada masyarakat.
+
+        "Jumat Peduli bukan sekadar pembagian bantuan, melainkan komitmen kami dalam melaksanakan program 'Jaga Jakarta' bersama warga," kata Kapolres Metro Jakarta Pusat Kombes Pol Susatyo Purnomo Chondro di Jakarta, Jumat.
+
+        Menurut dia, kegiatan sosial tersebut menjadi wujud kepedulian Polri kepada masyarakat serta penguatan hubungan antara polisi dan warga.
+
+        Susatyo mengatakan, pembagian beras tersebut sebagai apresiasi mendalam terhadap peran aktif masyarakat dalam menjaga keamanan wilayah.
+
+        "Kami menyampaikan terima kasih kepada seluruh warga yang selama ini ikut berkontribusi menjaga Jakarta Pusat tetap aman," ujarnya.
+
+        Kapolres juga menyinggung situasi rawan beberapa waktu lalu yang berhasil dilalui dengan baik berkat kekompakan antara masyarakat dan kepolisian.
+
+        Menurut dia, saat sejumlah kantor di berbagai wilayah diserang akibat kerusuhan, Jakarta Pusat tetap kondusif. Itu terjadi karena warga berdiri bersama petugas.
+
+        "Warga rela mengorbankan waktu dan tenaga untuk turut menjaga lingkungan. Keamanan tidak mungkin berjalan sendiri, keamanan hadir karena kebersamaan," kata Susatyo.
+
+        Sementara itu, seorang warga Sri mengungkapkan rasa syukur dan terima kasihnya kepada kepolisian yang telah memberikan perhatian kepada mereka.
+
+        "Kami merasa sangat terbantu dan diperhatikan. Semoga hubungan baik ini terus terjaga. Kami siap bekerja sama menjaga keamanan lingkungan bersama polisi," katanya.
+        `
     },
     {
-        title: "Program Air Bersih",
-        desc: "Program penyediaan air bersih di daerah terpencil.",
-        published: "15 Februari 2024",
-        image: "https://images.unsplash.com/photo-1581578029043-909f28693db3?w=500"
+        title: "Pantai Utara Tangerang Diduga Tercemar Limbah Minyak",
+        desc: "Laut diduga kena limbah minyak dan ganggu nelayan.",
+        published: "3 Desember 2025",
+        image: "./assets/images/pantai.jpg",
+        content: `
+        Perairan pesisir pantai utara (pantura) tepatnya di Desa Tanjung Burung, Kecamatan Teluknaga, Kabupaten Tangerang, Banten diduga tercemar limbah minyak dari kapal yang berlalu-lalang di Laut Jawa.
+
+        Informasi diperoleh di Tangerang, Rabu, melalui edaran video di media sosial (medsos) yang diabadikan salah satu nelayan di wilayah pesisir laut tersebut.
+
+        Dalam unggahan itu, menunjukkan banyaknya cairan berwarna kuning emas yang menyebar ke beberapa hamparan Laut Pantai Tanjung Burung.
+
+        Elemen berupa gumpalan padat itu, juga tampak tidak menyatu atau tercampur dengan air laut. Dimana, para nelayan menduga cairan itu merupakan cemaran limbah.
+
+        "Tahu dari mana ini, limbah apa ini?. Tau begini gimana dapat ikan. Arahnya kayanya dari Priuk?," terangnya dalam percakapan unggahan video tersebut.
+
+        Menanggapi hal tersebut, Kasi Bina Hukum Dinas Lingkungan Hidup (DLH) Kabupaten Tangerang, Sandi Nugraha mengungkapkan, bahwa pihaknya telah menerima laporan adanya cairan yang diduga limbah tersebut.
+
+        Sandi menjelaskan, atas adanya laporan DLHK telah menyampaikan ke Pemerintah Provinsi Banten dan Kementerian Kelautan dan Perikanan.
+
+        "Sudah kami sampaikan ke provinsi dan pemerintah pusat, saat ini kami sedang menunggu tindak lanjutnya," ujarnya.
+
+        Dia menjelaskan, berdasarkan laporan dan keterangan para nelayan bahwa gumpalan dengan warna kuning emas ini diduga merupakan limbah minyak bumi yang tercecer saat diangkut menggunakan kapal tanker dari wilayah pesisir Cirebon.
+
+        "Jadi itu mungkin minyak bumi yang bocor dari kapal tanker," ucapnya.
+
+        Untuk memastikan adanya pencemaran limbah ini, DLHK Kabupaten Tangerang juga telah melaporkannya ke Kementerian Lingkungan Hidup sebagai bahan penelitian dan penyelidikan dalam kasus tersebut.
+
+        "Kalau penelitian kewenangannya ada di kementerian. Nanti itu bisa dipastikan terkait pencemarannya," kata dia.
+        `
     },
     {
-        title: "Pelestarian Satwa Langka",
-        desc: "Upaya penyelamatan spesies langka Indonesia.",
-        published: "28 Februari 2024",
-        image: "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=500"
+        title: "Zulhas Ajak Dubes Eropa Kolaborasi Jaga Perhutanan Sosial Lampung",
+        desc: "Zulhas mengajak dubes Eropa lihat langsung perhutanan sosial di Lampung dan kerja sama jaga hutan.",
+        published: "2 Desember 2025",
+        image: "./assets/images/perhutanan.jpg",
+        content: `
+        Menteri Koordinator Bidang Pangan Zulkifli Hasan (Zulhas) mengajak sejumlah duta besar negara Eropa mengunjungi perhutanan sosial di Lampung Selatan untuk menunjukkan keberhasilan pemberdayaan masyarakat, pengelolaan hutan berkelanjutan, serta peluang kolaborasi internasional.
+
+        Zulhas mengajak sejumlah duta besar negara Eropa di antaranya Norwegia, Belanda, Prancis, Jerman, dan Belgia mengunjungi perhutanan sosial Gunung Raja Basa di Desa Way Kalam, Kecamatan Penengahan, Kabupaten Lampung Selatan, Provinsi Lampung, Selasa.
+
+        "Ini yang datang jauh-jauh dari Belanda, Norwegia, Jerman, Prancis, Belgia, sampai ke sini. Ada UNDP (United Nations Development Programme atau Program Pembangunan Perserikatan Bangsa-Bangsa) sampai ke sini," kata Zulhas saat berdialog dengan petani di kawasan tersebut.
+
+        Zulhas mengajak para duta besar melihat langsung kawasan perhutanan sosial serta menanam bibit pohon cokelat secara simbolis bersama para dubes di lahan seluas 124 hektare yang dikelola 247 kepala keluarga (KK).
+
+        Kawasan itu dikelola Lembaga Pengelola Hutan Desa berdasarkan Surat Keputusan Menteri LHK No. SK.1644/Menthk/PSKL/PKPS/PSL.0/3/2017 Tanggal 29 Maret 2017.
+
+        Menko Pangan menunjukkan keberhasilan pemberdayaan masyarakat dalam menjaga kelestarian lingkungan dan mencegah bencana ekologis besar.
+
+        Menurut Zulhas kunjungan dubes dari negara itu menegaskan perhatian global terhadap pengelolaan hutan berkelanjutan sebagai kunci mengurangi risiko banjir, longsor, dan kerusakan alam lainnya di Indonesia.
+
+        Zulhas menekankan pentingnya kepedulian bersama menjaga bumi karena dampak kerusakan lingkungan tidak mengenal batas negara, sehingga solidaritas global diperlukan untuk memperkuat mitigasi perubahan iklim dan perlindungan ekosistem.
+
+        "Jadi teman-teman ini penggerak lingkungan. Memperhatikan lingkungan ini penting. Karena kita ini satu bumi. Memang satu (merek dari) benua lain, jauh-jauh. Tapi satu Buminya. Maka mereka concern, teman-teman bule kita ini, concern agar Bumi ini dirawat dengan baik," ujar Zulhas.
+
+        Ia juga menyinggung bencana di Aceh, Sumatera Utara, dan Sumatera Barat sebagai pengingat bahwa kerusakan lingkungan berakibat langsung pada manusia, menghilangkan rumah, harta, dan keluarga dalam sekejap akibat degradasi hutan.
+
+        "Kemarin nonton Aceh enggak? Lihat Aceh kan? Lihat Sibolga. Lihat Sumatera Utara. Lihat Sumatera Barat. Masya Allah sedih. Ada yang lagi tidur suami-istri, besok pagi istrinya hilang. Ada yang suaminya hilang," ucap Zulhas.
+
+        "Selain itu ada yang anaknya hilang. Rumah baru ditinggal kemarin, tiba-tiba hari ini hilang semuanya. Enggak ada lagi. Itulah kalau lingkungan tidak kita jaga. Maka saya titip betul dari dulu Gunung Raja Basa ini, kalau ini rusak, habis kita. Seluruh keliling gunung, habis. Begitu ada hujan, tersapu bersih," tambahnya.
+
+        Oleh karena itu, Zulhas menegaskan, perlunya menjaga Gunung Raja Basa karena kerusakan kawasan lindung akan menyebabkan banjir dan longsor besar, mengancam masyarakat di hulu hingga hilir yang menggantungkan hidup pada keseimbangan ekosistem.
+
+        Ia mengingatkan masyarakat agar tidak mengalihfungsikan hutan lindung untuk pertanian sayuran karena penebangan pohon akan menghilangkan penyangga air, membuat daerah bawah rawan banjir dan daerah atas rawan longsor.
+
+        Zulhas memastikan perhutanan sosial tetap memberi manfaat bagi warga dengan memanfaatkan komoditas non-kayu seperti durian, pala, coklat, alpukat, dan kopi tanpa merusak struktur ekologis kawasan hutan.
+
+        Ia mengapresiasi UNDP dan para duta besar atas dukungannya, sekaligus memastikan bantuan bibit kopi dan coklat disalurkan kepada kelompok perhutanan sosial guna memperkuat ekonomi hijau berbasis konservasi masyarakat.
+        `
     },
     {
-        title: "Aksi Donor Darah Massal",
-        desc: "Ribuan warga ikut serta dalam donor darah.",
-        published: "9 Maret 2024",
-        image: "https://images.unsplash.com/photo-1611143669185-1f5c2aa820c7?w=500"
+        title: "DPR Minta RI contoh Korsel Pajang Pelaku Bully Saat Daftar Kuliah",
+        desc: "Usul tampilkan data pelaku bullying saat daftar kuliah.",
+        published: "25 November 2025",
+        image: "./assets/images/cth-korsel.jpg",
+        content: `
+        Wakil Ketua Komisi X DPR My Esti Wijayati meminta kepada pemerintah Republik Indonesia (RI) untuk mencontoh Korea Selatan (Korsel) yang membuat kebijakan untuk memajang riwayat pelaku bully atau perundungan saat hendak mendaftar kuliah, mulai tahun 2026.
+
+        Dia mengatakan rencana penerapan kebijakan itu sudah dibuat Kementerian Pendidikan Korea sejak 2023 untuk memberantas kekerasan di kalangan siswa. Indonesia, kata dia, bisa berkaca dari Korsel yang juga memiliki tingkat persoalan perundungan di lingkungan pendidikan yang tinggi.
+
+        "Ini menarik, bisa menjadi contoh untuk penanganan sanksi sosial kepada pelaku bullying. Norma sanksi yang jelas dapat membuat mereka yang terindikasi punya sikap bullying lebih berhati-hati dan memiliki pengendalian diri," kata Esti di Jakarta, Selasa.
+
+        Selain itu, dia menekankan pentingnya penguatan bagi guru untuk memahami soal perundungan karena pencegahan dan penanganan perundungan tidak mungkin berjalan jika kapasitas pelaksana di sekolah rendah. Menurut dia, dibutuhkan pembekalan khusus terhadap guru terkait persoalan itu yang fenomenanya sudah sangat mengkhawatirkan.
+
+        "Guru, perlu memiliki kompetensi konseling dan manajemen konflik, siswa harus teredukasi, orang tua aktif terlibat, dan sekolah wajib memiliki SOP yang hidup, bukan sekadar dokumen formalitas," katanya.
+
+        Dia mengungkapkan bahwa banyak sekolah, terutama di daerah terpencil atau dengan keterbatasan sumber daya, belum mendapatkan pelatihan dasar mengenai konseling atau manajemen konflik. Hal ini membuat sekolah tidak siap merespons kasus perundungan secara cepat, aman, dan profesional.
+
+        Untuk itu, dia menegaskan bahwa Rancangan Undang-Undang tentang Sistem Pendidikan Nasional (Sisdiknas) harus mendorong pemerintah agar menerbitkan regulasi turunan yang spesifik dan operasional.
+
+        "Tanpa aturan yang rinci agar dapat ada audit, upaya pemberantasan bullying hanya akan menjadi rumusan normatif tanpa kekuatan implementasi," katanya.
+        `
     },
     {
-        title: "Program Rumah Layak Huni",
-        desc: "Pemerintah membangun rumah untuk warga kurang mampu.",
-        published: "21 Maret 2024",
-        image: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=500"
+        title: "Kampung KB Optimalkan Keluarga Tingkatkan Kualitas Hidup",
+        desc: "Program bantu kesehatan, ekonomi, dan edukasi keluarga.",
+        published: "12 November 2025",
+        image: "./assets/images/kampung-kb.png",
+        content: `
+        Menteri Kependudukan dan Pembangunan Keluarga (Mendukbangga)/Kepala BKKBN Wihaji menjelaskan keberadaan Kampung Keluarga Berkualitas (KB) untuk mengoptimalkan peran keluarga dan komunitas dalam meningkatkan kualitas hidup.
+
+        "Program atau gerakan yang terdapat di Kampung KB bukan hanya milik Kemendukbangga/BKKBN semata, melainkan juga menekankan pentingnya kolaborasi lintas sektor, sinergi antar-program, serta partisipasi aktif masyarakat sebagai modal sosial," katanya dalam keterangan di Jakarta, Rabu.
+
+        Ia mengatakan hal itu saat mengunjungi Kampung KB di Garut, Jawa Barat, Selasa (11/11), untuk memberikan edukasi tentang Dapur Sehat Atasi Stunting (Dashat) hingga program-program prioritas nasional.
+
+        Pendekatan Kampung KB, ujar dia, sudah terintegrasi dengan program-program pembangunan sumber daya manusia dari lintas sektor.
+
+        Ia mengharapkan pendekatan tersebut mampu memperkuat fungsi keluarga, meningkatkan ketahanan keluarga, dan menciptakan lingkungan yang lebih sehat, aman, dan produktif.
+
+        Kegiatan intervensi di Kampung KB, kata dia, hadir sebagai bentuk nyata komitmen pemerintah untuk meningkatkan kualitas hidup masyarakat.
+
+        Ia menjelaskan inisiatif ini menjadi wadah kolaborasi dan gotong royong yang tidak hanya mengandalkan intervensi pemerintah, tetapi juga mengajak dunia usaha, lembaga pendidikan, organisasi kemasyarakatan, tokoh agama, serta seluruh lapisan masyarakat untuk bersama-sama terlibat dalam meningkatkan kualitas hidup.
+
+        "Gerakan ini tidak hanya berorientasi pada pemenuhan kebutuhan saat ini, tetapi juga pada upaya menciptakan fondasi yang kokoh bagi generasi mendatang, sehingga cita-cita Indonesia maju dapat terwujud melalui keluarga yang sehat, tangguh, dan sejahtera," ucap Wihaji.
+
+        Melalui semangat gotong royong, Kemendukbangga/BKKBN berharap, setiap keluarga memperoleh dukungan yang lebih optimal dalam menghadapi tantangan sekaligus memiliki kesempatan lebih besar untuk berkembang.
+
+        Ia juga mengatakan persoalan penanganan stunting bukan hanya urusan kesehatan, melainkan juga sanitasi dan lingkungan yang turut memengaruhi faktor-faktor penyebab anak tidak tumbuh secara optimal.
+
+        Dalam kesempatan tersebut, Menteri Wihaji memberikan bantuan berupa sembako Rp105 ribu per minggu dan insentif untuk tim pendamping keluarga (TPK) Rp5 ribu per minggu. Bantuan juga diberikan dalam bentuk bedah rumah untuk tiga lokasi, masing-masing Rp35 juta.
+
+        Selain memberikan bantuan sembako bagi keluarga berisiko stunting (KRS) dan sasaran ibu hamil, ibu menyusui, serta balita, Kemendukbangga/BKKBN juga melakukan pelayanan KB sebagai salah satu upaya untuk mencegah stunting.
+        `
     },
     {
-        title: "Gerakan Hemat Energi",
-        desc: "Masyarakat diajak mengurangi penggunaan listrik.",
-        published: "3 April 2024",
-        image: "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?w=500"
+        title: "DKI Cari Payung Hukum Untuk Sanksi Sosial Kepada Pembakar Sampah",
+        desc: "Rencanakan sanksi sosial bagi pelaku bakar sampah.",
+        published: "29 Oktober 2025",
+        image: "./assets/images/sanksi.png",
+        content: `
+        Pemerintah Provinsi DKI Jakarta masih mencari payung hukum untuk memberikan sanksi sosial kepada warga yang membakar sampah sembarangan seperti pemasangan foto pelanggar di lokasi kejadian atau sanksi lainnya.
+
+        Hal ini dilakukan lantaran hingga saat ini belum ada regulasi spesifik yang mengatur sanksi sosial terhadap pembakar sampah.
+
+        “Kami sedang mencari payung regulasi yang tepat untuk mendukung penerapan sanksi sosial yang efektif dan tidak melanggar hak privasi,” kata Kepala Dinas Lingkungan Hidup (DLH) DKI Jakarta, Asep Kuswanto dalam keterangan di Jakarta, Rabu.
+
+        Dia mengatakan sanksi sosial pada hakikatnya bukanlah sanksi formal yang diatur undang-undang, melainkan mekanisme kontrol sosial berbasis kesepakatan masyarakat untuk membina kepatuhan terhadap norma lingkungan.
+
+        Berbeda dengan sanksi hukum yang bersifat mengikat, sanksi sosial lebih menekankan pembinaan moral dan tanggung jawab kolektif.
+
+        DLH DKI Jakarta terus mencari pendekatan inovatif untuk menekan kebiasaan membakar sampah, yang terbukti menjadi sumber utama polusi udara perkotaan dan pelepasan partikel mikroplastik ke lingkungan.
+
+        Pembakaran sampah plastik di kawasan padat penduduk menghasilkan emisi beracun yang terhirup warga, sekaligus mencemari air hujan dan tanah melalui endapan mikroplastik yang mengancam kesehatan publik dan ekosistem perkotaan.
+
+        “Komitmen kami adalah menyeimbangkan penegakan disiplin dengan pendekatan edukatif, sehingga sanksi tidak hanya menghukum, tetapi juga mengajak masyarakat menjadi bagian dari solusi,” kata dia.
+
+        Asep berharap adanya mekanisme sanksi sosial yang berbasis hukum, berkeadilan dan edukatif tanpa menimbulkan stigma berlebih sekaligus memperkuat kesadaran kolektif dalam menjaga lingkungan Jakarta yang bersih, sehat, dan berkelanjutan.
+
+        Adapun wacana pemberian sanksi sosial terhadap pembakar sampah, menjadi respon langsung terhadap laporan dan keresahan masyarakat yang terus meningkat terkait dampak pembakaran sampah terhadap kualitas udara, kesehatan serta kontaminasi lingkungan di ibu kota.
+
+        “Ide sanksi sosial ini muncul dalam diskusi publik beberapa waktu lalu, saat kami membahas kontaminasi air hujan oleh mikroplastik akibat pembakaran sampah dan semakin mendesak seiring masuknya puluhan laporan warga setiap bulannya,” katanya.
+        `
     },
     {
-        title: "Kegiatan Bersih Pantai",
-        desc: "Relawan membersihkan sampah di wilayah pesisir.",
-        published: "16 April 2024",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500"
+        title: "Kemkomdigi Fokuskan Peta Jalan AI Pada Pedoman Etika",
+        desc: "Pengembangan AI dipusatkan pada pedoman etika.",
+        published: "23 Oktober 2025",
+        image: "./assets/images/kemkomdigi.png",
+        content: `
+        Menteri Komunikasi dan Digital Meutya Hafid menargetkan penyelesaian Peta Jalan etika AI di Indonesia yang merupakan hasil diskusi dan kolaborasi lintas kementerian dan lembaga bisa diluncurkan pada tahun 2026 dengan fokus pada pedoman etika.
+
+        “Jadi regulasi yang kita buat ini, yang saat ini sudah dikumpulkan, insya Allah menunggu tanda tangan dalam waktu dekat, mengatur pertama mengenai etika dan masalah keamanan,” kata Meutya dalam sambutannya di acara Kumparan AI for Indonesia di Jakarta, Kamis.
+
+        Ia mengatakan peta jalan AI penting untuk mengatur penggunaan AI di setiap sektor di kementerian dan lembaga, maka itu aturan yang dirumuskan bersama sekitar 55 kementerian/lembaga itu menyepakati per sektor dan kementerian akan mengeluarkan peraturan terkait AI untuk mendukung produktivitas sektor kementeriannya.
+
+        Meutya mengatakan aspek utama selain etika yaitu talenta yang menjadi penting untuk bagaimana bisa memanfaatkan AI dengan baik dengan menciptakan digital talent, dan penggunaan AI berbasis riset dan inovasi serta use case atau pemanfaatan teknologi untuk solusi nyata.
+
+        Peta Jalan AI juga berfokus pada 10 bidang prioritas sesuai dengan amanat Presiden yaitu bidang ketahanan pangan, kesehatan, pendidikan, ekonomi dan keuangan, reformasi birokrasi, polhukam, energi, sumber daya lingkungan, perubahan, transportasi, logistik, infrastruktur, dan ekonomi kreatif.
+
+        “Lagi-lagi karena AI sangat luas, kita harus memiliki fokus, dan 10 ini sudah kita in line-kan dengan apa yang menjadi fokus Bapak Presiden, teman-teman yang memang pemerhati penggiat AI, mungkin kami sarankan untuk fokus kepada 10 bidang ini, dalam pembangunan-pembangunan awal AI di Indonesia,” katanya.
+
+        Meutya mengatakan pengembangan kecerdasan buatan melalui peta jalan ini diharapkan dapat mendukung pertumbuhan ekonomi, meningkatkan daya saing global, talenta inovasi yang beretika dan berkeadilan sosial.
+
+        Peta Jalan AI untuk Indonesia saat ini sedang dalam persetujuan Kementerian Sekretariat Negara dan akan diteruskan ke Kementerian Hukum agar bisa diterapkan pada setiap kementerian dan lembaga pada 2026.
+        `
     },
     {
-        title: "Edukasi Ramah Lingkungan",
-        desc: "Program sekolah mengenai pentingnya menjaga lingkungan.",
-        published: "30 April 2024",
-        image: "https://images.unsplash.com/photo-1581579188871-45ea61f2f7ad?w=500"
+        title: "Gubernur Kaltim Gagas Kerja Sosial Untuk Pelestarian Lingkungan",
+        desc: "Usulan kerja sosial untuk bersihkan sungai/pantai.",
+        published: "9 Desember 2025",
+        image: "./assets/images/gubernur.png",
+        content: `
+        Gubernur Provinsi Kalimantan Timur, Rudy Mas'ud, mengemukakan gagasan bahwa hukuman kerja sosial dapat diselaraskan dengan inisiatif pelestarian lingkungan lokal, seperti pembersihan kawasan sungai dan pesisir pantai.
+
+        Pernyataan tersebut dia sampaikan setelah penandatanganan Perjanjian Kerja Sama penerapan pidana kerja sosial antara Pemerintah Provinsi Kaltim dan Kejaksaan Tinggi Kalimantan Timur, di Kantor Gubernur Kaltim, Selasa.
+
+        Menurut dia, lokasi penempatan kerja sosial dapat mencakup perusahaan, UMKM, atau untuk kegiatan kebersihan di Sungai Mahakam dan Sungai Karang Mumus di Samarinda.
+
+        Sedangkan di wilayah kabupaten dan kota lain di Kaltim, bisa dimaksimalkan untuk pembersihan area pesisir pantai dan penanaman pohon untuk pemulihan kawasan hutan.
+
+        Ia menilai pidana kerja sosial sebagai instrumen yang memiliki dimensi pemulihan, edukasi, dan manfaat sosial, sejalan dengan prinsip keadilan restoratif dalam kebijakan penegakan hukum nasional.
+
+        Kebijakan ini merupakan tindak lanjut dari UU Nomor 1/2023 tentang Kitab Undang-Undang Hukum Pidana (KUHP) baru, yang akan berlaku efektif pada 2 Januari 2026.
+
+        Ia mengaku turut merancang UU tersebut saat menjabat di Komisi III DPR, dia mendukung sistem pidana alternatif ini dengan alasan utamanya adalah kondisi penuh sesak di rutan dan lapas di Indonesia yang mencapai hampir 200 persen kapasitas, dengan 60 persen penghuninya terkait kasus narkoba.
+
+        Selain itu, beban anggaran negara untuk biaya makan minum narapidana mencapai sekitar Rp2,4 triliun per tahun.
+
+        Meskipun mendukung, dia menekankan, model pidana ini hanya untuk tindak pidana ringan, seperti balap liar atau perusakan fasilitas umum, sedangkan kasus berat harus tetap dikenakan hukuman berat.
+
+        Agar efektif, ia menekankan perlunya sinergi antara Kejaksaan dan Pemerintah Daerah dengan formula Pemda menyiapkan lokasi dan jenis kegiatan, sementara Kejaksaan melakukan eksekusi dan pengawasan.
+
+        Khusus untuk pengguna narkoba, Gubernur setuju agar mereka direhabilitasi daripada dipenjara, sehingga mendorong pembangunan lebih banyak rumah rehabilitasi.
+
+        Sementara itu, Kepala Kejati Kaltim, Supardi, menyambut baik PKS ini, menyatakan bahwa hukum harus memanusiakan dan mengurangi dampak pemidanaan umum.
+
+        Supardi menambahkan pelaksanaan kerja sama ini akan didukung oleh PT Jamkrindo melalui program CSR.
+
+        Penandatanganan PKS serupa juga dilakukan serentak oleh bupati dan wali kota se-Kaltim dengan Kejaksaan Negeri di wilayah masing-masing.
+        `
     },
     {
-        title: "Aksi Sosial Komunitas",
-        desc: "Komunitas lokal mengadakan kegiatan sosial.",
-        published: "12 Mei 2024",
-        image: "https://images.unsplash.com/photo-1529973565451-4ec1a75583a5?w=500"
+        title: "Pemkab Cirebon Dorong Pemanfaatan Becak Listrik Untuk Wisata",
+        desc: "Pemkab ingin kurangi emisi lewat becak listrik wisata.",
+        published: "7 Desember 2025",
+        image: "./assets/images/pemkab.png",
+        content: `
+        Pemerintah Kabupaten Cirebon, Jawa Barat, mendorong pemanfaatan becak listrik bantuan dari Presiden RI Prabowo Subianto, sebagai moda transportasi ramah lingkungan di kawasan wisata, terutama di destinasi religi dan sentra kerajinan yang menjadi tujuan utama wisatawan.
+
+        Wakil Bupati Cirebon Agus Kurniawan Budiman di Cirebon, Minggu, mengatakan penggunaan becak listrik dapat meningkatkan kenyamanan pengunjung sekaligus memperluas kesempatan ekonomi bagi para pengemudi becak, khususnya yang berusia lanjut.
+
+        “Bantuan becak listrik yang disalurkan Presiden Prabowo Subianto melalui Yayasan Gerakan Solidaritas Nasional (GSN) sangat membantu masyarakat, terutama pengemudi becak berusia di atas 60 tahun,” katanya.
+
+        Ia menyebutkan pemanfaatan becak listrik akan difokuskan pada kawasan wisata seperti Makam Sunan Gunung Jati dan sentra Batik Trusmi, karena dua lokasi tersebut memiliki aktivitas wisata yang tinggi serta membutuhkan transportasi jarak dekat.
+
+        Menurut Agus, becak listrik juga dapat menjadi daya tarik tersendiri bagi wisatawan karena lebih nyaman dan hanya sedikit membutuhkan tenaga kayuh, sehingga layanan dapat ditingkatkan.
+
+        Ia menambahkan pemerintah akan berkoordinasi dengan sejumlah organisasi perangkat daerah (OPD), untuk menyiapkan titik-titik pengisian daya di lokasi wisata dan tempat umum lainnya.
+
+        “Harapannya fasilitas charging bisa tersedia di pusat-pusat aktivitas masyarakat agar becak listrik mudah dioperasikan,” ujarnya.
+
+        Agus menilai pemanfaatan becak listrik juga akan mendukung konsep pariwisata ramah lingkungan yang sedang digencarkan pemerintah daerah.
+
+        Selain itu, kata dia, pemerintah daerah sedang mengkaji pembentukan terminal becak listrik sebagai pusat mobilitas wisatawan sekaligus sentra pengendalian operasional.
+
+        “Dalam penyaluran tahap awal, Kabupaten Cirebon mendapatkan 100 unit becak listrik dari Presiden,” tuturnya.
+
+        Sementara itu, Wakil Ketua Yayasan GSN Nanik S. Deyang menjelaskan bantuan becak listrik tersebut merupakan program yang dibiayai dari dana pribadi Presiden Prabowo Subianto dan diberikan secara bertahap di berbagai daerah.
+
+        Ia menyebutkan selain membantu pengayuh becak lansia, pemanfaatan becak listrik di kawasan wisata sudah terbukti efektif di daerah lain seperti di Blitar, Jawa Timur.
+
+        Nanik mengatakan setiap unit becak listrik diproduksi di dalam negeri, dengan harga sekitar Rp22 juta per unit.
+
+        “Makanya bertahap. Sekarang 100 untuk Cirebon, nanti ditambah lagi kalau pabrik selesai produksi,” ujarnya.
+
+        Ia mengemukakan banyak pengemudi berusia di atas 65 tahun yang masih mengayuh secara manual, sehingga becak listrik membantu mereka tetap bekerja tanpa mengeluarkan tenaga besar.
+
+        “Kami minta pemerintah daerah ikut menjaga, supaya tidak ada yang membohongi atau mengambil alih becak listrik ini,” ucap dia.
+        `
     },
     {
-        title: "Gerakan Peduli Sungai",
-        desc: "Warga bekerja sama membersihkan aliran sungai.",
-        published: "24 Mei 2024",
-        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500"
+        title: "19 Pemuda Hadirkan Solusi Soal Isu Sosial dan Lingkungan",
+        desc: "Anak muda hadirkan inovasi isu sosial & lingkungan.",
+        published: "27 April 2025",
+        image: "./assets/images/pemuda.jpg",
+        content: `
+        Sebanyak 19 pemuda Indonesia menghadirkan solusi kreatif terkait isu sosial dan lingkungan hidup dalam program Ashoka Young Changemaker 2025.
+
+        Direktur Regional Ashoka untuk Asia Tenggara Nani Zulminarni mengatakan pada umumnya orang muda dipersiapkan untuk terjun aktif ke kehidupan sosial saat mereka telah lulus SMA atau ketika mengenyam pendidikan tinggi, seperti melalui program magang.
+
+        "Namun di Ashoka, kami percaya bila kita perlu melibatkan orang muda dalam mempraktikkan pembuatan perubahan di komunitas mereka sejak muda, sehingga mereka akan menemukan kekuatan dalam dirinya," ujar Nani dalam keterangannya di Jakarta, Minggu.
+
+        Menurut CEO Tempo Digital (Tempo.co) Wahyu Dhyatmika yang juga merupakan salah satu panelis Ashoka Young Changemaker 2025, program Ashoka Young Changemaker sangat penting untuk menemukan dan menyemaikan bibit-bibit pemimpin muda dari seluruh Indonesia.
+
+        "Para finalis memulai program perubahan yang nyata untuk memperbaiki situasi di sekelilingnya dan menularkan keberanian untuk berbuat sesuatu di tengah kesulitan dan tantangan. Saya berharap kiprah para changemaker muda ini bisa disebarluaskan agar menjadi inspirasi untuk anak muda lain di negeri ini," ujar Wahyu.
+
+        Sementara, menurut panelis Michele Soeryadjaya, yang juga Director William & Lily Foundation, semua kandidat Ashoka Young Changemaker telah memberikannya harapan akan masa depan Indonesia yang lebih baik.
+
+        "Saya senang sekali bisa berpartisipasi dalam proses panel ini, bertemu dengan orang-orang muda yang memiliki inisiatif besar untuk menjawab permasalahan dan sangat inspiratif," kata Michelle.
+
+        Ashoka Young Changemaker sendiri adalah jejaring global orang muda usia 12-20 tahun yang telah menemukan kekuatan mereka untuk membawa perubahan, demi kebaikan bersama. Mereka meluncurkan inisiatif sosial dan membentuk tim yang dipimpin oleh orang muda sebagai solusi nyata terhadap isu di sekitar.
+
+        Nantinya, bersama Ashoka dan mitra lainnya, para penggerak muda ini diharapkan mampu memimpin gerakan Everyone a Changemaker (Semua Orang Pembaharu) yang mendukung generasi muda untuk berani bersuara dan berperan aktif di masyarakat.
+
+        Youth Years Manager Ashoka Indonesia Ara Kusuma menyampaikan tim Youth Years Ashoka telah melakukan seleksi awal terhadap 356 pelamar muda yang membawa inovasi mereka masing-masing dalam program AYC 2025 ini.
+
+        Pada proses pemilihan tingkat nasional tersebut, semua pendaftar pembaharu muda melewati tahap wawancara dan terpilih 19 orang kandidat.
+
+        "Sebelum mereka berhadapan dengan para juri dan melalukan presentasi secara tatap muka, para finalis ini telah melalui proses penyaringan dan wawancara daring dengan tim Ashoka Indonesia dan global," ujar Ara.
+
+        Kanaya M. (19), remaja asal Muara Bungo, Jambi, yang mempresentasikan gerakan perubahan Edukasi Berjalan. Dalam gerakan itu, Kanaya mengedukasi anak-anak di komunitas marjinal tentang hak asasi manusia (HAM) dan mengasah pemikiran kritis isu kesenjangan.
+
+        Ada juga Rana A. (16), asal Bandung, Jawa Barat, yang membangun gerakan Jabar Tapa untuk generasi remaja tanggap bencana, terutama gempa bumi dan longsor, melalui edukasi dan advokasi.
+
+        Untuk finalis termuda, hadir Hanna A. (12) dari Jakarta. Dalam presentasinya, Hana menjelaskan tentang gerakan perubahan Jadikan Buku Teman Baikmu. Di gerakan tersebut, Hana membuat cara seru untuk mengajak anak-anak agar gemar membaca melalui aktivitas berburu harta karun dan sahabat pena.
+
+        Di sisi lain, datang finalis dari Surabaya, Jawa Timur, Febriand V. (20) dengan gerakan Black Screen. Dalam gerakan tersebut, Febriand menggagas sebuah wadah bagi remaja dengan disabilitas untuk membuat film dan mengangkat isu yang mereka alami.
+
+        Selain keempat orang muda tersebut, berikut finalis Ashoka Young Changemakers dan inisiatif lainnya:
+        1. Andhika S. (15/Generasi Inspiratif Muda/Jambi)
+        2. Anisa M. (20/Inovasi Kata Karsa/Kubu Raya, Kalimantan Barat)
+        3. Avhinza P. (17/Sekolah Damai/Bandar Lampung, Lampung)
+        4. Chelsea G. (19/Eco Oil/Surabaya, Jawa Timur)
+        5. Danendra F. (18/Panoramind/Boyolali, Jawa Tengah)
+        6. Grestine D. (19/PARTY/Semarang, Jawa Tengah)
+        7. Izzudin A. (18/Langgar Mu/Kediri, Jawa Timur)
+        8. Maylyn F. (16/Educe/Bandung, Jawa Barat)
+        9. Michelle K. (17/Book Buddies/Bekasi, Jawa Barat)
+        10. Nadia M. (19/Daur Karbon/Yogyakarta)
+        11. Putri L. (18/Walice/Bandung, Jawa Barat)
+        12. Reva F. (14/Intensifikasi Bunga Telang/Surabaya)
+        13. Salwa K. (14/Readocil & Grandung/Jakarta)
+        14. Tsani R. (17/Green Circle Sustainability/Yogyakarta)
+        15. Yugo S. (16/Buta Digital Indonesia/Surabaya).
+        `
     },
     {
-        title: "Bantuan Sosial Kemanusiaan",
-        desc: "Bantuan besar dikirimkan ke daerah terdampak krisis.",
-        published: "7 Juni 2024",
-        image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=500"
+        title: "Anggota Komisi XII DPR Minta PLN Perkuat Tanggung Jawab Sosial",
+        desc: "PLN diminta tingkatkan dampak program TJSL.",
+        published: "22 September 2025",
+        image: "./assets/images/komisi.png",
+        content: `
+        Anggota Komisi XII DPR RI Alfons Manibui meminta PT PLN (Persero) memperkuat program Tanggung Jawab Sosial dan Lingkungan (TJSL) agar masyarakat di sekitar pembangkit merasakan manfaat nyata, bukan sekadar kontribusi pada ketahanan energi.
+
+        “PLN tidak boleh hanya bicara soal energi dan ekonomi makro. Warga sekitar operasi harus merasakan dampak positif melalui program kesehatan, pendidikan, pemberdayaan UMKM, dan pelestarian lingkungan,” kata Alfons berdasarkan keterangan tertulis di Jakarta, Senin.
+
+        Ia menegaskan TJSL harus menjadi bagian integral dari operasi PLN. Program tersebut perlu diarahkan pada pemberdayaan UMKM lokal di sektor pertanian, perikanan, dan pariwisata; pelatihan keterampilan tenaga kerja muda; pengelolaan limbah dan rehabilitasi ekosistem pesisir; serta penyediaan fasilitas kesehatan dan pendidikan. Alfons juga menekankan pelaksanaan TJSL harus transparan, terukur, dan berkelanjutan.
+
+        “Komisi XII DPR RI akan mendorong agar PLN memiliki peta jalan TJSL yang jelas. Evaluasi TJSL bahkan perlu menjadi syarat perpanjangan izin operasional pembangkit ke depan,” ujarnya.
+
+        Menurut data Kementerian Energi dan Sumber Daya Mineral (ESDM), total kapasitas pembangkit listrik nasional pada 2024-2025 mencapai 100,6 gigawatt (GW). Dari total tersebut, sekitar 85 persen masih berasal dari pembangkit berbasis fosil, sedangkan 15 persen sisanya dari energi baru terbarukan (EBT) seperti tenaga air, panas bumi, biomassa, surya, angin, dan sampah.
+
+        Kapasitas terpasang EBT meliputi PLTA sekitar 6-7 GW, PLTP 2,6 GW, serta gabungan biomassa, tenaga surya, angin, dan pembangkit EBT lainnya sekitar 1-2 GW. Sekitar 60 persen pembangkit PLN berada di radius kurang dari 10 kilometer dari permukiman padat penduduk.
+
+        Laporan International Energy Agency (IEA) 2024 mencatat pembangkit berbasis fosil menyumbang 35 persen emisi karbon dioksida sektor energi Indonesia.
+
+        Sementara itu, studi Bappenas 2023 menunjukkan daerah dengan pembangkit memang mencatat pertumbuhan ekonomi 1,2-1,5 persen lebih tinggi, tetapi menghadapi risiko kesehatan dan polusi udara hingga 15-20 persen lebih besar.
+
+        Alfons menilai, dengan skema TJSL yang kuat, dana CSR sektor kelistrikan dapat lebih efektif meningkatkan kualitas hidup masyarakat sekaligus mendukung agenda transisi energi nasional dan target penurunan emisi.
+
+        “PLN harus hadir sebagai mitra pembangunan. TJSL adalah jembatan untuk memastikan pembangunan energi berjalan inklusif, berkelanjutan, dan berpihak pada masyarakat,” tuturnya.
+        `
     },
     {
-        title: "Kampanye Pengurangan Emisi",
-        desc: "Program nasional untuk menekan polusi udara.",
-        published: "19 Juni 2024",
-        image: "https://images.unsplash.com/photo-1502303756785-e8d3a8e3f21f?w=500"
+        title: "Pertamina EP Raih Enam Penghargaan Di Bidang Tanggung Jawab Sosial",
+        desc: "Pertamina EP dapat enam penghargaan sosial-lingkungan.",
+        published: "11 Oktober 2025",
+        image: "./assets/images/pertamina-ep.png",
+        content: `
+        PT Pertamina EP meraih enam penghargaan dalam melaksanakan program tanggung jawab sosial dan lingkungan (TJSL) yang berdampak, terukur, dan berkelanjutan di seluruh wilayah operasinya.
+
+        "Pertamina EP terus memperkuat perannya sebagai mitra pembangunan yang berkontribusi langsung terhadap pencapaian Tujuan Pembangunan Berkelanjutan (TPB/SDGs)," ucap Manajer Communication Relations & CID Pertamina EP Pinto Budi Bowo Laksono dalam keterangannya yang diterima di Jakarta, Sabtu.
+
+        Pertamina EP meraih dua penghargaan kategori Emas, dan empat penghargaan kategori Perak.
+
+        Penghargaan Gold diraih oleh Pertamina EP Sukowati Field melalui program Prabu Kresna (Petani Rahayu Bersatu, Kreatif, Sehat, dan Sejahtera), dan Pertamina EP Papua Field melalui program Pengelolaan Hutan Lestari Berbasis Masyarakat Adat di Kampung Adat Malasigi.
+
+        Pencapaian tersebut, kata Pinto, mencerminkan konsistensi Pertamina EP dalam mengimplementasikan strategi keberlanjutan yang berorientasi pada peningkatan kesejahteraan masyarakat dan pelestarian lingkungan.
+
+        Ia menjelaskan bahwa seluruh program TJSL dirancang dan diimplementasikan secara terintegrasi untuk menjawab tantangan sosial dan ekonomi masyarakat, memperkuat daya saing lokal, serta mendorong kemandirian komunitas melalui pendekatan berbasis potensi wilayah.
+
+        "Upaya ini sejalan dengan komitmen Perusahaan dalam mendukung ketahanan energi nasional yang selaras dengan tanggung jawab sosial dan lingkungan," kata Pinto.
+
+        Pertamina EP percaya bahwa operasi hulu migas yang andal harus berjalan beriringan dengan pemberdayaan masyarakat dan perlindungan lingkungan.
+
+        Melalui kolaborasi dengan pemerintah, akademisi, dan masyarakat, perusahaan berkomitmen untuk terus menciptakan dampak positif yang berkelanjutan di setiap wilayah operasinya.
+        `
     },
     {
-        title: "Inisiatif Bank Sampah",
-        desc: "Program bank sampah meningkatkan kesadaran masyarakat.",
-        published: "1 Juli 2024",
-        image: "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e9?w=500"
+        title: "Lewat Tanggung Jawab Sosial Lingkungan, Pertamina Edukasi Keberlanjutan Energi",
+        desc: "Pertamina sosialisasi energi ramah lingkungan.",
+        published: "6 November 2025",
+        image: "./assets/images/edukasi.png",
+        content: `
+        PT Pertamina (Persero) terus berupaya meningkatkan edukasi literasi kepada publik mengenai peran perseroan, salah satunya keberlanjutan energi nasional.
+
+        Corporate Secretary Pertamina, Arya Dwi Paramita mengatakan, pentingnya memahami konsep keberlanjutan atau sustainability, secara menyeluruh dan terintegrasi. Menurutnya, keberlanjutan bukan hanya berbicara tentang lingkungan, tetapi juga mencakup aspek ekonomi dan sosial yang saling berkaitan.
+
+        Sebagai perusahaan energi nasional, Pertamina memiliki mandat besar untuk menyediakan energi bagi seluruh masyarakat Indonesia. Karena itu, pendekatan keberlanjutan di Pertamina perlu dilihat dari sisi yang holistik, baik secara bisnis maupun tanggung jawab sosial dan lingkungannya.
+
+        “Melalui strategi pertumbuhan ganda (dual growth strategy), Pertamina menjaga keseimbangan bisnis antara optimalisasi bisnis eksisting sebagai langkah utama dalam memperkuat ketahanan energi nasional, dengan pengembangan bisnis rendah karbon yang menjadi prioritas dalam menjawab tantangan transisi energi global,” jelas Arya pada kegiatan bersama media di Jakarta, [3/11/2025].
+
+        Selain dari sisi bisnis, Arya juga menyoroti berbagai inisiatif sosial dan lingkungan yang telah dijalankan Pertamina melalui program Tanggung Jawab Sosial dan Lingkungan (TJSL). Salah satu program unggulan adalah Desa Energi Berdikari (DEB) yang terbukti memberikan dampak berganda (multiplier effect) ke masyarakat.
+
+        “Program DEB tidak hanya menyediakan akses energi bersih, tetapi juga mendorong kemandirian ekonomi dan pemberdayaan masyarakat lokal,” ucap Arya.
+
+        Arya menambahkan, Pertamina juga aktif menjalankan berbagai program sosial lain yang memperkuat ekonomi masyarakat, seperti penguatan UMKM, pemberdayaan perempuan, dukungan bagi sahabat disabilitas, hingga program kesehatan masyarakat.
+
+        Menurut Arya, Pertamina terbuka untuk berkolaborasi dengan berbagai pihak, termasuk dengan media dalam mengedukasi masyarakat mengenai keberlanjutan dan pemberdayaan masyarakat.
+
+        “Pertamina terus memperkuat sinergi dalam mendorong narasi publik yang konstruktif tentang keberlanjutan energi di Indonesia,” tambah Arya.
+
+        Selain itu, melalui kolaborasi dengan media, Pertamina berharap pesan tentang pentingnya transisi energi dan tanggung jawab sosial perusahaan dapat tersampaikan lebih luas kepada masyarakat.
+
+        Pertamina sebagai perusahaan pemimpin di bidang transisi energi, berkomitmen dalam mendukung target Net Zero Emission 2060 dengan terus mendorong program-program yang berdampak langsung pada capaian Sustainable Development Goals (SDGs). Seluruh upaya tersebut sejalan dengan penerapan Environmental, Social & Governance (ESG) di seluruh lini bisnis dan operasi Pertamina.
+        `
     }
 ]
 

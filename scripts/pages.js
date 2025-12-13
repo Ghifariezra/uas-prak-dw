@@ -4,18 +4,19 @@ const pages = {
         <div id="banner-home" class="bg-white shadow-sm rounded-2xl overflow-hidden transition transform duration-300 hover:scale-[1.02] cursor-pointer"></div>
     </section>
 
-    <section class="max-w-10xl mx-auto px-0 mt-8">
-        <h2 class="text-xl sm:text-2xl font-bold mb-4">Berita Terbaru</h2>
-        <div id="cards-home" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"></div>
-    </section>
-
- <section class="max-w-xl0 mx-auto px-0 mt-8"> 
+    <section class="max-w-xl0 mx-auto px-0 mt-8"> 
        <div class="flex justify-between items-center mb-4">
             <h2 class="text-2xl font-bold text-gray-800">Rekomendasi untuk Anda</h2>
-            <a href="#" class="text-blue-600 hover:underline">Selengkapnya →</a>
         </div>
-
         <div id="newsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </section>
+
+    <section class="max-w-10xl mx-auto px-0 mt-8">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-xl sm:text-2xl font-bold mb-4">Berita Terbaru</h2>
+            <a href="#/kategori" class="text-blue-600 hover:underline">Selengkapnya →</a>
+        </div>
+        <div id="cards-home" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"></div>
     </section>
     `,
 

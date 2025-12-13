@@ -76,5 +76,4 @@ export default function renderCards(key = "all", page = "beranda") {
         .join("");
 
     window.initTooltips();
-    window.initBad
 }

@@ -1,7 +1,7 @@
 const pages = {
     beranda: `
     <section class="max-w-15xl mx-auto px-0 mt-5">
-        <div id="banner-home" class="bg-white shadow-sm rounded-2xl overflow-hidden transition transform duration-300 hover:scale-[1.02] cursor-pointer"></div>
+        <div id="banner-home" class="relative w-full" data-carousel="slide"></div>
     </section>
 
     <section class="max-w-xl0 mx-auto px-0 mt-8"> 

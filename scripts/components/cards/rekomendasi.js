@@ -23,11 +23,11 @@ export default function renderNews() {
             >
                 <img src="${news.image}" class="w-full h-40 object-cover" />
 
-                <div class="p-4">
-                    <p class="text-orange-600 text-sm">${news.published}</p>
-                    <h3 class="mt-1 text-gray-800 font-semibold leading-tight">
-                        ${news.title}
-                    </h3>
+                 <div class="flex justify-between items-start p-4">
+                    <h1 class="text-lg font-semibold text-gray-800 leading-tight">${news.title}</h1>
+                    <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded-md">
+                        ${news.published}
+                    </span>
                 </div>
             </div>
             `;

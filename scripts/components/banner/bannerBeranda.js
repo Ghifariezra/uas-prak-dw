@@ -55,18 +55,20 @@ export default function bannerBeranda() {
         <!-- Controls -->
         <button
             type="button"
-            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4"
+            class="cursor-pointer absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4"
             data-carousel-prev
         >
-            ❮
+            <span class="bg-white/40 p-4 rounded-full">❮</span>
         </button>
 
         <button
             type="button"
-            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4"
+            class="cursor-pointer absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4"
             data-carousel-next
         >
+            <span class="bg-white/40 p-4 rounded-full">
             ❯
+            </span>
         </button>
     `;
 

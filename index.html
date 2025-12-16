@@ -42,13 +42,13 @@
         <!-- Navigation Desktop -->
         <nav class="hidden sm:block">
             <ul class="flex items-center space-x-6 font-medium">
-                <li><a data-page="beranda" class="hover:text-blue-600 cursor-pointer">Beranda</a></li>
-                <li><a data-page="kategori" class="hover:text-blue-600 cursor-pointer">Kategori</a></li>
-                <li><a data-page="tentang" class="hover:text-blue-600 cursor-pointer">Tentang Kami</a></li>
-                <li><a data-page="kontak" class="hover:text-blue-600 cursor-pointer">Kontak</a></li>
+                <li><a tabindex="1" data-page="beranda" class="hover:text-blue-600 cursor-pointer">Beranda</a></li>
+                <li><a tabindex="2" data-page="kategori" class="hover:text-blue-600 cursor-pointer">Kategori</a></li>
+                <li><a tabindex="3" data-page="tentang" class="hover:text-blue-600 cursor-pointer">Tentang Kami</a></li>
+                <li><a tabindex="4" data-page="kontak" class="hover:text-blue-600 cursor-pointer">Kontak</a></li>
 
                 <li>
-                    <svg id="search-icon-desktop" class="w-6 h-6 text-gray-800 hover:text-blue-600 cursor-pointer"
+                    <svg tabindex="0" id="search-icon-desktop" class="w-6 h-6 text-gray-800 hover:text-blue-600 cursor-pointer"
                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
                             d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
@@ -62,10 +62,10 @@
     <nav id="mobile-nav"
         class="sm:hidden bg-white w-full shadow-md hidden transform scale-y-0 transition-all duration-300 origin-top">
         <ul class="flex flex-col items-center py-4 space-y-4 text-lg font-medium">
-            <li><a data-page="beranda" class="cursor-pointer">Beranda</a></li>
-            <li><a data-page="kategori" class="cursor-pointer">Kategori</a></li>
-            <li><a data-page="tentang" class="cursor-pointer">Tentang Kami</a></li>
-            <li><a data-page="kontak" class="cursor-pointer">Kontak</a></li>
+            <li><a tabindex="1" data-page="beranda" class="cursor-pointer">Beranda</a></li>
+            <li><a tabindex="2" data-page="kategori" class="cursor-pointer">Kategori</a></li>
+            <li><a tabindex="3" data-page="tentang" class="cursor-pointer">Tentang Kami</a></li>
+            <li><a tabindex="4" data-page="kontak" class="cursor-pointer">Kontak</a></li>
         </ul>
     </nav>
 

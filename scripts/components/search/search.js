@@ -1,4 +1,4 @@
-import { categories } from "../../data/category.js";
+import { categories, edukasi, hiburan, lingkunganSocial, olahraga, politik } from "../../data/category.js";
 
 // State management untuk pencarian
 const searchState = {
@@ -70,9 +70,17 @@ export function initSearchInput() {
 }
 
 function handleSearchInput(e) {
+    const data = [
+        ...categories,
+        ...politik,
+        ...hiburan,
+        ...edukasi,
+        ...olahraga,
+        ...lingkunganSocial
+    ]
     const query = e.target.value.trim().toLowerCase();
     
-    const filteredResults = categories.filter(cat =>
+    const filteredResults = data.filter(cat =>
         cat.title.toLowerCase().startsWith(query)
     );
 

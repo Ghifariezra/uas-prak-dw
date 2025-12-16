@@ -6,74 +6,11 @@ import {
     olahraga,
     lingkunganSocial
 } from "../../data/category.js"
-
-function loadComments(key) {
-    const commentList = document.getElementById("comment-list");
-    const comments = JSON.parse(localStorage.getItem(key)) || [];
-
-    if (comments.length === 0) {
-        commentList.innerHTML = `<p class="text-gray-400">Belum ada komentar.</p>`;
-        return;
-    }
-
-    commentList.innerHTML = comments.map(c => `
-    <div class="group flex gap-4 p-4 bg-white rounded-2xl 
-                border border-gray-100 shadow-sm">
-
-        <!-- Avatar -->
-        <div class="flex-shrink-0 w-11 h-11 rounded-full 
-                    bg-gradient-to-br from-blue-600 to-indigo-500
-                    text-white flex items-center justify-center 
-                    font-bold text-lg uppercase">
-            ${c.name.charAt(0).toUpperCase()}
-        </div>
-
-        <!-- Content -->
-        <div class="flex-1">
-            <div class="flex items-center flex-wrap justify-between gap-2">
-                <p class="font-semibold text-gray-900 capitalize line-clamp-1">
-                    ${c.name}
-                </p>
-                <span class="text-[11px] font-medium text-gray-600 
-                             px-3 py-1 bg-gray-100 rounded-full">
-                    ${c.date.split(",")[0]}
-                </span>
-            </div>
-
-            <p class="mt-2 text-gray-700 leading-relaxed break-words">
-                ${c.text}
-            </p>
-        </div>
-    </div>
-`).join("");
-
-}
-
-function handleCommentSubmit(key) {
-    const form = document.getElementById("comment-form");
-
-    form.addEventListener("submit", (e) => {
-        e.preventDefault();
-
-        const name = document.getElementById("comment-name").value.trim();
-        const text = document.getElementById("comment-text").value.trim();
-
-        if (!name || !text) return;
-
-        const comments = JSON.parse(localStorage.getItem(key)) || [];
-
-        comments.unshift({
-            name,
-            text,
-            date: new Date().toLocaleString("id-ID")
-        });
-
-        localStorage.setItem(key, JSON.stringify(comments));
-
-        form.reset();
-        loadComments(key);
-    });
-}
+import {
+    handleCommentSubmit,
+    loadComments
+} from "../../utils/comments.js";
+import { textToSpeech } from "../../utils/tts.js";
 
 export default function renderDetail(title) {
     const container = document.getElementById("detail-container");
@@ -103,12 +40,21 @@ export default function renderDetail(title) {
             <h1 class="text-3xl font-bold mb-2">${item.title}</h1>
             <p class="text-gray-500 text-sm mb-4">${item.published}</p>
 
-            <p class="text-gray-700 text-justify leading-relaxed whitespace-pre-line">
-                ${item.content}
-            </p>
+            <button 
+                id="tts-toggle"
+                class="mb-4 px-4 py-2 rounded-lg 
+                    bg-blue-600 text-white text-sm font-medium 
+                    hover:bg-blue-700 transition cursor-pointer"
+                aria-label="Baca artikel">
+                🔊 Baca
+            </button>
+
+            <article class="text-gray-700 text-justify leading-relaxed whitespace-pre-line">
+                ${item.content.trimStart()}
+            </article>
 
             <!-- COMMENT SECTION -->
-            <div class="mt-10 border-t pt-6">
+            <div class="mt-4 border-t pt-6">
                 <h2 class="text-xl font-semibold mb-4">Komentar</h2>
 
                 <form id="comment-form" class="mb-8">
@@ -162,7 +108,7 @@ export default function renderDetail(title) {
                                         bg-gradient-to-r from-blue-600 to-indigo-600
                                         text-white font-semibold 
                                         hover:from-blue-700 hover:to-indigo-700 
-                                        active:scale-95 transition-all shadow-sm"
+                                        active:scale-95 transition-all shadow-sm cursor-pointer"
                                 >
                                     Kirim
                                 </button>
@@ -174,14 +120,10 @@ export default function renderDetail(title) {
                 </form>
                 <div id="comment-list" class="space-y-4"></div>
             </div>
-
-            <button onclick="history.back()" 
-                class="mt-6 px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition">
-                Kembali
-            </button>
         </div>
     `;
 
     loadComments(commentKey);
     handleCommentSubmit(commentKey);
+    textToSpeech(item);
 }

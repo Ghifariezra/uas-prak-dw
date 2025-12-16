@@ -39,7 +39,9 @@ export default function renderCards(key = "all", page = "beranda") {
     }
 
     if (page === "beranda") {
-        data = data.slice(0, 3);
+        data = data.slice(0, 3).sort(
+            (a, b) => new Date(b.published) - new Date(a.published)
+        );
     }
 
     container.innerHTML = data

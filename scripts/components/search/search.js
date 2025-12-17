@@ -1,22 +1,25 @@
-import { categories, edukasi, hiburan, lingkunganSocial, olahraga, politik } from "../../data/category.js";
+import {categories,edukasi,hiburan,lingkunganSocial,olahraga,politik} from "../../data/category.js";
 
-// State management untuk pencarian
 const searchState = {
     lastResults: [],
     lastQuery: ""
 };
 
-// ========== TOGGLE SEARCH VIEW ==========
+const allData = [
+    ...categories,
+    ...politik,
+    ...hiburan,
+    ...edukasi,
+    ...olahraga,
+    ...lingkunganSocial
+];
+
 export function initSearchToggle() {
-    const searchIconDesktop = document.getElementById("search-icon-desktop");
-    const searchIconMobile = document.getElementById("search-icon-mobile");
-    
-    if (searchIconDesktop) {
-        searchIconDesktop.addEventListener("click", toggleSearchView);
-    }
-    if (searchIconMobile) {
-        searchIconMobile.addEventListener("click", toggleSearchView);
-    }
+    const desktop = document.getElementById("search-icon-desktop");
+    const mobile = document.getElementById("search-icon-mobile");
+
+    desktop?.addEventListener("click", toggleSearchView);
+    mobile?.addEventListener("click", toggleSearchView);
 }
 
 function toggleSearchView() {
@@ -26,199 +29,127 @@ function toggleSearchView() {
 
     if (!searchView || !content || !footer) return;
 
-    const isOpen = !searchView.classList.contains("hidden");
-
-    if (isOpen) {
-        closeSearchView();
-    } else {
-        openSearchView();
-    }
+    searchView.classList.contains("hidden")
+        ? openSearchView()
+        : closeSearchView();
 }
 
 function openSearchView() {
-    const searchView = document.getElementById("search-view");
-    const content = document.getElementById("content");
-    const footer = document.getElementById("footer");
-    const input = document.getElementById("search-input");
-
-    searchView?.classList.remove("hidden");
-    content?.classList.add("hidden");
-    footer?.classList.add("hidden");
-    
-    if (input) {
-        input.focus();
-    }
+    document.getElementById("search-view")?.classList.remove("hidden");
+    document.getElementById("content")?.classList.add("hidden");
+    document.getElementById("footer")?.classList.add("hidden");
+    document.getElementById("search-input")?.focus();
 }
 
 export function closeSearchView() {
-    const searchView = document.getElementById("search-view");
-    const content = document.getElementById("content");
-    const footer = document.getElementById("footer");
-
-    searchView?.classList.add("hidden");
-    content?.classList.remove("hidden");
-    footer?.classList.remove("hidden");
+    document.getElementById("search-view")?.classList.add("hidden");
+    document.getElementById("content")?.classList.remove("hidden");
+    document.getElementById("footer")?.classList.remove("hidden");
 }
 
-// ========== SEARCH INPUT HANDLER ==========
 export function initSearchInput() {
     const input = document.getElementById("search-input");
-
     if (!input) return;
 
     input.addEventListener("input", handleSearchInput);
 }
 
 function handleSearchInput(e) {
-    const data = [
-        ...categories,
-        ...politik,
-        ...hiburan,
-        ...edukasi,
-        ...olahraga,
-        ...lingkunganSocial
-    ]
     const query = e.target.value.trim().toLowerCase();
-    
-    const filteredResults = data.filter(cat =>
-        cat.title.toLowerCase().startsWith(query)
+
+    if (!query) {
+        renderSearchResults("", []);
+        return;
+    }
+
+    const results = allData.filter(item =>
+        item.title?.toLowerCase().startsWith(query)
     );
 
-    // Update state
     searchState.lastQuery = query;
-    searchState.lastResults = filteredResults;
+    searchState.lastResults = results;
 
-    renderSearchResults(query, filteredResults);
+    renderSearchResults(query, results);
 }
 
-// ========== RENDER SEARCH RESULTS ==========
 function renderSearchResults(query, resultsArray) {
-    const results = document.getElementById("search-results");
+    const container = document.getElementById("search-results");
+    if (!container) return;
 
-    if (!results) return;
+    container.innerHTML = "";
 
-    results.innerHTML = "";
-
-    // Tampilkan placeholder jika tidak ada query
     if (!query) {
-        renderEmptyState(results);
+        renderEmptyState(container);
         return;
     }
 
-    // Tampilkan pesan jika tidak ada hasil
     if (resultsArray.length === 0) {
-        renderNoResults(results);
+        renderNoResults(container);
         return;
     }
 
-    // Tampilkan jumlah hasil
-    renderResultCount(results, resultsArray.length);
-
-    // Tampilkan cards hasil pencarian
-    renderResultCards(results, resultsArray);
+    renderResultCount(container, resultsArray.length);
+    renderResultCards(container, resultsArray);
 }
 
 function renderEmptyState(container) {
     container.innerHTML = `
-        <div class="p-4 rounded-lg shadow bg-white border col-span-2">
-            <p class="text-gray-700 text-sm">Mulai ketik untuk mencari...</p>
+        <div class="col-span-1 sm:col-span-2 p-4 bg-white border rounded text-center">
+            <p class="text-sm text-gray-600">Mulai ketik untuk mencari...</p>
         </div>
     `;
 }
 
 function renderNoResults(container) {
     container.innerHTML = `
-        <div class="p-4 rounded-lg shadow bg-white border col-span-2">
-            <p class="text-gray-700 text-sm">Tidak ada hasil ditemukan.</p>
+        <div class="col-span-1 sm:col-span-2 p-4 bg-white border rounded text-center">
+            <p class="text-sm text-gray-600">Tidak ada hasil ditemukan.</p>
         </div>
     `;
 }
 
 function renderResultCount(container, count) {
-    const totalDiv = document.createElement("div");
-    totalDiv.className = "mb-4 text-gray-800 font-semibold col-span-2";
-    totalDiv.textContent = `Total berita ditemukan: ${count}`;
-    container.appendChild(totalDiv);
+    const div = document.createElement("div");
+    div.className =
+        "col-span-1 sm:col-span-2 text-sm sm:text-base font-semibold text-gray-800";
+    div.textContent = `Total berita ditemukan: ${count}`;
+    container.appendChild(div);
 }
 
-function renderResultCards(container, resultsArray) {
-    resultsArray.forEach(cat => {
-        const card = createResultCard(cat);
-        container.appendChild(card);
+function renderResultCards(container, results) {
+    results.forEach(item => {
+        container.appendChild(createResultCard(item));
     });
 }
 
-function createResultCard(category) {
+function createResultCard(item) {
     const card = document.createElement("div");
-    card.className = "flex bg-white border rounded-xl shadow overflow-hidden hover:shadow-lg transition cursor-pointer col-span-2";
+    card.className =
+        "flex flex-col sm:flex-row bg-white border rounded-xl shadow " +
+        "hover:shadow-lg transition cursor-pointer overflow-hidden";
 
     card.innerHTML = `
-        <div class="w-40 h-32 sm:w-48 sm:h-36 bg-gray-200 flex-shrink-0">
-            <img src="${category.image}" 
-                 alt="${category.title}" 
-                 class="w-full h-full object-cover">
+        <div class="w-full h-48 sm:w-44 sm:h-32 bg-gray-200 flex-shrink-0">
+            <img 
+                src="${item.image}"
+                class="w-full h-full object-cover">
         </div>
+
         <div class="p-4 flex flex-col justify-center">
-            <h3 class="text-lg font-bold text-gray-800 mb-1">${category.title}</h3>
-            <p class="text-gray-600 text-sm line-clamp-3">${category.desc}</p>
+            <h3 class="text-base sm:text-lg font-bold text-gray-800 mb-1">
+                ${item.title}
+            </h3>
+            <p class="text-sm text-gray-600 line-clamp-3">
+                ${item.desc || ""}
+            </p>
         </div>
     `;
 
-    card.addEventListener("click", () => bukaDetail(category.title));
+    card.addEventListener("click", () => {
+        closeSearchView();
+        window.bukaDetail(item.title);
+    });
 
     return card;
 }
 
-// ========== DETAIL VIEW ==========
-export function bukaDetail(title) {
-    const category = categories.find(c => c.title === title);
-    
-    if (!category) return;
-
-    const content = document.getElementById("content");
-    const footer = document.getElementById("footer");
-    const searchView = document.getElementById("search-view");
-
-    if (!content || !footer) return;
-
-    // Sembunyikan search view
-    searchView?.classList.add("hidden");
-
-    // Render detail view
-    content.innerHTML = createDetailView(category);
-
-    // Setup back button handler
-    setupBackButton();
-
-    // Tampilkan content dan footer
-    content.classList.remove("hidden");
-    footer.classList.remove("hidden");
-}
-
-function createDetailView(category) {
-    return `
-        <div class="p-6 bg-white rounded-xl shadow-lg">
-            <h2 class="text-2xl font-bold mb-4">${category.title}</h2>
-            <img src="${category.image}" 
-                 alt="${category.title}" 
-                 class="w-full h-64 object-cover rounded mb-4">
-            <p class="text-gray-700 mb-4">${category.desc}</p>
-            <div class="text-gray-800 mb-6">${category.content || ""}</div>
-            <button id="back-btn" 
-                    class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
-                Kembali
-            </button>
-        </div>
-    `;
-}
-
-function setupBackButton() {
-    const backBtn = document.getElementById("back-btn");
-    
-    if (backBtn) {
-        backBtn.addEventListener("click", () => {
-            renderSearchResults(searchState.lastQuery, searchState.lastResults);
-            openSearchView();
-        });
-    }
-}

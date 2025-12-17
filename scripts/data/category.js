@@ -1949,57 +1949,285 @@ const olahraga = [
     },
     {
         title: "Maraton Tahunan Digelar",
-        desc: "Ribuan pelari mengikuti maraton internasional.",
-        published: "15 Maret 2024",
-        image: "https://images.unsplash.com/photo-1520974735194-8d8a4957d2ba?w=500"
+        desc: "Sukses Digelar, 5.500 Pelari Ramaikan BCA Citraland Marathon 2025.",
+        published: "7 desember 2025",
+        image: "./assets/images/maraton.jpg",
+        content: `
+        Event Besar BCA CitraLand Marathon 2025 sukses digelar dengan race lebih menantang. Ribuan pelari, tepatnya 5.500 pelari yang teregistrasi memeriahkan event tahunan yang rutin digelar oleh BCA kolaborasi dengan Ciputra Group.
+
+        Tidak hanya pelari lokal dari Surabaya dan sekitarnya tapi juga dari luar kota bahkan Internasional. Tercatat terdapat 2000 pelari yang berasal dari luar Surabaya dan 34 dari Luar Negeri. Dengan datangnya ribuan orang dari luar kota ini, diharapkan juga dapat memberikan dampak positif terhadap perekonomian Surabaya.
+
+        Flag Off dilakukan di depan kampus Unicersitas Ciputra (UC). Ada yang baru dalam BCA CitraLand Marathon 2025, yaitu kategori Ekiden. Ajang lari beregu, di mana satu tim terdiri dari 4 pelari yang masing-masing menempuh jarak 10,5K secara bergantian. Format estafet ini menekankan kolaborasi, strategi, dan kekompakan tim kunci mencapai garis finish. Selain itu, 4 kategori lainnya yaitu Full Marathon, Half Marathon, 10K, dan 5K.
+
+        Yuliarso Christiono Ketua Panitia BCA CitraLand Marathon 2025, GM CitraLand Surabaya mengatakan hadir 3 Atlet Nasional memeriahkan BCA CitraLand Marathon 2025. Yaitu Robi Syianturi – Atlet Nasional Pemegang Rekor HM & FM Nasional, Agus Prayogo – Atlet Nasional peraih 7 Medai Emas Sea Games dan Novia Nur Nirwani – Atlet Nasional Gold Medal 2025 Singapore Open Track & Field.
+
+        “Seluruh peserta akan memperebutkan podium dengan total hadiah lebih dari Rp. 200 Juta,” katanya.
+
+        Yuliarso Christiono menambahkan event lari rutin yang diadakan tiap tahun ini rangkaian Yoyogi Series ke-7 sejak tahun 2019.
+
+        “Race management juga dikelola secara profesional oleh komunitas WeeRun dan dukung penuh Management CitraLand, dengan penerapan standar pelaksanaan event yang ketat untuk menyuguhkan pengalaman berlari dengan standar yang tinggi dan profesional. “
+
+        Agus Prayogo – Atlet Nasional mengaku senang ikut event kali ini dengan suasana berbeda di perumahan dan jalur lintasan berliku dan naik turun menyuguhkan landscape kawasan CitraLand The Singapore of Surabaya.
+
+        “Senang sekali ikut meramaikan BCA CitraLand Marathon 2025. Jalan kondusif walaupun banyak penonton,” jelasnya.
+
+        Frangky Chandra Kusuma – Direksi BCA mengatakan komitmen BCA untuk melanjutkan event yang sama tahun 2026 dengan skala yang lebih besar.
+
+        “Event ini mendorong gaya hidup sehat lewat lari, meningkatkan pariwisata Kota Surabaya juga membangkitkan pelaku UMKM. Semuanya dapat juga mendukung kota Surabaya sebagai sport tourism.”
+
+        Sutoto Yakobus Senior Director Ciputra Group menambahkan event ini pestanya pelari. Pihaknya tergerak terus untuk memasyarakat olahraga. Selain lari, ada arena padel, tenis, mini soccer.
+        
+        `
     },
     {
-        title: "Juara Tinju Dunia",
-        desc: "Petinju kelas berat mempertahankan gelarnya.",
-        published: "20 Maret 2024",
-        image: "https://images.unsplash.com/photo-1521412080232-69c5619f80e9?w=500"
+        title: "Jadwal Tinju Dunia Bulan Desember 2025: Ada Big Match Jake Paul vs Anthony Joshua, Hingga Perebutan Gelar Juara Naoya Inoue vs David Picasso.",
+        desc: "Jadwal tinju dunia sepanjang bulan Desember 2025, di mana banyak big match termasuk duel antara Jake Paul vs Anthony Joshua hingga Naoya Inoue yang akan berhadapan dengan David Picasso.",
+        published: "20 desember 2025",
+        image: "./assets/images/tinju2.png",
+        content: `
+        Jadwal tinju dunia sepanjang bulan Desember 2025, di mana banyak big match termasuk duel antara Jake Paul vs Anthony Joshua hingga Naoya Inoue yang akan berhadapan dengan David Picasso. Sebanyak 19 duel tinju dunia akan digelar di benua Amerika, Eropa hingga Asia yang akan menjadi penutup di tahun 2025. Beberapa di antaranya bertajuk big match dan merupakan duel perebutan gelar juara dunia di berbagai divisi.
+
+        Salah satunya ialah duel eksibisi antara Jake Paul (12-1-0, 7KO) vs Anthony Joshua (28-4, 25 KO) yang akan berlangsung di Kaseya Center, Miami, Amerika Serikat, 19 Desember 2025 mendatang. Sejatinya Jake Paul akan berhadapan dengan Gervonta Davis (30-0-1, 28 KO) di kelas cruiserweight, di lokasi yang sama pada 14 November 2025 lalu. Namun duel tersebut terpaksa dibatalkan. 
+        
+        Most Valuable Promotions (MVP) selaku promotor yang menaungi Jake Paul, kemudian mengumumkan bahwa duel tinju dunia itu terpaksa resmi dibatalkan karena Gervonta Davis kembali terjerat kasus kekerasan terhadap kekasihnya pada Rabu (5/11/2025) kemarin. Kemudian Anthony Joshua selaku peraih medali emas Olimpiade sekaligus mantan juara kelas berat menggantikan posisi Gervonta Davis, di mana duel ini akan digelar dalam delapan ronde, yang diprediksi bakal berlangsung seru.
+
+        "Pada 19 Desember, Jake Paul akan naik ring melawan Anthony Joshua , mantan juara dunia kelas berat, peraih medali emas Olimpiade, dan salah satu petinju dengan penyelesaian paling dahsyat di era modern," tulis pernyataan Netflix. Di sisi lain, ada big match antara Naoya Inoue (31-0, 27 KO) vs David Picasso (32-0-1, 17 KO) di duel bertajuk 'The Ring V: Night of The Samurai' yang juga akan menjadi penutup rangkaian duel Riyadh Season di tahun 2025 ini. 
+        
+        Pertarungan antara Inoue vs Picasso sendiri akan memperebutkan gelar juara dunia tak terbantahkan di kelas bulu milik petinju asal Jepang. Selain itu juga ada duel seru antara Junto Nakatani vs Sebastian Hernandez.
+
+        `
     },
     {
         title: "Liga Basket Nasional Dimulai",
-        desc: "Puluhan tim memperebutkan gelar juara nasional.",
+        desc: "All Indonesian 2025 Segera Dimulai: Adu Gengsi dan Potensi Pemain Lokal.",
         published: "1 April 2024",
-        image: "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?w=500"
+        image: "./assets/images/basket.jpeg",
+        content: `
+        Turnamen All Indonesian 2025 akan resmi dimulai pada Sabtu, 16 Agustus 2025 di Indoor Manahan Stadium, Solo, Jawa Tengah. Ajang ini akan menjadi panggung utama bagi para pemain lokal terbaik dari 13 klub Indonesian Basketball League (IBL) untuk unjuk kemampuan, bersaing, dan membuktikan diri di hadapan publik basket nasional.
+
+        Hari pembuka akan langsung memanjakan penonton dengan empat pertandingan seru. Laga pembuka akan mempertemukan Rajawali Medan kontra Satria Muda Pertamina Bandung pada 11.30 WIB. Disusul duel panas Tangerang Hawks Basketball melawan Pacific Caesar Surabaya 14.00 WIB, lalu Bali United Basketball Club menghadapi Pelita Jaya Basketball 16.30 WIB. Sebagai penutup hari pertama, Hangtuah Jakarta akan berhadapan dengan Kesatria Bengawan Solo pada 19.00 WIB.
+
+        Format turnamen membagi peserta ke dalam dua grup, A dan B, dengan sistem setengah kompetisi untuk memperebutkan posisi dua teratas. Tim yang lolos akan melangkah ke semifinal dengan format gugur, sementara partai final akan menggunakan sistem best of three, menjanjikan tensi tinggi hingga laga pamungkas.
+
+        Direktur Utama IBL, Junas Miradiarsyah, menegaskan bahwa All Indonesian selalu menjadi barometer perkembangan pemain lokal.
+
+        "Turnamen ini adalah kesempatan emas bagi pemain-pemain Indonesia untuk menunjukkan kapasitas mereka. Setiap tahun selalu ada bintang baru yang lahir dari ajang ini, dan itu yang membuat All Indonesian begitu spesial. Selain seru di lapangan, ini juga tentang melihat masa depan basket Indonesia,” ujar Junas.
+
+        Bagi para penggemar, All Indonesian 2025 adalah momen yang tidak boleh dilewatkan untuk melihat langsung kiprah para talenta muda yang siap mencuri perhatian. Sejumlah nama baru dari berbagai tim IBL diprediksi akan tampil mengejutkan, membawa energi segar, dan menantang dominasi pemain-pemain senior. Pertandingan perdana akan menjadi ajang pembuktian siapa yang bisa memanfaatkan spotlight untuk mengangkat karier mereka ke level berikutnya.
+
+        Lebih dari sekadar kompetisi, All Indonesian 2025 dirancang sebagai ajang yang memadukan atmosfer pertandingan ketat dengan hiburan khas Solo. Penonton akan disuguhi penampilan kreatif dari cheerleaders dan pelaku seni lokal, menjadikan pengalaman menonton basket lebih lengkap dan berwarna.
+
+        Dengan jadwal padat, intensitas tinggi, dan potensi lahirnya bintang baru, All Indonesian 2025 diyakini akan menjadi momen penting dalam kalender bola basket nasional tahun ini. Semua mata kini tertuju ke Solo, menantikan siapa pemain lokal yang akan bersinar dan tim mana yang akan menjadi juara.
+        `
     },
     {
         title: "Balap Motor Internasional",
-        desc: "Lintasan balap dunia dipenuhi para pembalap hebat.",
+        desc: "Federasi Balap Motor Vietnam bertujuan untuk bergabung dengan sistem internasional.",
         published: "16 April 2024",
-        image: "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=500"
+        image: "./assets/images/balap.jpg",
+        content: `
+        Kongres Delegasi kedua Asosiasi Olahraga Motor Vietnam (VMA) (2025-2030) berlangsung pada pagi hari tanggal 14 Desember di Hanoi, menandai titik balik penting bagi gerakan olahraga motor domestik karena organisasi tersebut secara resmi mengumumkan arah strategis barunya dan memutuskan untuk mengubah namanya menjadi Federasi Olahraga Motor Vietnam.
+
+        VMA telah berhasil menyelenggarakan Kejuaraan Balap Mobil Off-Road Vietnam PVOIL Cup secara berkesinambungan dari tahun 2022-2025.
+        
+        Kongres tersebut juga mengumumkan Komite Eksekutif untuk periode kedua, di mana Bapak Vuong Bich Thang, mantan Direktur Jenderal Dinas Pendidikan Jasmani dan Olahraga (sekarang Dinas Pendidikan Jasmani dan Olahraga Vietnam), terpilih kembali sebagai Presiden Asosiasi. Kepemimpinan Bapak Thang yang berkelanjutan dipandang sebagai faktor yang memastikan kesinambungan dan stabilitas dalam arah pengembangan gerakan olahraga motor Vietnam.
+
+        Kongres tersebut diselenggarakan pada pagi hari tanggal 14 Desember di Hanoi .
+        
+        Semester pertama penuh dengan tantangan.
+        
+        Laporan ringkasan pada Kongres menunjukkan bahwa masa jabatan pertama Asosiasi berlangsung dalam konteks yang sangat sulit. Didirikan ketika Vietnam sedang bersiap untuk menjadi tuan rumah Formula 1 Vietnam Grand Prix, Asosiasi segera menghadapi gangguan serius akibat pandemi Covid-19.
+
+        Namun, selama lima tahun terakhir, Asosiasi secara bertahap memperkuat organisasinya dan mempertahankan operasionalnya. Dewan Eksekutif telah direstrukturisasi, jumlah anggota organisasi telah meningkat menjadi 20, dan peran Asosiasi dalam mengelola dan mendukung penyelenggaraan balap motor semakin menonjol.
+
+        Secara khusus, ini termasuk berpartisipasi dalam pengelolaan Kejuaraan Balap Mobil Off-Road Vietnam PVOIL Cup secara berkelanjutan dari tahun 2022 hingga 2025; dua musim Kejuaraan Gymkhana Nasional PVOIL Cup pada tahun 2024 dan 2025; serta memberikan dukungan profesional untuk balapan "Buon Don Great Mountain Challenge" pada tahun 2023.
+
+        Menurut statistik Asosiasi, selama lima tahun terakhir, 15 dari 34 provinsi dan kota di seluruh negeri telah menyelenggarakan balapan motorsport dalam berbagai format dan skala, yang mencerminkan meningkatnya popularitas olahraga yang relatif baru ini di Vietnam.
+
+        Selain kegiatan domestik, Asosiasi juga membantu prosedur bagi atlet Vietnam untuk berpartisipasi dalam kompetisi balap off-road internasional RFC Malaysia pada tahun 2023 dan 2024. Yang patut dicatat, tim balap Saigon Farmers dari Binh Duong (sekarang Kota Ho Chi Minh) meraih juara ketiga pada musim 2024.
+
+        Pada tahun 2023, Asosiasi bekerja sama dengan perusahaan Belgia DGSPORT mengenai kemungkinan menyelenggarakan balapan reli internasional di Vietnam, dan juga mengirimkan delegasi untuk meninjau lintasan balap di Lam Dong dan melaporkan kepada Departemen Olahraga Vietnam dan Kementerian Kebudayaan, Olahraga, dan Pariwisata untuk mendapatkan arahan.
+
+        Di bidang pengembangan profesional, Asosiasi menerbitkan Peraturan Kompetisi untuk Balap Mobil Off-Road dan Peraturan Kompetisi untuk Balap Mobil Gymkhana pada tahun 2023. Tiga kursus pelatihan nasional tentang pengorganisasian dan pengelolaan balapan juga dilaksanakan, yang mensertifikasi hampir 100 wasit dan lebih dari 40 petugas olahraga dari Departemen Kebudayaan dan Olahraga setempat.
+
+        Para delegasi yang menghadiri konferensi tersebut.
+        
+        Mengakui kontribusi
+        
+        Pada Kongres tersebut, 43 kelompok dan individu yang telah memberikan kontribusi luar biasa selama periode pertama diberikan penghargaan. Dua unit menerima Sertifikat Penghargaan dari Menteri Kebudayaan, Olahraga, dan Pariwisata: Asosiasi Mobil Sport Vietnam dan Perusahaan Saham Gabungan OTV Media.
+
+        Komite Olimpiade Vietnam menganugerahkan Sertifikat Penghargaan kepada tujuh individu, termasuk Bapak Ngo Viet Dung - Wakil Ketua Tetap Asosiasi dan Bapak Nguyen Dai Hoang - Direktur Jenderal Perusahaan Saham Gabungan OTV Media, yang memainkan peran kunci dalam mengorganisir acara balap nasional di masa lalu.
+
+        Selain itu, Departemen Pendidikan Jasmani dan Olahraga Vietnam menganugerahkan Sertifikat Penghargaan kepada 19 kelompok dan individu, dan Asosiasi tersebut juga memberikan penghargaan kepada 15 individu lainnya atas kontribusi berkelanjutan mereka terhadap gerakan tersebut.
+
+        Ambisi untuk masa jabatan kedua
+        
+        Memasuki masa jabatan keduanya, Asosiasi – yang sekarang bernama Federasi Olahraga Motor Vietnam – bertujuan untuk pengembangan yang lebih kuat dan berkelanjutan. Pada tahun 2026, Federasi berencana untuk berkolaborasi dengan OTV Media, komunitas Otofun, dan anggotanya untuk membangun sistem kejuaraan nasional untuk balap mobil off-road dan Gokart, berdasarkan model Gymkhana yang sukses.
+
+        Fokus lainnya adalah menetapkan standar untuk peralatan kompetisi, menerapkan sistem untuk mengevaluasi dan memberi peringkat atlet, serta memperkuat kerja sama internasional dengan organisasi olahraga motor di Asia Tenggara, Tiongkok, dan Australia. Federasi ini juga bertujuan untuk secara bertahap meningkatkan keanggotaannya di federasi olahraga motor internasional dan Asia-Pasifik.
+
+        Di samping kegiatan profesionalnya, Federasi berkomitmen untuk mempromosikan kesadaran akan budaya berkendara dan keselamatan lalu lintas, serta terus menyelenggarakan kursus pelatihan bagi organisasi dan individu yang tertarik untuk berpartisipasi dalam olahraga otomotif.
+
+        Kongres tersebut juga mengumumkan situs web resmi VFM.VN , yang ditunjuk sebagai saluran Federasi untuk memperbarui kegiatan, informasi profesional, dan koneksi domestik dan internasional. Dengan perubahan nama dan strategi baru, organisasi tersebut berharap dapat mengantarkan fase pengembangan yang lebih profesional untuk olahraga motor Vietnam selama lima tahun ke depan.
+        
+        `
     },
     {
         title: "Kejuaraan Renang Dunia",
-        desc: "Atlet renang mencetak rekor baru.",
+        desc: "AS Juara Umum Kejuaraan Dunia Renang.",
         published: "2 Mei 2024",
-        image: "https://images.unsplash.com/photo-1529439320301-b9565c05ed85?w=500"
+        image: "./assets/images/renang.jpg",
+        content: `
+        Kejuaraan Dunia Renang 2025 di Singapura ditutup Minggu (3/8) dengan dominasi dua bintang utama: Leon Marchand (Prancis) dan Summer McIntosh (Kanada). Keduanya menutup ajang ini dengan kemenangan gemilang. Tim Amerika Serikat menanggapi kritik dengan cara terbaik, memecahkan rekor dunia.
+
+        Marchand kembali membuktikan kelasnya. Bintang renang asal Prancis itu menutup kejuaraan dengan emas keempat dari nomor 400 meter gaya ganti putra. Ini menambah koleksi sebelumnya di nomor 200m gaya ganti, 200m kupu-kupu, dan 200m gaya bebas. Dia finis dengan catatan waktu 4 menit 04,73 detik, unggul lebih dari tiga detik dari Tomoyuki Matsushita (Jepang) dan Ilia Borodin (Russia).
+
+        “Tidak sempurna, karena tidak ada yang sempurna. Tapi ini lebih dari yang saya harapkan. Apalagi bisa memecahkan rekor dunia di 200 gaya ganti. Itu bukti saya masih mencintai olahraga ini,” ujar Marchand.
+
+        McIntosh mencatatkan kemenangan keempatnya di nomor 400 meter gaya ganti putri dengan catatan waktu 4:25,78, memecahkan rekor kejuaraan. Perenang remaja asal Kanada berusia 18 tahun ini juga menang nomor 200 gaya ganti, 200 kupu-kupu, dan 400 gaya bebas. Satu-satunya kekalahan datang di nomor 800 meter gaya bebas. Dia finis ketiga di belakang perenang AS, Katie Ledecky.
+
+        “Secara keseluruhan saya senang, tapi selalu ingin lebih. Meskipun meraih lima emas, saya pasti masih ingin lebih. Itulah mentalitas,” ujar McIntosh. Di tengah kritik dari legenda seperti Michael Phelps dan Ryan Lochte, tim AS membalas dengan prestasi. Mereka menutup kejuaraan dengan memecahkan rekor dunia estafet 4x100 meter gaya ganti putri, mencatatkan waktu 3:49,34.
+
+        Raihan ini lebih cepat dari rekor mereka sendiri setahun lalu di Paris. Sehari sebelumnya, tim AS juga memecahkan rekor dunia di nomor campuran 4x100 gaya bebas. AS finis sebagai juara umum dengan sembilan emas, unggul dari Australia (delapan), serta Kanada dan Prancis yang sama-sama meraih empat emas. Empat emas Kanada seluruhnya diraih McIntosh.
+
+
+        `
     },
     {
-        title: "Turnamen Tenis Terbesar",
-        desc: "Petenis dunia bersaing memperebutkan gelar.",
+        title: "9 Kejuaraan Tenis Dunia yang Paling Bergengsi",
+        desc: "Tak hanya menjadi ladang perebutan poin dan hadiah besar, kejuaraan-kejuaraan ini jadi simbol status, sejarah, dan kejayaan dalam dunia tenis.",
         published: "19 Mei 2024",
-        image: "https://images.unsplash.com/photo-1521217582786-e92f8f2d8c6a?w=500"
+        image: "./assets/images/tenis.jpg",
+        content: `
+        Tenis adalah salah satu olahraga paling populer di dunia yang menyatukan teknik, kekuatan, dan strategi dalam setiap pertandingan. Di balik gemerlap lapangan dan sorak sorai penonton, ada ajang-ajang kejuaraan bergengsi yang menjadi tolok ukur prestasi dan kebanggaan bagi para petenis profesional.
+
+        Turnamen-turnamen ini tidak hanya menjadi ladang perebutan poin dan hadiah besar, tetapi juga menjadi simbol status, sejarah, dan kejayaan dalam dunia tenis. Dari Grand Slam yang legendaris hingga turnamen bergengsi tingkat ATP dan WTA, setiap kejuaraan tenis menyimpan cerita ikonik dan momen tak terlupakan.
+
+        Turnamen-turnamen ini bukan hanya tempat lahirnya para legenda, tetapi juga menjadi arena pertempuran bagi petenis-petenis terbaik dari seluruh dunia. Berikut daftar turnamen tenis bergengsi di dunia dilansir dari berbagai sumber.
+
+        1. Roland Garros (Turnamen Grand Slam di Paris)
+        French Open atau dikenal juga sebagai Roland Garros adalah satu-satunya turnamen Grand Slam yang dimainkan di lapangan tanah liat. Permukaan ini membuat permainan lebih lambat dan menantang, sehingga hanya petenis tertentu yang mampu tampil dominan, misalnya, Rafael Nadal yang telah meraih gelar juara sebanyak 14 kali. Dengan sejarah lebih dari 130 tahun, French Open menjadi salah satu ajang tenis paling bergengsi di dunia. Pada 2024, turnamen ini digelar dari tanggal 26 Mei hingga 9 Juni.
+        2. ATP Finals (Turin, Italia) 
+        ATP Finals adalah turnamen akhir musim untuk petenis pria terbaik dunia. Turnamen ini sudah ada sejak 1970 dan sekarang diadakan di Turin, Italia. Berbeda dari Grand Slam yang pakai sistem gugur, permainan ini dibagi ke dalam grup. Para pemain saling bertanding, lalu dua pemain terbaik dari tiap grup lanjut ke semifinal dan final.
+        3. WTA Finals (Riyadh, Arab Saudi) 
+        WTA Finals adalah versi wanita dari turnamen penutup musim. Pada 2019, WTA Finals pernah memberi hadiah terbesar dalam sejarah tenis. Saat itu Ashleigh Barty menjadi juara dan membawa pulang 4,42 juta dolar AS.
+        4. Australian Open
+        Australian Open adalah turnamen Grand Slam pertama yang digelar setiap tahun, dimulai sejak 1905 di Kota Melbourne. Turnamen ini berlangsung di lapangan keras Plexicushion serta mendukung gaya bermain cepat dan atletik dari garis belakang. Turnamen ini juga dilengkapi dengan teknologi modern, seperti atap yang bisa dibuka-tutup di Rod Laver Arena dan Margaret Court Arena sehingga pertandingan tetap berjalan meski cuaca berubah. 
+        5. Wimbledon
+        Sebagai turnamen tenis tertua yang dimulai pada 1877, Wimbledon dikenal dengan tradisinya yang kuat dan suasananya yang elegan. Lapangan rumputnya menciptakan permainan cepat dengan pantulan bola rendah, cocok untuk teknik servis-voli dan reaksi cepat. Turnamen ini memiliki ciri khas seperti busana serba putih, kehadiran anggota keluarga kerajaan, serta camilan stroberi dan krim. 
+        6. Indian Wells (BNP Paribas Open)
+        Indian Wells atau yang sering disebut “Grand Slam kelima” adalah salah satu turnamen terbesar di luar empat Grand Slam. Berlokasi di dekat Palm Springs, turnamen ini memiliki stadion terbesar kedua di dunia tenis setelah Arthur Ashe.
+        Suasana lapangannya terasa seperti resor mewah, lengkap dengan pohon palem dan fasilitas premium. Sebagai turnamen penting dalam kalender ATP dan WTA 1000, Indian Wells selalu menarik petenis-petenis papan atas untuk bertanding di bawah matahari cerah gurun California.
+        7. US Open
+        US Open merupakan turnamen Grand Slam terakhir dalam satu musim yang rutin diselenggarakan di New York, Amerika Serikat. Turnamen ini biasanya berlangsung pada akhir Agustus hingga awal September dan meliputi beberapa kategori pertandingan, yaitu tunggal putra, tunggal putri, ganda putra, ganda putri, dan ganda campuran. Selain itu, ada kompetisi untuk kelompok usia muda.
+        Sejak 1978, US Open digelar di USTA National Tennis Center. Hadiah untuk juara tunggal putra maupun putri saat ini bisa mencapai 3,7 juta dolar Amerika Serikat.
+        8. Tenis Olimpiade
+        Tenis putra dan putri pertama kali dipertandingkan dalam Olimpiade modern pada 1896 dan kembali dimainkan pada edisi 1900, namun kemudian dihapus dari daftar cabang olahraga karena berbagai alasan. Tenis baru kembali menjadi bagian resmi Olimpiade pada edisi ke-24 yang digelar pada 1988.
+        9. Billie Jean King Cup
+        Billie Jean King Cup sebelumnya dikenal sebagai Fed Cup. Ini adalah kompetisi internasional beregu paling bergengsi dalam dunia tenis wanita. Pertama kali diadakan pada 1963, turnamen ini diikuti oleh tim nasional dari berbagai negara setiap tahunnya. Sebagai ajang beregu tertinggi bagi petenis wanita, kompetisi ini memiliki peran besar dalam membentuk prestasi dan perkembangan tenis wanita dunia.
+        `
     },
     {
         title: "E-Sports Semakin Diminati",
-        desc: "Kompetisi game internasional semakin besar.",
-        published: "6 Juni 2024",
-        image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500"
+        desc: "576 Peserta Meriahkan Kejurkab Esports Purworejo 2025, Bupati Dorong Lahirnya Atlet Profesional.",
+        published: "6 Juni 2025",
+        image: "./assets/images/E-Sport.png",
+        content: `
+        Kejuaraan Kabupaten (Kejurkab) Esports Purworejo 2025 resmi dibuka oleh Bupati Purworejo, Hj. Yuli Hastuti, S.H., pada Minggu (7/12/2025) di GOR Sarwo Edhie Wibowo. Ajang tahunan ini disambut meriah oleh ratusan peserta, didominasi para pelajar, yang menandai pesatnya perkembangan olahraga elektronik di daerah.
+
+        Sebanyak 576 peserta turun dalam tiga divisi pertandingan yang paling diminati, yaitu Mobile Legends: Bang Bang (MLBB) dengan 64 tim (320 atlet), Free Fire dengan 48 tim (192 atlet), serta eFootball yang diikuti 32 peserta (64 atlet). Seluruh peserta bertanding sehari penuh untuk memperebutkan gelar juara di masing-masing divisi.
+
+        Dalam sambutannya, Bupati Yuli Hastuti menegaskan bahwa esports kini telah berkembang menjadi cabang olahraga prestasi yang tak lagi dapat dipandang sebelah mata.
+
+        “Esport bukan sekadar permainan elektronik, tetapi telah menjadi olahraga kompetitif yang bergengsi dan diakui sebagai cabang olahraga prestasi,” tegasnya.
+
+        Ia berharap penyelenggaraan Kejurkab Esports mampu membuka jalan lahirnya atlet-atlet muda berbakat dari Purworejo yang nantinya dapat berkiprah di tingkat profesional, nasional, bahkan internasional.
+
+        “Saya berharap dari ajang ini akan lahir atlet esports profesional kebanggaan Purworejo. Kompetisi seperti ini harus digelar berkelanjutan sebagai bagian dari pembinaan jangka panjang,” ujarnya.
+
+        Ketua ESI Pengkab Purworejo, Roni Sumhastomo, S.E., menjelaskan bahwa Kejurkab Esports 2025 merupakan wujud nyata komitmen ESI dalam membangun ekosistem esports yang terstruktur dan profesional di Purworejo.
+
+        “Kami ingin memberikan ruang positif bagi atlet muda untuk berkembang, menjunjung sportivitas, dan membangun prestasi yang membanggakan,” jelasnya.
+
+        Roni menambahkan, esports memiliki potensi besar tidak hanya dari sisi kompetitif, tetapi juga ekonomi dan sosial. Keterlibatan pelaku UMKM dalam rangkaian kegiatan Kejurkab tahun ini menjadi bentuk dukungan terhadap sektor ekonomi kreatif lokal.
+
+        Ketua KONI Purworejo, Muhammad Abdullah, turut mengapresiasi penyelenggaraan kejuaraan tersebut. Menurutnya, besarnya antusiasme peserta menunjukkan bahwa minat generasi muda terhadap esports semakin tinggi.
+
+        “Dengan pembinaan berkelanjutan, kami berharap lahir atlet-atlet esports yang mampu berprestasi dan mengharumkan nama Purworejo,” ujarnya.
+
+        Kejurkab Esports Purworejo 2025 menjadi momentum penting bagi perkembangan olahraga elektronik di Kabupaten Purworejo. Ajang ini sekaligus menegaskan bahwa esports kini telah menjadi cabang olahraga prestasi yang menjanjikan dan diminati generasi muda.
+        `
     },
     {
-        title: "Atlet Muda Pecahkan Rekor",
-        desc: "Rekor baru tercipta dalam kejuaraan nasional.",
-        published: "21 Juni 2024",
-        image: "https://images.unsplash.com/photo-1553773077-91673524aefa?w=500"
+        title: "Lahirnya Pesilat Muda Indonesia",
+        desc: "Kemenpora Internasional Pencak Silat Championship 2025 Jadi Ajang Lahirkan Pesilat Muda Indonesia.",
+        published: "21 Juni 2025",
+        image: "./assets/images/silat.jpg",
+        content: `
+        Jakarta: Kejuaraan Kemenpora Internasional Pencak Silat Championship 2025 Tingkat Nasional berlangsung sukses dibuka di Padepokan Pencak Silat Taman Mini Indonesia Indonesia (TMII), Jakarta Timur, Kamis (10/7).
+
+        Pembukaan kejuaraan yang merupakan kolaborasi Kemenpora dengan Satuan Pelajar dan Mahasiswa (SAPMA) Pemuda Pancasila dengan Pengurus Besar (PB) Ikatan Pencak Silat Indonesia (IPSI) ini ditandai pemukulan gong oleh Staf Ahli Bidang Transformasi dan Tata Kelola Birokrasi, Kementerian Pemuda dan Olahraga Hamka Hendra Noer.
+
+        Dalam sambutannya, Hamka mengucapkan terima kasih kepada pengrus Pusat SAPMA Pemuda Pancasila atas konsistensinya dalam penyelenggaraan kejuaraan olahraga di setiap tahun. Dimana bebeapa tahun kebelakang juga sering menggelar kejuaraan serupa untuk cabang olahraga lainnya.
+
+        “Tahun ini menyelenggarakan kembali untuk kejuaraan pencak silat. Ini merupakan dukungan yang sangat baik untuk olahraga Indonesia, khususnya para atlet-atlet muda kita di hadapan saya,” ujarnya 
+
+        Dalam hal ini pemerintah bersama PB IPSI berusaha keras agar pencak silat bisa diakui di dunia, khususnya di Olimpiade.
+
+        “Alhamdulillah baru-baru ini pencak silat sudah memenuhi undangan ke Olimpiade Paris dan nanti bisa menjadi peserta Eksebisidi Los Angeles 2028. Jadi pencak silat makin bisa diakui di internasional. Sehingga ini sekaligus momentum baik bagi dunia Pencak Silat Goes Tos Olympic," tutur Sekretaris Jenderal PB IPSI Teddy Suratmadji dalam sambutannya.
+
+        Karena itu PB IPSI, lanjut Teddy Suratmadji berharap para atlet bersemangat dalam bertanding dan bangga terhadap pencak silat. Hal ini mengingat pencak silat memiliki nilai budaya Indonesia yang sangat kuat nilai budaya. Sehingga kejuaraan yang digelar SAPMA ini patut diapresiasi lantaran turut melestarikan dan memperkuat ekosistem pencak silat.
+
+        “Saya yakin dengan cerita-cerita inspirasi yang terjadi selama persiapan para atlet di kejuaraan ini serta saat pertandingan, nantinya akan bisa jadi penyemangat untuk generasi muda Indonesia. Bisa menjadikan contoh, motivasi generasi muda Indonesia yang lebih sehat dan kuat,” harap Teddy.
+
+        “Selamat bertanding, semoga yang juara adalah yang terbaik. Bagi yang belum juara, masih ada kesempatan lain, jangan putus asa. Kami akan sediakan arena pertandingan yang lebih banyak lagi,” sambung Teddy. 
+
+        Kejuaraan Pencak Silat Kemenpora Internasional Pencak Silat Championship 2025 Tingkat Nasional ini sendiri digelar selama empat hari mulai Kamis (10/7) sampai Minggu (13/7). Kejuaraan ini diikuti lebih 1.500 atlet dari berbagai daerah di Indonesia dan perwakilan negara sahabat dengan beragam kategori yang dipertandingkan.
+
+        Ketua Umum SAPMA Pemuda Pancasila mengatakan, ajang ini bukan hanya sebuah kompetisi. Melainkan juga komitmen bersama untuk melestarikan budaya bangsa, membina generasi muda yang tangguh, sportif, dan berkarakter.
+
+        “Pencak silat adalah kebanggaan Indonesia. Kejuaraan ini untuk menunjukkan bahwa Indonesia sangat kaya. Ini adalah kekayaan budaya dan potensi olahraga Indonesia di panggung yang lebih luas,” ucapnya Aulia Arief.
+        
+        Melalui kejuaraan ini, sebut Aulia Arief, SAPMA Pemuda Pancasila berharap semangat Pancasila dan Pencak Silat bisa menjadi kekuatan karakter dan budaya persatuan di Indonesia. “Dengan kejuaraan ini SAPMA tidak hanya mendukung pencak silat sebagai cabang olahraga, tetapi memperkuat ikatan budaya dan nasionalisme di antara masyarakat Indonesia,” tandasnya.
+
+        Terkahir, laporan dari Ketua Pelaksana Aditya Putra Yando sangat bangga atas terlaksana event kejuaraan Kemenpora International Pencak Silat Championship 2025.
+
+        "Semua acara ini terlaksana dengan sukses berkat kerjsama luar biasa dari teman teman SAPMAPORA dengan tiada lelah untuk terus bersinergi bersama para atlet, pendekar silat beserta perangkat pertandingan baik itu juri juga wasit. Juga yang spesial para peserta atau delegasi pencak silat dari negara negara sahabat, selamat datang di Jakarta," Ungkap Aditya Putra Yando. 
+
+        Acara ini turut diisi dengan atraksi pencak silat dari pegiat penca bertema silat 'Bhineka Tunggal Ika' yang dibawakan oleh Rampak Silat Indonesia. Hadir bersama yaitu Sekeretris Jenderal PB IPSI Teddy Suratmadji mewakili Ketua Umum.(dok)
+
+        
+        `
     },
     {
         title: "Kejuaraan Golf Dunia",
-        desc: "Turnamen golf megah digelar di berbagai negara.",
-        published: "4 Juli 2024",
-        image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=500"
+        desc: "Turnamen Golf Jakarta International Championship 2025 Siap Bergulir di PIK Course.",
+        published: "4 Juli 2025",
+        image: "./assets/images/golf.png",
+        content: `
+        Turnamen golf bertajuk "Jakarta International Championship (JAKIC)" siap bergulir pada 2-5 Oktober 2025 di Damai Indah Golf – PIK Course.
+
+        Event JAKIC 2025 ini menegaskan sekaligus meningkatkan reputasi Indonesia sebagai pendukung kuat golf profesional Asian Tour.
+
+        Penyelenggaraan Jakarta International Championship 2025 akan menjadi event ke-13 Asian Tour. JAKIC 2025 menjadi tempat perhentian kelima International Series 2025, yang merupakan turnamen-turnamen Asian Tour premium yang memberikan para pegolf dari seluruh dunia jalur langsung menuju LIV Golf League.
+        
+        Keberadaan JAKIC 2025 ini tidak terlepas dari dukungan penuh Pemprov DKI Jakarta. Menurut Gubernur DKI Pramono Anung, pihaknya akan mendukungan terhadap penyelenggaraan event golf terbesar di Indonesia ini.
+
+        Dengan dukungan Pemerintah Provinsi DKI Jakarta dan sebagai bagian dari upaya mempromosikan Jakarta sebagai Kota Global, kami yakin kolaborasi ini akan membawa semangat baru, baik bagi Kota Jakarta maupun bagi para pegolf lokal kami," jelasnya.
+
+        Asian Tour, badan pengelola profesional touring di Asia, pun menyambut baik dengan penyelenggaraan JAKIC 2025. Jubilant A. Harmidy, Asian Tour Board of Directors, mengatakan, dalam 30 tahun terakhir, Jakarta telah menjadi destinasi populer dan rutin bagi Asian Tour. 
+
+        “JAKIC 2025 menambah keberagaman jadwal kompetisi kami yang luar biasa. Tidak hanya membawa hal baru ke dalam agenda event kami, tetapi juga memberikan nilai penting dalam hal variasi kompetisi, lapangan golf yang luar biasa, dan posisi Jakarta di The International Series," katanya.
+
+        Penyelenggaraan JAKIC 2025 yang akan berlangsung di PIK Course ini menjadi kehormatan tersendiri bagi PT Damai Indah Golf Tbk. selalu pengelola lapangan. Sebelumnya lapangan karya Robert Trent Jones Jr. ini memang dikenal sebagai salah satu venue turnamen golf bertaraf internasional, termasuk Indonesia Open 2024. Tahun ini, Damai Indah Golf-PIK Course menjadi venue event International Series untuk pertama kalinya.
+
+        “Kami menyambut baik dipilihnya Damai Indah Golf, PIK Course, sebagai tuan rumah Jakarta International Championship 2025. Komitmen kami adalah menghadirkan lapangan golf dengan kualitas terbaik, selaras dengan standar set up penyelenggaraan turnamen yang diikuti para pegolf kelas dunia tersebut.
+
+        Damai Indah Golf – PIK course didesain oleh Robert Trent Jones Jr. dengan konsep Spirit of the Sea memberikan pengalaman bertanding yang berbeda bagi para pegolf. Terselenggaranya turnamen ini sekaligus memperkuat posisi Jakarta sebagai destinasi golf di Asia,” ujar Budiarsa Sastrawinata, Direktur Utama PT Damai Indah Golf Tbk.
+
+        Damai Indah Golf Club Committee pun sangat mendukung debut JAKIC 2025 di PIK Course. Royke Tumilaar, Chairman Damai Indah Golf Club Committee, bahkan melihat bahwa sebagai sebuah event golf profesional premium, JAKIC tidak hanya mendongkrak nama Jakarta dalam peta destinasi golf dunia, melainkan juga mengangkat nama PIK Course sebagai salah satu venue berstandar championship course yang mendapat pengakuan dunia internasional.
+
+        `
     },
     {
         title: "Pertandingan Futsal Nasional",

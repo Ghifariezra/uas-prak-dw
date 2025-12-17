@@ -940,7 +940,7 @@ const hiburan = [
         title: "Alasan Golden Theater Kediri Masih Bertahan dan Tetap Ada di Hati Masyarakat Kediri",
         desc: "Saat ini Golden Theater Kediri Masih Bertahan dan Tetap Ada di Hati Masyarakat Kediri.",
         published: " 8 Desember 2025",
-        image: "./assets/images/teater.g",
+        image: "./assets/images/teater.jpg",
         content: `
         BeritaKita ~~ Golden Theater Kediri tetap bertahan dan jadi idola meski saingan bermunculan.
 

@@ -131,9 +131,7 @@ function createResultCard(item) {
     card.innerHTML = `
         <div class="w-full h-48 sm:w-44 sm:h-32 bg-gray-200 flex-shrink-0">
             <img 
-                src="${item.image || "/assets/images/default.jpg"}"
-                onerror="this.src='/assets/images/default.jpg'"
-                alt="${item.title}"
+                src="${item.image}"
                 class="w-full h-full object-cover">
         </div>
 
@@ -154,3 +152,4 @@ function createResultCard(item) {
 
     return card;
 }
+

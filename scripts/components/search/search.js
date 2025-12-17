@@ -1,4 +1,4 @@
-import {categories,edukasi,hiburan,lingkunganSocial,olahraga,politik} from "../../data/category.js";
+import { categories, edukasi, hiburan, lingkunganSocial, olahraga, politik } from "../../data/category.js";
 
 const searchState = {
     lastResults: [],
@@ -125,25 +125,29 @@ function renderResultCards(container, results) {
 function createResultCard(item) {
     const card = document.createElement("div");
     card.className =
-        "flex flex-col sm:flex-row bg-white border rounded-xl shadow " +
+        "group flex flex-col sm:flex-row bg-white rounded-xl shadow-sm " +
         "hover:shadow-lg transition cursor-pointer overflow-hidden";
 
     card.innerHTML = `
-        <div class="w-full h-48 sm:w-44 sm:h-32 bg-gray-200 flex-shrink-0">
-            <img 
-                src="${item.image}"
-                class="w-full h-full object-cover">
-        </div>
+    <!-- Image wrapper (PARENT) -->
+    <div class="relative w-full h-48 sm:w-44 sm:h-full flex-shrink-0 overflow-hidden">
+        <img 
+            src="${item.image}"
+            alt="${item.title}"
+            class="absolute inset-0 w-full h-full object-cover">
+    </div>
 
-        <div class="p-4 flex flex-col justify-center">
-            <h3 class="text-base sm:text-lg font-bold text-gray-800 mb-1">
-                ${item.title}
-            </h3>
-            <p class="text-sm text-gray-600 line-clamp-3">
-                ${item.desc || ""}
-            </p>
-        </div>
-    `;
+    <!-- Content -->
+    <div class="p-4 flex flex-col justify-center">
+        <h3 class="text-base sm:text-lg font-bold text-gray-800 mb-1 line-clamp-2">
+            ${item.title}
+        </h3>
+        <p class="text-sm text-gray-600 line-clamp-3">
+            ${item.desc || ""}
+        </p>
+    </div>
+`;
+
 
     card.addEventListener("click", () => {
         closeSearchView();

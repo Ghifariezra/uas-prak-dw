@@ -1715,31 +1715,237 @@ const olahraga = [
         title: "Piala Dunia Dimulai",
         desc: "Turnamen sepak bola terbesar dunia resmi dibuka.",
         published: "5 Januari 2024",
-        image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=500"
+        image: "./assets/images/pialadunia.png",
+        content: `
+        Federasi Sepak Bola Internasional (FIFA) resmi mengumumkan waktu kick-off untuk 104 pertandingan Piala Dunia 2026, sehari setelah undian fase grup dilakukan. 
+
+        Pengumuman yang dirilis pada Sabtu (6/12/2025) waktu setempat ini memastikan bahwa partai puncak turnamen akbar tersebut akan berlangsung pada jam "kalong" bagi penonton di Indonesia.
+
+        Laga final yang dijadwalkan di MetLife Stadium, New Jersey, Amerika Serikat, akan digelar pada 19 Juli 2026 pukul 15.00 waktu setempat (ET).
+
+        Dengan perbedaan waktu 11 jam, maka pecinta sepak bola di Tanah Air harus bersiap begadang karena pertandingan tersebut akan tayang pada Minggu, 20 Juli 2026 pukul 02.00 WIB.
+
+        Waktu kick-off pukul 15.00 waktu setempat ini dipilih FIFA untuk mengakomodasi penonton di Eropa, di mana laga akan tayang pada prime time (pukul 21.00 di Eropa Tengah dan 20.00 di Inggris).
+
+        Meski laga-laga puncak banyak digelar dini hari, terdapat beberapa pertandingan fase grup dan perempat final yang memiliki jam tayang lebih bersahabat bagi penonton Indonesia, yakni di pagi hari.
+
+        Sebagai contoh, tim nasional Amerika Serikat (USMNT) akan melakoni laga perdana mereka melawan Paraguay pada pukul 21.00 ET, atau pukul 08.00 WIB pagi harinya. Laga fase grup lainnya di SoFi Stadium yang dimulai pukul 19.00 ET akan tayang pada pukul 06.00 WIB.
+
+        Sementara itu, laga perempat final di Arrowhead Stadium, Kansas City, akan dimulai pukul 20.00 waktu setempat (ET) atau pukul 08.00 WIB.
+
+        Turnamen sepak bola terbesar di dunia resmi dimulai dengan upacara pembukaan yang berlangsung megah dan penuh antusiasme. Stadion utama dipadati puluhan ribu penonton dari berbagai negara yang hadir langsung untuk menyaksikan momen bersejarah tersebut. Sementara itu, jutaan pasang mata lainnya mengikuti jalannya acara melalui siaran langsung televisi dan platform digital di seluruh dunia.
+
+        Upacara pembukaan Piala Dunia kali ini menampilkan perpaduan antara pertunjukan budaya, musik modern, serta teknologi visual canggih. Setiap rangkaian acara dirancang untuk merepresentasikan semangat persatuan global dan keberagaman budaya. Penampilan tersebut mendapat sambutan meriah dari penonton dan menjadi simbol bahwa sepak bola merupakan bahasa universal yang mampu menyatukan berbagai bangsa.
+
+        Piala Dunia mempertemukan tim-tim nasional terbaik yang telah melewati proses kualifikasi panjang dan kompetitif. Setiap negara datang dengan target tinggi, membawa pemain-pemain terbaik serta strategi matang yang telah dipersiapkan selama bertahun-tahun. Pelatih dan staf teknis memainkan peran penting dalam menyusun taktik guna menghadapi persaingan ketat di setiap pertandingan.
+
+        Pertandingan pembuka berlangsung dengan tensi tinggi sejak menit awal. Kedua tim tampil agresif namun tetap disiplin dalam bertahan. Jual beli serangan, permainan cepat, serta dukungan suporter menciptakan atmosfer pertandingan yang sangat emosional dan menghibur.
+
+        Ajang Piala Dunia tidak hanya bertujuan untuk menentukan siapa yang terbaik di lapangan hijau, tetapi juga diharapkan mampu menanamkan nilai sportivitas, persahabatan antarnegara, serta menginspirasi generasi muda untuk mencintai olahraga sepak bola.
+        `
     },
     {
         title: "Atlet Nasional Raih Emas",
         desc: "Atlet Indonesia berhasil membawa pulang medali emas.",
         published: "17 Januari 2024",
-        image: "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?w=500"
+        image: "./assets/images/emilianova.jpeg",
+        content: `
+        Atlet atletik Indonesia Emilia Nova meraih medali emas nomor heptathlon (tujuh lomba) SEA Games 2025 Thailand setelah mengumpulkan total 5.497 poin sekaligus mengakhiri penantian panjangnya di nomor tersebut.
+
+        Berdasarkan pertandingan yang berlangsung di Stadion Supachalasai Bangkok, Selasa malam, Emilia Nova menempati peringkat pertama dengan total 5.497 poin. Medali perak diraih atlet Vietnam Hoang Thanh Giang dengan 5.455 poin, sementara perunggu menjadi milik Sarah Dequinan dari Filipina dengan 5.201 poin.
+
+        "Alhamdulillah sangat bersyukur, senang banget, aku terakhir mendapatkan medali emas pada 2019 dan ini aku bertanding heptathlon lomba yang aku sempat off selama tujuh tahun," kata Emilia Nova usai memastikan emas untuk Indonesia.
+
+        Emilia menjelaskan medali emas ini memiliki makna khusus karena terakhir kali ia meraih emas heptathlon terjadi pada 2017. Setelah itu, ia sempat melewati masa panjang pemulihan akibat cedera dan operasi yang memaksanya absen dari performa terbaik.
+
+        "Aku terakhir mendapatkan medali heptathlon 2017 dan sekarang aku mendapatkan medali emas SEA Games 2025. Alhamdulillah," katanya.
+
+        Menurut Emilia, hasil tersebut sesuai dengan ekspektasi karena ia menjalani proses persiapan secara bertahap, meski beberapa tahun terakhir diwarnai berbagai kendala fisik.
+
+        "Ini sudah sesuai ekspektasi karena aku menjalani prosesnya, cuma memang sempat beberapa tahun terakhir ini aku operasi, cedera," kata atlet yang kembali menunjukkan konsistensinya di ajang multievent Asia Tenggara itu.
+
+        Emilia menambahkan pencapaiannya di SEA Games 2025 tidak hanya berhenti pada medali emas. Ia juga mencatatkan rekor nasional baru pada nomor heptathlon setelah delapan tahun. Emilia mencatat 5.497 poin, melampaui rekor dirinya sendiri yang tercatat 5.386 poin pada tahun 2017.
+
+        "Hari ini alhamdulillah aku juga memecahkan rekor nasional," ujarnya.
+
+        Emilia menilai pencapaian ini menjadi modal penting untuk menatap target berikutnya. Ia menyebut masih memiliki ruang untuk meningkatkan performa di masa mendatang.
+
+        "Rencana ke depannya aku ingin lebih baik dari sekarang," kata Emilia.
+        
+        Atlet nasional Indonesia kembali mengharumkan nama bangsa dengan meraih medali emas pada ajang olahraga internasional bergengsi. Prestasi ini menjadi kabar membanggakan bagi masyarakat Indonesia dan menunjukkan bahwa atlet Tanah Air mampu bersaing di level dunia.
+
+        Keberhasilan tersebut diraih setelah atlet menjalani persiapan panjang yang melibatkan latihan intensif, peningkatan fisik, serta pematangan mental bertanding. Proses latihan dilakukan secara konsisten di bawah pengawasan pelatih dan tim pendukung yang profesional.
+
+        Pada pertandingan final, atlet Indonesia tampil percaya diri dan menunjukkan teknik yang sangat baik. Ia mampu mengendalikan jalannya pertandingan serta memanfaatkan peluang dengan maksimal. Strategi yang diterapkan berjalan efektif dan membuat lawan kesulitan mengembangkan permainan.
+
+        Kemenangan ini disambut dengan rasa bangga oleh masyarakat Indonesia. Ucapan selamat dan apresiasi datang dari berbagai pihak, termasuk pemerintah, federasi olahraga, serta rekan-rekan sesama atlet.
+
+        Prestasi tersebut diharapkan dapat menjadi motivasi bagi atlet-atlet muda Indonesia untuk terus berlatih dan berprestasi, serta memperkuat posisi Indonesia di kancah olahraga internasional.
+        `
     },
     {
         title: "Final Liga Champions",
         desc: "Pertandingan besar akan mempertemukan dua klub elite.",
         published: "3 Februari 2024",
-        image: "https://images.unsplash.com/photo-1508602632967-c7b28b6a8282?w=500"
+        image: "./assets/images/finalliga.jpg",
+        content: `
+        Ada lagi perubahan di Liga Champions 2025/2026. UEFA memajukan waktu kickoff partai puncak ajang antarklub paling bergengsi dunia itu.
+        
+        UEFA biasanya menggelar final Liga Champions pukul 21.00 malam CET (Waktu Eropa Tengah), demi menyesuaikan dengan para suporter di Eropa atau pukul 20.00 malam waktu musim panas Inggris Raya (BST)
+
+        Namun, waktu tersebut dianggap terlalu larut untuk para penonton di kawasan Asia dan Australia, sehingga harus rela bangun tengah malam untuk menyaksikan laga final Liga Champions. Padahal penonton asal Asia merupakan pasar yang seksi untuk sepakbola Eropa.
+
+        Baca artikel sepakbola, "UEFA Ubah Waktu Final Liga Champions 2025/2026" 
+
+        Belum lagi jika para penonton yang datang ke stadion harus pulang larut malam, sehingga terkadang sulit mendapatkan transportasi. Oleh karenanya UEFA melakukan terobosan baru mulai musim ini.
+
+        UEFA memajukan tiga jam waktu kickoff Final Liga Champions menjadi pukul 18.00 malam CET sehingga lebih bersahabat untuk para penonton di Eropa maupun Asia. Di waktu kickoff yang baru ini, para penonton Asia akan menyaksikan final sekitar pukul 23.00-01.00 WIB.
+
+        "Perubahan ini kami lakukan karena pengalaman fans itu sendiri. Waktu kickoff pukul 21.00 CET itu lebih cocok untuk pertandingan tengah pekan, sementara jika kickoff final di hari Sabtu lebih cepat, maka lebih cepat selesai juga - terlepas ada extra time atau adu penalti - serta memberikan waktu untuk fans beristirahat bareng keluarga serta teman di malam harinya, membicarakan soal musim yang baru selesai," ujar Presiden UEFA Aleksander Ceferin di The Athletic.
+
+        Ini jadi perubahan waktu terbesar kedua yang dilakukan UEFA untuk Liga Champions. Sejak 2010, UEFA memindah laga final ke hari Sabtu setelah sebelumnya selalu digelar di hari Rabu.
+
+        Laga Paris Saint Germain vs Inter Milan musim lalu jadi yang terakhir digelar pukul 21.00 malam waktu setempat. Final Liga Champions 2025/2026 digelar di Puskas Arena, Budapest, Hungaria.
+
+        Final Liga Champions Eropa kembali menjadi pusat perhatian pecinta sepak bola dunia. Dua klub elite Eropa berhasil melaju ke partai puncak setelah melalui perjalanan panjang dan penuh tantangan sejak fase grup hingga semifinal.
+
+        Pertandingan final ini dipersiapkan dengan sangat matang oleh kedua tim. Pelatih menyusun strategi terbaik, sementara para pemain menjalani latihan intensif untuk mencapai kondisi fisik dan mental yang optimal. Tekanan tinggi menjadi tantangan tersendiri bagi setiap pemain.
+
+        Sejak peluit awal dibunyikan, laga berjalan dengan tempo cepat dan penuh tensi. Kedua tim saling menekan dan menampilkan permainan atraktif. Aksi individu pemain bintang, kerja sama tim, serta disiplin taktik menjadi daya tarik utama pertandingan.
+
+        Atmosfer stadion terasa sangat luar biasa dengan kehadiran ribuan suporter dari berbagai negara. Dukungan tanpa henti dari tribun semakin menambah semangat para pemain di lapangan.
+
+        Final Liga Champions bukan sekadar pertandingan penentuan juara, tetapi juga menjadi ajang pembuktian kualitas, gengsi klub, serta sejarah panjang sepak bola Eropa.
+        `
     },
     {
         title: "Pebasket Muda Berprestasi",
         desc: "Pemain basket muda mencetak rekor baru.",
         published: "20 Februari 2024",
-        image: "https://images.unsplash.com/photo-1517649493560-4f4e0fadin1e?w=500"
+        image: "./assets/images/paniro.jpeg",
+        content: `
+        Paniro Azmil Manaf (15) merupakan pebasket muda yang cukup bersinar di kalangan kompetisi basket antar pelajar di Indonesia.
+
+        Dengan tinggi badan 189 cm, dan berat badan 95 kg, Paniro Azmil Manaf, putra pasangan H. Muzakir Manaf dan Komalasari, menjadi pusat perhatian.
+
+        Pada malam Final DBL Jakarta 2025 di Indonesia Arena, Jakarta Pusat, Jumat (21/11/2025), berlangsung meriah.
+
+        Final putra yang mempertemukan SMA Bukit Sion Jakarta dan SMA Jubilee Jakarta, berlangsung penuh semangat. Di hadapan 15.729 penonton, kedua tim bermain sangat apik.
+
+        Meski akhirnya tim SMA Jubilee Jakarta kalah, seluruh penonton puas. Tim yang dibela Paniro keok dengan angka 52-60.
+
+        Paniro, remaja alumnus SMP Jubilee Jakarta, telah mengenal olahraga basket sejak kecil. Dengan postur tubuh, bakat, dan paras wajahnya, Paniro menjelma menjadi sosok pebasket remaja yang memancing perhatian penonton.
+        
+        Lelaki remaja tersebut merupkan pebasket yang berpengalaman bermain untuk 3×3 player, maupun baket tradisional.
+
+        Menurut informasi, remaja yang lahir di Bogor pada 10 Mei 2010, merupakan pebasket yang berposisi sebagai flank. Dalam permainan basket, kakinya yang dominan sebelah kanan.
+        `
     },
     {
         title: "Kompetisi Bulu Tangkis Internasional",
         desc: "Turnamen bulu tangkis terbesar berlangsung meriah.",
-        published: "8 Maret 2024",
-        image: "https://images.unsplash.com/photo-1600170311836-a7ed685538aa?w=500"
+        published: "10 - 14 Desember 2025",
+        image: "./assets/images/kompetisi.jpg",
+        content: `
+        Jadwal lengkap turnamen bulu tangkis BWF 2025. Para pebulu tangkis terbaik dunia akan kembali bertarung di lapangan demi memperebutkan gelar juara di turnamen-turnamen badminton bergengsi pada 2025. Bolaneters bisa menyaksikan pertandingan secara langsung di Vidio dan Nex.
+
+        Para pebulu tangkis andalan Indonesia pastinya akan berusaha keras mengerahkan yang terbaik demi meraih prestasi-prestasi mentereng di kancah internasional. Secara total, ada 164 gelaran BWF yang akan digelar pada 2025.
+
+        Malaysia Open 2025 akan jadi laga pembuka pada tahun 2025, yakni pada 7-12 Januari 2025, dengan level Super 1000. Sementara itu, BWF World Tour Finals akan jadi turnamen penutup pada 10-14 Desember 2025.
+
+        Nah, jangan lupa untuk terus mendukung para pebulu tangkis Tanah Air ya, Bolaneters! Berikut ini jadwal lengkap turnamen bulu tangkis BWF 2025.
+
+        berikut adalah jadwal siaran (jadwal dapat berubah - ubah seiring waktu)
+        Januari 2025
+        - 07-12 Januari 2025: Malaysia Open 2025 (BWF World Tour Super 1000)
+        - 09-12 Januari 2025: Estonian International 2025 (International Series)
+        - 14-19 Januari 2025: India Open 2025 (BWF World Tour Super 750)
+        - 16-19 Januari 2025: Swedish Open 2025 (International Series)
+        - 21-26 Januari 2025: Indonesia Masters 2025 (BWF World Tour Super 500)
+        - 23-26 Januari 2025: 6th Iran Junior International Series 2025 (Junior International Series)
+        - 23-26 Januari 2025: Iceland International 2025 (Future Series)
+        - 28-02 Januari 2025: 33rd Iran Fajr International Challenge 2025 (International Challenge)
+        - 28-02 Januari 2025: Thailand Masters 2025 (BWF World Tour Super 300)
+
+        Februari 2025
+        - 06-09 Februari 2025: 15th Multi Alarm Hungarian Junior Championships 2025 (Junior International Series)
+        - 10-12 Februari 2025: Oceania Mixed Team Championships 2025 (Continental Team Championships)
+        - 10-13 Februari 2025: All Africa Mixed Team Championships 2025 (Continental Team Championships)
+        - 11-16 Februari 2025: Badminton Asia Mixed Team Championships 2025 (Continental Team Championships)
+        - 12-16 Februari 2025: European Mixed Team Championships 2025 (Continental Team Championships)
+        - 13-16 Februari 2025: VICTOR Oceania Championships 2025 (Continental Individual Championships)
+        - 13-16 Februari 2025: Pan American Cup 2025 (Continental Team Championships)
+        - 14-16 Februari 2025: All Africa Individual Championships 2025 (Continental Individual Championships)
+        - 18-23 Februari 2025: Singapore International Challenge 2025 (International Challenge)
+        - 19-23 Februari 2025: Uganda International Challenge 2025 (International Challenge)
+        - 21-23 Februari 2025: Italian Junior 2025 (Cancelled) (Junior International Challenge)
+        - 24-26 Februari 2025: Uganda Junior International 2025 (Junior Future Series)
+        - 25-02 Februari 2025: Sri Lanka International Challenge 2025 (International Challenge)
+        - 25-02 Februari 2025: German Open 2025 (BWF World Tour Super 300)
+        - 26-02 Februari 2025: Dutch Junior International 2025 (Junior International Grand Prix)
+
+        Maret 2025
+        - 03-08 Maret 2025: Sri Lanka International Series 2025 (International Series)
+        - 04-09 Maret 2025: Orleans Masters Badminton 2025 (BWF World Tour Super 300)
+        - 05-09 Maret 2025: German Junior 2025 (Junior International Grand Prix)
+        - 05-09 Maret 2025: 60th Portugal International Championships 2025 (International Series)
+        - 11-16 Maret 2025: All England Open 2025 (BWF World Tour Super 1000)
+        - 11-16 Maret 2025: China Masters 2025 (BWF Tour Super 100)
+        - 12-16 Maret 2025: XXIII Torneo Internacional Giraldilla 2025 (Future Series)
+        - 13-16 Maret 2025: Dutch International 2025 (International Series)
+        - 14-16 Maret 2025: Spanish Junior Open 2025 (Junior International Series)
+        - 18-23 Maret 2025: Swiss Open 2025 (BWF World Tour Super 300)
+        - 19-23 Maret 2025: Polish Open 2025 (International Challenge)
+        - 25-30 Maret 2025: Spain Masters 2025 (Cancelled) (BWF World Tour Super 300)
+        - 25-30 Maret 2025: Vietnam International Challenge 2025 (International Challenge)
+
+        April 2025
+        - 01-06 April 2025: International Series 2025 (International Series)
+        - 03-06 April 2025: Alpes International U19 2025 (Junior International Challenge)
+        - 08-13 April 2025: Badminton Asia Championships 2025 (Continental Individual Championships)
+        - 08-13 April 2025: European Championships 2025 (Continental Individual Championships)
+        - 09-13 April 2025: XXVII Pan Am Individual Championships 2025 (Continental Individual Championships)
+        - 10-13 April 2025: Dubrovnik Junior Open 2025 (Junior International Challenge)
+        - 24-27 April 2025: Malta International 2025 (Future Series)
+        - 25-27 April 2025: Cyprus Junior 2025 (Junior International Series)
+        - 27-04 April 2025: Sudirman Cup Finals 2025 (Grade 1 - Team Tournaments)
+
+        Mei 2025
+        - 01-04 Mei 2025: Luxembourg Open 2025 (International Series)
+        - 06-11 Mei 2025: Taipei Open 2025 (BWF World Tour Super 300)
+        - 06-11 Mei 2025: Xl Guatemala International Junior U19 2025 (Junior Future Series)
+        - 07-10 Mei 2025: Slovak Open 2025 (Future Series)
+        - 07-11 Mei 2025: V Mexican International Challenge 2025 (International Challenge)
+        - 08-11 Mei 2025: Denmark Challenge 2025 (International Challenge)
+        - 12-15 Mei 2025: Bulgarian Junior U19 International 2025 (Junior International Series)
+        - 13-18 Mei 2025: Thailand Open 2025 (BWF World Tour Super 500)
+        - 14-18 Mei 2025: Reunion Open 2025 (International Challenge)
+        - 14-18 Mei 2025: Slovenia Open 2025 (International Series)
+        - 20-25 Mei 2025: Malaysia Masters 2025 (BWF World Tour Super 500)
+        - 22-25 Mei 2025: Mauritius International 2025 (International Series)
+        - 22-25 Mei 2025: Austrian Open 2025 (International Series)
+        - 27-01 Mei 2025: Singapore Badminton Open 2025 (BWF World Tour Super 750)
+        - 28-31 Mei 2025: Bonn International 2025 (Future Series)
+        - 30-01 Mei 2025: YONEX 3 Borders 2025 (Junior International Series)
+
+        Juni 2025
+        - 03-08 Juni 2025: Indonesia Open 2025 (BWF World Tour Super 1000)
+        - 04-08 Juni 2025: Guaraní Open 2025 (Future Series)
+        - 05-08 Juni 2025: Lithuanian International 2025 (Future Series)
+        - 06-08 Juni 2025: Spanish International U19 2025 (Junior International Series)
+        - 07-10 Juni 2025: International Junior de Venezuela 2025 (Junior Future Series)
+        - 08-10 Juni 2025: Oceania Junior Team Championships 2025 (Continental Junior Team Championships)
+        - 11-15 Juni 2025: Latvia International 2025 (Future Series)
+        - 12-15 Juni 2025: Oceania Junior Championships 2025 (Continental Junior Individual Championships)
+        - 12-15 Juni 2025: Venezuela Future Series 2025 (Future Series)
+        - 17-21 Juni 2025: Northern Marianas International 2025 (International Series)
+        - 19-22 Juni 2025: Czech International Future Series 2025 (Future Series)
+        - 24-29 Juni 2025: US Open 2025 (BWF World Tour Super 300)
+        - 24-29 Juni 2025: II El Salvador Junior International 2024 (Junior Future Series)
+        - 25-29 Juni 2025: Italian Open 2025 (International Series)
+        - 26-29 Juni 2025: Bulgaria Junior Open Championship 2025 (Junior International Challenge)
+
+        `
     },
     {
         title: "Maraton Tahunan Digelar",
@@ -1797,9 +2003,32 @@ const olahraga = [
     },
     {
         title: "Pertandingan Futsal Nasional",
-        desc: "Kompetisi futsal bergengsi kembali digelar.",
+        desc: "Wakil Presiden Mendukung Pengembangan Futsal Nasional Setelah Menonton Pertandingan Persahabatan Indonesia vs. Australia.",
         published: "19 Juli 2024",
-        image: "https://images.unsplash.com/photo-1519750157634-525a275b6355?w=500"
+        image: "./assets/images/pertandinganfutsal.png",
+        content: `
+        Wakil Presiden (Wapres) Gibran Rakabuming menunjukkan dukungan nyata terhadap kemajuan olahraga futsal nasional dengan menonton langsung pertandingan persahabatan internasional antara Timnas Futsal Indonesia dan Timnas Futsal Australia di Indonesia Arena, Kompleks Gelora Bung Karno (GBK), Jakarta, Sabtu malam (1/11/2025).
+
+        Pertandingan ini merupakan bagian dari laga persahabatan internasional Timnas Futsal Indonesia menjelang SEA Games 2025 yang akan digelar pada bulan Desember. Di hadapan ribuan penonton yang memadati arena, tim nasional Indonesia menampilkan performa gemilang, mengalahkan Australia dengan skor 3-1.
+
+        Kehadiran Wakil Presiden pada pertandingan ini mencerminkan komitmen pemerintah untuk memperkuat ekosistem futsal di Indonesia, sekaligus memberikan dukungan moral kepada para atlet muda untuk terus berprestasi di tingkat regional dan internasional.
+
+        Langkah ini sejalan dengan arah kebijakan Presiden Prabowo Subianto, yang menekankan bahwa olahraga bukan hanya sarana untuk meraih kesuksesan, tetapi juga sarana untuk membangun karakter nasional, memperkuat sumber daya manusia yang tangguh, dan membina ekosistem olahraga yang berkelanjutan.
+
+        Berdasarkan Peringkat Dunia Futsal FIFA, Indonesia saat ini berada di peringkat ke-21 dunia, sedangkan Australia berada di peringkat ke-30.
+
+        CEO & Co-Founder Games of Society dan penyelenggara Wondr Futsal Series, Novel Leonardo M., mengatakan bahwa Wakil Presiden menyampaikan apresiasi yang tinggi atas antusiasme masyarakat dan penyelenggaraan acara futsal nasional ini.
+
+        "Wakil Presiden mengapresiasi antusiasme dan minat masyarakat terhadap futsal, terutama karena acara ini menandai acara penutup Seri Kejuaraan Futsal Nasional antar SMA dari 40 kota, dari Aceh hingga Papua," kata Novel.
+
+        Lebih lanjut, Novel berharap dukungan pemerintah untuk futsal dapat terus diperluas, baik melalui bantuan teknis, kerja sama komersial, dan kehadiran langsung pejabat pemerintah untuk meningkatkan antusiasme masyarakat.
+
+        Pertandingan persahabatan ini juga menjadi puncak dari wondr Futsal Series Grand National Championship dan wondr NCFS National Stage, dua turnamen besar yang diselenggarakan oleh Games of Society untuk memperkuat semangat sportivitas dan persatuan di antara siswa.
+
+        Kedua acara tersebut diikuti oleh lebih dari 1.100 tim futsal dari seluruh Indonesia, terdiri dari 960 tim sekolah dan 160 tim universitas dari 10 daerah.
+
+        Melalui pertandingan internasional ini, Indonesia tidak hanya menegaskan posisinya sebagai kekuatan baru di futsal Asia, tetapi juga memperkuat hubungan persahabatan antar negara dalam semangat sportivitas dan kolaborasi di kawasan Asia-Pasifik.
+        `
     }
 ]
 

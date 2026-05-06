@@ -1,3 +1,55 @@
+
+
+// [MERGED] Folder: core | File: dom.js 
+// ========================================
+
+export const btn = document.getElementById("hamburger-btn");
+export const openIcon = document.getElementById("icon-open");
+export const closeIcon = document.getElementById("icon-close");
+export const mobileNav = document.getElementById("mobile-nav");
+export const content = document.getElementById("content");
+
+
+// [MERGED] Folder: core | File: events.js 
+// ========================================
+
+import { btn, openIcon, closeIcon, mobileNav } from "./dom.js";
+import { loadPage, handleRoute } from "../router/router.js";
+import { closeSearchView } from "../components/search/search.js";
+
+export function initEvents() {
+
+    // === HAMBURGER MENU ===
+    btn.addEventListener("click", () => {
+        openIcon.classList.toggle("hidden");
+        closeIcon.classList.toggle("hidden");
+        mobileNav.classList.toggle("hidden");
+        mobileNav.classList.toggle("scale-y-0");
+    });
+
+    // === Search Close ===
+    document.querySelectorAll("[data-page]").forEach((item) => {
+        item.addEventListener("click", (e) => {
+            e.preventDefault();
+            const page = item.dataset.page;
+
+            closeSearchView();
+            loadPage(page);
+
+            mobileNav.classList.add("hidden", "scale-y-0");
+            openIcon.classList.remove("hidden");
+            closeIcon.classList.add("hidden");
+        });
+    });
+
+    // === HASH ROUTER ===
+    window.addEventListener("hashchange", handleRoute);
+}
+
+
+// [MERGED] Folder: data | File: category.js 
+// ========================================
+
 const categories = [
     {
         title: "Teknologi Modern",
@@ -1715,548 +1767,91 @@ const olahraga = [
         title: "Piala Dunia Dimulai",
         desc: "Turnamen sepak bola terbesar dunia resmi dibuka.",
         published: "5 Januari 2024",
-        image: "./assets/images/pialadunia.png",
-        content: `
-        Federasi Sepak Bola Internasional (FIFA) resmi mengumumkan waktu kick-off untuk 104 pertandingan Piala Dunia 2026, sehari setelah undian fase grup dilakukan. 
-
-        Pengumuman yang dirilis pada Sabtu (6/12/2025) waktu setempat ini memastikan bahwa partai puncak turnamen akbar tersebut akan berlangsung pada jam "kalong" bagi penonton di Indonesia.
-
-        Laga final yang dijadwalkan di MetLife Stadium, New Jersey, Amerika Serikat, akan digelar pada 19 Juli 2026 pukul 15.00 waktu setempat (ET).
-
-        Dengan perbedaan waktu 11 jam, maka pecinta sepak bola di Tanah Air harus bersiap begadang karena pertandingan tersebut akan tayang pada Minggu, 20 Juli 2026 pukul 02.00 WIB.
-
-        Waktu kick-off pukul 15.00 waktu setempat ini dipilih FIFA untuk mengakomodasi penonton di Eropa, di mana laga akan tayang pada prime time (pukul 21.00 di Eropa Tengah dan 20.00 di Inggris).
-
-        Meski laga-laga puncak banyak digelar dini hari, terdapat beberapa pertandingan fase grup dan perempat final yang memiliki jam tayang lebih bersahabat bagi penonton Indonesia, yakni di pagi hari.
-
-        Sebagai contoh, tim nasional Amerika Serikat (USMNT) akan melakoni laga perdana mereka melawan Paraguay pada pukul 21.00 ET, atau pukul 08.00 WIB pagi harinya. Laga fase grup lainnya di SoFi Stadium yang dimulai pukul 19.00 ET akan tayang pada pukul 06.00 WIB.
-
-        Sementara itu, laga perempat final di Arrowhead Stadium, Kansas City, akan dimulai pukul 20.00 waktu setempat (ET) atau pukul 08.00 WIB.
-
-        Turnamen sepak bola terbesar di dunia resmi dimulai dengan upacara pembukaan yang berlangsung megah dan penuh antusiasme. Stadion utama dipadati puluhan ribu penonton dari berbagai negara yang hadir langsung untuk menyaksikan momen bersejarah tersebut. Sementara itu, jutaan pasang mata lainnya mengikuti jalannya acara melalui siaran langsung televisi dan platform digital di seluruh dunia.
-
-        Upacara pembukaan Piala Dunia kali ini menampilkan perpaduan antara pertunjukan budaya, musik modern, serta teknologi visual canggih. Setiap rangkaian acara dirancang untuk merepresentasikan semangat persatuan global dan keberagaman budaya. Penampilan tersebut mendapat sambutan meriah dari penonton dan menjadi simbol bahwa sepak bola merupakan bahasa universal yang mampu menyatukan berbagai bangsa.
-
-        Piala Dunia mempertemukan tim-tim nasional terbaik yang telah melewati proses kualifikasi panjang dan kompetitif. Setiap negara datang dengan target tinggi, membawa pemain-pemain terbaik serta strategi matang yang telah dipersiapkan selama bertahun-tahun. Pelatih dan staf teknis memainkan peran penting dalam menyusun taktik guna menghadapi persaingan ketat di setiap pertandingan.
-
-        Pertandingan pembuka berlangsung dengan tensi tinggi sejak menit awal. Kedua tim tampil agresif namun tetap disiplin dalam bertahan. Jual beli serangan, permainan cepat, serta dukungan suporter menciptakan atmosfer pertandingan yang sangat emosional dan menghibur.
-
-        Ajang Piala Dunia tidak hanya bertujuan untuk menentukan siapa yang terbaik di lapangan hijau, tetapi juga diharapkan mampu menanamkan nilai sportivitas, persahabatan antarnegara, serta menginspirasi generasi muda untuk mencintai olahraga sepak bola.
-        `
+        image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=500"
     },
     {
         title: "Atlet Nasional Raih Emas",
         desc: "Atlet Indonesia berhasil membawa pulang medali emas.",
         published: "17 Januari 2024",
-        image: "./assets/images/emilianova.jpeg",
-        content: `
-        Atlet atletik Indonesia Emilia Nova meraih medali emas nomor heptathlon (tujuh lomba) SEA Games 2025 Thailand setelah mengumpulkan total 5.497 poin sekaligus mengakhiri penantian panjangnya di nomor tersebut.
-
-        Berdasarkan pertandingan yang berlangsung di Stadion Supachalasai Bangkok, Selasa malam, Emilia Nova menempati peringkat pertama dengan total 5.497 poin. Medali perak diraih atlet Vietnam Hoang Thanh Giang dengan 5.455 poin, sementara perunggu menjadi milik Sarah Dequinan dari Filipina dengan 5.201 poin.
-
-        "Alhamdulillah sangat bersyukur, senang banget, aku terakhir mendapatkan medali emas pada 2019 dan ini aku bertanding heptathlon lomba yang aku sempat off selama tujuh tahun," kata Emilia Nova usai memastikan emas untuk Indonesia.
-
-        Emilia menjelaskan medali emas ini memiliki makna khusus karena terakhir kali ia meraih emas heptathlon terjadi pada 2017. Setelah itu, ia sempat melewati masa panjang pemulihan akibat cedera dan operasi yang memaksanya absen dari performa terbaik.
-
-        "Aku terakhir mendapatkan medali heptathlon 2017 dan sekarang aku mendapatkan medali emas SEA Games 2025. Alhamdulillah," katanya.
-
-        Menurut Emilia, hasil tersebut sesuai dengan ekspektasi karena ia menjalani proses persiapan secara bertahap, meski beberapa tahun terakhir diwarnai berbagai kendala fisik.
-
-        "Ini sudah sesuai ekspektasi karena aku menjalani prosesnya, cuma memang sempat beberapa tahun terakhir ini aku operasi, cedera," kata atlet yang kembali menunjukkan konsistensinya di ajang multievent Asia Tenggara itu.
-
-        Emilia menambahkan pencapaiannya di SEA Games 2025 tidak hanya berhenti pada medali emas. Ia juga mencatatkan rekor nasional baru pada nomor heptathlon setelah delapan tahun. Emilia mencatat 5.497 poin, melampaui rekor dirinya sendiri yang tercatat 5.386 poin pada tahun 2017.
-
-        "Hari ini alhamdulillah aku juga memecahkan rekor nasional," ujarnya.
-
-        Emilia menilai pencapaian ini menjadi modal penting untuk menatap target berikutnya. Ia menyebut masih memiliki ruang untuk meningkatkan performa di masa mendatang.
-
-        "Rencana ke depannya aku ingin lebih baik dari sekarang," kata Emilia.
-        
-        Atlet nasional Indonesia kembali mengharumkan nama bangsa dengan meraih medali emas pada ajang olahraga internasional bergengsi. Prestasi ini menjadi kabar membanggakan bagi masyarakat Indonesia dan menunjukkan bahwa atlet Tanah Air mampu bersaing di level dunia.
-
-        Keberhasilan tersebut diraih setelah atlet menjalani persiapan panjang yang melibatkan latihan intensif, peningkatan fisik, serta pematangan mental bertanding. Proses latihan dilakukan secara konsisten di bawah pengawasan pelatih dan tim pendukung yang profesional.
-
-        Pada pertandingan final, atlet Indonesia tampil percaya diri dan menunjukkan teknik yang sangat baik. Ia mampu mengendalikan jalannya pertandingan serta memanfaatkan peluang dengan maksimal. Strategi yang diterapkan berjalan efektif dan membuat lawan kesulitan mengembangkan permainan.
-
-        Kemenangan ini disambut dengan rasa bangga oleh masyarakat Indonesia. Ucapan selamat dan apresiasi datang dari berbagai pihak, termasuk pemerintah, federasi olahraga, serta rekan-rekan sesama atlet.
-
-        Prestasi tersebut diharapkan dapat menjadi motivasi bagi atlet-atlet muda Indonesia untuk terus berlatih dan berprestasi, serta memperkuat posisi Indonesia di kancah olahraga internasional.
-        `
+        image: "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?w=500"
     },
     {
         title: "Final Liga Champions",
         desc: "Pertandingan besar akan mempertemukan dua klub elite.",
         published: "3 Februari 2024",
-        image: "./assets/images/finalliga.jpg",
-        content: `
-        Ada lagi perubahan di Liga Champions 2025/2026. UEFA memajukan waktu kickoff partai puncak ajang antarklub paling bergengsi dunia itu.
-        
-        UEFA biasanya menggelar final Liga Champions pukul 21.00 malam CET (Waktu Eropa Tengah), demi menyesuaikan dengan para suporter di Eropa atau pukul 20.00 malam waktu musim panas Inggris Raya (BST)
-
-        Namun, waktu tersebut dianggap terlalu larut untuk para penonton di kawasan Asia dan Australia, sehingga harus rela bangun tengah malam untuk menyaksikan laga final Liga Champions. Padahal penonton asal Asia merupakan pasar yang seksi untuk sepakbola Eropa.
-
-        Baca artikel sepakbola, "UEFA Ubah Waktu Final Liga Champions 2025/2026" 
-
-        Belum lagi jika para penonton yang datang ke stadion harus pulang larut malam, sehingga terkadang sulit mendapatkan transportasi. Oleh karenanya UEFA melakukan terobosan baru mulai musim ini.
-
-        UEFA memajukan tiga jam waktu kickoff Final Liga Champions menjadi pukul 18.00 malam CET sehingga lebih bersahabat untuk para penonton di Eropa maupun Asia. Di waktu kickoff yang baru ini, para penonton Asia akan menyaksikan final sekitar pukul 23.00-01.00 WIB.
-
-        "Perubahan ini kami lakukan karena pengalaman fans itu sendiri. Waktu kickoff pukul 21.00 CET itu lebih cocok untuk pertandingan tengah pekan, sementara jika kickoff final di hari Sabtu lebih cepat, maka lebih cepat selesai juga - terlepas ada extra time atau adu penalti - serta memberikan waktu untuk fans beristirahat bareng keluarga serta teman di malam harinya, membicarakan soal musim yang baru selesai," ujar Presiden UEFA Aleksander Ceferin di The Athletic.
-
-        Ini jadi perubahan waktu terbesar kedua yang dilakukan UEFA untuk Liga Champions. Sejak 2010, UEFA memindah laga final ke hari Sabtu setelah sebelumnya selalu digelar di hari Rabu.
-
-        Laga Paris Saint Germain vs Inter Milan musim lalu jadi yang terakhir digelar pukul 21.00 malam waktu setempat. Final Liga Champions 2025/2026 digelar di Puskas Arena, Budapest, Hungaria.
-
-        Final Liga Champions Eropa kembali menjadi pusat perhatian pecinta sepak bola dunia. Dua klub elite Eropa berhasil melaju ke partai puncak setelah melalui perjalanan panjang dan penuh tantangan sejak fase grup hingga semifinal.
-
-        Pertandingan final ini dipersiapkan dengan sangat matang oleh kedua tim. Pelatih menyusun strategi terbaik, sementara para pemain menjalani latihan intensif untuk mencapai kondisi fisik dan mental yang optimal. Tekanan tinggi menjadi tantangan tersendiri bagi setiap pemain.
-
-        Sejak peluit awal dibunyikan, laga berjalan dengan tempo cepat dan penuh tensi. Kedua tim saling menekan dan menampilkan permainan atraktif. Aksi individu pemain bintang, kerja sama tim, serta disiplin taktik menjadi daya tarik utama pertandingan.
-
-        Atmosfer stadion terasa sangat luar biasa dengan kehadiran ribuan suporter dari berbagai negara. Dukungan tanpa henti dari tribun semakin menambah semangat para pemain di lapangan.
-
-        Final Liga Champions bukan sekadar pertandingan penentuan juara, tetapi juga menjadi ajang pembuktian kualitas, gengsi klub, serta sejarah panjang sepak bola Eropa.
-        `
+        image: "https://images.unsplash.com/photo-1508602632967-c7b28b6a8282?w=500"
     },
     {
         title: "Pebasket Muda Berprestasi",
         desc: "Pemain basket muda mencetak rekor baru.",
         published: "20 Februari 2024",
-        image: "./assets/images/paniro.jpeg",
-        content: `
-        Paniro Azmil Manaf (15) merupakan pebasket muda yang cukup bersinar di kalangan kompetisi basket antar pelajar di Indonesia.
-
-        Dengan tinggi badan 189 cm, dan berat badan 95 kg, Paniro Azmil Manaf, putra pasangan H. Muzakir Manaf dan Komalasari, menjadi pusat perhatian.
-
-        Pada malam Final DBL Jakarta 2025 di Indonesia Arena, Jakarta Pusat, Jumat (21/11/2025), berlangsung meriah.
-
-        Final putra yang mempertemukan SMA Bukit Sion Jakarta dan SMA Jubilee Jakarta, berlangsung penuh semangat. Di hadapan 15.729 penonton, kedua tim bermain sangat apik.
-
-        Meski akhirnya tim SMA Jubilee Jakarta kalah, seluruh penonton puas. Tim yang dibela Paniro keok dengan angka 52-60.
-
-        Paniro, remaja alumnus SMP Jubilee Jakarta, telah mengenal olahraga basket sejak kecil. Dengan postur tubuh, bakat, dan paras wajahnya, Paniro menjelma menjadi sosok pebasket remaja yang memancing perhatian penonton.
-        
-        Lelaki remaja tersebut merupkan pebasket yang berpengalaman bermain untuk 3×3 player, maupun baket tradisional.
-
-        Menurut informasi, remaja yang lahir di Bogor pada 10 Mei 2010, merupakan pebasket yang berposisi sebagai flank. Dalam permainan basket, kakinya yang dominan sebelah kanan.
-        `
+        image: "https://images.unsplash.com/photo-1517649493560-4f4e0fadin1e?w=500"
     },
     {
         title: "Kompetisi Bulu Tangkis Internasional",
         desc: "Turnamen bulu tangkis terbesar berlangsung meriah.",
-        published: "10 - 14 Desember 2025",
-        image: "./assets/images/kompetisi.jpg",
-        content: `
-        Jadwal lengkap turnamen bulu tangkis BWF 2025. Para pebulu tangkis terbaik dunia akan kembali bertarung di lapangan demi memperebutkan gelar juara di turnamen-turnamen badminton bergengsi pada 2025. Bolaneters bisa menyaksikan pertandingan secara langsung di Vidio dan Nex.
-
-        Para pebulu tangkis andalan Indonesia pastinya akan berusaha keras mengerahkan yang terbaik demi meraih prestasi-prestasi mentereng di kancah internasional. Secara total, ada 164 gelaran BWF yang akan digelar pada 2025.
-
-        Malaysia Open 2025 akan jadi laga pembuka pada tahun 2025, yakni pada 7-12 Januari 2025, dengan level Super 1000. Sementara itu, BWF World Tour Finals akan jadi turnamen penutup pada 10-14 Desember 2025.
-
-        Nah, jangan lupa untuk terus mendukung para pebulu tangkis Tanah Air ya, Bolaneters! Berikut ini jadwal lengkap turnamen bulu tangkis BWF 2025.
-
-        berikut adalah jadwal siaran (jadwal dapat berubah - ubah seiring waktu)
-        Januari 2025
-        - 07-12 Januari 2025: Malaysia Open 2025 (BWF World Tour Super 1000)
-        - 09-12 Januari 2025: Estonian International 2025 (International Series)
-        - 14-19 Januari 2025: India Open 2025 (BWF World Tour Super 750)
-        - 16-19 Januari 2025: Swedish Open 2025 (International Series)
-        - 21-26 Januari 2025: Indonesia Masters 2025 (BWF World Tour Super 500)
-        - 23-26 Januari 2025: 6th Iran Junior International Series 2025 (Junior International Series)
-        - 23-26 Januari 2025: Iceland International 2025 (Future Series)
-        - 28-02 Januari 2025: 33rd Iran Fajr International Challenge 2025 (International Challenge)
-        - 28-02 Januari 2025: Thailand Masters 2025 (BWF World Tour Super 300)
-
-        Februari 2025
-        - 06-09 Februari 2025: 15th Multi Alarm Hungarian Junior Championships 2025 (Junior International Series)
-        - 10-12 Februari 2025: Oceania Mixed Team Championships 2025 (Continental Team Championships)
-        - 10-13 Februari 2025: All Africa Mixed Team Championships 2025 (Continental Team Championships)
-        - 11-16 Februari 2025: Badminton Asia Mixed Team Championships 2025 (Continental Team Championships)
-        - 12-16 Februari 2025: European Mixed Team Championships 2025 (Continental Team Championships)
-        - 13-16 Februari 2025: VICTOR Oceania Championships 2025 (Continental Individual Championships)
-        - 13-16 Februari 2025: Pan American Cup 2025 (Continental Team Championships)
-        - 14-16 Februari 2025: All Africa Individual Championships 2025 (Continental Individual Championships)
-        - 18-23 Februari 2025: Singapore International Challenge 2025 (International Challenge)
-        - 19-23 Februari 2025: Uganda International Challenge 2025 (International Challenge)
-        - 21-23 Februari 2025: Italian Junior 2025 (Cancelled) (Junior International Challenge)
-        - 24-26 Februari 2025: Uganda Junior International 2025 (Junior Future Series)
-        - 25-02 Februari 2025: Sri Lanka International Challenge 2025 (International Challenge)
-        - 25-02 Februari 2025: German Open 2025 (BWF World Tour Super 300)
-        - 26-02 Februari 2025: Dutch Junior International 2025 (Junior International Grand Prix)
-
-        Maret 2025
-        - 03-08 Maret 2025: Sri Lanka International Series 2025 (International Series)
-        - 04-09 Maret 2025: Orleans Masters Badminton 2025 (BWF World Tour Super 300)
-        - 05-09 Maret 2025: German Junior 2025 (Junior International Grand Prix)
-        - 05-09 Maret 2025: 60th Portugal International Championships 2025 (International Series)
-        - 11-16 Maret 2025: All England Open 2025 (BWF World Tour Super 1000)
-        - 11-16 Maret 2025: China Masters 2025 (BWF Tour Super 100)
-        - 12-16 Maret 2025: XXIII Torneo Internacional Giraldilla 2025 (Future Series)
-        - 13-16 Maret 2025: Dutch International 2025 (International Series)
-        - 14-16 Maret 2025: Spanish Junior Open 2025 (Junior International Series)
-        - 18-23 Maret 2025: Swiss Open 2025 (BWF World Tour Super 300)
-        - 19-23 Maret 2025: Polish Open 2025 (International Challenge)
-        - 25-30 Maret 2025: Spain Masters 2025 (Cancelled) (BWF World Tour Super 300)
-        - 25-30 Maret 2025: Vietnam International Challenge 2025 (International Challenge)
-
-        April 2025
-        - 01-06 April 2025: International Series 2025 (International Series)
-        - 03-06 April 2025: Alpes International U19 2025 (Junior International Challenge)
-        - 08-13 April 2025: Badminton Asia Championships 2025 (Continental Individual Championships)
-        - 08-13 April 2025: European Championships 2025 (Continental Individual Championships)
-        - 09-13 April 2025: XXVII Pan Am Individual Championships 2025 (Continental Individual Championships)
-        - 10-13 April 2025: Dubrovnik Junior Open 2025 (Junior International Challenge)
-        - 24-27 April 2025: Malta International 2025 (Future Series)
-        - 25-27 April 2025: Cyprus Junior 2025 (Junior International Series)
-        - 27-04 April 2025: Sudirman Cup Finals 2025 (Grade 1 - Team Tournaments)
-
-        Mei 2025
-        - 01-04 Mei 2025: Luxembourg Open 2025 (International Series)
-        - 06-11 Mei 2025: Taipei Open 2025 (BWF World Tour Super 300)
-        - 06-11 Mei 2025: Xl Guatemala International Junior U19 2025 (Junior Future Series)
-        - 07-10 Mei 2025: Slovak Open 2025 (Future Series)
-        - 07-11 Mei 2025: V Mexican International Challenge 2025 (International Challenge)
-        - 08-11 Mei 2025: Denmark Challenge 2025 (International Challenge)
-        - 12-15 Mei 2025: Bulgarian Junior U19 International 2025 (Junior International Series)
-        - 13-18 Mei 2025: Thailand Open 2025 (BWF World Tour Super 500)
-        - 14-18 Mei 2025: Reunion Open 2025 (International Challenge)
-        - 14-18 Mei 2025: Slovenia Open 2025 (International Series)
-        - 20-25 Mei 2025: Malaysia Masters 2025 (BWF World Tour Super 500)
-        - 22-25 Mei 2025: Mauritius International 2025 (International Series)
-        - 22-25 Mei 2025: Austrian Open 2025 (International Series)
-        - 27-01 Mei 2025: Singapore Badminton Open 2025 (BWF World Tour Super 750)
-        - 28-31 Mei 2025: Bonn International 2025 (Future Series)
-        - 30-01 Mei 2025: YONEX 3 Borders 2025 (Junior International Series)
-
-        Juni 2025
-        - 03-08 Juni 2025: Indonesia Open 2025 (BWF World Tour Super 1000)
-        - 04-08 Juni 2025: Guaraní Open 2025 (Future Series)
-        - 05-08 Juni 2025: Lithuanian International 2025 (Future Series)
-        - 06-08 Juni 2025: Spanish International U19 2025 (Junior International Series)
-        - 07-10 Juni 2025: International Junior de Venezuela 2025 (Junior Future Series)
-        - 08-10 Juni 2025: Oceania Junior Team Championships 2025 (Continental Junior Team Championships)
-        - 11-15 Juni 2025: Latvia International 2025 (Future Series)
-        - 12-15 Juni 2025: Oceania Junior Championships 2025 (Continental Junior Individual Championships)
-        - 12-15 Juni 2025: Venezuela Future Series 2025 (Future Series)
-        - 17-21 Juni 2025: Northern Marianas International 2025 (International Series)
-        - 19-22 Juni 2025: Czech International Future Series 2025 (Future Series)
-        - 24-29 Juni 2025: US Open 2025 (BWF World Tour Super 300)
-        - 24-29 Juni 2025: II El Salvador Junior International 2024 (Junior Future Series)
-        - 25-29 Juni 2025: Italian Open 2025 (International Series)
-        - 26-29 Juni 2025: Bulgaria Junior Open Championship 2025 (Junior International Challenge)
-
-        `
+        published: "8 Maret 2024",
+        image: "https://images.unsplash.com/photo-1600170311836-a7ed685538aa?w=500"
     },
     {
         title: "Maraton Tahunan Digelar",
-        desc: "Sukses Digelar, 5.500 Pelari Ramaikan BCA Citraland Marathon 2025.",
-        published: "7 desember 2025",
-        image: "./assets/images/maraton.jpg",
-        content: `
-        Event Besar BCA CitraLand Marathon 2025 sukses digelar dengan race lebih menantang. Ribuan pelari, tepatnya 5.500 pelari yang teregistrasi memeriahkan event tahunan yang rutin digelar oleh BCA kolaborasi dengan Ciputra Group.
-
-        Tidak hanya pelari lokal dari Surabaya dan sekitarnya tapi juga dari luar kota bahkan Internasional. Tercatat terdapat 2000 pelari yang berasal dari luar Surabaya dan 34 dari Luar Negeri. Dengan datangnya ribuan orang dari luar kota ini, diharapkan juga dapat memberikan dampak positif terhadap perekonomian Surabaya.
-
-        Flag Off dilakukan di depan kampus Unicersitas Ciputra (UC). Ada yang baru dalam BCA CitraLand Marathon 2025, yaitu kategori Ekiden. Ajang lari beregu, di mana satu tim terdiri dari 4 pelari yang masing-masing menempuh jarak 10,5K secara bergantian. Format estafet ini menekankan kolaborasi, strategi, dan kekompakan tim kunci mencapai garis finish. Selain itu, 4 kategori lainnya yaitu Full Marathon, Half Marathon, 10K, dan 5K.
-
-        Yuliarso Christiono Ketua Panitia BCA CitraLand Marathon 2025, GM CitraLand Surabaya mengatakan hadir 3 Atlet Nasional memeriahkan BCA CitraLand Marathon 2025. Yaitu Robi Syianturi – Atlet Nasional Pemegang Rekor HM & FM Nasional, Agus Prayogo – Atlet Nasional peraih 7 Medai Emas Sea Games dan Novia Nur Nirwani – Atlet Nasional Gold Medal 2025 Singapore Open Track & Field.
-
-        “Seluruh peserta akan memperebutkan podium dengan total hadiah lebih dari Rp. 200 Juta,” katanya.
-
-        Yuliarso Christiono menambahkan event lari rutin yang diadakan tiap tahun ini rangkaian Yoyogi Series ke-7 sejak tahun 2019.
-
-        “Race management juga dikelola secara profesional oleh komunitas WeeRun dan dukung penuh Management CitraLand, dengan penerapan standar pelaksanaan event yang ketat untuk menyuguhkan pengalaman berlari dengan standar yang tinggi dan profesional. “
-
-        Agus Prayogo – Atlet Nasional mengaku senang ikut event kali ini dengan suasana berbeda di perumahan dan jalur lintasan berliku dan naik turun menyuguhkan landscape kawasan CitraLand The Singapore of Surabaya.
-
-        “Senang sekali ikut meramaikan BCA CitraLand Marathon 2025. Jalan kondusif walaupun banyak penonton,” jelasnya.
-
-        Frangky Chandra Kusuma – Direksi BCA mengatakan komitmen BCA untuk melanjutkan event yang sama tahun 2026 dengan skala yang lebih besar.
-
-        “Event ini mendorong gaya hidup sehat lewat lari, meningkatkan pariwisata Kota Surabaya juga membangkitkan pelaku UMKM. Semuanya dapat juga mendukung kota Surabaya sebagai sport tourism.”
-
-        Sutoto Yakobus Senior Director Ciputra Group menambahkan event ini pestanya pelari. Pihaknya tergerak terus untuk memasyarakat olahraga. Selain lari, ada arena padel, tenis, mini soccer.
-        
-        `
+        desc: "Ribuan pelari mengikuti maraton internasional.",
+        published: "15 Maret 2024",
+        image: "https://images.unsplash.com/photo-1520974735194-8d8a4957d2ba?w=500"
     },
     {
-        title: "Jadwal Tinju Dunia Bulan Desember 2025: Ada Big Match Jake Paul vs Anthony Joshua, Hingga Perebutan Gelar Juara Naoya Inoue vs David Picasso.",
-        desc: "Jadwal tinju dunia sepanjang bulan Desember 2025, di mana banyak big match termasuk duel antara Jake Paul vs Anthony Joshua hingga Naoya Inoue yang akan berhadapan dengan David Picasso.",
-        published: "20 desember 2025",
-        image: "./assets/images/tinju2.png",
-        content: `
-        Jadwal tinju dunia sepanjang bulan Desember 2025, di mana banyak big match termasuk duel antara Jake Paul vs Anthony Joshua hingga Naoya Inoue yang akan berhadapan dengan David Picasso. Sebanyak 19 duel tinju dunia akan digelar di benua Amerika, Eropa hingga Asia yang akan menjadi penutup di tahun 2025. Beberapa di antaranya bertajuk big match dan merupakan duel perebutan gelar juara dunia di berbagai divisi.
-
-        Salah satunya ialah duel eksibisi antara Jake Paul (12-1-0, 7KO) vs Anthony Joshua (28-4, 25 KO) yang akan berlangsung di Kaseya Center, Miami, Amerika Serikat, 19 Desember 2025 mendatang. Sejatinya Jake Paul akan berhadapan dengan Gervonta Davis (30-0-1, 28 KO) di kelas cruiserweight, di lokasi yang sama pada 14 November 2025 lalu. Namun duel tersebut terpaksa dibatalkan. 
-        
-        Most Valuable Promotions (MVP) selaku promotor yang menaungi Jake Paul, kemudian mengumumkan bahwa duel tinju dunia itu terpaksa resmi dibatalkan karena Gervonta Davis kembali terjerat kasus kekerasan terhadap kekasihnya pada Rabu (5/11/2025) kemarin. Kemudian Anthony Joshua selaku peraih medali emas Olimpiade sekaligus mantan juara kelas berat menggantikan posisi Gervonta Davis, di mana duel ini akan digelar dalam delapan ronde, yang diprediksi bakal berlangsung seru.
-
-        "Pada 19 Desember, Jake Paul akan naik ring melawan Anthony Joshua , mantan juara dunia kelas berat, peraih medali emas Olimpiade, dan salah satu petinju dengan penyelesaian paling dahsyat di era modern," tulis pernyataan Netflix. Di sisi lain, ada big match antara Naoya Inoue (31-0, 27 KO) vs David Picasso (32-0-1, 17 KO) di duel bertajuk 'The Ring V: Night of The Samurai' yang juga akan menjadi penutup rangkaian duel Riyadh Season di tahun 2025 ini. 
-        
-        Pertarungan antara Inoue vs Picasso sendiri akan memperebutkan gelar juara dunia tak terbantahkan di kelas bulu milik petinju asal Jepang. Selain itu juga ada duel seru antara Junto Nakatani vs Sebastian Hernandez.
-
-        `
+        title: "Juara Tinju Dunia",
+        desc: "Petinju kelas berat mempertahankan gelarnya.",
+        published: "20 Maret 2024",
+        image: "https://images.unsplash.com/photo-1521412080232-69c5619f80e9?w=500"
     },
     {
         title: "Liga Basket Nasional Dimulai",
-        desc: "All Indonesian 2025 Segera Dimulai: Adu Gengsi dan Potensi Pemain Lokal.",
+        desc: "Puluhan tim memperebutkan gelar juara nasional.",
         published: "1 April 2024",
-        image: "./assets/images/basket.jpeg",
-        content: `
-        Turnamen All Indonesian 2025 akan resmi dimulai pada Sabtu, 16 Agustus 2025 di Indoor Manahan Stadium, Solo, Jawa Tengah. Ajang ini akan menjadi panggung utama bagi para pemain lokal terbaik dari 13 klub Indonesian Basketball League (IBL) untuk unjuk kemampuan, bersaing, dan membuktikan diri di hadapan publik basket nasional.
-
-        Hari pembuka akan langsung memanjakan penonton dengan empat pertandingan seru. Laga pembuka akan mempertemukan Rajawali Medan kontra Satria Muda Pertamina Bandung pada 11.30 WIB. Disusul duel panas Tangerang Hawks Basketball melawan Pacific Caesar Surabaya 14.00 WIB, lalu Bali United Basketball Club menghadapi Pelita Jaya Basketball 16.30 WIB. Sebagai penutup hari pertama, Hangtuah Jakarta akan berhadapan dengan Kesatria Bengawan Solo pada 19.00 WIB.
-
-        Format turnamen membagi peserta ke dalam dua grup, A dan B, dengan sistem setengah kompetisi untuk memperebutkan posisi dua teratas. Tim yang lolos akan melangkah ke semifinal dengan format gugur, sementara partai final akan menggunakan sistem best of three, menjanjikan tensi tinggi hingga laga pamungkas.
-
-        Direktur Utama IBL, Junas Miradiarsyah, menegaskan bahwa All Indonesian selalu menjadi barometer perkembangan pemain lokal.
-
-        "Turnamen ini adalah kesempatan emas bagi pemain-pemain Indonesia untuk menunjukkan kapasitas mereka. Setiap tahun selalu ada bintang baru yang lahir dari ajang ini, dan itu yang membuat All Indonesian begitu spesial. Selain seru di lapangan, ini juga tentang melihat masa depan basket Indonesia,” ujar Junas.
-
-        Bagi para penggemar, All Indonesian 2025 adalah momen yang tidak boleh dilewatkan untuk melihat langsung kiprah para talenta muda yang siap mencuri perhatian. Sejumlah nama baru dari berbagai tim IBL diprediksi akan tampil mengejutkan, membawa energi segar, dan menantang dominasi pemain-pemain senior. Pertandingan perdana akan menjadi ajang pembuktian siapa yang bisa memanfaatkan spotlight untuk mengangkat karier mereka ke level berikutnya.
-
-        Lebih dari sekadar kompetisi, All Indonesian 2025 dirancang sebagai ajang yang memadukan atmosfer pertandingan ketat dengan hiburan khas Solo. Penonton akan disuguhi penampilan kreatif dari cheerleaders dan pelaku seni lokal, menjadikan pengalaman menonton basket lebih lengkap dan berwarna.
-
-        Dengan jadwal padat, intensitas tinggi, dan potensi lahirnya bintang baru, All Indonesian 2025 diyakini akan menjadi momen penting dalam kalender bola basket nasional tahun ini. Semua mata kini tertuju ke Solo, menantikan siapa pemain lokal yang akan bersinar dan tim mana yang akan menjadi juara.
-        `
+        image: "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?w=500"
     },
     {
         title: "Balap Motor Internasional",
-        desc: "Federasi Balap Motor Vietnam bertujuan untuk bergabung dengan sistem internasional.",
+        desc: "Lintasan balap dunia dipenuhi para pembalap hebat.",
         published: "16 April 2024",
-        image: "./assets/images/balap.jpg",
-        content: `
-        Kongres Delegasi kedua Asosiasi Olahraga Motor Vietnam (VMA) (2025-2030) berlangsung pada pagi hari tanggal 14 Desember di Hanoi, menandai titik balik penting bagi gerakan olahraga motor domestik karena organisasi tersebut secara resmi mengumumkan arah strategis barunya dan memutuskan untuk mengubah namanya menjadi Federasi Olahraga Motor Vietnam.
-
-        VMA telah berhasil menyelenggarakan Kejuaraan Balap Mobil Off-Road Vietnam PVOIL Cup secara berkesinambungan dari tahun 2022-2025.
-        
-        Kongres tersebut juga mengumumkan Komite Eksekutif untuk periode kedua, di mana Bapak Vuong Bich Thang, mantan Direktur Jenderal Dinas Pendidikan Jasmani dan Olahraga (sekarang Dinas Pendidikan Jasmani dan Olahraga Vietnam), terpilih kembali sebagai Presiden Asosiasi. Kepemimpinan Bapak Thang yang berkelanjutan dipandang sebagai faktor yang memastikan kesinambungan dan stabilitas dalam arah pengembangan gerakan olahraga motor Vietnam.
-
-        Kongres tersebut diselenggarakan pada pagi hari tanggal 14 Desember di Hanoi .
-        
-        Semester pertama penuh dengan tantangan.
-        
-        Laporan ringkasan pada Kongres menunjukkan bahwa masa jabatan pertama Asosiasi berlangsung dalam konteks yang sangat sulit. Didirikan ketika Vietnam sedang bersiap untuk menjadi tuan rumah Formula 1 Vietnam Grand Prix, Asosiasi segera menghadapi gangguan serius akibat pandemi Covid-19.
-
-        Namun, selama lima tahun terakhir, Asosiasi secara bertahap memperkuat organisasinya dan mempertahankan operasionalnya. Dewan Eksekutif telah direstrukturisasi, jumlah anggota organisasi telah meningkat menjadi 20, dan peran Asosiasi dalam mengelola dan mendukung penyelenggaraan balap motor semakin menonjol.
-
-        Secara khusus, ini termasuk berpartisipasi dalam pengelolaan Kejuaraan Balap Mobil Off-Road Vietnam PVOIL Cup secara berkelanjutan dari tahun 2022 hingga 2025; dua musim Kejuaraan Gymkhana Nasional PVOIL Cup pada tahun 2024 dan 2025; serta memberikan dukungan profesional untuk balapan "Buon Don Great Mountain Challenge" pada tahun 2023.
-
-        Menurut statistik Asosiasi, selama lima tahun terakhir, 15 dari 34 provinsi dan kota di seluruh negeri telah menyelenggarakan balapan motorsport dalam berbagai format dan skala, yang mencerminkan meningkatnya popularitas olahraga yang relatif baru ini di Vietnam.
-
-        Selain kegiatan domestik, Asosiasi juga membantu prosedur bagi atlet Vietnam untuk berpartisipasi dalam kompetisi balap off-road internasional RFC Malaysia pada tahun 2023 dan 2024. Yang patut dicatat, tim balap Saigon Farmers dari Binh Duong (sekarang Kota Ho Chi Minh) meraih juara ketiga pada musim 2024.
-
-        Pada tahun 2023, Asosiasi bekerja sama dengan perusahaan Belgia DGSPORT mengenai kemungkinan menyelenggarakan balapan reli internasional di Vietnam, dan juga mengirimkan delegasi untuk meninjau lintasan balap di Lam Dong dan melaporkan kepada Departemen Olahraga Vietnam dan Kementerian Kebudayaan, Olahraga, dan Pariwisata untuk mendapatkan arahan.
-
-        Di bidang pengembangan profesional, Asosiasi menerbitkan Peraturan Kompetisi untuk Balap Mobil Off-Road dan Peraturan Kompetisi untuk Balap Mobil Gymkhana pada tahun 2023. Tiga kursus pelatihan nasional tentang pengorganisasian dan pengelolaan balapan juga dilaksanakan, yang mensertifikasi hampir 100 wasit dan lebih dari 40 petugas olahraga dari Departemen Kebudayaan dan Olahraga setempat.
-
-        Para delegasi yang menghadiri konferensi tersebut.
-        
-        Mengakui kontribusi
-        
-        Pada Kongres tersebut, 43 kelompok dan individu yang telah memberikan kontribusi luar biasa selama periode pertama diberikan penghargaan. Dua unit menerima Sertifikat Penghargaan dari Menteri Kebudayaan, Olahraga, dan Pariwisata: Asosiasi Mobil Sport Vietnam dan Perusahaan Saham Gabungan OTV Media.
-
-        Komite Olimpiade Vietnam menganugerahkan Sertifikat Penghargaan kepada tujuh individu, termasuk Bapak Ngo Viet Dung - Wakil Ketua Tetap Asosiasi dan Bapak Nguyen Dai Hoang - Direktur Jenderal Perusahaan Saham Gabungan OTV Media, yang memainkan peran kunci dalam mengorganisir acara balap nasional di masa lalu.
-
-        Selain itu, Departemen Pendidikan Jasmani dan Olahraga Vietnam menganugerahkan Sertifikat Penghargaan kepada 19 kelompok dan individu, dan Asosiasi tersebut juga memberikan penghargaan kepada 15 individu lainnya atas kontribusi berkelanjutan mereka terhadap gerakan tersebut.
-
-        Ambisi untuk masa jabatan kedua
-        
-        Memasuki masa jabatan keduanya, Asosiasi – yang sekarang bernama Federasi Olahraga Motor Vietnam – bertujuan untuk pengembangan yang lebih kuat dan berkelanjutan. Pada tahun 2026, Federasi berencana untuk berkolaborasi dengan OTV Media, komunitas Otofun, dan anggotanya untuk membangun sistem kejuaraan nasional untuk balap mobil off-road dan Gokart, berdasarkan model Gymkhana yang sukses.
-
-        Fokus lainnya adalah menetapkan standar untuk peralatan kompetisi, menerapkan sistem untuk mengevaluasi dan memberi peringkat atlet, serta memperkuat kerja sama internasional dengan organisasi olahraga motor di Asia Tenggara, Tiongkok, dan Australia. Federasi ini juga bertujuan untuk secara bertahap meningkatkan keanggotaannya di federasi olahraga motor internasional dan Asia-Pasifik.
-
-        Di samping kegiatan profesionalnya, Federasi berkomitmen untuk mempromosikan kesadaran akan budaya berkendara dan keselamatan lalu lintas, serta terus menyelenggarakan kursus pelatihan bagi organisasi dan individu yang tertarik untuk berpartisipasi dalam olahraga otomotif.
-
-        Kongres tersebut juga mengumumkan situs web resmi VFM.VN , yang ditunjuk sebagai saluran Federasi untuk memperbarui kegiatan, informasi profesional, dan koneksi domestik dan internasional. Dengan perubahan nama dan strategi baru, organisasi tersebut berharap dapat mengantarkan fase pengembangan yang lebih profesional untuk olahraga motor Vietnam selama lima tahun ke depan.
-        
-        `
+        image: "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=500"
     },
     {
         title: "Kejuaraan Renang Dunia",
-        desc: "AS Juara Umum Kejuaraan Dunia Renang.",
+        desc: "Atlet renang mencetak rekor baru.",
         published: "2 Mei 2024",
-        image: "./assets/images/renang.jpg",
-        content: `
-        Kejuaraan Dunia Renang 2025 di Singapura ditutup Minggu (3/8) dengan dominasi dua bintang utama: Leon Marchand (Prancis) dan Summer McIntosh (Kanada). Keduanya menutup ajang ini dengan kemenangan gemilang. Tim Amerika Serikat menanggapi kritik dengan cara terbaik, memecahkan rekor dunia.
-
-        Marchand kembali membuktikan kelasnya. Bintang renang asal Prancis itu menutup kejuaraan dengan emas keempat dari nomor 400 meter gaya ganti putra. Ini menambah koleksi sebelumnya di nomor 200m gaya ganti, 200m kupu-kupu, dan 200m gaya bebas. Dia finis dengan catatan waktu 4 menit 04,73 detik, unggul lebih dari tiga detik dari Tomoyuki Matsushita (Jepang) dan Ilia Borodin (Russia).
-
-        “Tidak sempurna, karena tidak ada yang sempurna. Tapi ini lebih dari yang saya harapkan. Apalagi bisa memecahkan rekor dunia di 200 gaya ganti. Itu bukti saya masih mencintai olahraga ini,” ujar Marchand.
-
-        McIntosh mencatatkan kemenangan keempatnya di nomor 400 meter gaya ganti putri dengan catatan waktu 4:25,78, memecahkan rekor kejuaraan. Perenang remaja asal Kanada berusia 18 tahun ini juga menang nomor 200 gaya ganti, 200 kupu-kupu, dan 400 gaya bebas. Satu-satunya kekalahan datang di nomor 800 meter gaya bebas. Dia finis ketiga di belakang perenang AS, Katie Ledecky.
-
-        “Secara keseluruhan saya senang, tapi selalu ingin lebih. Meskipun meraih lima emas, saya pasti masih ingin lebih. Itulah mentalitas,” ujar McIntosh. Di tengah kritik dari legenda seperti Michael Phelps dan Ryan Lochte, tim AS membalas dengan prestasi. Mereka menutup kejuaraan dengan memecahkan rekor dunia estafet 4x100 meter gaya ganti putri, mencatatkan waktu 3:49,34.
-
-        Raihan ini lebih cepat dari rekor mereka sendiri setahun lalu di Paris. Sehari sebelumnya, tim AS juga memecahkan rekor dunia di nomor campuran 4x100 gaya bebas. AS finis sebagai juara umum dengan sembilan emas, unggul dari Australia (delapan), serta Kanada dan Prancis yang sama-sama meraih empat emas. Empat emas Kanada seluruhnya diraih McIntosh.
-
-
-        `
+        image: "https://images.unsplash.com/photo-1529439320301-b9565c05ed85?w=500"
     },
     {
-        title: "9 Kejuaraan Tenis Dunia yang Paling Bergengsi",
-        desc: "Tak hanya menjadi ladang perebutan poin dan hadiah besar, kejuaraan-kejuaraan ini jadi simbol status, sejarah, dan kejayaan dalam dunia tenis.",
+        title: "Turnamen Tenis Terbesar",
+        desc: "Petenis dunia bersaing memperebutkan gelar.",
         published: "19 Mei 2024",
-        image: "./assets/images/tenis.jpg",
-        content: `
-        Tenis adalah salah satu olahraga paling populer di dunia yang menyatukan teknik, kekuatan, dan strategi dalam setiap pertandingan. Di balik gemerlap lapangan dan sorak sorai penonton, ada ajang-ajang kejuaraan bergengsi yang menjadi tolok ukur prestasi dan kebanggaan bagi para petenis profesional.
-
-        Turnamen-turnamen ini tidak hanya menjadi ladang perebutan poin dan hadiah besar, tetapi juga menjadi simbol status, sejarah, dan kejayaan dalam dunia tenis. Dari Grand Slam yang legendaris hingga turnamen bergengsi tingkat ATP dan WTA, setiap kejuaraan tenis menyimpan cerita ikonik dan momen tak terlupakan.
-
-        Turnamen-turnamen ini bukan hanya tempat lahirnya para legenda, tetapi juga menjadi arena pertempuran bagi petenis-petenis terbaik dari seluruh dunia. Berikut daftar turnamen tenis bergengsi di dunia dilansir dari berbagai sumber.
-
-        1. Roland Garros (Turnamen Grand Slam di Paris)
-        French Open atau dikenal juga sebagai Roland Garros adalah satu-satunya turnamen Grand Slam yang dimainkan di lapangan tanah liat. Permukaan ini membuat permainan lebih lambat dan menantang, sehingga hanya petenis tertentu yang mampu tampil dominan, misalnya, Rafael Nadal yang telah meraih gelar juara sebanyak 14 kali. Dengan sejarah lebih dari 130 tahun, French Open menjadi salah satu ajang tenis paling bergengsi di dunia. Pada 2024, turnamen ini digelar dari tanggal 26 Mei hingga 9 Juni.
-        2. ATP Finals (Turin, Italia) 
-        ATP Finals adalah turnamen akhir musim untuk petenis pria terbaik dunia. Turnamen ini sudah ada sejak 1970 dan sekarang diadakan di Turin, Italia. Berbeda dari Grand Slam yang pakai sistem gugur, permainan ini dibagi ke dalam grup. Para pemain saling bertanding, lalu dua pemain terbaik dari tiap grup lanjut ke semifinal dan final.
-        3. WTA Finals (Riyadh, Arab Saudi) 
-        WTA Finals adalah versi wanita dari turnamen penutup musim. Pada 2019, WTA Finals pernah memberi hadiah terbesar dalam sejarah tenis. Saat itu Ashleigh Barty menjadi juara dan membawa pulang 4,42 juta dolar AS.
-        4. Australian Open
-        Australian Open adalah turnamen Grand Slam pertama yang digelar setiap tahun, dimulai sejak 1905 di Kota Melbourne. Turnamen ini berlangsung di lapangan keras Plexicushion serta mendukung gaya bermain cepat dan atletik dari garis belakang. Turnamen ini juga dilengkapi dengan teknologi modern, seperti atap yang bisa dibuka-tutup di Rod Laver Arena dan Margaret Court Arena sehingga pertandingan tetap berjalan meski cuaca berubah. 
-        5. Wimbledon
-        Sebagai turnamen tenis tertua yang dimulai pada 1877, Wimbledon dikenal dengan tradisinya yang kuat dan suasananya yang elegan. Lapangan rumputnya menciptakan permainan cepat dengan pantulan bola rendah, cocok untuk teknik servis-voli dan reaksi cepat. Turnamen ini memiliki ciri khas seperti busana serba putih, kehadiran anggota keluarga kerajaan, serta camilan stroberi dan krim. 
-        6. Indian Wells (BNP Paribas Open)
-        Indian Wells atau yang sering disebut “Grand Slam kelima” adalah salah satu turnamen terbesar di luar empat Grand Slam. Berlokasi di dekat Palm Springs, turnamen ini memiliki stadion terbesar kedua di dunia tenis setelah Arthur Ashe.
-        Suasana lapangannya terasa seperti resor mewah, lengkap dengan pohon palem dan fasilitas premium. Sebagai turnamen penting dalam kalender ATP dan WTA 1000, Indian Wells selalu menarik petenis-petenis papan atas untuk bertanding di bawah matahari cerah gurun California.
-        7. US Open
-        US Open merupakan turnamen Grand Slam terakhir dalam satu musim yang rutin diselenggarakan di New York, Amerika Serikat. Turnamen ini biasanya berlangsung pada akhir Agustus hingga awal September dan meliputi beberapa kategori pertandingan, yaitu tunggal putra, tunggal putri, ganda putra, ganda putri, dan ganda campuran. Selain itu, ada kompetisi untuk kelompok usia muda.
-        Sejak 1978, US Open digelar di USTA National Tennis Center. Hadiah untuk juara tunggal putra maupun putri saat ini bisa mencapai 3,7 juta dolar Amerika Serikat.
-        8. Tenis Olimpiade
-        Tenis putra dan putri pertama kali dipertandingkan dalam Olimpiade modern pada 1896 dan kembali dimainkan pada edisi 1900, namun kemudian dihapus dari daftar cabang olahraga karena berbagai alasan. Tenis baru kembali menjadi bagian resmi Olimpiade pada edisi ke-24 yang digelar pada 1988.
-        9. Billie Jean King Cup
-        Billie Jean King Cup sebelumnya dikenal sebagai Fed Cup. Ini adalah kompetisi internasional beregu paling bergengsi dalam dunia tenis wanita. Pertama kali diadakan pada 1963, turnamen ini diikuti oleh tim nasional dari berbagai negara setiap tahunnya. Sebagai ajang beregu tertinggi bagi petenis wanita, kompetisi ini memiliki peran besar dalam membentuk prestasi dan perkembangan tenis wanita dunia.
-        `
+        image: "https://images.unsplash.com/photo-1521217582786-e92f8f2d8c6a?w=500"
     },
     {
         title: "E-Sports Semakin Diminati",
-        desc: "576 Peserta Meriahkan Kejurkab Esports Purworejo 2025, Bupati Dorong Lahirnya Atlet Profesional.",
-        published: "6 Juni 2025",
-        image: "./assets/images/E-Sport.png",
-        content: `
-        Kejuaraan Kabupaten (Kejurkab) Esports Purworejo 2025 resmi dibuka oleh Bupati Purworejo, Hj. Yuli Hastuti, S.H., pada Minggu (7/12/2025) di GOR Sarwo Edhie Wibowo. Ajang tahunan ini disambut meriah oleh ratusan peserta, didominasi para pelajar, yang menandai pesatnya perkembangan olahraga elektronik di daerah.
-
-        Sebanyak 576 peserta turun dalam tiga divisi pertandingan yang paling diminati, yaitu Mobile Legends: Bang Bang (MLBB) dengan 64 tim (320 atlet), Free Fire dengan 48 tim (192 atlet), serta eFootball yang diikuti 32 peserta (64 atlet). Seluruh peserta bertanding sehari penuh untuk memperebutkan gelar juara di masing-masing divisi.
-
-        Dalam sambutannya, Bupati Yuli Hastuti menegaskan bahwa esports kini telah berkembang menjadi cabang olahraga prestasi yang tak lagi dapat dipandang sebelah mata.
-
-        “Esport bukan sekadar permainan elektronik, tetapi telah menjadi olahraga kompetitif yang bergengsi dan diakui sebagai cabang olahraga prestasi,” tegasnya.
-
-        Ia berharap penyelenggaraan Kejurkab Esports mampu membuka jalan lahirnya atlet-atlet muda berbakat dari Purworejo yang nantinya dapat berkiprah di tingkat profesional, nasional, bahkan internasional.
-
-        “Saya berharap dari ajang ini akan lahir atlet esports profesional kebanggaan Purworejo. Kompetisi seperti ini harus digelar berkelanjutan sebagai bagian dari pembinaan jangka panjang,” ujarnya.
-
-        Ketua ESI Pengkab Purworejo, Roni Sumhastomo, S.E., menjelaskan bahwa Kejurkab Esports 2025 merupakan wujud nyata komitmen ESI dalam membangun ekosistem esports yang terstruktur dan profesional di Purworejo.
-
-        “Kami ingin memberikan ruang positif bagi atlet muda untuk berkembang, menjunjung sportivitas, dan membangun prestasi yang membanggakan,” jelasnya.
-
-        Roni menambahkan, esports memiliki potensi besar tidak hanya dari sisi kompetitif, tetapi juga ekonomi dan sosial. Keterlibatan pelaku UMKM dalam rangkaian kegiatan Kejurkab tahun ini menjadi bentuk dukungan terhadap sektor ekonomi kreatif lokal.
-
-        Ketua KONI Purworejo, Muhammad Abdullah, turut mengapresiasi penyelenggaraan kejuaraan tersebut. Menurutnya, besarnya antusiasme peserta menunjukkan bahwa minat generasi muda terhadap esports semakin tinggi.
-
-        “Dengan pembinaan berkelanjutan, kami berharap lahir atlet-atlet esports yang mampu berprestasi dan mengharumkan nama Purworejo,” ujarnya.
-
-        Kejurkab Esports Purworejo 2025 menjadi momentum penting bagi perkembangan olahraga elektronik di Kabupaten Purworejo. Ajang ini sekaligus menegaskan bahwa esports kini telah menjadi cabang olahraga prestasi yang menjanjikan dan diminati generasi muda.
-        `
+        desc: "Kompetisi game internasional semakin besar.",
+        published: "6 Juni 2024",
+        image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500"
     },
     {
-        title: "Lahirnya Pesilat Muda Indonesia",
-        desc: "Kemenpora Internasional Pencak Silat Championship 2025 Jadi Ajang Lahirkan Pesilat Muda Indonesia.",
-        published: "21 Juni 2025",
-        image: "./assets/images/silat.jpg",
-        content: `
-        Jakarta: Kejuaraan Kemenpora Internasional Pencak Silat Championship 2025 Tingkat Nasional berlangsung sukses dibuka di Padepokan Pencak Silat Taman Mini Indonesia Indonesia (TMII), Jakarta Timur, Kamis (10/7).
-
-        Pembukaan kejuaraan yang merupakan kolaborasi Kemenpora dengan Satuan Pelajar dan Mahasiswa (SAPMA) Pemuda Pancasila dengan Pengurus Besar (PB) Ikatan Pencak Silat Indonesia (IPSI) ini ditandai pemukulan gong oleh Staf Ahli Bidang Transformasi dan Tata Kelola Birokrasi, Kementerian Pemuda dan Olahraga Hamka Hendra Noer.
-
-        Dalam sambutannya, Hamka mengucapkan terima kasih kepada pengrus Pusat SAPMA Pemuda Pancasila atas konsistensinya dalam penyelenggaraan kejuaraan olahraga di setiap tahun. Dimana bebeapa tahun kebelakang juga sering menggelar kejuaraan serupa untuk cabang olahraga lainnya.
-
-        “Tahun ini menyelenggarakan kembali untuk kejuaraan pencak silat. Ini merupakan dukungan yang sangat baik untuk olahraga Indonesia, khususnya para atlet-atlet muda kita di hadapan saya,” ujarnya 
-
-        Dalam hal ini pemerintah bersama PB IPSI berusaha keras agar pencak silat bisa diakui di dunia, khususnya di Olimpiade.
-
-        “Alhamdulillah baru-baru ini pencak silat sudah memenuhi undangan ke Olimpiade Paris dan nanti bisa menjadi peserta Eksebisidi Los Angeles 2028. Jadi pencak silat makin bisa diakui di internasional. Sehingga ini sekaligus momentum baik bagi dunia Pencak Silat Goes Tos Olympic," tutur Sekretaris Jenderal PB IPSI Teddy Suratmadji dalam sambutannya.
-
-        Karena itu PB IPSI, lanjut Teddy Suratmadji berharap para atlet bersemangat dalam bertanding dan bangga terhadap pencak silat. Hal ini mengingat pencak silat memiliki nilai budaya Indonesia yang sangat kuat nilai budaya. Sehingga kejuaraan yang digelar SAPMA ini patut diapresiasi lantaran turut melestarikan dan memperkuat ekosistem pencak silat.
-
-        “Saya yakin dengan cerita-cerita inspirasi yang terjadi selama persiapan para atlet di kejuaraan ini serta saat pertandingan, nantinya akan bisa jadi penyemangat untuk generasi muda Indonesia. Bisa menjadikan contoh, motivasi generasi muda Indonesia yang lebih sehat dan kuat,” harap Teddy.
-
-        “Selamat bertanding, semoga yang juara adalah yang terbaik. Bagi yang belum juara, masih ada kesempatan lain, jangan putus asa. Kami akan sediakan arena pertandingan yang lebih banyak lagi,” sambung Teddy. 
-
-        Kejuaraan Pencak Silat Kemenpora Internasional Pencak Silat Championship 2025 Tingkat Nasional ini sendiri digelar selama empat hari mulai Kamis (10/7) sampai Minggu (13/7). Kejuaraan ini diikuti lebih 1.500 atlet dari berbagai daerah di Indonesia dan perwakilan negara sahabat dengan beragam kategori yang dipertandingkan.
-
-        Ketua Umum SAPMA Pemuda Pancasila mengatakan, ajang ini bukan hanya sebuah kompetisi. Melainkan juga komitmen bersama untuk melestarikan budaya bangsa, membina generasi muda yang tangguh, sportif, dan berkarakter.
-
-        “Pencak silat adalah kebanggaan Indonesia. Kejuaraan ini untuk menunjukkan bahwa Indonesia sangat kaya. Ini adalah kekayaan budaya dan potensi olahraga Indonesia di panggung yang lebih luas,” ucapnya Aulia Arief.
-        
-        Melalui kejuaraan ini, sebut Aulia Arief, SAPMA Pemuda Pancasila berharap semangat Pancasila dan Pencak Silat bisa menjadi kekuatan karakter dan budaya persatuan di Indonesia. “Dengan kejuaraan ini SAPMA tidak hanya mendukung pencak silat sebagai cabang olahraga, tetapi memperkuat ikatan budaya dan nasionalisme di antara masyarakat Indonesia,” tandasnya.
-
-        Terkahir, laporan dari Ketua Pelaksana Aditya Putra Yando sangat bangga atas terlaksana event kejuaraan Kemenpora International Pencak Silat Championship 2025.
-
-        "Semua acara ini terlaksana dengan sukses berkat kerjsama luar biasa dari teman teman SAPMAPORA dengan tiada lelah untuk terus bersinergi bersama para atlet, pendekar silat beserta perangkat pertandingan baik itu juri juga wasit. Juga yang spesial para peserta atau delegasi pencak silat dari negara negara sahabat, selamat datang di Jakarta," Ungkap Aditya Putra Yando. 
-
-        Acara ini turut diisi dengan atraksi pencak silat dari pegiat penca bertema silat 'Bhineka Tunggal Ika' yang dibawakan oleh Rampak Silat Indonesia. Hadir bersama yaitu Sekeretris Jenderal PB IPSI Teddy Suratmadji mewakili Ketua Umum.(dok)
-
-        
-        `
+        title: "Atlet Muda Pecahkan Rekor",
+        desc: "Rekor baru tercipta dalam kejuaraan nasional.",
+        published: "21 Juni 2024",
+        image: "https://images.unsplash.com/photo-1553773077-91673524aefa?w=500"
     },
     {
         title: "Kejuaraan Golf Dunia",
-        desc: "Turnamen Golf Jakarta International Championship 2025 Siap Bergulir di PIK Course.",
-        published: "4 Juli 2025",
-        image: "./assets/images/golf.png",
-        content: `
-        Turnamen golf bertajuk "Jakarta International Championship (JAKIC)" siap bergulir pada 2-5 Oktober 2025 di Damai Indah Golf – PIK Course.
-
-        Event JAKIC 2025 ini menegaskan sekaligus meningkatkan reputasi Indonesia sebagai pendukung kuat golf profesional Asian Tour.
-
-        Penyelenggaraan Jakarta International Championship 2025 akan menjadi event ke-13 Asian Tour. JAKIC 2025 menjadi tempat perhentian kelima International Series 2025, yang merupakan turnamen-turnamen Asian Tour premium yang memberikan para pegolf dari seluruh dunia jalur langsung menuju LIV Golf League.
-        
-        Keberadaan JAKIC 2025 ini tidak terlepas dari dukungan penuh Pemprov DKI Jakarta. Menurut Gubernur DKI Pramono Anung, pihaknya akan mendukungan terhadap penyelenggaraan event golf terbesar di Indonesia ini.
-
-        Dengan dukungan Pemerintah Provinsi DKI Jakarta dan sebagai bagian dari upaya mempromosikan Jakarta sebagai Kota Global, kami yakin kolaborasi ini akan membawa semangat baru, baik bagi Kota Jakarta maupun bagi para pegolf lokal kami," jelasnya.
-
-        Asian Tour, badan pengelola profesional touring di Asia, pun menyambut baik dengan penyelenggaraan JAKIC 2025. Jubilant A. Harmidy, Asian Tour Board of Directors, mengatakan, dalam 30 tahun terakhir, Jakarta telah menjadi destinasi populer dan rutin bagi Asian Tour. 
-
-        “JAKIC 2025 menambah keberagaman jadwal kompetisi kami yang luar biasa. Tidak hanya membawa hal baru ke dalam agenda event kami, tetapi juga memberikan nilai penting dalam hal variasi kompetisi, lapangan golf yang luar biasa, dan posisi Jakarta di The International Series," katanya.
-
-        Penyelenggaraan JAKIC 2025 yang akan berlangsung di PIK Course ini menjadi kehormatan tersendiri bagi PT Damai Indah Golf Tbk. selalu pengelola lapangan. Sebelumnya lapangan karya Robert Trent Jones Jr. ini memang dikenal sebagai salah satu venue turnamen golf bertaraf internasional, termasuk Indonesia Open 2024. Tahun ini, Damai Indah Golf-PIK Course menjadi venue event International Series untuk pertama kalinya.
-
-        “Kami menyambut baik dipilihnya Damai Indah Golf, PIK Course, sebagai tuan rumah Jakarta International Championship 2025. Komitmen kami adalah menghadirkan lapangan golf dengan kualitas terbaik, selaras dengan standar set up penyelenggaraan turnamen yang diikuti para pegolf kelas dunia tersebut.
-
-        Damai Indah Golf – PIK course didesain oleh Robert Trent Jones Jr. dengan konsep Spirit of the Sea memberikan pengalaman bertanding yang berbeda bagi para pegolf. Terselenggaranya turnamen ini sekaligus memperkuat posisi Jakarta sebagai destinasi golf di Asia,” ujar Budiarsa Sastrawinata, Direktur Utama PT Damai Indah Golf Tbk.
-
-        Damai Indah Golf Club Committee pun sangat mendukung debut JAKIC 2025 di PIK Course. Royke Tumilaar, Chairman Damai Indah Golf Club Committee, bahkan melihat bahwa sebagai sebuah event golf profesional premium, JAKIC tidak hanya mendongkrak nama Jakarta dalam peta destinasi golf dunia, melainkan juga mengangkat nama PIK Course sebagai salah satu venue berstandar championship course yang mendapat pengakuan dunia internasional.
-
-        `
+        desc: "Turnamen golf megah digelar di berbagai negara.",
+        published: "4 Juli 2024",
+        image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=500"
     },
     {
         title: "Pertandingan Futsal Nasional",
-        desc: "Wakil Presiden Mendukung Pengembangan Futsal Nasional Setelah Menonton Pertandingan Persahabatan Indonesia vs. Australia.",
+        desc: "Kompetisi futsal bergengsi kembali digelar.",
         published: "19 Juli 2024",
-        image: "./assets/images/pertandinganfutsal.png",
-        content: `
-        Wakil Presiden (Wapres) Gibran Rakabuming menunjukkan dukungan nyata terhadap kemajuan olahraga futsal nasional dengan menonton langsung pertandingan persahabatan internasional antara Timnas Futsal Indonesia dan Timnas Futsal Australia di Indonesia Arena, Kompleks Gelora Bung Karno (GBK), Jakarta, Sabtu malam (1/11/2025).
-
-        Pertandingan ini merupakan bagian dari laga persahabatan internasional Timnas Futsal Indonesia menjelang SEA Games 2025 yang akan digelar pada bulan Desember. Di hadapan ribuan penonton yang memadati arena, tim nasional Indonesia menampilkan performa gemilang, mengalahkan Australia dengan skor 3-1.
-
-        Kehadiran Wakil Presiden pada pertandingan ini mencerminkan komitmen pemerintah untuk memperkuat ekosistem futsal di Indonesia, sekaligus memberikan dukungan moral kepada para atlet muda untuk terus berprestasi di tingkat regional dan internasional.
-
-        Langkah ini sejalan dengan arah kebijakan Presiden Prabowo Subianto, yang menekankan bahwa olahraga bukan hanya sarana untuk meraih kesuksesan, tetapi juga sarana untuk membangun karakter nasional, memperkuat sumber daya manusia yang tangguh, dan membina ekosistem olahraga yang berkelanjutan.
-
-        Berdasarkan Peringkat Dunia Futsal FIFA, Indonesia saat ini berada di peringkat ke-21 dunia, sedangkan Australia berada di peringkat ke-30.
-
-        CEO & Co-Founder Games of Society dan penyelenggara Wondr Futsal Series, Novel Leonardo M., mengatakan bahwa Wakil Presiden menyampaikan apresiasi yang tinggi atas antusiasme masyarakat dan penyelenggaraan acara futsal nasional ini.
-
-        "Wakil Presiden mengapresiasi antusiasme dan minat masyarakat terhadap futsal, terutama karena acara ini menandai acara penutup Seri Kejuaraan Futsal Nasional antar SMA dari 40 kota, dari Aceh hingga Papua," kata Novel.
-
-        Lebih lanjut, Novel berharap dukungan pemerintah untuk futsal dapat terus diperluas, baik melalui bantuan teknis, kerja sama komersial, dan kehadiran langsung pejabat pemerintah untuk meningkatkan antusiasme masyarakat.
-
-        Pertandingan persahabatan ini juga menjadi puncak dari wondr Futsal Series Grand National Championship dan wondr NCFS National Stage, dua turnamen besar yang diselenggarakan oleh Games of Society untuk memperkuat semangat sportivitas dan persatuan di antara siswa.
-
-        Kedua acara tersebut diikuti oleh lebih dari 1.100 tim futsal dari seluruh Indonesia, terdiri dari 960 tim sekolah dan 160 tim universitas dari 10 daerah.
-
-        Melalui pertandingan internasional ini, Indonesia tidak hanya menegaskan posisinya sebagai kekuatan baru di futsal Asia, tetapi juga memperkuat hubungan persahabatan antar negara dalam semangat sportivitas dan kolaborasi di kawasan Asia-Pasifik.
-        `
+        image: "https://images.unsplash.com/photo-1519750157634-525a275b6355?w=500"
     }
 ]
 
@@ -3272,3 +2867,446 @@ export {
     lingkunganSocial,
     music
 };
+
+
+// [MERGED] Folder: utils | File: comments.js 
+// ========================================
+
+export function loadComments(key) {
+    const commentList = document.getElementById("comment-list");
+    const comments = JSON.parse(localStorage.getItem(key)) || [];
+
+    if (comments.length === 0) {
+        commentList.innerHTML = `<p class="text-gray-400">Belum ada komentar.</p>`;
+        return;
+    }
+
+    commentList.innerHTML = comments.map(c => `
+    <div class="group flex gap-4 p-4 bg-white rounded-2xl 
+                border border-gray-100 shadow-sm">
+
+        <!-- Avatar -->
+        <div class="flex-shrink-0 w-11 h-11 rounded-full 
+                    bg-gradient-to-br from-blue-600 to-indigo-500
+                    text-white flex items-center justify-center 
+                    font-bold text-lg uppercase">
+            ${c.name.charAt(0).toUpperCase()}
+        </div>
+
+        <!-- Content -->
+        <div class="flex-1">
+            <div class="flex items-center flex-wrap justify-between gap-2">
+                <p class="font-semibold text-gray-900 capitalize line-clamp-1">
+                    ${c.name}
+                </p>
+                <span class="text-[11px] font-medium text-gray-600 
+                             px-3 py-1 bg-gray-100 rounded-full">
+                    ${c.date.split(",")[0]}
+                </span>
+            </div>
+
+            <p class="mt-2 text-gray-700 leading-relaxed break-words">
+                ${c.text}
+            </p>
+        </div>
+    </div>
+`).join("");
+
+}
+
+export function handleCommentSubmit(key) {
+    const form = document.getElementById("comment-form");
+
+    form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById("comment-name").value.trim();
+        const text = document.getElementById("comment-text").value.trim();
+
+        if (!name || !text) return;
+
+        const comments = JSON.parse(localStorage.getItem(key)) || [];
+
+        comments.unshift({
+            name,
+            text,
+            date: new Date().toLocaleString("id-ID")
+        });
+
+        localStorage.setItem(key, JSON.stringify(comments));
+
+        form.reset();
+        loadComments(key);
+    });
+}
+
+
+// [MERGED] Folder: utils | File: toats.js 
+// ========================================
+
+export function showToast(message, type) {
+    const toastEl = document.getElementById("toast-default");
+    const messageEl = document.getElementById("toast-message");
+
+    if (!toastEl || !messageEl) return;
+
+    messageEl.textContent = message;
+
+    toastEl.classList.remove(
+      "hidden",
+      "bg-white", "bg-green-500", "bg-red-600",
+      "text-gray-700", "text-green-800", "text-red-800",
+      "border-green-500", "border-red-500"
+    );
+
+    if (type === "success") {
+      toastEl.classList.add("bg-green-500", "text-green-800", "border-green-500");
+    } else {
+      toastEl.classList.add("bg-red-600", "text-red-800", "border-red-500");
+    }
+
+    toastEl.classList.remove("hidden");
+
+    // Hilangkan toast setelah 3 detik
+    setTimeout(() => {
+      toastEl.classList.add("hidden");
+    }, 3000);
+}
+
+
+// [MERGED] Folder: utils | File: tts.js 
+// ========================================
+
+export function textToSpeech(item) {
+    if (!("speechSynthesis" in window)) return;
+
+    const synth = window.speechSynthesis;
+    const btn = document.getElementById("tts-toggle");
+
+    let utterance = new SpeechSynthesisUtterance(
+        `${item.title}. ${item.content}`
+    );
+    utterance.lang = "id-ID";
+
+    let isSpeaking = false;
+    let isPaused = false;
+
+    btn.addEventListener("click", () => {
+        // MULAI BACA
+        if (!isSpeaking) {
+            synth.cancel();
+            synth.speak(utterance);
+            isSpeaking = true;
+            isPaused = false;
+            btn.textContent = "⏸️ Jeda";
+            return;
+        }
+
+        // JEDA
+        if (isSpeaking && !isPaused) {
+            synth.pause();
+            isPaused = true;
+            btn.textContent = "▶️ Lanjutkan";
+            return;
+        }
+
+        // LANJUT
+        if (isSpeaking && isPaused) {
+            synth.resume();
+            isPaused = false;
+            btn.textContent = "⏸️ Jeda";
+        }
+    });
+
+    // RESET otomatis saat selesai
+    utterance.onend = () => {
+        isSpeaking = false;
+        isPaused = false;
+        btn.textContent = "🔊 Baca";
+    };
+
+    // STOP kalau user pindah halaman
+    window.addEventListener("beforeunload", () => {
+        synth.cancel();
+    });
+}
+
+
+// [MERGED] Folder: router | File: router.js 
+// ========================================
+
+import pages from "../pages.js";
+import renderCards from "../components/cards/category.js";
+import renderMenuTypeCategory from "../components/menus/typeCategory.js";
+import renderDetail from "../components/detail/detail.js";
+import { content } from "../core/dom.js";
+import bannerBeranda from "../components/banner/bannerBeranda.js";
+import initContactForm from "../components/form/contactForm.js";
+import renderNews from "../components/cards/rekomendasi.js";
+
+// ===== DETAIL ROUTE =====
+export function bukaDetail(title) {
+    location.hash = `/detail/${encodeURIComponent(title)}`;
+}
+window.bukaDetail = bukaDetail;
+
+// ===== PAGE LOADER =====
+export function loadPage(page) {
+    if (!pages[page]) return;
+
+    content.style.opacity = 0;
+
+    setTimeout(() => {
+        content.innerHTML = pages[page];
+        content.style.opacity = 1;
+
+        switch (page) {
+            case "beranda":
+                bannerBeranda();
+                renderCards("all", "beranda");
+                renderNews();
+                break;
+
+            case "kategori":
+                renderMenuTypeCategory();
+                renderCards("all", "kategori");
+                break;
+
+            case "kontak":
+                initContactForm();
+                break;
+        }
+    }, 150);
+
+    location.hash = `/${page}`;
+}
+
+// ===== ROUTER UTAMA =====
+export function handleRoute() {
+    const hash = location.hash.replace("#/", "");
+
+    // DETAIL PAGE
+    if (hash.startsWith("detail/")) {
+        const title = decodeURIComponent(hash.split("/")[1]);
+        content.innerHTML = pages.detail;
+        renderDetail(title);
+        return;
+    }
+
+    // PAGE BIASA
+    const page = hash || "beranda";
+    loadPage(page);
+}
+
+// Event saat hash berubah
+window.addEventListener("hashchange", handleRoute);
+
+// Jalankan saat pertama kali buka halaman
+handleRoute();
+
+
+// [MERGED] Folder: . | File: app.js 
+// ========================================
+
+import { initEvents } from "./core/events.js";
+import { handleRoute } from "./router/router.js";
+import { initSearchToggle, initSearchInput } from "./components/search/search.js";
+
+initSearchToggle();
+initSearchInput();
+initEvents();
+handleRoute();
+
+
+// [MERGED] Folder: . | File: pages.js 
+// ========================================
+
+const pages = {
+    beranda: `
+    <section class="max-w-15xl mx-auto px-0 mt-5">
+        <div id="banner-home" class="relative w-full" data-carousel="slide"></div>
+    </section>
+
+    <section class="max-w-xl0 mx-auto px-0 mt-8"> 
+       <div class="flex justify-between items-center mb-4">
+            <h2 class="text-2xl font-bold text-gray-800">Rekomendasi untuk Anda</h2>
+        </div>
+        <div id="newsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </section>
+
+    <section class="max-w-10xl mx-auto px-0 mt-8">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-xl sm:text-2xl font-bold mb-4">Berita Terbaru</h2>
+            <a href="#/kategori" class="text-blue-600 hover:underline">Selengkapnya →</a>
+        </div>
+        <div id="cards-home" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"></div>
+    </section>
+    `,
+
+    kategori: `
+        <div class="flex flex-col gap-8">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-0">
+                    <h2 class="text-xl font-bold mb-2">Pilih Kategori</h2>
+                    <p>Temukan kategori berita sesuai minatmu.</p>
+                </div>
+                <div id="types-category" class="flex flex-wrap justify-center gap-6 px-4 py-8 bg-white rounded-xl shadow-sm"></div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-0">
+                    <h2 id="new-news" class="text-xl font-bold mb-2">Berita Terbaru</h2>
+                    <p id="news-desc">Kumpulan berita terbaru dari berbagai kategori.</p>
+                </div>
+                <div id="cards-category" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+            </div>
+        </div>
+    `,
+
+    detail: `
+        <div id="detail-container"></div>
+    `,
+
+    tentang: `
+    <div class="max-w-7xl mx-auto px-4 py-12">
+        <div class="flex flex-col lg:flex-row gap-8 items-start">
+            <div class="flex-1 space-y-4">
+                <h1 class="text-4xl font-bold mb-6">Tentang Kami</h1>
+                
+                <p class="text-gray-700 leading-relaxed">
+                    BeritaKita adalah portal berita digital terkemuka yang berkomitmen untuk menyajikan
+                    informasi akurat, terpercaya, dan berimbang kepada masyarakat Indonesia. Didirikan pada tahun 2025,
+                    berkembang menjadi salah satu sumber berita terpercaya dengan jangkauan pembaca di seluruh nusantara.
+                </p>
+                
+                <p class="text-gray-700 leading-relaxed">
+                    Tim redaksi kami terdiri dari jurnalis profesional dan berpengalaman yang memiliki dedikasi tinggi 
+                    dalam menghadirkan berita berkualitas. Kami meliput berbagai topik mulai dari politik, ekonomi, 
+                    teknologi, olahraga, hingga gaya hidup dengan pendekatan jurnalisme yang etis dan bertanggung jawab.
+                </p>
+            </div>
+
+            <div class="flex-1">
+                <div class="bg-gray-300 rounded-lg overflow-hidden h-full">
+                    <img 
+                        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop" 
+                        alt="Team Photo" 
+                        class="w-full h-full object-cover"
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+    `,
+
+    kontak: `
+        <section class="max-w-5xl mx-auto p-6 md:p-10 font-sans">
+            <div class="bg-white p-8 md:p-14 rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-8 md:mb-12 text-[#1a2b4b] tracking-tight">Kontak</h2>
+                <form 
+                    id="contact-us" 
+                    action="https://formspree.io/f/xeoyvjrj" 
+                    method="POST" 
+                    class="space-y-8"
+                >
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+                        
+                        <!-- Kolom Kiri -->
+                        <div class="space-y-8">
+                            <!-- Nama -->
+                            <div>
+                                <label 
+                                    for="name"
+                                    class="block text-base font-bold text-gray-800 uppercase tracking-wide mb-3"
+                                >
+                                    Nama
+                                </label>
+                                <input 
+                                    id="name"
+                                    name="name"
+                                    type="text"
+                                    class="w-full bg-gray-50 border border-gray-200 p-4 md:p-5 rounded-2xl 
+                                        focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none 
+                                        transition-all shadow-sm placeholder:text-gray-400"
+                                    placeholder="Masukkan nama Anda"
+                                >
+                            </div>
+
+                            <!-- Email -->
+                            <div>
+                                <label 
+                                    for="email"
+                                    class="block text-base font-bold text-gray-800 uppercase tracking-wide mb-3"
+                                >
+                                    Email
+                                </label>
+                                <input 
+                                    id="email"
+                                    name="email"
+                                    type="email"
+                                    class="w-full bg-gray-50 border border-gray-200 p-4 md:p-5 rounded-2xl 
+                                        focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none 
+                                        transition-all shadow-sm placeholder:text-gray-400"
+                                    placeholder="Masukkan email Anda"
+                                >
+                            </div>
+                        </div>
+
+                        <!-- Kolom Kanan -->
+                        <div class="flex flex-col">
+                            <label 
+                                for="message"
+                                class="block text-base font-bold text-gray-800 uppercase tracking-wide mb-3"
+                            >
+                                Pesan
+                            </label>
+
+                            <textarea 
+                                id="message"
+                                name="message"
+                                class="w-full bg-gray-50 border border-gray-200 p-4 md:p-5 rounded-2xl 
+                                    focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none 
+                                    transition-all shadow-sm flex-grow min-h-[150px] md:min-h-[200px] 
+                                    placeholder:text-gray-400"
+                                placeholder="Tulis pesan Anda"
+                            ></textarea>
+                        </div>
+
+                    </div>
+
+                    <!-- Tombol -->
+                    <div class="mt-8 md:mt-12 flex justify-center">
+                        <button 
+                            type="submit"
+                            id="submit-btn"
+                            class="w-full md:w-auto md:px-24 bg-[#2D4B73] hover:bg-[#1E3350] 
+                                text-white text-lg font-bold py-4 md:py-5 rounded-2xl shadow-lg 
+                                transform hover:-translate-y-1 active:scale-95 
+                                transition-all duration-300 cursor-pointer"
+                        >
+                            Kirim
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div
+                id="toast-default"
+                class="hidden fixed top-5 right-5 z-50 flex items-center w-full max-w-xs p-4 bg-white rounded-lg shadow"
+                role="alert"
+                data-flowbite-toast
+                >
+                <div id="toast-message" class="ms-3 text-sm text-white font-bold">Pesan berhasil dikirim</div>
+
+                <button
+                    type="button"
+                    class="ms-auto text-gray-400 hover:text-gray-900"
+                    data-dismiss-target="#toast-default"
+                >
+                    ✕
+                </button>
+            </div>
+        </section>
+`
+};
+
+export default pages;

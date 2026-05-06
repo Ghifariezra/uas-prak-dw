@@ -4,7 +4,8 @@ import {
     hiburan,
     edukasi,
     olahraga,
-    lingkunganSocial
+    lingkunganSocial,
+    music
 } from "../../data/category.js";
 import tooltipDesc from "../tooltips/tooltip.js";
 
@@ -23,6 +24,7 @@ export default function renderCards(key = "all", page = "beranda") {
         case "edukasi": data = edukasi; break;
         case "olahraga": data = olahraga; break;
         case "lingkungan-social": data = lingkunganSocial; break;
+        case "music": data = music; break;
         default: data = categories; break;
     }
 
@@ -33,6 +35,7 @@ export default function renderCards(key = "all", page = "beranda") {
             edukasi: "Berita Edukasi",
             olahraga: "Berita Olahraga",
             "lingkungan-social": "Berita Lingkungan & Social",
+            music: "Berita Musik",
             all: "Berita Terbaru"
         };
         titleNews.textContent = titles[key] || "Berita Terbaru";

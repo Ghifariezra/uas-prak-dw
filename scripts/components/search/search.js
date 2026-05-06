@@ -154,4 +154,3 @@ function createResultCard(item) {
 
     return card;
 }
-
